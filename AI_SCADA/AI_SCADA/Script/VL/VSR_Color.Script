@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScriptDocument xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
+  <bEnableLog>false</bEnableLog>
+  <bEnableSysLog>false</bEnableSysLog>
+  <breakpoints xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <currentStatusTag i:nil="true" />
+  <cycleTimeTag i:nil="true" />
+  <disableWhenNotUsed>true</disableWhenNotUsed>
+  <fastSamplingInterval>500</fastSamplingInterval>
+  <forceWritingOnServer>false</forceWritingOnServer>
+  <id>00000000-0000-0000-0000-000000000000</id>
+  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <maxCleanCount>2</maxCleanCount>
+  <nSelLength>0</nSelLength>
+  <nSleepTime>500</nSleepTime>
+  <nStartSel>3107</nStartSel>
+  <publishingInterval>1000</publishingInterval>
+  <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
+  <sCode>'#Language "WWB.NET"
+
+Sub Main Handles .Main
+    Dim PumpPressure, ChamberPressure As Decimal
+    Dim ChamberTemp, CorkTemp As Integer
+
+    Dim PumpPressure_UpperLimit, PumpPressure_LowerLimit As Decimal
+    Dim ChamberPressure_UpperLimit, ChamberPressure_LowerLimit As Decimal
+    Dim ChamberTemp_UpperLimit, ChamberTemp_LowerLimit As Integer
+    Dim CorkTemp_UpperLimit, CorkTemp_LowerLimit As Integer
+    Dim PumpPressure_WithinLimit, ChamberPressure_WithinLimit, ChamberTemp_WithinLimit,CorkTemp_WithinLimit As Boolean
+
+    Dim i As Integer
+
+    For i=1 To 5
+        PumpPressure = ScriptDocument.GetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\PLC:KTP_Movim_PV_mbar_Bombas")
+        PumpPressure_UpperLimit = ScriptDocument.GetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\SCADA:PumpPressure\UpperLimit")
+        PumpPressure_LowerLimit = ScriptDocument.GetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\SCADA:PumpPressure\LowerLimit")
+
+        ChamberPressure = ScriptDocument.GetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\PLC:KTP_Movim_PV_mbar_Camara")
+        ChamberPressure_UpperLimit = ScriptDocument.GetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\SCADA:ChamberPressure\UpperLimit")
+        ChamberPressure_LowerLimit = ScriptDocument.GetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\SCADA:ChamberPressure\LowerLimit")
+
+        ChamberTemp = ScriptDocument.GetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\PLC:KTP_Temperat_PV_Camara")
+        ChamberTemp_UpperLimit = ScriptDocument.GetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\SCADA:ChamberTemperature\UpperLimit")
+        ChamberTemp_LowerLimit = ScriptDocument.GetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\SCADA:ChamberTemperature\LowerLimit")
+
+        CorkTemp = ScriptDocument.GetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\PLC:KTP_Temperat_PV_Rolhas")
+        CorkTemp_UpperLimit = ScriptDocument.GetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\SCADA:CorkTemperature\UpperLimit")
+        CorkTemp_LowerLimit = ScriptDocument.GetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\SCADA:CorkTemperature\LowerLimit")
+
+        PumpPressure_WithinLimit = PumpPressure &gt; PumpPressure_LowerLimit And PumpPressure &lt; PumpPressure_UpperLimit
+        ChamberPressure_WithinLimit = ChamberPressure &gt; ChamberPressure_LowerLimit And ChamberPressure &lt; ChamberPressure_UpperLimit
+        ChamberTemp_WithinLimit = ChamberTemp &gt; ChamberTemp_LowerLimit And PumpPressure &lt; ChamberTemp_UpperLimit
+        CorkTemp_WithinLimit = CorkTemp &gt; CorkTemp_LowerLimit And CorkTemp &lt; CorkTemp_UpperLimit
+
+        ScriptDocument.SetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\SCADA:PumpPressure\WithinLimit", PumpPressure_WithinLimit)
+        ScriptDocument.SetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\SCADA:ChamberPressure\WithinLimit", ChamberPressure_WithinLimit)
+        ScriptDocument.SetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\SCADA:ChamberTemperature\WithinLimit", ChamberTemp_WithinLimit)
+        ScriptDocument.SetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\SCADA:CorkTemperature\WithinLimit", CorkTemp_WithinLimit)
+    Next
+
+    For i=1 To 5
+        PumpPressure = ScriptDocument.GetVariableValue("VL\VSRB" &amp; i.ToString() &amp; "\PLC:KTP_Movim_PV_mbar_Bombas")
+        PumpPressure_UpperLimit = ScriptDocument.GetVariableValue("VL\VSRB" &amp; i.ToString() &amp; "\SCADA:PumpPressure\UpperLimit")
+        PumpPressure_LowerLimit = ScriptDocument.GetVariableValue("VL\VSRB" &amp; i.ToString() &amp; "\SCADA:PumpPressure\LowerLimit")
+
+        ChamberPressure = ScriptDocument.GetVariableValue("VL\VSRB" &amp; i.ToString() &amp; "\PLC:KTP_Movim_PV_mbar_Camara")
+        ChamberPressure_UpperLimit = ScriptDocument.GetVariableValue("VL\VSRB" &amp; i.ToString() &amp; "\SCADA:ChamberPressure\UpperLimit")
+        ChamberPressure_LowerLimit = ScriptDocument.GetVariableValue("VL\VSRB" &amp; i.ToString() &amp; "\SCADA:ChamberPressure\LowerLimit")
+
+        ChamberTemp = ScriptDocument.GetVariableValue("VL\VSRB" &amp; i.ToString() &amp; "\PLC:KTP_Temperat_PV_Camara")
+        ChamberTemp_UpperLimit = ScriptDocument.GetVariableValue("VL\VSRB" &amp; i.ToString() &amp; "\SCADA:ChamberTemperature\UpperLimit")
+        ChamberTemp_LowerLimit = ScriptDocument.GetVariableValue("VL\VSRB" &amp; i.ToString() &amp; "\SCADA:ChamberTemperature\LowerLimit")
+
+        CorkTemp = ScriptDocument.GetVariableValue("VL\VSRB" &amp; i.ToString() &amp; "\PLC:KTP_Temperat_PV_Rolhas")
+        CorkTemp_UpperLimit = ScriptDocument.GetVariableValue("VL\VSRB" &amp; i.ToString() &amp; "\SCADA:CorkTemperature\UpperLimit")
+        CorkTemp_LowerLimit = ScriptDocument.GetVariableValue("VL\VSRB" &amp; i.ToString() &amp; "\SCADA:CorkTemperature\LowerLimit")
+
+        PumpPressure_WithinLimit = PumpPressure &gt; PumpPressure_LowerLimit And PumpPressure &lt; PumpPressure_UpperLimit
+        ChamberPressure_WithinLimit = ChamberPressure &gt; ChamberPressure_LowerLimit And ChamberPressure &lt; ChamberPressure_UpperLimit
+        ChamberTemp_WithinLimit = ChamberTemp &gt; ChamberTemp_LowerLimit And PumpPressure &lt; ChamberTemp_UpperLimit
+        CorkTemp_WithinLimit = CorkTemp &gt; CorkTemp_LowerLimit And CorkTemp &lt; CorkTemp_UpperLimit
+
+        ScriptDocument.SetVariableValue("VL\VSRB" &amp; i.ToString() &amp; "\SCADA:PumpPressure\WithinLimit", PumpPressure_WithinLimit)
+        ScriptDocument.SetVariableValue("VL\VSRB" &amp; i.ToString() &amp; "\SCADA:ChamberPressure\WithinLimit", ChamberPressure_WithinLimit)
+        ScriptDocument.SetVariableValue("VL\VSRB" &amp; i.ToString() &amp; "\SCADA:ChamberTemperature\WithinLimit", ChamberTemp_WithinLimit)
+        ScriptDocument.SetVariableValue("VL\VSRB" &amp; i.ToString() &amp; "\SCADA:CorkTemperature\WithinLimit", CorkTemp_WithinLimit)
+    Next
+
+
+End Sub
+</sCode>
+  <sessionName i:nil="true" />
+  <slowSamplingInterval>5000</slowSamplingInterval>
+  <stopCommandTimeout>2000</stopCommandTimeout>
+  <threadPriority>Normal</threadPriority>
+  <useAlwaysSecureConnections>false</useAlwaysSecureConnections>
+  <writeTimeout>0</writeTimeout>
+</ScriptDocument>

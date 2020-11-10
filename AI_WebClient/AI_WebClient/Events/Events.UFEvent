@@ -1,0 +1,113 @@
+﻿<DefaultName>
+  <xs:schema id="DefaultName" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DefaultName" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="XPObjectType">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="TypeName" type="xs:string" minOccurs="0" />
+                <xs:element name="AssemblyName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFEventFolder">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="UFEventFolderAss" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFEventObject">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="Enable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Type" type="xs:int" minOccurs="0" />
+                <xs:element name="Tag" type="xs:string" minOccurs="0" />
+                <xs:element name="TagName" type="xs:string" minOccurs="0" />
+                <xs:element name="ConditionType" type="xs:int" minOccurs="0" />
+                <xs:element name="ActivationValue" type="xs:double" minOccurs="0" />
+                <xs:element name="ActivationStringValue" type="xs:string" minOccurs="0" />
+                <xs:element name="EnableTag" type="xs:string" minOccurs="0" />
+                <xs:element name="EnableTagName" type="xs:string" minOccurs="0" />
+                <xs:element name="ValueTag" type="xs:string" minOccurs="0" />
+                <xs:element name="ValueTagName" type="xs:string" minOccurs="0" />
+                <xs:element name="SchedType" type="xs:int" minOccurs="0" />
+                <xs:element name="Time" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Date" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EventCommandList" type="xs:string" minOccurs="0" />
+                <xs:element name="UFEventFolder" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ProtectionFile">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Id" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_TypeName">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="TypeName" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFEventFolder" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFEventObject" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ProtectionFile" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFEventFolder_x0023_OID_x0023_UFEventFolder_x0023_UFEventFolderAssIdx">
+        <xs:selector xpath=".//UFEventFolder" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFEventFolder_x0023_OID_x0023_UFEventObject_x0023_UFEventFolderIdx">
+        <xs:selector xpath=".//UFEventFolder" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:keyref name="FK__UFEventFolder_x0023_OID_x0023_UFEventFolder_x0023_UFEventFolderAss" refer="FK__UFEventFolder_x0023_OID_x0023_UFEventFolder_x0023_UFEventFolderAssIdx">
+        <xs:selector xpath=".//UFEventFolder" />
+        <xs:field xpath="UFEventFolderAss" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFEventFolder_x0023_OID_x0023_UFEventObject_x0023_UFEventFolder" refer="FK__UFEventFolder_x0023_OID_x0023_UFEventObject_x0023_UFEventFolderIdx">
+        <xs:selector xpath=".//UFEventObject" />
+        <xs:field xpath="UFEventFolder" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+  <XPObjectType>
+    <OID>1</OID>
+    <TypeName>UFEventModel.UFEventFolder</TypeName>
+    <AssemblyName>UFEventModel</AssemblyName>
+  </XPObjectType>
+  <XPObjectType>
+    <OID>2</OID>
+    <TypeName>UFEventModel.UFEventObject</TypeName>
+    <AssemblyName>UFEventModel</AssemblyName>
+  </XPObjectType>
+</DefaultName>

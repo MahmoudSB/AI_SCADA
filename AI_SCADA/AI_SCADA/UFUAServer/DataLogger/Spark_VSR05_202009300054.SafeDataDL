@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Spark_VSR05>
+    <UtcTimeCol>2020-09-30T00:54:00+01:00</UtcTimeCol>
+    <LocalTimeCol>2020-09-30T01:54:00+01:00</LocalTimeCol>
+    <MillisecondsCol>0</MillisecondsCol>
+    <UserCol />
+    <ReasonCol>Recorded by Time</ReasonCol>
+    <Corck_Temp_VSR05>149</Corck_Temp_VSR05>
+    <Pump_Press_VSR05>7.57608175</Pump_Press_VSR05>
+    <Chamb_Press_VSR05>9.671858</Chamb_Press_VSR05>
+    <Champ_Temp_VSR05>156</Champ_Temp_VSR05>
+  </Spark_VSR05>
+</DocumentElement>

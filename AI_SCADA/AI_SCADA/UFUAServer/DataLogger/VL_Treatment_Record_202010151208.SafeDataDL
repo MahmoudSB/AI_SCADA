@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <VL_Treatment_Record>
+    <UtcTimeCol>2020-10-15T12:06:40.9030974+01:00</UtcTimeCol>
+    <LocalTimeCol>2020-10-15T13:06:40.9030974+01:00</LocalTimeCol>
+    <MillisecondsCol>903</MillisecondsCol>
+    <UserCol>Anonymous</UserCol>
+    <ReasonCol>Recorded by Command</ReasonCol>
+    <VSR>VSRA1</VSR>
+    <TreatmentStart>10/15/2020 12:52:09</TreatmentStart>
+    <TreatmentEnd>10/15/2020 12:52:13</TreatmentEnd>
+    <UnloadStart>NoRec</UnloadStart>
+    <UnloadEnd>NoRec</UnloadEnd>
+    <UnloadEnd_timeStamp>2020-10-15T11:52:05.2879691+01:00</UnloadEnd_timeStamp>
+  </VL_Treatment_Record>
+  <VL_Treatment_Record>
+    <UtcTimeCol>2020-10-15T12:07:07.9844407+01:00</UtcTimeCol>
+    <LocalTimeCol>2020-10-15T13:07:07.9844407+01:00</LocalTimeCol>
+    <MillisecondsCol>984</MillisecondsCol>
+    <UserCol>Anonymous</UserCol>
+    <ReasonCol>Recorded by Command</ReasonCol>
+    <VSR>VSRA1</VSR>
+    <TreatmentStart>10/15/2020 13:06:43</TreatmentStart>
+    <TreatmentEnd>10/15/2020 13:06:57</TreatmentEnd>
+    <UnloadStart>10/15/2020 13:07:01</UnloadStart>
+    <UnloadEnd>10/15/2020 13:07:07</UnloadEnd>
+    <UnloadEnd_timeStamp>2020-10-15T12:07:07.9844407+01:00</UnloadEnd_timeStamp>
+  </VL_Treatment_Record>
+  <VL_Treatment_Record>
+    <UtcTimeCol>2020-10-15T12:07:20.0660519+01:00</UtcTimeCol>
+    <LocalTimeCol>2020-10-15T13:07:20.0660519+01:00</LocalTimeCol>
+    <MillisecondsCol>66</MillisecondsCol>
+    <UserCol>Anonymous</UserCol>
+    <ReasonCol>Recorded by Command</ReasonCol>
+    <VSR>VSRA1</VSR>
+    <TreatmentStart>10/15/2020 13:07:12</TreatmentStart>
+    <TreatmentEnd>10/15/2020 13:07:16</TreatmentEnd>
+    <UnloadStart>NoRec</UnloadStart>
+    <UnloadEnd>NoRec</UnloadEnd>
+    <UnloadEnd_timeStamp>2020-10-15T12:07:20.0650557+01:00</UnloadEnd_timeStamp>
+  </VL_Treatment_Record>
+  <VL_Treatment_Record>
+    <UtcTimeCol>2020-10-15T12:07:36.1612619+01:00</UtcTimeCol>
+    <LocalTimeCol>2020-10-15T13:07:36.1612619+01:00</LocalTimeCol>
+    <MillisecondsCol>161</MillisecondsCol>
+    <UserCol>Anonymous</UserCol>
+    <ReasonCol>Recorded by Command</ReasonCol>
+    <VSR>VSRA1</VSR>
+    <TreatmentStart>10/15/2020 13:07:24</TreatmentStart>
+    <TreatmentEnd>10/15/2020 13:07:28</TreatmentEnd>
+    <UnloadStart>10/15/2020 13:07:34</UnloadStart>
+    <UnloadEnd>10/15/2020 13:07:36</UnloadEnd>
+    <UnloadEnd_timeStamp>2020-10-15T12:07:36.1602646+01:00</UnloadEnd_timeStamp>
+  </VL_Treatment_Record>
+</DocumentElement>

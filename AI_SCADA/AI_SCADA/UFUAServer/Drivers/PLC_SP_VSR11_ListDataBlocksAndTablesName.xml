@@ -1,0 +1,74 @@
+﻿<DefaultName>
+  <xs:schema id="DefaultName" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DefaultName" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DriverS7TIASymbolicDBsNameaAndTables">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="StationName" type="xs:string" minOccurs="0" />
+                <xs:element name="ObjectName" type="xs:string" minOccurs="0" />
+                <xs:element name="ObjectType" type="xs:string" minOccurs="0" />
+                <xs:element name="LastUpdate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//DriverS7TIASymbolicDBsNameaAndTables" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <DriverS7TIASymbolicDBsNameaAndTables>
+    <OID>1</OID>
+    <StationName>PLC_SP_VSR11</StationName>
+    <ObjectName>Default tag table</ObjectName>
+    <ObjectType>Tag_Table</ObjectType>
+    <LastUpdate>2020-07-13T08:59:59.6700694</LastUpdate>
+    <OptimisticLockField>0</OptimisticLockField>
+  </DriverS7TIASymbolicDBsNameaAndTables>
+  <DriverS7TIASymbolicDBsNameaAndTables>
+    <OID>2</OID>
+    <StationName>PLC_SP_VSR11</StationName>
+    <ObjectName>Default tag table</ObjectName>
+    <ObjectType>Tag_Table</ObjectType>
+    <LastUpdate>2020-06-23T09:23:27.0019461</LastUpdate>
+    <OptimisticLockField>0</OptimisticLockField>
+  </DriverS7TIASymbolicDBsNameaAndTables>
+  <DriverS7TIASymbolicDBsNameaAndTables>
+    <OID>3</OID>
+    <StationName>PLC_SP_VSR11</StationName>
+    <ObjectName>Default tag table</ObjectName>
+    <ObjectType>Tag_Table</ObjectType>
+    <LastUpdate>2020-08-26T09:14:25.8385528</LastUpdate>
+    <OptimisticLockField>0</OptimisticLockField>
+  </DriverS7TIASymbolicDBsNameaAndTables>
+  <DriverS7TIASymbolicDBsNameaAndTables>
+    <OID>4</OID>
+    <StationName>PLC_SP_VSR11</StationName>
+    <ObjectName>Default tag table</ObjectName>
+    <ObjectType>Tag_Table</ObjectType>
+    <LastUpdate>2020-09-25T12:00:56.7586366</LastUpdate>
+    <OptimisticLockField>0</OptimisticLockField>
+  </DriverS7TIASymbolicDBsNameaAndTables>
+  <DriverS7TIASymbolicDBsNameaAndTables>
+    <OID>5</OID>
+    <StationName>PLC_SP_VSR11</StationName>
+    <ObjectName>Default tag table</ObjectName>
+    <ObjectType>Tag_Table</ObjectType>
+    <LastUpdate>2020-10-21T16:24:39.26559</LastUpdate>
+    <OptimisticLockField>0</OptimisticLockField>
+  </DriverS7TIASymbolicDBsNameaAndTables>
+  <DriverS7TIASymbolicDBsNameaAndTables>
+    <OID>6</OID>
+    <StationName>PLC_SP_VSR11</StationName>
+    <ObjectName>Default tag table</ObjectName>
+    <ObjectType>Tag_Table</ObjectType>
+    <LastUpdate>2020-10-27T19:27:56.4238584Z</LastUpdate>
+    <OptimisticLockField>0</OptimisticLockField>
+  </DriverS7TIASymbolicDBsNameaAndTables>
+</DefaultName>

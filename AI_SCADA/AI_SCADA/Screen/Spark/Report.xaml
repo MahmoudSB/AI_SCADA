@@ -1,0 +1,71 @@
+<Canvas Width="1920" Height="1080" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:syncfusion="http://schemas.syncfusion.com/wpf" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:wpfuc="clr-namespace:WPFUtilities.Converters;assembly=WPFUtilities">
+  <Canvas.Background>
+    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1" ColorInterpolationMode="SRgbLinearInterpolation" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad" Opacity="1">
+      <LinearGradientBrush.GradientStops>
+        <GradientStop Color="#FFC5C6C8" Offset="0" />
+        <GradientStop Color="#FF57585A" Offset="1" />
+      </LinearGradientBrush.GradientStops>
+    </LinearGradientBrush>
+  </Canvas.Background>
+  <ContentControl Name="EmbeddedTabScreen" Width="920" Height="80" IsManipulationEnabled="False" Canvas.Left="0" Canvas.Top="0" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl6" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="262.91065415615" Canvas.Top="125.284248885753" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl7" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="367.51065415615" Canvas.Top="125.284248885753" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl8" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="472.110654156151" Canvas.Top="125.284248885753" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl9" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="576.710654156151" Canvas.Top="125.284248885753" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl3" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="262.91065415615" Canvas.Top="194.084248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl2" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="367.51065415615" Canvas.Top="194.084248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl4" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="472.110654156151" Canvas.Top="194.084248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl5" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="576.710654156151" Canvas.Top="194.084248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl10" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="262.91065415615" Canvas.Top="262.884248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl11" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="367.51065415615" Canvas.Top="262.884248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl12" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="472.110654156151" Canvas.Top="262.884248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl13" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="576.710654156151" Canvas.Top="262.884248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl14" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="262.91065415615" Canvas.Top="330.884248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl15" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="367.51065415615" Canvas.Top="330.884248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl02" Width="204.6" Height="72" IsManipulationEnabled="False" Canvas.Left="262.482674982675" Canvas.Top="664.684248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl03" Width="74.6000000000001" Height="101" IsManipulationEnabled="False" Canvas.Left="609.510654156151" Canvas.Top="478.595980595981" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EditDisplay" Width="182" Height="48" IsManipulationEnabled="False" Canvas.Left="421.482674982675" Canvas.Top="478.595980595981" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EditDisplay1" Width="182" Height="49" IsManipulationEnabled="False" Canvas.Left="421.482674982675" Canvas.Top="531.595980595981" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="#FF0E2039" FontSize="24" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="TextBox" Width="100" MinWidth="5" Height="48" MinHeight="5" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="315.482674982675" Canvas.Top="478.595980595981" syncfusion:SkinStorage.OverrideVisualStyle="True">From</TextBox>
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="#FF0E2039" FontSize="24" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="TextBox1" Width="100" MinWidth="5" Height="48" MinHeight="5" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="315.482674982675" Canvas.Top="531.595980595981" syncfusion:SkinStorage.OverrideVisualStyle="True">To</TextBox>
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="#FF0E2039" FontSize="24" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="TextBox2" Width="100" MinWidth="5" Height="48" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="236.482674982675" Canvas.Top="504.595980595981" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <TextBox.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+          <RotateTransform Angle="270" />
+        </TransformGroup.Children>
+      </TransformGroup>
+    </TextBox.RenderTransform>Date</TextBox>
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="#FF0E2039" FontSize="24" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="TextBox3" Width="420" MinWidth="5" Height="48" MinHeight="5" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="262.482674982675" Canvas.Top="610.595980595981" syncfusion:SkinStorage.OverrideVisualStyle="True">Filter By</TextBox>
+  <ContentControl Name="ButtonControl04" Width="204.6" Height="72" IsManipulationEnabled="False" Canvas.Left="477.882674982675" Canvas.Top="664.684248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" Foreground="#FF403F41" FontSize="25" FontWeight="Medium" Name="TextBox4" Width="225" MinWidth="5" Height="47.8571428571428" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="263.927296627524" Canvas.Top="74.786456786457" syncfusion:SkinStorage.OverrideVisualStyle="True">Filter treatments</TextBox>
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" Foreground="#FF403F41" FontSize="25" FontWeight="Medium" Name="TextBox5" Width="225" MinWidth="5" Height="47.8571428571428" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="766.440810141037" Canvas.Top="74.786456786457" syncfusion:SkinStorage.OverrideVisualStyle="True">Report treatment</TextBox>
+  <ContentControl Name="GridControl" Width="759.6" Height="596.703296703297" IsManipulationEnabled="False" Canvas.Left="766.554103554103" Canvas.Top="126.442134442135" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <Border BorderThickness="2,2,2,2" Padding="0,0,0,0" CornerRadius="5,5,5,5" BorderBrush="#00000000" Name="Border3" Width="350" MinWidth="5" Height="61" MinHeight="5" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Opacity="1" IsHitTestVisible="True" Canvas.Left="7.5" Canvas.Top="831.5" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <Border.Background>
+      <VisualBrush>
+        <VisualBrush.Visual>
+          <Image>
+            <Image.Source>
+              <Binding ConverterParameter="AI_Logo_New.png">
+                <Binding.Converter>
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\premelgado\Desktop\AI_SCADA\AI_SCADA\Screen\Spark\" AbsolutePath2="C:\Users\premelgado\Desktop\AI_SCADA\Images\" />
+                </Binding.Converter>
+              </Binding>
+            </Image.Source>
+          </Image>
+        </VisualBrush.Visual>
+      </VisualBrush>
+    </Border.Background>
+  </Border>
+  <ContentControl Name="ButtonControl06" Width="204.6" Height="72" IsManipulationEnabled="False" Canvas.Left="1044.48208272758" Canvas.Top="726.684248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl07" Width="204.6" Height="72" IsManipulationEnabled="False" Canvas.Left="477.882674982675" Canvas.Top="745.684248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl08" Width="204.6" Height="72" IsManipulationEnabled="False" Canvas.Left="262.482674982675" Canvas.Top="745.684248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl05" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="472.110654156151" Canvas.Top="330.884248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl09" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="576.710654156151" Canvas.Top="330.884248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl16" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="263.71065415615" Canvas.Top="397.284248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl17" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="368.31065415615" Canvas.Top="397.284248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl18" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="472.910654156151" Canvas.Top="397.284248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl19" Width="96.6000000000002" Height="60.9999999999999" IsManipulationEnabled="False" Canvas.Left="577.510654156151" Canvas.Top="397.284248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+</Canvas>

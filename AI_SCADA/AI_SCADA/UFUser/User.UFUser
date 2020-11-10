@@ -1,0 +1,323 @@
+﻿<DefaultName>
+  <xs:schema id="DefaultName" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DefaultName" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="XPObjectType">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="TypeName" type="xs:string" minOccurs="0" />
+                <xs:element name="AssemblyName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFRole">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="AccessLevel" type="xs:int" minOccurs="0" />
+                <xs:element name="AccessMask" type="xs:int" minOccurs="0" />
+                <xs:element name="CultureName" type="xs:string" minOccurs="0" />
+                <xs:element name="TelegramGroupChatID" type="xs:string" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFUser">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Password" type="xs:string" minOccurs="0" />
+                <xs:element name="ElectronicSignature" type="xs:string" minOccurs="0" />
+                <xs:element name="PasswordExpiresInDays" type="xs:int" minOccurs="0" />
+                <xs:element name="ForcePasswordChangeFirstLogin" type="xs:boolean" minOccurs="0" />
+                <xs:element name="LastDateTimeChanged" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="AccessLevel" type="xs:int" minOccurs="0" />
+                <xs:element name="AccessMask" type="xs:int" minOccurs="0" />
+                <xs:element name="CultureName" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="PhoneNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="MobilePhoneNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="TelegramChatID" type="xs:string" minOccurs="0" />
+                <xs:element name="UFRoleAss" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFUserSettings">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="AutoLogoutSeconds" type="xs:int" minOccurs="0" />
+                <xs:element name="EnableUserManager" type="xs:boolean" minOccurs="0" />
+                <xs:element name="UserLockMode" type="xs:int" minOccurs="0" />
+                <xs:element name="LoginControlVisible" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MaxRuntimeEditAccessLevel" type="xs:int" minOccurs="0" />
+                <xs:element name="MinRequiredPasswordLength" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxInvalidPasswordAttempts" type="xs:int" minOccurs="0" />
+                <xs:element name="EnableValidationOnOS" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SharedConnectionRepository" type="xs:string" minOccurs="0" />
+                <xs:element name="DesktopSystemRole" type="xs:string" minOccurs="0" />
+                <xs:element name="ServerAddress" type="xs:string" minOccurs="0" />
+                <xs:element name="StaticFromAddress" type="xs:string" minOccurs="0" />
+                <xs:element name="EnableSSLTLS" type="xs:boolean" minOccurs="0" />
+                <xs:element name="PortNumber" type="xs:int" minOccurs="0" />
+                <xs:element name="EnAutentication" type="xs:boolean" minOccurs="0" />
+                <xs:element name="UserName" type="xs:string" minOccurs="0" />
+                <xs:element name="Password" type="xs:string" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ProtectionFile">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Id" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_TypeName">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="TypeName" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFRole" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUser" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUserSettings" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ProtectionFile" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFRole_x0023_OID_x0023_UFUser_x0023_UFRoleAssIdx">
+        <xs:selector xpath=".//UFRole" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:keyref name="FK__UFRole_x0023_OID_x0023_UFUser_x0023_UFRoleAss" refer="FK__UFRole_x0023_OID_x0023_UFUser_x0023_UFRoleAssIdx">
+        <xs:selector xpath=".//UFUser" />
+        <xs:field xpath="UFRoleAss" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+  <XPObjectType>
+    <OID>1</OID>
+    <TypeName>UFUserModel.UFRole</TypeName>
+    <AssemblyName>UserModel</AssemblyName>
+  </XPObjectType>
+  <XPObjectType>
+    <OID>2</OID>
+    <TypeName>UFUserModel.UFUser</TypeName>
+    <AssemblyName>UserModel</AssemblyName>
+  </XPObjectType>
+  <XPObjectType>
+    <OID>3</OID>
+    <TypeName>UFUserModel.UFUserSettings</TypeName>
+    <AssemblyName>UserModel</AssemblyName>
+  </XPObjectType>
+  <UFRole>
+    <OID>1</OID>
+    <NodeId>9b72b750-19ee-4a8e-b85f-c431cda2a272</NodeId>
+    <Name>Admin</Name>
+    <AccessLevel>1024</AccessLevel>
+    <AccessMask>2147483647</AccessMask>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFRole>
+  <UFRole>
+    <OID>2</OID>
+    <NodeId>2b280f87-20c6-4de7-80e9-511693b1bf73</NodeId>
+    <Name>Guest</Name>
+    <AccessLevel>0</AccessLevel>
+    <AccessMask>1</AccessMask>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFRole>
+  <UFRole>
+    <OID>3</OID>
+    <NodeId>2731e14d-42e9-47e6-aff2-1431f538664f</NodeId>
+    <Name>Notification_Recipients</Name>
+    <AccessLevel>0</AccessLevel>
+    <AccessMask>2147483647</AccessMask>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFRole>
+  <UFRole>
+    <OID>4</OID>
+    <NodeId>14fc9e96-bc2a-49b5-a120-c39f13cfcc5e</NodeId>
+    <Name>Power User</Name>
+    <AccessLevel>500</AccessLevel>
+    <AccessMask>512</AccessMask>
+    <TelegramGroupChatID></TelegramGroupChatID>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFRole>
+  <UFUser>
+    <OID>1</OID>
+    <NodeId>2fed0592-96cd-4b1c-b625-6295f8f3112e</NodeId>
+    <Name>admin</Name>
+    <Password>PwmfvRxAblTNrLK4+M69ag==</Password>
+    <PasswordExpiresInDays>0</PasswordExpiresInDays>
+    <ForcePasswordChangeFirstLogin>false</ForcePasswordChangeFirstLogin>
+    <AccessLevel>-1</AccessLevel>
+    <AccessMask>2147483647</AccessMask>
+    <Email></Email>
+    <UFRoleAss>1</UFRoleAss>
+    <OptimisticLockField>38</OptimisticLockField>
+  </UFUser>
+  <UFUser>
+    <OID>2</OID>
+    <NodeId>fd6c743f-d62d-4b8d-86b6-7ac699b0a550</NodeId>
+    <Name>guest</Name>
+    <Password>rmNiZ5eEJVwCMHMxV4i9Jw==</Password>
+    <PasswordExpiresInDays>0</PasswordExpiresInDays>
+    <ForcePasswordChangeFirstLogin>false</ForcePasswordChangeFirstLogin>
+    <AccessLevel>-1</AccessLevel>
+    <AccessMask>1</AccessMask>
+    <UFRoleAss>2</UFRoleAss>
+    <OptimisticLockField>38</OptimisticLockField>
+  </UFUser>
+  <UFUser>
+    <OID>3</OID>
+    <NodeId>dc3b32b0-8445-4c65-8a98-ecf1d0542714</NodeId>
+    <Name>Email_Recipient_1</Name>
+    <Password>hvOWzc7Onnur+S40UjBDS4G4UEUrHB1e8gA4V4zytlw=</Password>
+    <PasswordExpiresInDays>0</PasswordExpiresInDays>
+    <ForcePasswordChangeFirstLogin>false</ForcePasswordChangeFirstLogin>
+    <AccessLevel>-1</AccessLevel>
+    <AccessMask>2147483647</AccessMask>
+    <Email>paulo.remelgado@amorim.com</Email>
+    <UFRoleAss>3</UFRoleAss>
+    <OptimisticLockField>38</OptimisticLockField>
+  </UFUser>
+  <UFUser>
+    <OID>4</OID>
+    <NodeId>2bff811d-b3f9-4c26-b094-32c17bdb9546</NodeId>
+    <Name>user</Name>
+    <Password>m4I5+lzdkJ4sDTsU5uFakQ==</Password>
+    <PasswordExpiresInDays>0</PasswordExpiresInDays>
+    <ForcePasswordChangeFirstLogin>false</ForcePasswordChangeFirstLogin>
+    <AccessLevel>-1</AccessLevel>
+    <AccessMask>512</AccessMask>
+    <UFRoleAss>4</UFRoleAss>
+    <OptimisticLockField>38</OptimisticLockField>
+  </UFUser>
+  <UFUser>
+    <OID>6</OID>
+    <NodeId>6285c67c-87be-4de9-b81d-2ee641616b7f</NodeId>
+    <Name>Email_Recipient_2</Name>
+    <Password>hvOWzc7Onnur+S40UjBDS1nBVJK1IcwRjubJVQ2aR7g=</Password>
+    <PasswordExpiresInDays>0</PasswordExpiresInDays>
+    <ForcePasswordChangeFirstLogin>false</ForcePasswordChangeFirstLogin>
+    <LastDateTimeChanged>2020-10-21T08:39:26.4278003</LastDateTimeChanged>
+    <AccessLevel>-1</AccessLevel>
+    <AccessMask>2147483647</AccessMask>
+    <Email>wilson.pereira@amorim.com</Email>
+    <UFRoleAss>3</UFRoleAss>
+    <OptimisticLockField>26</OptimisticLockField>
+  </UFUser>
+  <UFUser>
+    <OID>7</OID>
+    <NodeId>e84bce68-3b85-4c20-bda3-02cf86ebb32c</NodeId>
+    <Name>Email_Recipient_3</Name>
+    <Password>hvOWzc7Onnur+S40UjBDS7XWBKeLDB0rqeKWK8Q9Wjg=</Password>
+    <PasswordExpiresInDays>0</PasswordExpiresInDays>
+    <ForcePasswordChangeFirstLogin>false</ForcePasswordChangeFirstLogin>
+    <LastDateTimeChanged>2020-10-21T08:40:06.4329883</LastDateTimeChanged>
+    <AccessLevel>-1</AccessLevel>
+    <AccessMask>2147483647</AccessMask>
+    <Email></Email>
+    <UFRoleAss>3</UFRoleAss>
+    <OptimisticLockField>26</OptimisticLockField>
+  </UFUser>
+  <UFUser>
+    <OID>8</OID>
+    <NodeId>5ab1475d-6ee1-4f20-a73a-f0d6b727d140</NodeId>
+    <Name>Email_Recipient_4</Name>
+    <Password>hvOWzc7Onnur+S40UjBDS+FgNmrihwEDgnMg67E5cD0=</Password>
+    <PasswordExpiresInDays>0</PasswordExpiresInDays>
+    <ForcePasswordChangeFirstLogin>false</ForcePasswordChangeFirstLogin>
+    <LastDateTimeChanged>2020-10-21T08:40:07.2038053</LastDateTimeChanged>
+    <AccessLevel>-1</AccessLevel>
+    <AccessMask>2147483647</AccessMask>
+    <Email>ricardo.mendonca@amorim.com</Email>
+    <UFRoleAss>3</UFRoleAss>
+    <OptimisticLockField>26</OptimisticLockField>
+  </UFUser>
+  <UFUser>
+    <OID>9</OID>
+    <NodeId>b43b472b-e75e-4efd-ae2f-3409aa90360d</NodeId>
+    <Name>Email_Recipient_5</Name>
+    <Password>hvOWzc7Onnur+S40UjBDS2RA6b+T4En4qmL1cTVw1yc=</Password>
+    <PasswordExpiresInDays>0</PasswordExpiresInDays>
+    <ForcePasswordChangeFirstLogin>false</ForcePasswordChangeFirstLogin>
+    <LastDateTimeChanged>2020-10-21T08:40:07.9302561</LastDateTimeChanged>
+    <AccessLevel>-1</AccessLevel>
+    <AccessMask>2147483647</AccessMask>
+    <Email>alexandre.mil-homens@amorim.com</Email>
+    <UFRoleAss>3</UFRoleAss>
+    <OptimisticLockField>26</OptimisticLockField>
+  </UFUser>
+  <UFUser>
+    <OID>10</OID>
+    <NodeId>17def18a-82f9-4fef-bc69-e934ab680e5f</NodeId>
+    <Name>Email_Recipient_6</Name>
+    <Password>hvOWzc7Onnur+S40UjBDSx4P0DGG0YWR9thNBObJNZE=</Password>
+    <PasswordExpiresInDays>0</PasswordExpiresInDays>
+    <ForcePasswordChangeFirstLogin>false</ForcePasswordChangeFirstLogin>
+    <LastDateTimeChanged>2020-10-23T23:12:53.3471767</LastDateTimeChanged>
+    <AccessLevel>-1</AccessLevel>
+    <AccessMask>2147483647</AccessMask>
+    <Email>miguel.abreu@amorim.com</Email>
+    <UFRoleAss>3</UFRoleAss>
+    <OptimisticLockField>13</OptimisticLockField>
+  </UFUser>
+  <UFUser>
+    <OID>11</OID>
+    <NodeId>03d0c166-e8cd-4520-b553-29b83fc66805</NodeId>
+    <Name>Email_Recipient_7</Name>
+    <Password>hvOWzc7Onnur+S40UjBDS4n5p0sdq53J3alty4OuQKM=</Password>
+    <PasswordExpiresInDays>0</PasswordExpiresInDays>
+    <ForcePasswordChangeFirstLogin>false</ForcePasswordChangeFirstLogin>
+    <LastDateTimeChanged>2020-10-23T23:12:55.8178665</LastDateTimeChanged>
+    <AccessLevel>-1</AccessLevel>
+    <AccessMask>2147483647</AccessMask>
+    <Email>filipe.almeida@amorim.com</Email>
+    <UFRoleAss>3</UFRoleAss>
+    <OptimisticLockField>13</OptimisticLockField>
+  </UFUser>
+  <UFUserSettings>
+    <OID>1</OID>
+    <AutoLogoutSeconds>3600</AutoLogoutSeconds>
+    <EnableUserManager>true</EnableUserManager>
+    <UserLockMode>0</UserLockMode>
+    <LoginControlVisible>false</LoginControlVisible>
+    <MaxRuntimeEditAccessLevel>1000</MaxRuntimeEditAccessLevel>
+    <MinRequiredPasswordLength>0</MinRequiredPasswordLength>
+    <MaxInvalidPasswordAttempts>5</MaxInvalidPasswordAttempts>
+    <EnableValidationOnOS>false</EnableValidationOnOS>
+    <DesktopSystemRole>Admin</DesktopSystemRole>
+    <EnableSSLTLS>false</EnableSSLTLS>
+    <PortNumber>25</PortNumber>
+    <EnAutentication>false</EnAutentication>
+    <OptimisticLockField>2</OptimisticLockField>
+  </UFUserSettings>
+</DefaultName>

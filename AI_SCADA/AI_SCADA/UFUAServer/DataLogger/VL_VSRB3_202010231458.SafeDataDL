@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <VL_VSRB3>
+    <UtcTimeCol>2020-10-23T14:58:00+01:00</UtcTimeCol>
+    <LocalTimeCol>2020-10-23T15:58:00+01:00</LocalTimeCol>
+    <MillisecondsCol>0</MillisecondsCol>
+    <UserCol />
+    <ReasonCol>Recorded by Time</ReasonCol>
+  </VL_VSRB3>
+</DocumentElement>

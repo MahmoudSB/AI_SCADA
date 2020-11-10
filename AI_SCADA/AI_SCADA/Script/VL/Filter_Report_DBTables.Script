@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScriptDocument xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
+  <bEnableLog>false</bEnableLog>
+  <bEnableSysLog>false</bEnableSysLog>
+  <breakpoints xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <currentStatusTag i:nil="true" />
+  <cycleTimeTag i:nil="true" />
+  <disableWhenNotUsed>true</disableWhenNotUsed>
+  <fastSamplingInterval>500</fastSamplingInterval>
+  <forceWritingOnServer>false</forceWritingOnServer>
+  <id>00000000-0000-0000-0000-000000000000</id>
+  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>VL_Report_DataOk</d2p1:string>
+    <d2p1:string>VL_Report_VSR</d2p1:string>
+    <d2p1:string>VL_Report_LocalTime</d2p1:string>
+    <d2p1:string>VL_Report_DateFrom</d2p1:string>
+    <d2p1:string>VL_Report_TimeFrom</d2p1:string>
+  </listVariableUsed>
+  <maxCleanCount>2</maxCleanCount>
+  <nSelLength>0</nSelLength>
+  <nSleepTime>50</nSleepTime>
+  <nStartSel>4634</nStartSel>
+  <publishingInterval>1000</publishingInterval>
+  <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
+  <sCode>'#Reference #System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=AMD64
+'#Reference #CommandManager, Version=3.4.259.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL, Path=&lt;APPDIR&gt;\Managers\CommandManager.dll
+'#Reference #UFInterfaces, Version=3.4.259.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL, Path=&lt;APPDIR&gt;\UFInterfaces.dll
+'#Language "WWB.NET"
+
+Imports System
+Imports System.Globalization
+
+Dim connectionString As String = "Data Source=AMR-DBVM16;Database=ScadaAC;" _
+                               &amp; "Persist Security Info=true;User ID=scada;Password=WkIlE!A2njfa"
+
+'Dim connectionString As String = "Data Source=(local)\sqlexpress;Initial Catalog=AI_Spark_20200515_00_IOServer;" _
+'                               &amp; "Integrated Security=true"
+
+Dim myConn As System.Data.SqlClient.SqlConnection = New System.Data.SqlClient.SqlConnection (connectionString)   ' connection string to DB
+
+Sub Main Handles .Main
+
+    If VL_Report_DataOk Then
+        Try
+            myConn.open()
+        Catch err0 As Exception
+            MsgBox("Error when opening SQL server." &amp; vbCrLf &amp; err0.Message)
+        End Try
+
+        TSQL_to_Server()
+        myConn.Close()
+        Wait(1)
+
+    Else
+
+        MsgBox("Please select a treatment line with correct data." &amp; vbCrLf &amp; "Por favor, selecione uma linha de tratamento com os dados corretos.")
+
+    End If
+
+End Sub
+
+
+Sub TSQL_to_Server()
+
+    Dim queryString1 As String = _
+                                "INSERT INTO [dbo].[VL_Filtered_Treatment_VSRxx] ([VSR], [Start Date],[Start Time] ,[End Date] ,[End Time], [LocalTimeCol])" _
+                              &amp; " Select [VSR], [TreatmentStart] ,[TreatmentEnd] ,[UnloadStart] ,[UnloadEnd], [UnloadEnd_timeStamp] " _
+                              &amp; " FROM [dbo].[VL_Treatment_Record]" _
+                              &amp; " WHERE [VSR]='" &amp; VL_Report_VSR &amp; "'" _
+                              &amp; " and CAST([UnloadEnd_timeStamp] AS DATETIME2(0))= '" &amp; VL_Report_LocalTime &amp; "'"
+
+    Dim queryString2 As String = _
+                                "INSERT INTO [dbo].[Spark_Filtered_VSRxx] ([LocalTimeCol], [Chamb_Press_VSR],[Champ_Temp_VSR] ,[Corck_Temp_VSR] ,[Pump_Press_VSR])" _
+                              &amp; " Select [LocalTimeCol], [ChamberPressure_" &amp; VL_Report_VSR &amp; "],[ChamberTemp_" &amp; VL_Report_VSR &amp; "] ,[CorkTemp_" &amp; VL_Report_VSR &amp; "] ,[PumpPressure_" &amp; VL_Report_VSR &amp; "]" _
+                              &amp; " FROM [dbo].[VL_" &amp; VL_Report_VSR &amp; "]" _
+                              &amp; " WHERE [LocalTimeCol]&gt;= '" &amp; VL_Report_DateFrom &amp;"'" _
+                              &amp; " and [LocalTimeCol]&lt;= '" &amp; VL_Report_TimeFrom  &amp;"'"
+
+    Dim queryString3 As String = _
+                                "INSERT INTO [dbo].[VL_Filtered_EventLogger] ([OID], [EventDateTime],[EventMessage])" _
+                              &amp; " Select [OID], [EventDateTime],[EventMessage]" _
+                              &amp; " FROM [dbo].[UFUAAuditLogItem]" _
+                              &amp; " WHERE [EventMessage] like '%VL: " &amp; VL_Report_VSR &amp; ":%' and [EventDateTime]&gt;=  '" &amp; VL_Report_DateFrom &amp;"'" _
+                              &amp; " and [EventDateTime]&lt;= '" &amp; VL_Report_TimeFrom  &amp;"'"
+
+        Dim myCmd As New System.Data.SqlClient.SqlCommand
+
+
+        ' Create and execute SQL Query to purge destination table
+        myCmd = myConn.CreateCommand()
+        myCmd.CommandType = System.Data.CommandType.Text
+        myCmd.CommandText = "DELETE FROM [VL_Filtered_Treatment_VSRxx]"
+        Try
+            myCmd.ExecuteNonQuery
+        Catch err1 As Exception
+            MsgBox(err1.Message)
+        End Try
+        myCmd.CommandText = "DELETE FROM [VL_Filtered_VSRxx]"
+        Try
+            myCmd.ExecuteNonQuery
+        Catch err2 As Exception
+            MsgBox(err2.Message)
+        End Try
+        myCmd.CommandText = "DELETE FROM [VL_Filtered_EventLogger]"
+        Try
+            myCmd.ExecuteNonQuery
+        Catch err3 As Exception
+            MsgBox(err3.Message)
+        End Try
+
+        ' Create SQL Query to insert value into destination table
+        myCmd.CommandText = queryString1
+        Try
+            myCmd.ExecuteNonQuery
+        Catch err4 As Exception
+            myCmd.CommandText = "DELETE FROM [VL_Filtered_Treatment_VSRxx]"
+            myCmd.ExecuteNonQuery
+            MsgBox("Error when filtering Treatments ." &amp; vbCrLf &amp; err4.Message)
+        End Try
+
+        myCmd.CommandText = queryString2
+        Try
+            myCmd.ExecuteNonQuery
+        Catch err5 As Exception
+            myCmd.CommandText = "DELETE FROM [VL_Filtered_Treatment_VSRxx]"
+            myCmd.ExecuteNonQuery
+            MsgBox("Error when filtering Figures Variables ." &amp; vbCrLf &amp; err5.Message)
+        End Try
+
+        myCmd.CommandText = queryString3
+        Try
+            myCmd.ExecuteNonQuery
+        Catch err6 As Exception
+            myCmd.CommandText = "DELETE FROM [VL_Filtered_Treatment_VSRxx]"
+            myCmd.ExecuteNonQuery
+            MsgBox("Error when filtering Alarms ." &amp; vbCrLf &amp; err6.Message)
+        End Try
+
+End Sub
+</sCode>
+  <sessionName i:nil="true" />
+  <slowSamplingInterval>5000</slowSamplingInterval>
+  <stopCommandTimeout>2000</stopCommandTimeout>
+  <threadPriority>Normal</threadPriority>
+  <useAlwaysSecureConnections>false</useAlwaysSecureConnections>
+  <writeTimeout>0</writeTimeout>
+</ScriptDocument>

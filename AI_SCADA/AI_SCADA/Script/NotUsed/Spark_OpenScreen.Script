@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScriptDocument xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
+  <bEnableLog>false</bEnableLog>
+  <bEnableSysLog>false</bEnableSysLog>
+  <breakpoints xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <currentStatusTag i:nil="true" />
+  <cycleTimeTag i:nil="true" />
+  <disableWhenNotUsed>true</disableWhenNotUsed>
+  <fastSamplingInterval>500</fastSamplingInterval>
+  <forceWritingOnServer>false</forceWritingOnServer>
+  <id>00000000-0000-0000-0000-000000000000</id>
+  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>SPARK_VSR_ID</d2p1:string>
+    <d2p1:string>SPARK_CalledScreen</d2p1:string>
+  </listVariableUsed>
+  <maxCleanCount>2</maxCleanCount>
+  <nSelLength>0</nSelLength>
+  <nSleepTime>50</nSleepTime>
+  <nStartSel>525</nStartSel>
+  <publishingInterval>1000</publishingInterval>
+  <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
+  <sCode>'#Language "WWB.NET"
+Sub Main Handles .Main
+
+    Dim VSRxx As String
+
+    If (SPARK_VSR_ID&gt;=1 And SPARK_VSR_ID&lt;10) Then
+        VSRxx = "VSR0" &amp; SPARK_VSR_ID.ToString
+    ElseIf (SPARK_VSR_ID&gt;=10 And SPARK_VSR_ID&lt;=14) Then
+        VSRxx = "VSR" &amp; SPARK_VSR_ID.ToString
+    Else
+        VSRxx = "VSR00"
+    End If
+
+
+'   UFProjectDocument.Screens.OpenScreenNormal screen path                      , parameter name
+    UFProjectDocument.Screens.OpenScreenNormal "Spark\VSR\" &amp; SPARK_CalledScreen, "SPARK_" &amp; VSRxx
+
+End Sub
+</sCode>
+  <sessionName i:nil="true" />
+  <slowSamplingInterval>5000</slowSamplingInterval>
+  <stopCommandTimeout>2000</stopCommandTimeout>
+  <threadPriority>Normal</threadPriority>
+  <useAlwaysSecureConnections>false</useAlwaysSecureConnections>
+  <writeTimeout>0</writeTimeout>
+</ScriptDocument>

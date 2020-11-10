@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <VL_Treatment_Record>
+    <UtcTimeCol>2020-10-15T11:50:55.131584+01:00</UtcTimeCol>
+    <LocalTimeCol>2020-10-15T12:50:55.131584+01:00</LocalTimeCol>
+    <MillisecondsCol>131</MillisecondsCol>
+    <UserCol>Anonymous</UserCol>
+    <ReasonCol>Recorded by Command</ReasonCol>
+    <VSR>VSRA1</VSR>
+    <TreatmentStart>10/15/2020 12:50:28</TreatmentStart>
+    <TreatmentEnd>10/15/2020 12:50:36</TreatmentEnd>
+    <UnloadStart>10/15/2020 12:50:48</UnloadStart>
+    <UnloadEnd>10/15/2020 12:50:54</UnloadEnd>
+    <UnloadEnd_timeStamp>2020-10-15T11:50:55.1246117+01:00</UnloadEnd_timeStamp>
+  </VL_Treatment_Record>
+  <VL_Treatment_Record>
+    <UtcTimeCol>2020-10-15T11:52:05.2879691+01:00</UtcTimeCol>
+    <LocalTimeCol>2020-10-15T12:52:05.2879691+01:00</LocalTimeCol>
+    <MillisecondsCol>287</MillisecondsCol>
+    <UserCol>Anonymous</UserCol>
+    <ReasonCol>Recorded by Command</ReasonCol>
+    <VSR>VSRA1</VSR>
+    <TreatmentStart>10/15/2020 12:51:57</TreatmentStart>
+    <TreatmentEnd>10/15/2020 12:52:03</TreatmentEnd>
+    <UnloadStart>NoRec</UnloadStart>
+    <UnloadEnd>NoRec</UnloadEnd>
+    <UnloadEnd_timeStamp>2020-10-15T11:52:05.2879691+01:00</UnloadEnd_timeStamp>
+  </VL_Treatment_Record>
+</DocumentElement>

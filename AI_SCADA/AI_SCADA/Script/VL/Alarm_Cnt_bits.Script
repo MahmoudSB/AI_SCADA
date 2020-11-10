@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScriptDocument xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
+  <bEnableLog>false</bEnableLog>
+  <bEnableSysLog>false</bEnableSysLog>
+  <breakpoints xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <currentStatusTag i:nil="true" />
+  <cycleTimeTag i:nil="true" />
+  <disableWhenNotUsed>true</disableWhenNotUsed>
+  <fastSamplingInterval>500</fastSamplingInterval>
+  <forceWritingOnServer>false</forceWritingOnServer>
+  <id>00000000-0000-0000-0000-000000000000</id>
+  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>VL_VSRA1_SCADA-NumberOfAlarms</d2p1:string>
+    <d2p1:string>VL_VSRA2_SCADA-NumberOfAlarms</d2p1:string>
+    <d2p1:string>VL_VSRA3_SCADA-NumberOfAlarms</d2p1:string>
+    <d2p1:string>VL_VSRA4_SCADA-NumberOfAlarms</d2p1:string>
+    <d2p1:string>VL_VSRA5_SCADA-NumberOfAlarms</d2p1:string>
+    <d2p1:string>VL_VSRA6_SCADA-NumberOfAlarms</d2p1:string>
+    <d2p1:string>VL_VSRA7_SCADA-NumberOfAlarms</d2p1:string>
+    <d2p1:string>VL_VSRB1_SCADA-NumberOfAlarms</d2p1:string>
+    <d2p1:string>VL_VSRB2_SCADA-NumberOfAlarms</d2p1:string>
+    <d2p1:string>VL_VSRB3_SCADA-NumberOfAlarms</d2p1:string>
+    <d2p1:string>VL_VSRB4_SCADA-NumberOfAlarms</d2p1:string>
+    <d2p1:string>VL_VSRB5_SCADA-NumberOfAlarms</d2p1:string>
+    <d2p1:string>VL_VSRB6_SCADA-NumberOfAlarms</d2p1:string>
+    <d2p1:string>VL_VSRB7_SCADA-NumberOfAlarms</d2p1:string>
+  </listVariableUsed>
+  <maxCleanCount>2</maxCleanCount>
+  <nSelLength>0</nSelLength>
+  <nSleepTime>50</nSleepTime>
+  <nStartSel>2008</nStartSel>
+  <publishingInterval>1000</publishingInterval>
+  <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
+  <sCode>'#Language "WWB.NET"
+Sub Main Handles .Main
+
+    Dim i, j As Integer
+    Dim VaribleAddress As String
+    Dim bitAddress As String
+    Dim bitNumbers_AlarmMsg1(), bitNumbers_AlarmMsg2() As Integer
+    bitNumbers_AlarmMsg1={0, 6, 7, 8, 12}
+    bitNumbers_AlarmMsg2={8, 9}
+
+    VL_VSRA1_SCADA.NumberOfAlarms = 0
+    VL_VSRA2_SCADA.NumberOfAlarms = 0
+    VL_VSRA3_SCADA.NumberOfAlarms = 0
+    VL_VSRA4_SCADA.NumberOfAlarms = 0
+    VL_VSRA5_SCADA.NumberOfAlarms = 0
+    VL_VSRA6_SCADA.NumberOfAlarms = 0
+    VL_VSRA7_SCADA.NumberOfAlarms = 0
+    VL_VSRB1_SCADA.NumberOfAlarms = 0
+    VL_VSRB2_SCADA.NumberOfAlarms = 0
+    VL_VSRB3_SCADA.NumberOfAlarms = 0
+    VL_VSRB4_SCADA.NumberOfAlarms = 0
+    VL_VSRB5_SCADA.NumberOfAlarms = 0
+    VL_VSRB6_SCADA.NumberOfAlarms = 0
+    VL_VSRB7_SCADA.NumberOfAlarms = 0
+
+    For  i=1 To 5
+
+        For j=0 To bitNumbers_AlarmMsg1.Length-1
+            If bitNumbers_AlarmMsg1(j)&lt;10 Then
+                bitAddress ="bit0" &amp; bitNumbers_AlarmMsg1(j).ToString()
+            Else
+                bitAddress ="bit" &amp; bitNumbers_AlarmMsg1(j).ToString()
+            End If
+            VaribleAddress = "VL\VSRA" &amp; i.ToString() &amp; "\PLC:Alarms\AlarmMsg1_" &amp; bitAddress
+            If ScriptDocument.GetVariableValue(VaribleAddress) Then
+                VL_VSRA1_SCADA.NumberOfAlarms = VL_VSRA1_SCADA.NumberOfAlarms+1
+            End If
+        Next
+
+        For j=0 To bitNumbers_AlarmMsg2.Length-1
+            If bitNumbers_AlarmMsg2(j)&lt;10 Then
+                bitAddress ="bit0" &amp; bitNumbers_AlarmMsg2(j).ToString()
+            Else
+                bitAddress ="bit" &amp; bitNumbers_AlarmMsg2(j).ToString()
+            End If
+            VaribleAddress = "VL\VSRA" &amp; i.ToString() &amp; "\PLC:Alarms\AlarmMsg2_" &amp; bitAddress
+            If ScriptDocument.GetVariableValue(VaribleAddress) Then
+                VL_VSRA1_SCADA.NumberOfAlarms = VL_VSRA1_SCADA.NumberOfAlarms+1
+            End If
+        Next
+
+    Next
+
+        For  i=1 To 5
+
+        For j=0 To bitNumbers_AlarmMsg1.Length-1
+            If bitNumbers_AlarmMsg1(j)&lt;10 Then
+                bitAddress ="bit0" &amp; bitNumbers_AlarmMsg1(j).ToString()
+            Else
+                bitAddress ="bit" &amp; bitNumbers_AlarmMsg1(j).ToString()
+            End If
+            VaribleAddress = "VL\VSRB" &amp; i.ToString() &amp; "\PLC:Alarms\AlarmMsg1_" &amp; bitAddress
+            If ScriptDocument.GetVariableValue(VaribleAddress) Then
+                VL_VSRA1_SCADA.NumberOfAlarms = VL_VSRA1_SCADA.NumberOfAlarms+1
+            End If
+        Next
+
+        For j=0 To bitNumbers_AlarmMsg2.Length-1
+            If bitNumbers_AlarmMsg2(j)&lt;10 Then
+                bitAddress ="bit0" &amp; bitNumbers_AlarmMsg2(j).ToString()
+            Else
+                bitAddress ="bit" &amp; bitNumbers_AlarmMsg2(j).ToString()
+            End If
+            VaribleAddress = "VL\VSRB" &amp; i.ToString() &amp; "\PLC:Alarms\AlarmMsg2_" &amp; bitAddress
+            If ScriptDocument.GetVariableValue(VaribleAddress) Then
+                VL_VSRA1_SCADA.NumberOfAlarms = VL_VSRA1_SCADA.NumberOfAlarms+1
+            End If
+        Next
+
+    Next
+
+End Sub
+</sCode>
+  <sessionName i:nil="true" />
+  <slowSamplingInterval>5000</slowSamplingInterval>
+  <stopCommandTimeout>2000</stopCommandTimeout>
+  <threadPriority>Normal</threadPriority>
+  <useAlwaysSecureConnections>false</useAlwaysSecureConnections>
+  <writeTimeout>0</writeTimeout>
+</ScriptDocument>

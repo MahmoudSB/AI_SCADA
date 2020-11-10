@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScriptDocument xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
+  <bEnableLog>false</bEnableLog>
+  <bEnableSysLog>false</bEnableSysLog>
+  <breakpoints xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <currentStatusTag i:nil="true" />
+  <cycleTimeTag i:nil="true" />
+  <disableWhenNotUsed>true</disableWhenNotUsed>
+  <fastSamplingInterval>500</fastSamplingInterval>
+  <forceWritingOnServer>false</forceWritingOnServer>
+  <id>00000000-0000-0000-0000-000000000000</id>
+  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>SPARK_VSR01_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR11_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR12_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR13_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR14_SCADA_Alarm_Cnt</d2p1:string>
+  </listVariableUsed>
+  <maxCleanCount>2</maxCleanCount>
+  <nSelLength>0</nSelLength>
+  <nSleepTime>50</nSleepTime>
+  <nStartSel>878</nStartSel>
+  <publishingInterval>1000</publishingInterval>
+  <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
+  <sCode>'#Reference #System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=AMD64
+'#Reference #CommandManager, Version=3.4.259.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL, Path=&lt;APPDIR&gt;\Managers\CommandManager.dll
+'#Reference #UFInterfaces, Version=3.4.259.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL, Path=&lt;APPDIR&gt;\UFInterfaces.dll
+'#Language "WWB.NET"
+Imports System
+Imports System.Globalization
+
+Dim connectionString As String = "Data Source=AMR-DBVM16;Database=ScadaAC;" _
+                               &amp; "Persist Security Info=true;User ID=scada;Password=WkIlE!A2njfa"
+
+Dim myConn As System.Data.SqlClient.SqlConnection = New System.Data.SqlClient.SqlConnection (connectionString)
+
+Sub Main Handles .Main
+
+    Dim Table_Name As String= "UFUAAuditLogItem"
+    Dim Flt As String
+    Dim VSRxx As String
+    Dim i As Integer
+
+    myConn.Open()
+    For i=0 To 13
+        
+        If (i&gt;=0 And i&lt;9) Then
+            VSRxx = "VSR0" &amp; (i+1).ToString
+        Else
+            VSRxx = "VSR" &amp; (i+1).ToString
+        End If
+
+        Flt = "Where [EventMessage] Like '%Spark: "&amp; VSRxx &amp;":%' and [EventDetails] Like '%Alarm_Message%' and [EventState] like 'Active%';" 'Active | Unacknowledged
+        Call TSQL_Counter(i, Table_Name, Flt)
+    Next
+
+    myConn.Close()
+
+End Sub
+
+Sub TSQL_Counter(itr As Integer, Tbl As String, Whr As String)
+    
+    Dim Qry As String= "Select count(DISTINCT [EventMessage]) from [" &amp; Tbl &amp; "] " &amp; Whr
+
+    Dim myCmd As New System.Data.SqlClient.SqlCommand
+    Dim myReader As System.Data.SqlClient.SqlDataReader
+    Dim RowCount As Integer
+    Dim i As Integer
+    Dim Num As String
+
+    myCmd = myConn.CreateCommand()
+    myCmd.CommandType = System.Data.CommandType.Text
+    myCmd.CommandText = Qry
+    myCmd.ExecuteNonQuery
+
+    myReader = myCmd.ExecuteReader()
+    RowCount = 0
+    While myReader.Read()
+        For i = 0 To myReader.FieldCount -1
+            Num = myReader.GetValue(i)
+        Next
+        RowCount += 1
+    End While
+    myReader.Close()
+
+    Select Case itr
+    Case 0
+        SPARK_VSR01_SCADA_Alarm_Cnt=Num
+    Case 1
+        SPARK_VSR02_SCADA_Alarm_Cnt=Num
+    Case 2
+        SPARK_VSR03_SCADA_Alarm_Cnt=Num
+    Case 3
+        SPARK_VSR04_SCADA_Alarm_Cnt=Num
+    Case 4
+        SPARK_VSR05_SCADA_Alarm_Cnt=Num
+    Case 5
+        SPARK_VSR06_SCADA_Alarm_Cnt=Num
+    Case 6
+        SPARK_VSR07_SCADA_Alarm_Cnt=Num
+    Case 7
+        SPARK_VSR08_SCADA_Alarm_Cnt=Num
+    Case 8
+        SPARK_VSR09_SCADA_Alarm_Cnt=Num
+    Case 9
+        SPARK_VSR10_SCADA_Alarm_Cnt=Num
+    Case 10
+        SPARK_VSR11_SCADA_Alarm_Cnt=Num
+    Case 11
+        SPARK_VSR12_SCADA_Alarm_Cnt=Num
+    Case 12
+        SPARK_VSR13_SCADA_Alarm_Cnt=Num
+    Case 13
+        SPARK_VSR14_SCADA_Alarm_Cnt=Num
+    End Select
+
+    'SPARK_Alarm_Cnt(itr)=Num 
+End Sub
+</sCode>
+  <sessionName i:nil="true" />
+  <slowSamplingInterval>5000</slowSamplingInterval>
+  <stopCommandTimeout>2000</stopCommandTimeout>
+  <threadPriority>Normal</threadPriority>
+  <useAlwaysSecureConnections>false</useAlwaysSecureConnections>
+  <writeTimeout>0</writeTimeout>
+</ScriptDocument>

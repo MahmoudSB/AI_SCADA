@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScriptDocument xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
+  <bEnableLog>false</bEnableLog>
+  <bEnableSysLog>false</bEnableSysLog>
+  <breakpoints xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <currentStatusTag i:nil="true" />
+  <cycleTimeTag i:nil="true" />
+  <disableWhenNotUsed>true</disableWhenNotUsed>
+  <fastSamplingInterval>500</fastSamplingInterval>
+  <forceWritingOnServer>false</forceWritingOnServer>
+  <id>00000000-0000-0000-0000-000000000000</id>
+  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <maxCleanCount>2</maxCleanCount>
+  <nSelLength>0</nSelLength>
+  <nSleepTime>50</nSleepTime>
+  <nStartSel>4747</nStartSel>
+  <publishingInterval>1000</publishingInterval>
+  <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
+  <sCode>'#Reference #System.IO, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+'#Language "WWB.NET"
+'Necessary reference System.IO, version=4.0.0.0
+Imports System.IO
+Imports System.Xml
+
+
+Dim PathwwwRoot As String ="C:\inetpub\wwwroot\"
+Dim ProjectName As String ="AI_WebClient"
+
+Sub Main Handles .Main
+
+    ScreenScriptReferences("Spark\Maintenance")
+    ScreenScriptReferences("Spark\Alarm")
+    ScreenScriptReferences("Spark\Alarm_History")
+    ScreenScriptReferences("Spark\Report")
+    ScreenScriptReferences("Spark\VSR\Alarm")
+    ScreenScriptReferences("Spark\VSR\Alarm_History")
+
+    ScreenScriptReferences("VL\Maintenance")
+    ScreenScriptReferences("VL\Alarm")
+    ScreenScriptReferences("VL\Alarm_History")
+    ScreenScriptReferences("VL\Report")
+    ScreenScriptReferences("VL\VSR\Alarm")
+    ScreenScriptReferences("VL\VSR\Alarm_History")
+
+    'ScriptReferences("Filter_Report_DBTables")
+
+    MsgBox("References corrected")
+
+End Sub
+
+Sub ScreenScriptReferences(screenName As String)
+  If (File.Exists(Path.Combine(PathwwwRoot+ProjectName+"\Project\"+ProjectName+"\Screen", screenName+".xaml.Settings" + ".bin"))) Then
+    File.Delete(Path.Combine(PathwwwRoot+ProjectName+"\Project\"+ProjectName+"\Screen", screenName+".xaml.Settings" + ".bin"))
+  End If
+
+    Dim xmlMovScreen As XmlDocument = New XmlDocument()
+    Dim xNsManager As XmlNamespaceManager = New XmlNamespaceManager(xmlMovScreen.NameTable)
+    xNsManager.AddNamespace("i", "http://www.w3.org/2001/XMLSchema-instance")
+    xNsManager.AddNamespace("p", "http://progea.com")
+    xNsManager.AddNamespace("d2p1", "http://schemas.microsoft.com/2003/10/Serialization/Arrays")
+    xNsManager.AddNamespace("sa", "http://schemas.microsoft.com/2003/10/Serialization/Arrays")
+    xNsManager.AddNamespace("a", "http://opcfoundation.org/UA/2008/02/Types.xsd")
+    xNsManager.AddNamespace("d9p1", "http://opcfoundation.org/UA/2008/02/Types.xsd")
+    xNsManager.AddNamespace("d55p1", "http://schemas.datacontract.org/2004/07/ScreenSettings.Entities")
+    xNsManager.AddNamespace("d5p1", "http://schemas.datacontract.org/2004/07/AnimationManager")
+  Try
+    xmlMovScreen.Load(System.IO.Path.Combine(PathwwwRoot+ProjectName+"\Project\"+ProjectName+"\Screen", screenName+".xaml.Settings"))
+    Dim xRoot As XmlElement = xmlMovScreen.DocumentElement
+    Dim xNodesList As XmlNodeList = xRoot.SelectNodes("p:mapScreenEntities/p:entry/p:Settings/p:sCode", xNsManager)
+    For Each node As XmlNode In xNodesList
+        ScriptReferenceManagement(node)
+    Next
+
+    xNodesList = xRoot.SelectNodes("p:sCode", xNsManager)
+    For Each node In xNodesList
+        ScriptReferenceManagement(node)
+    Next
+    xmlMovScreen.Save(System.IO.Path.Combine(PathwwwRoot+ProjectName+"\Project\"+ProjectName+"\Screen", screenName+".xaml.Settings"))
+
+  Catch ex As System.Exception
+    Debug.Print(ex.Message)
+  End Try
+
+End Sub
+
+Sub ScriptReferences(scriptName As String)
+    Dim xmlMovScript As XmlDocument = New XmlDocument()
+    Dim xNsManager As XmlNamespaceManager = New XmlNamespaceManager(xmlMovScript.NameTable)
+    xNsManager.AddNamespace("i", "http://www.w3.org/2001/XMLSchema-instance")
+    xNsManager.AddNamespace("p", "http://progea.com")
+  Try
+    xmlMovScript.Load(System.IO.Path.Combine(PathwwwRoot+ProjectName+"\Project\"+ProjectName+"\Script", scriptName+".Script"))
+    Dim xRoot As XmlElement = xmlMovScript.DocumentElement
+    Dim xNodesList As XmlNodeList = xRoot.SelectNodes("p:sCode", xNsManager)
+    For Each node As XmlNode In xNodesList
+        ScriptReferenceManagement(node)
+    Next
+
+    xmlMovScript.Save(System.IO.Path.Combine(PathwwwRoot+ProjectName+"\Project\"+ProjectName+"\Script", scriptName+".Script"))
+
+  Catch ex As System.Exception
+    Debug.Print(ex.Message)
+  End Try
+
+End Sub
+
+Sub ScriptReferenceManagement(elem As XmlNode)
+  If (elem.InnerText.Length &gt; 0) Then
+    Dim lS() As String = elem.InnerText.Split(New String() {System.environment.NewLine},System.StringSplitOptions.None)
+    Dim LineIndex As Integer = 0
+    For Each sL As String In lS
+      If (sL.StartsWith("'#Reference") And sL.Contains("Path=&lt;APPDIR&gt;")) Then
+        Dim sTemp As String
+        If sL.Contains("&lt;APPDIR&gt;\DocumentManagers") Then
+            sTemp = sL.Replace("Path=&lt;APPDIR&gt;\DocumentManagers", "Path="+PathwwwRoot+ProjectName+"\bin")
+        Else
+            sTemp = sL.Replace("Path=&lt;APPDIR&gt;", "Path="+PathwwwRoot+ProjectName+"\bin")
+        End If
+        lS(LineIndex) = sTemp
+      End If
+      LineIndex = LineIndex+1
+    Next
+    Dim NewScript As String = ""
+    For Each sL In lS
+      If (sL &lt;&gt; "") Then
+        NewScript = NewScript + sL + System.Environment.NewLine
+      End If
+
+    Next
+    elem.InnerText = NewScript
+  End If
+
+End Sub
+</sCode>
+  <sessionName i:nil="true" />
+  <slowSamplingInterval>5000</slowSamplingInterval>
+  <stopCommandTimeout>2000</stopCommandTimeout>
+  <threadPriority>Normal</threadPriority>
+  <useAlwaysSecureConnections>false</useAlwaysSecureConnections>
+  <writeTimeout>0</writeTimeout>
+</ScriptDocument>

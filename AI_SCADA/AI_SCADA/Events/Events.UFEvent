@@ -1,0 +1,275 @@
+﻿<DefaultName>
+  <xs:schema id="DefaultName" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DefaultName" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="XPObjectType">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="TypeName" type="xs:string" minOccurs="0" />
+                <xs:element name="AssemblyName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFEventFolder">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="UFEventFolderAss" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UFEventObject">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="NodeId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="Enable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Type" type="xs:int" minOccurs="0" />
+                <xs:element name="Tag" type="xs:string" minOccurs="0" />
+                <xs:element name="TagName" type="xs:string" minOccurs="0" />
+                <xs:element name="ConditionType" type="xs:int" minOccurs="0" />
+                <xs:element name="ActivationValue" type="xs:double" minOccurs="0" />
+                <xs:element name="ActivationStringValue" type="xs:string" minOccurs="0" />
+                <xs:element name="EnableTag" type="xs:string" minOccurs="0" />
+                <xs:element name="EnableTagName" type="xs:string" minOccurs="0" />
+                <xs:element name="ValueTag" type="xs:string" minOccurs="0" />
+                <xs:element name="ValueTagName" type="xs:string" minOccurs="0" />
+                <xs:element name="SchedType" type="xs:int" minOccurs="0" />
+                <xs:element name="Time" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Date" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EventCommandList" type="xs:string" minOccurs="0" />
+                <xs:element name="UFEventFolder" type="xs:int" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ProtectionFile">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Id" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_TypeName">
+        <xs:selector xpath=".//XPObjectType" />
+        <xs:field xpath="TypeName" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFEventFolder" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFEventObject" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ProtectionFile" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFEventFolder_x0023_OID_x0023_UFEventFolder_x0023_UFEventFolderAssIdx">
+        <xs:selector xpath=".//UFEventFolder" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="FK__UFEventFolder_x0023_OID_x0023_UFEventObject_x0023_UFEventFolderIdx">
+        <xs:selector xpath=".//UFEventFolder" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:keyref name="FK__UFEventFolder_x0023_OID_x0023_UFEventFolder_x0023_UFEventFolderAss" refer="FK__UFEventFolder_x0023_OID_x0023_UFEventFolder_x0023_UFEventFolderAssIdx">
+        <xs:selector xpath=".//UFEventFolder" />
+        <xs:field xpath="UFEventFolderAss" />
+      </xs:keyref>
+      <xs:keyref name="FK__UFEventFolder_x0023_OID_x0023_UFEventObject_x0023_UFEventFolder" refer="FK__UFEventFolder_x0023_OID_x0023_UFEventObject_x0023_UFEventFolderIdx">
+        <xs:selector xpath=".//UFEventObject" />
+        <xs:field xpath="UFEventFolder" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+  <XPObjectType>
+    <OID>1</OID>
+    <TypeName>UFEventModel.UFEventFolder</TypeName>
+    <AssemblyName>UFEventModel</AssemblyName>
+  </XPObjectType>
+  <XPObjectType>
+    <OID>2</OID>
+    <TypeName>UFEventModel.UFEventObject</TypeName>
+    <AssemblyName>UFEventModel</AssemblyName>
+  </XPObjectType>
+  <UFEventFolder>
+    <OID>1</OID>
+    <Name>SPARK</Name>
+    <NodeId>98788cfb-071d-4408-8a9e-d3c69890d662</NodeId>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFEventFolder>
+  <UFEventFolder>
+    <OID>2</OID>
+    <Name>VL</Name>
+    <NodeId>6bc7de25-4b54-41d4-9eeb-c7198a6cff6b</NodeId>
+    <OptimisticLockField>1</OptimisticLockField>
+  </UFEventFolder>
+  <UFEventObject>
+    <OID>1</OID>
+    <Name>En_Actv</Name>
+    <NodeId>a2eac927-2a18-43a6-a290-4e08ab7c5c6b</NodeId>
+    <Enable>true</Enable>
+    <Type>0</Type>
+    <Tag>&lt;OPCUADataReference xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;appName&gt;AI_Spark_20200515_00_IOServer&lt;/appName&gt;&lt;endpointUrl&gt;net.pipe://localhost/AI_Spark_20200515_00_IOServer&lt;/endpointUrl&gt;&lt;hostName i:nil="true"/&gt;&lt;humanReadable&gt;General\EN_is_Set (AI_Spark_20200515_00_IOServer)&lt;/humanReadable&gt;&lt;isRedundancyEnabled&gt;true&lt;/isRedundancyEnabled&gt;&lt;parentNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionIdList i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionName i:nil="true"/&gt;&lt;parentTypeDefinitionNameList i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/&gt;&lt;parentTypeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;readablPath&gt;2:Tags/2:General/2:EN_is_Set&lt;/readablPath&gt;&lt;relativePath&gt;2:Tags/2:General/2:EN_is_Set&lt;/relativePath&gt;&lt;resolvedItem&gt;false&lt;/resolvedItem&gt;&lt;resolvedNodeId xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"&gt;&lt;a:Identifier&gt;ns=2;g=b32029b4-5f2c-4fb9-a75c-93d4eb86b581&lt;/a:Identifier&gt;&lt;/resolvedNodeId&gt;&lt;resolvedStartingNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;savedRelativePath i:nil="true"/&gt;&lt;savedStartingAddress i:nil="true"/&gt;&lt;startingAddress i:nil="true"/&gt;&lt;typeDefinitionName i:nil="true"/&gt;&lt;typeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;/OPCUADataReference&gt;</Tag>
+    <TagName>General\EN_is_Set (AI_Spark_20200515_00_IOServer)</TagName>
+    <ConditionType>0</ConditionType>
+    <ActivationValue>1</ActivationValue>
+    <SchedType>0</SchedType>
+    <EventCommandList>&lt;CommandManagerList xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;entry i:type="ChangeCultureCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;cultureName&gt;en-US&lt;/cultureName&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;/entry&gt;&lt;entry i:type="ValueCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference&gt;&lt;appName&gt;AI_Spark_20200515_00_IOServer&lt;/appName&gt;&lt;endpointUrl&gt;net.pipe://localhost/AI_Spark_20200515_00_IOServer&lt;/endpointUrl&gt;&lt;hostName i:nil="true"/&gt;&lt;humanReadable&gt;General\PT_is_Set (AI_Spark_20200515_00_IOServer)&lt;/humanReadable&gt;&lt;isRedundancyEnabled&gt;true&lt;/isRedundancyEnabled&gt;&lt;parentNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionIdList i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionName i:nil="true"/&gt;&lt;parentTypeDefinitionNameList i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/&gt;&lt;parentTypeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;readablPath&gt;2:Tags/2:General/2:PT_is_Set&lt;/readablPath&gt;&lt;relativePath&gt;2:Tags/2:General/2:PT_is_Set&lt;/relativePath&gt;&lt;resolvedItem&gt;false&lt;/resolvedItem&gt;&lt;resolvedNodeId xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"&gt;&lt;a:Identifier&gt;ns=2;g=691bad69-0752-47a9-a051-b7c751bf2c40&lt;/a:Identifier&gt;&lt;/resolvedNodeId&gt;&lt;resolvedStartingNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;savedRelativePath i:nil="true"/&gt;&lt;savedStartingAddress i:nil="true"/&gt;&lt;startingAddress i:nil="true"/&gt;&lt;typeDefinitionName i:nil="true"/&gt;&lt;typeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;/opcuaEntityReference&gt;&lt;_synchronous&gt;false&lt;/_synchronous&gt;&lt;_time&gt;0&lt;/_time&gt;&lt;_value&gt;0&lt;/_value&gt;&lt;decimals&gt;0&lt;/decimals&gt;&lt;maxValue&gt;0&lt;/maxValue&gt;&lt;minValue&gt;0&lt;/minValue&gt;&lt;reverseExpression i:nil="true"/&gt;&lt;tagMaxValue i:nil="true"/&gt;&lt;tagMinValue i:nil="true"/&gt;&lt;transferToTag i:nil="true"/&gt;&lt;type&gt;Set&lt;/type&gt;&lt;/entry&gt;&lt;/CommandManagerList&gt;</EventCommandList>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFEventObject>
+  <UFEventObject>
+    <OID>2</OID>
+    <Name>Pt_Actv</Name>
+    <NodeId>7d95f160-0d48-4f22-b3e7-127c9d818d31</NodeId>
+    <Enable>true</Enable>
+    <Type>0</Type>
+    <Tag>&lt;OPCUADataReference xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;appName&gt;AI_Spark_20200515_00_IOServer&lt;/appName&gt;&lt;endpointUrl&gt;net.pipe://localhost/AI_Spark_20200515_00_IOServer&lt;/endpointUrl&gt;&lt;hostName i:nil="true"/&gt;&lt;humanReadable&gt;General\PT_is_Set (AI_Spark_20200515_00_IOServer)&lt;/humanReadable&gt;&lt;isRedundancyEnabled&gt;true&lt;/isRedundancyEnabled&gt;&lt;parentNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionIdList i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionName i:nil="true"/&gt;&lt;parentTypeDefinitionNameList i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/&gt;&lt;parentTypeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;readablPath&gt;2:Tags/2:General/2:PT_is_Set&lt;/readablPath&gt;&lt;relativePath&gt;2:Tags/2:General/2:PT_is_Set&lt;/relativePath&gt;&lt;resolvedItem&gt;false&lt;/resolvedItem&gt;&lt;resolvedNodeId xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"&gt;&lt;a:Identifier&gt;ns=2;g=691bad69-0752-47a9-a051-b7c751bf2c40&lt;/a:Identifier&gt;&lt;/resolvedNodeId&gt;&lt;resolvedStartingNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;savedRelativePath i:nil="true"/&gt;&lt;savedStartingAddress i:nil="true"/&gt;&lt;startingAddress i:nil="true"/&gt;&lt;typeDefinitionName i:nil="true"/&gt;&lt;typeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;/OPCUADataReference&gt;</Tag>
+    <TagName>General\PT_is_Set (AI_Spark_20200515_00_IOServer)</TagName>
+    <ConditionType>0</ConditionType>
+    <ActivationValue>1</ActivationValue>
+    <SchedType>0</SchedType>
+    <EventCommandList>&lt;CommandManagerList xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;entry i:type="ChangeCultureCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;cultureName&gt;pt-PT&lt;/cultureName&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;/entry&gt;&lt;entry i:type="ValueCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference&gt;&lt;appName&gt;AI_Spark_20200515_00_IOServer&lt;/appName&gt;&lt;endpointUrl&gt;net.pipe://localhost/AI_Spark_20200515_00_IOServer&lt;/endpointUrl&gt;&lt;hostName i:nil="true"/&gt;&lt;humanReadable&gt;General\EN_is_Set (AI_Spark_20200515_00_IOServer)&lt;/humanReadable&gt;&lt;isRedundancyEnabled&gt;true&lt;/isRedundancyEnabled&gt;&lt;parentNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionIdList i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionName i:nil="true"/&gt;&lt;parentTypeDefinitionNameList i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/&gt;&lt;parentTypeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;readablPath&gt;2:Tags/2:General/2:EN_is_Set&lt;/readablPath&gt;&lt;relativePath&gt;2:Tags/2:General/2:EN_is_Set&lt;/relativePath&gt;&lt;resolvedItem&gt;false&lt;/resolvedItem&gt;&lt;resolvedNodeId xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"&gt;&lt;a:Identifier&gt;ns=2;g=b32029b4-5f2c-4fb9-a75c-93d4eb86b581&lt;/a:Identifier&gt;&lt;/resolvedNodeId&gt;&lt;resolvedStartingNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;savedRelativePath i:nil="true"/&gt;&lt;savedStartingAddress i:nil="true"/&gt;&lt;startingAddress i:nil="true"/&gt;&lt;typeDefinitionName i:nil="true"/&gt;&lt;typeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;/opcuaEntityReference&gt;&lt;_synchronous&gt;false&lt;/_synchronous&gt;&lt;_time&gt;0&lt;/_time&gt;&lt;_value&gt;0&lt;/_value&gt;&lt;decimals&gt;0&lt;/decimals&gt;&lt;maxValue&gt;0&lt;/maxValue&gt;&lt;minValue&gt;0&lt;/minValue&gt;&lt;reverseExpression i:nil="true"/&gt;&lt;tagMaxValue i:nil="true"/&gt;&lt;tagMinValue i:nil="true"/&gt;&lt;transferToTag i:nil="true"/&gt;&lt;type&gt;Set&lt;/type&gt;&lt;/entry&gt;&lt;/CommandManagerList&gt;</EventCommandList>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFEventObject>
+  <UFEventObject>
+    <OID>3</OID>
+    <Name>MainPageColor</Name>
+    <NodeId>9397417a-6788-41f4-88f3-d9d73fe7b74b</NodeId>
+    <Enable>true</Enable>
+    <Type>0</Type>
+    <Tag>&lt;OPCUADataReference xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;appName&gt;SystemVariables&lt;/appName&gt;&lt;endpointUrl i:nil="true"/&gt;&lt;hostName i:nil="true"/&gt;&lt;humanReadable&gt;Blink1s&lt;/humanReadable&gt;&lt;isRedundancyEnabled&gt;true&lt;/isRedundancyEnabled&gt;&lt;parentNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionIdList i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionName i:nil="true"/&gt;&lt;parentTypeDefinitionNameList i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/&gt;&lt;parentTypeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;readablPath i:nil="true"/&gt;&lt;relativePath&gt;Blink1s&lt;/relativePath&gt;&lt;resolvedItem&gt;false&lt;/resolvedItem&gt;&lt;resolvedNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;resolvedStartingNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;savedRelativePath i:nil="true"/&gt;&lt;savedStartingAddress i:nil="true"/&gt;&lt;startingAddress i:nil="true"/&gt;&lt;typeDefinitionName i:nil="true"/&gt;&lt;typeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;/OPCUADataReference&gt;</Tag>
+    <TagName>Blink1s</TagName>
+    <ConditionType>0</ConditionType>
+    <ActivationValue>1</ActivationValue>
+    <SchedType>0</SchedType>
+    <Time>2020-05-27T00:00:00</Time>
+    <EventCommandList>&lt;CommandManagerList xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;entry i:type="RunScriptCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;parameter i:nil="true"/&gt;&lt;scriptName&gt;Script/Spark_VSR1to4_Color.Script&lt;/scriptName&gt;&lt;/entry&gt;&lt;entry i:type="RunScriptCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;parameter i:nil="true"/&gt;&lt;scriptName&gt;Script/Spark_VSR5to8_Color.Script&lt;/scriptName&gt;&lt;/entry&gt;&lt;entry i:type="RunScriptCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;parameter i:nil="true"/&gt;&lt;scriptName&gt;Script/Spark_VSR9to12_Color.Script&lt;/scriptName&gt;&lt;/entry&gt;&lt;entry i:type="RunScriptCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;parameter i:nil="true"/&gt;&lt;scriptName&gt;Script/Spark_VSR13to14_Color.Script&lt;/scriptName&gt;&lt;/entry&gt;&lt;/CommandManagerList&gt;</EventCommandList>
+    <UFEventFolder>1</UFEventFolder>
+    <OptimisticLockField>4</OptimisticLockField>
+  </UFEventObject>
+  <UFEventObject>
+    <OID>18</OID>
+    <Name>Alarm_Counter</Name>
+    <NodeId>330b9341-0d3c-430a-9df9-e13ea5c0a039</NodeId>
+    <Enable>true</Enable>
+    <Type>0</Type>
+    <Tag>&lt;OPCUADataReference xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;appName&gt;SystemVariables&lt;/appName&gt;&lt;endpointUrl i:nil="true"/&gt;&lt;hostName i:nil="true"/&gt;&lt;humanReadable&gt;Blink5s&lt;/humanReadable&gt;&lt;isRedundancyEnabled&gt;true&lt;/isRedundancyEnabled&gt;&lt;parentNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionIdList i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionName i:nil="true"/&gt;&lt;parentTypeDefinitionNameList i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/&gt;&lt;parentTypeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;readablPath i:nil="true"/&gt;&lt;relativePath&gt;Blink5s&lt;/relativePath&gt;&lt;resolvedItem&gt;false&lt;/resolvedItem&gt;&lt;resolvedNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;resolvedStartingNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;savedRelativePath i:nil="true"/&gt;&lt;savedStartingAddress i:nil="true"/&gt;&lt;startingAddress i:nil="true"/&gt;&lt;typeDefinitionName i:nil="true"/&gt;&lt;typeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;/OPCUADataReference&gt;</Tag>
+    <TagName>Blink5s</TagName>
+    <ConditionType>0</ConditionType>
+    <ActivationValue>1</ActivationValue>
+    <SchedType>0</SchedType>
+    <EventCommandList>&lt;CommandManagerList xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;entry i:type="RunScriptCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;parameter i:nil="true"/&gt;&lt;scriptName&gt;Script/Spark_Alarm_Cnt_bits.Script&lt;/scriptName&gt;&lt;/entry&gt;&lt;/CommandManagerList&gt;</EventCommandList>
+    <UFEventFolder>1</UFEventFolder>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFEventObject>
+  <UFEventObject>
+    <OID>19</OID>
+    <Name>ActiveTreatments</Name>
+    <NodeId>0a375345-ebf9-41f8-831c-088d1596a13c</NodeId>
+    <Enable>true</Enable>
+    <Type>1</Type>
+    <ConditionType>0</ConditionType>
+    <ActivationValue>1</ActivationValue>
+    <EnableTagName></EnableTagName>
+    <SchedType>0</SchedType>
+    <Date>2020-09-22T00:00:00</Date>
+    <EventCommandList>&lt;CommandManagerList xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;entry i:type="RunScriptCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;parameter i:nil="true"/&gt;&lt;scriptName&gt;Script/Spark_ActiveTreatments.Script&lt;/scriptName&gt;&lt;/entry&gt;&lt;/CommandManagerList&gt;</EventCommandList>
+    <UFEventFolder>1</UFEventFolder>
+    <OptimisticLockField>6</OptimisticLockField>
+  </UFEventObject>
+  <UFEventObject>
+    <OID>20</OID>
+    <Name>VSRStatus</Name>
+    <NodeId>327e5ae6-5e95-48bd-83e4-d8ca3d7ef646</NodeId>
+    <Enable>true</Enable>
+    <Type>0</Type>
+    <Tag>&lt;OPCUADataReference xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;appName&gt;SystemVariables&lt;/appName&gt;&lt;endpointUrl i:nil="true"/&gt;&lt;hostName i:nil="true"/&gt;&lt;humanReadable&gt;Blink1s&lt;/humanReadable&gt;&lt;isRedundancyEnabled&gt;true&lt;/isRedundancyEnabled&gt;&lt;parentNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionIdList i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionName i:nil="true"/&gt;&lt;parentTypeDefinitionNameList i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/&gt;&lt;parentTypeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;readablPath i:nil="true"/&gt;&lt;relativePath&gt;Blink1s&lt;/relativePath&gt;&lt;resolvedItem&gt;false&lt;/resolvedItem&gt;&lt;resolvedNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;resolvedStartingNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;savedRelativePath i:nil="true"/&gt;&lt;savedStartingAddress i:nil="true"/&gt;&lt;startingAddress i:nil="true"/&gt;&lt;typeDefinitionName i:nil="true"/&gt;&lt;typeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;/OPCUADataReference&gt;</Tag>
+    <TagName>Blink1s</TagName>
+    <ConditionType>0</ConditionType>
+    <ActivationValue>1</ActivationValue>
+    <SchedType>0</SchedType>
+    <EventCommandList>&lt;CommandManagerList xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;entry i:type="RunScriptCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;parameter i:nil="true"/&gt;&lt;scriptName&gt;Script/Spark_Status_01to05.Script&lt;/scriptName&gt;&lt;/entry&gt;&lt;entry i:type="RunScriptCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;parameter i:nil="true"/&gt;&lt;scriptName&gt;Script/Spark_Status_06to10.Script&lt;/scriptName&gt;&lt;/entry&gt;&lt;entry i:type="RunScriptCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;parameter i:nil="true"/&gt;&lt;scriptName&gt;Script/Spark_Status_11to14.Script&lt;/scriptName&gt;&lt;/entry&gt;&lt;/CommandManagerList&gt;</EventCommandList>
+    <UFEventFolder>1</UFEventFolder>
+    <OptimisticLockField>11</OptimisticLockField>
+  </UFEventObject>
+  <UFEventObject>
+    <OID>21</OID>
+    <Name>MainPageColor</Name>
+    <NodeId>5ce49fc5-7c6c-4e01-880e-c8d14cc6dff0</NodeId>
+    <Enable>true</Enable>
+    <Type>0</Type>
+    <Tag>&lt;OPCUADataReference xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;appName&gt;SystemVariables&lt;/appName&gt;&lt;endpointUrl i:nil="true"/&gt;&lt;hostName i:nil="true"/&gt;&lt;humanReadable&gt;Blink1s&lt;/humanReadable&gt;&lt;isRedundancyEnabled&gt;true&lt;/isRedundancyEnabled&gt;&lt;parentNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionIdList i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionName i:nil="true"/&gt;&lt;parentTypeDefinitionNameList i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/&gt;&lt;parentTypeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;readablPath i:nil="true"/&gt;&lt;relativePath&gt;Blink1s&lt;/relativePath&gt;&lt;resolvedItem&gt;false&lt;/resolvedItem&gt;&lt;resolvedNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;resolvedStartingNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;savedRelativePath i:nil="true"/&gt;&lt;savedStartingAddress i:nil="true"/&gt;&lt;startingAddress i:nil="true"/&gt;&lt;typeDefinitionName i:nil="true"/&gt;&lt;typeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;/OPCUADataReference&gt;</Tag>
+    <TagName>Blink1s</TagName>
+    <ConditionType>0</ConditionType>
+    <ActivationValue>1</ActivationValue>
+    <SchedType>0</SchedType>
+    <Time>2020-05-27T00:00:00</Time>
+    <EventCommandList>&lt;CommandManagerList xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;entry i:type="RunScriptCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;parameter i:nil="true"/&gt;&lt;scriptName&gt;Script/VL/VSR_Color.Script&lt;/scriptName&gt;&lt;/entry&gt;&lt;/CommandManagerList&gt;</EventCommandList>
+    <UFEventFolder>2</UFEventFolder>
+    <OptimisticLockField>2</OptimisticLockField>
+  </UFEventObject>
+  <UFEventObject>
+    <OID>22</OID>
+    <Name>Alarm_Counter</Name>
+    <NodeId>32bb6655-01fd-4edf-8364-090d1a3b3b80</NodeId>
+    <Enable>true</Enable>
+    <Type>0</Type>
+    <Tag>&lt;OPCUADataReference xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;appName&gt;SystemVariables&lt;/appName&gt;&lt;endpointUrl i:nil="true"/&gt;&lt;hostName i:nil="true"/&gt;&lt;humanReadable&gt;Blink5s&lt;/humanReadable&gt;&lt;isRedundancyEnabled&gt;true&lt;/isRedundancyEnabled&gt;&lt;parentNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionIdList i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionName i:nil="true"/&gt;&lt;parentTypeDefinitionNameList i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/&gt;&lt;parentTypeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;readablPath i:nil="true"/&gt;&lt;relativePath&gt;Blink5s&lt;/relativePath&gt;&lt;resolvedItem&gt;false&lt;/resolvedItem&gt;&lt;resolvedNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;resolvedStartingNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;savedRelativePath i:nil="true"/&gt;&lt;savedStartingAddress i:nil="true"/&gt;&lt;startingAddress i:nil="true"/&gt;&lt;typeDefinitionName i:nil="true"/&gt;&lt;typeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;/OPCUADataReference&gt;</Tag>
+    <TagName>Blink5s</TagName>
+    <ConditionType>0</ConditionType>
+    <ActivationValue>1</ActivationValue>
+    <SchedType>0</SchedType>
+    <EventCommandList>&lt;CommandManagerList xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;entry i:type="RunScriptCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;parameter i:nil="true"/&gt;&lt;scriptName&gt;Script/VL/Alarm_Cnt_bits.Script&lt;/scriptName&gt;&lt;/entry&gt;&lt;/CommandManagerList&gt;</EventCommandList>
+    <UFEventFolder>2</UFEventFolder>
+    <OptimisticLockField>2</OptimisticLockField>
+  </UFEventObject>
+  <UFEventObject>
+    <OID>23</OID>
+    <Name>ActiveTreatments</Name>
+    <NodeId>990bb5be-8b4f-4330-a905-405605f25da4</NodeId>
+    <Enable>true</Enable>
+    <Type>1</Type>
+    <ConditionType>0</ConditionType>
+    <ActivationValue>1</ActivationValue>
+    <EnableTagName></EnableTagName>
+    <SchedType>0</SchedType>
+    <Date>2020-09-22T00:00:00</Date>
+    <EventCommandList>&lt;CommandManagerList xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;entry i:type="RunScriptCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;parameter i:nil="true"/&gt;&lt;scriptName&gt;Script/VL/ActiveTreatments.Script&lt;/scriptName&gt;&lt;/entry&gt;&lt;/CommandManagerList&gt;</EventCommandList>
+    <UFEventFolder>2</UFEventFolder>
+    <OptimisticLockField>2</OptimisticLockField>
+  </UFEventObject>
+  <UFEventObject>
+    <OID>24</OID>
+    <Name>VSRStatus</Name>
+    <NodeId>a8abc4d8-d8e5-45ef-b399-4242bd495b02</NodeId>
+    <Enable>true</Enable>
+    <Type>0</Type>
+    <Tag>&lt;OPCUADataReference xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;appName&gt;SystemVariables&lt;/appName&gt;&lt;endpointUrl i:nil="true"/&gt;&lt;hostName i:nil="true"/&gt;&lt;humanReadable&gt;Blink1s&lt;/humanReadable&gt;&lt;isRedundancyEnabled&gt;true&lt;/isRedundancyEnabled&gt;&lt;parentNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionIdList i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionName i:nil="true"/&gt;&lt;parentTypeDefinitionNameList i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/&gt;&lt;parentTypeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;readablPath i:nil="true"/&gt;&lt;relativePath&gt;Blink1s&lt;/relativePath&gt;&lt;resolvedItem&gt;false&lt;/resolvedItem&gt;&lt;resolvedNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;resolvedStartingNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;savedRelativePath i:nil="true"/&gt;&lt;savedStartingAddress i:nil="true"/&gt;&lt;startingAddress i:nil="true"/&gt;&lt;typeDefinitionName i:nil="true"/&gt;&lt;typeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;/OPCUADataReference&gt;</Tag>
+    <TagName>Blink1s</TagName>
+    <ConditionType>0</ConditionType>
+    <ActivationValue>1</ActivationValue>
+    <SchedType>0</SchedType>
+    <EventCommandList>&lt;CommandManagerList xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;entry i:type="RunScriptCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;parameter i:nil="true"/&gt;&lt;scriptName&gt;Script/VL/Status_VSRA.Script&lt;/scriptName&gt;&lt;/entry&gt;&lt;entry i:type="RunScriptCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;parameter i:nil="true"/&gt;&lt;scriptName&gt;Script/VL/Status_VSRB.Script&lt;/scriptName&gt;&lt;/entry&gt;&lt;/CommandManagerList&gt;</EventCommandList>
+    <UFEventFolder>2</UFEventFolder>
+    <OptimisticLockField>4</OptimisticLockField>
+  </UFEventObject>
+</DefaultName>

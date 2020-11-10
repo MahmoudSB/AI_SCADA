@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScriptDocument xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
+  <bEnableLog>false</bEnableLog>
+  <bEnableSysLog>false</bEnableSysLog>
+  <breakpoints xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <currentStatusTag i:nil="true" />
+  <cycleTimeTag i:nil="true" />
+  <disableWhenNotUsed>true</disableWhenNotUsed>
+  <fastSamplingInterval>500</fastSamplingInterval>
+  <forceWritingOnServer>false</forceWritingOnServer>
+  <id>00000000-0000-0000-0000-000000000000</id>
+  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>SPARK_VSR01_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR11_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR12_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR13_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR14_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR15_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR16_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR17_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR18_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR19_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR20_SCADA_Alarm_Cnt</d2p1:string>
+    <d2p1:string>SPARK_VSR01_PLC_Alarm_Message1</d2p1:string>
+    <d2p1:string>SPARK_VSR01_PLC_Alarm_Message2</d2p1:string>
+    <d2p1:string>SPARK_VSR02_PLC_Alarm_Message1</d2p1:string>
+    <d2p1:string>SPARK_VSR02_PLC_Alarm_Message2</d2p1:string>
+    <d2p1:string>SPARK_VSR03_PLC_Alarm_Message1</d2p1:string>
+    <d2p1:string>SPARK_VSR03_PLC_Alarm_Message2</d2p1:string>
+    <d2p1:string>SPARK_VSR04_PLC_Alarm_Message1</d2p1:string>
+    <d2p1:string>SPARK_VSR04_PLC_Alarm_Message2</d2p1:string>
+    <d2p1:string>SPARK_VSR05_PLC_Alarm_Message1</d2p1:string>
+    <d2p1:string>SPARK_VSR05_PLC_Alarm_Message2</d2p1:string>
+    <d2p1:string>SPARK_VSR06_PLC_Alarm_Message1</d2p1:string>
+    <d2p1:string>SPARK_VSR06_PLC_Alarm_Message2</d2p1:string>
+    <d2p1:string>SPARK_VSR07_PLC_Alarm_Message1</d2p1:string>
+    <d2p1:string>SPARK_VSR07_PLC_Alarm_Message2</d2p1:string>
+    <d2p1:string>SPARK_VSR08_PLC_Alarm_Message1</d2p1:string>
+    <d2p1:string>SPARK_VSR08_PLC_Alarm_Message2</d2p1:string>
+    <d2p1:string>SPARK_VSR09_PLC_Alarm_Message1</d2p1:string>
+    <d2p1:string>SPARK_VSR09_PLC_Alarm_Message2</d2p1:string>
+    <d2p1:string>SPARK_VSR10_PLC_Alarm_Message1</d2p1:string>
+    <d2p1:string>SPARK_VSR10_PLC_Alarm_Message2</d2p1:string>
+    <d2p1:string>SPARK_VSR11_PLC_Alarm_Message1</d2p1:string>
+    <d2p1:string>SPARK_VSR11_PLC_Alarm_Message2</d2p1:string>
+    <d2p1:string>SPARK_VSR12_PLC_Alarm_Message1</d2p1:string>
+    <d2p1:string>SPARK_VSR12_PLC_Alarm_Message2</d2p1:string>
+    <d2p1:string>SPARK_VSR13_PLC_Alarm_Message1</d2p1:string>
+    <d2p1:string>SPARK_VSR13_PLC_Alarm_Message2</d2p1:string>
+    <d2p1:string>SPARK_VSR14_PLC_Alarm_Message1</d2p1:string>
+    <d2p1:string>SPARK_VSR14_PLC_Alarm_Message2</d2p1:string>
+  </listVariableUsed>
+  <maxCleanCount>2</maxCleanCount>
+  <nSelLength>2224</nSelLength>
+  <nSleepTime>50</nSleepTime>
+  <nStartSel>5944</nStartSel>
+  <publishingInterval>1000</publishingInterval>
+  <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
+  <sCode>'#Language "WWB.NET"
+Sub Main Handles .Main
+
+    Dim i As Integer
+    Dim and_filter(4) As Integer
+    and_filter={1, 64, 128, 256, 4096}
+
+    SPARK_VSR01_SCADA_Alarm_Cnt = 0
+    SPARK_VSR02_SCADA_Alarm_Cnt = 0
+    SPARK_VSR03_SCADA_Alarm_Cnt = 0
+    SPARK_VSR04_SCADA_Alarm_Cnt = 0
+    SPARK_VSR05_SCADA_Alarm_Cnt = 0
+    SPARK_VSR06_SCADA_Alarm_Cnt = 0
+    SPARK_VSR07_SCADA_Alarm_Cnt = 0
+    SPARK_VSR08_SCADA_Alarm_Cnt = 0
+    SPARK_VSR09_SCADA_Alarm_Cnt = 0
+    SPARK_VSR10_SCADA_Alarm_Cnt = 0
+    SPARK_VSR11_SCADA_Alarm_Cnt = 0
+    SPARK_VSR12_SCADA_Alarm_Cnt = 0
+    SPARK_VSR13_SCADA_Alarm_Cnt = 0
+    SPARK_VSR14_SCADA_Alarm_Cnt = 0
+    SPARK_VSR15_SCADA_Alarm_Cnt = 0
+    SPARK_VSR16_SCADA_Alarm_Cnt = 0
+    SPARK_VSR17_SCADA_Alarm_Cnt = 0
+    SPARK_VSR18_SCADA_Alarm_Cnt = 0
+    SPARK_VSR19_SCADA_Alarm_Cnt = 0
+    SPARK_VSR20_SCADA_Alarm_Cnt = 0
+
+    For i=0 To 4
+        If SPARK_VSR01_PLC_Alarm_Message1 And and_filter(i) Then
+            SPARK_VSR01_SCADA_Alarm_Cnt = SPARK_VSR01_SCADA_Alarm_Cnt+1
+        End If
+
+        If (i=2 Or i=3) And (SPARK_VSR01_PLC_Alarm_Message2 And and_filter(i)) Then
+            SPARK_VSR01_SCADA_Alarm_Cnt = SPARK_VSR01_SCADA_Alarm_Cnt+1
+        End If
+    Next
+
+    For i=0 To 4
+        If SPARK_VSR02_PLC_Alarm_Message1 And and_filter(i) Then
+            SPARK_VSR02_SCADA_Alarm_Cnt = SPARK_VSR02_SCADA_Alarm_Cnt+1
+        End If
+
+        If (i=2 Or i=3) And (SPARK_VSR02_PLC_Alarm_Message2 And and_filter(i)) Then
+            SPARK_VSR02_SCADA_Alarm_Cnt = SPARK_VSR02_SCADA_Alarm_Cnt+1
+        End If
+    Next
+
+    For i=0 To 4
+
+        If SPARK_VSR03_PLC_Alarm_Message1 And and_filter(i) Then
+            SPARK_VSR03_SCADA_Alarm_Cnt = SPARK_VSR03_SCADA_Alarm_Cnt+1
+        End If
+
+        If (i=2 Or i=3) And (SPARK_VSR03_PLC_Alarm_Message2 And and_filter(i)) Then
+            SPARK_VSR03_SCADA_Alarm_Cnt = SPARK_VSR03_SCADA_Alarm_Cnt+1
+        End If
+    Next
+
+    For i=0 To 4
+        If SPARK_VSR04_PLC_Alarm_Message1 And and_filter(i) Then
+            SPARK_VSR04_SCADA_Alarm_Cnt = SPARK_VSR04_SCADA_Alarm_Cnt+1
+        End If
+
+        If (i=2 Or i=3) And (SPARK_VSR04_PLC_Alarm_Message2 And and_filter(i)) Then
+            SPARK_VSR04_SCADA_Alarm_Cnt = SPARK_VSR04_SCADA_Alarm_Cnt+1
+        End If
+    Next
+
+    For i=0 To 4
+        If SPARK_VSR05_PLC_Alarm_Message1 And and_filter(i) Then
+            SPARK_VSR05_SCADA_Alarm_Cnt = SPARK_VSR05_SCADA_Alarm_Cnt+1
+        End If
+
+        If (i=2 Or i=3) And (SPARK_VSR05_PLC_Alarm_Message2 And and_filter(i)) Then
+            SPARK_VSR05_SCADA_Alarm_Cnt = SPARK_VSR05_SCADA_Alarm_Cnt+1
+        End If
+    Next
+
+    For i=0 To 4
+        If SPARK_VSR06_PLC_Alarm_Message1 And and_filter(i) Then
+            SPARK_VSR06_SCADA_Alarm_Cnt = SPARK_VSR06_SCADA_Alarm_Cnt+1
+        End If
+
+        If (i=2 Or i=3) And (SPARK_VSR06_PLC_Alarm_Message2 And and_filter(i)) Then
+            SPARK_VSR06_SCADA_Alarm_Cnt = SPARK_VSR06_SCADA_Alarm_Cnt+1
+        End If
+    Next
+
+    For i=0 To 4
+        If SPARK_VSR07_PLC_Alarm_Message1 And and_filter(i) Then
+            SPARK_VSR07_SCADA_Alarm_Cnt = SPARK_VSR07_SCADA_Alarm_Cnt+1
+        End If
+
+        If (i=2 Or i=3) And (SPARK_VSR07_PLC_Alarm_Message2 And and_filter(i)) Then
+            SPARK_VSR07_SCADA_Alarm_Cnt = SPARK_VSR07_SCADA_Alarm_Cnt+1
+        End If
+    Next
+
+    For i=0 To 4
+        If SPARK_VSR08_PLC_Alarm_Message1 And and_filter(i) Then
+            SPARK_VSR08_SCADA_Alarm_Cnt = SPARK_VSR08_SCADA_Alarm_Cnt+1
+        End If
+
+        If (i=2 Or i=3) And (SPARK_VSR08_PLC_Alarm_Message2 And and_filter(i)) Then
+            SPARK_VSR08_SCADA_Alarm_Cnt = SPARK_VSR08_SCADA_Alarm_Cnt+1
+        End If
+    Next
+
+    For i=0 To 4
+        If SPARK_VSR09_PLC_Alarm_Message1 And and_filter(i) Then
+            SPARK_VSR09_SCADA_Alarm_Cnt = SPARK_VSR09_SCADA_Alarm_Cnt+1
+        End If
+
+        If (i=2 Or i=3) And (SPARK_VSR09_PLC_Alarm_Message2 And and_filter(i)) Then
+            SPARK_VSR09_SCADA_Alarm_Cnt = SPARK_VSR09_SCADA_Alarm_Cnt+1
+        End If
+    Next
+
+    For i=0 To 4
+        If SPARK_VSR10_PLC_Alarm_Message1 And and_filter(i) Then
+            SPARK_VSR10_SCADA_Alarm_Cnt = SPARK_VSR10_SCADA_Alarm_Cnt+1
+        End If
+
+        If (i=2 Or i=3) And (SPARK_VSR10_PLC_Alarm_Message2 And and_filter(i)) Then
+            SPARK_VSR10_SCADA_Alarm_Cnt = SPARK_VSR10_SCADA_Alarm_Cnt+1
+        End If
+    Next
+
+    For i=0 To 4
+        If SPARK_VSR11_PLC_Alarm_Message1 And and_filter(i) Then
+            SPARK_VSR11_SCADA_Alarm_Cnt = SPARK_VSR11_SCADA_Alarm_Cnt+1
+        End If
+
+        If (i=2 Or i=3) And (SPARK_VSR11_PLC_Alarm_Message2 And and_filter(i)) Then
+            SPARK_VSR11_SCADA_Alarm_Cnt = SPARK_VSR11_SCADA_Alarm_Cnt+1
+        End If
+    Next
+
+    For i=0 To 4
+        If SPARK_VSR12_PLC_Alarm_Message1 And and_filter(i) Then
+            SPARK_VSR12_SCADA_Alarm_Cnt = SPARK_VSR12_SCADA_Alarm_Cnt+1
+        End If
+
+        If (i=2 Or i=3) And (SPARK_VSR12_PLC_Alarm_Message2 And and_filter(i)) Then
+            SPARK_VSR12_SCADA_Alarm_Cnt = SPARK_VSR12_SCADA_Alarm_Cnt+1
+        End If
+    Next
+
+    For i=0 To 4
+        If SPARK_VSR13_PLC_Alarm_Message1 And and_filter(i) Then
+            SPARK_VSR13_SCADA_Alarm_Cnt = SPARK_VSR13_SCADA_Alarm_Cnt+1
+        End If
+
+        If (i=2 Or i=3) And (SPARK_VSR13_PLC_Alarm_Message2 And and_filter(i)) Then
+            SPARK_VSR13_SCADA_Alarm_Cnt = SPARK_VSR13_SCADA_Alarm_Cnt+1
+        End If
+    Next
+
+    For i=0 To 4
+        If SPARK_VSR14_PLC_Alarm_Message1 And and_filter(i) Then
+            SPARK_VSR14_SCADA_Alarm_Cnt = SPARK_VSR14_SCADA_Alarm_Cnt+1
+        End If
+
+        If (i=2 Or i=3) And (SPARK_VSR14_PLC_Alarm_Message2 And and_filter(i)) Then
+            SPARK_VSR14_SCADA_Alarm_Cnt = SPARK_VSR14_SCADA_Alarm_Cnt+1
+        End If
+    Next
+
+     'For i=0 To 4
+        'If SPARK_VSR15_PLC_Alarm_Message1 And and_filter(i) Then
+            'SPARK_VSR15_SCADA_Alarm_Cnt = SPARK_VSR15_SCADA_Alarm_Cnt+1
+        'End If
+'
+        'If (i=2 Or i=3) And (SPARK_VSR15_PLC_Alarm_Message2 And and_filter(i)) Then
+            'SPARK_VSR15_SCADA_Alarm_Cnt = SPARK_VSR15_SCADA_Alarm_Cnt+1
+        'End If
+    'Next
+'
+    'For i=0 To 4
+        'If SPARK_VSR16_PLC_Alarm_Message1 And and_filter(i) Then
+            'SPARK_VSR16_SCADA_Alarm_Cnt = SPARK_VSR16_SCADA_Alarm_Cnt+1
+        'End If
+'
+        'If (i=2 Or i=3) And (SPARK_VSR16_PLC_Alarm_Message2 And and_filter(i)) Then
+            'SPARK_VSR16_SCADA_Alarm_Cnt = SPARK_VSR16_SCADA_Alarm_Cnt+1
+        'End If
+    'Next
+'
+    'For i=0 To 4
+        'If SPARK_VSR17_PLC_Alarm_Message1 And and_filter(i) Then
+            'SPARK_VSR17_SCADA_Alarm_Cnt = SPARK_VSR17_SCADA_Alarm_Cnt+1
+        'End If
+'
+        'If (i=2 Or i=3) And (SPARK_VSR17_PLC_Alarm_Message2 And and_filter(i)) Then
+            'SPARK_VSR17_SCADA_Alarm_Cnt = SPARK_VSR17_SCADA_Alarm_Cnt+1
+        'End If
+    'Next
+'
+    'For i=0 To 4
+        'If SPARK_VSR18_PLC_Alarm_Message1 And and_filter(i) Then
+            'SPARK_VSR18_SCADA_Alarm_Cnt = SPARK_VSR18_SCADA_Alarm_Cnt+1
+        'End If
+'
+        'If (i=2 Or i=3) And (SPARK_VSR18_PLC_Alarm_Message2 And and_filter(i)) Then
+            'SPARK_VSR18_SCADA_Alarm_Cnt = SPARK_VSR18_SCADA_Alarm_Cnt+1
+        'End If
+    'Next
+'
+    'For i=0 To 4
+        'If SPARK_VSR19_PLC_Alarm_Message1 And and_filter(i) Then
+            'SPARK_VSR19_SCADA_Alarm_Cnt = SPARK_VSR19_SCADA_Alarm_Cnt+1
+        'End If
+'
+        'If (i=2 Or i=3) And (SPARK_VSR19_PLC_Alarm_Message2 And and_filter(i)) Then
+            'SPARK_VSR19_SCADA_Alarm_Cnt = SPARK_VSR19_SCADA_Alarm_Cnt+1
+        'End If
+    'Next
+'
+    'For i=0 To 4
+        'If SPARK_VSR20_PLC_Alarm_Message1 And and_filter(i) Then
+            'SPARK_VSR20_SCADA_Alarm_Cnt = SPARK_VSR20_SCADA_Alarm_Cnt+1
+        'End If
+'
+        'If (i=2 Or i=3) And (SPARK_VSR20_PLC_Alarm_Message2 And and_filter(i)) Then
+            'SPARK_VSR20_SCADA_Alarm_Cnt = SPARK_VSR20_SCADA_Alarm_Cnt+1
+        'End If
+    'Next
+
+End Sub
+</sCode>
+  <sessionName i:nil="true" />
+  <slowSamplingInterval>5000</slowSamplingInterval>
+  <stopCommandTimeout>2000</stopCommandTimeout>
+  <threadPriority>Normal</threadPriority>
+  <useAlwaysSecureConnections>false</useAlwaysSecureConnections>
+  <writeTimeout>0</writeTimeout>
+</ScriptDocument>

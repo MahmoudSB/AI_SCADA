@@ -1,0 +1,110 @@
+<Canvas Width="1024" Height="768" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:syncfusion="http://schemas.syncfusion.com/wpf" xmlns:wpfuc="clr-namespace:WPFUtilities.Converters;assembly=WPFUtilities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:hr="clr-namespace:HotRegion;assembly=HotRegion">
+  <Canvas.Background>
+    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1" ColorInterpolationMode="SRgbLinearInterpolation" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad" Opacity="1">
+      <LinearGradientBrush.GradientStops>
+        <GradientStop Color="#FFC5C6C8" Offset="0" />
+        <GradientStop Color="#FF57585A" Offset="1" />
+      </LinearGradientBrush.GradientStops>
+    </LinearGradientBrush>
+  </Canvas.Background>
+  <Border BorderThickness="1,1,1,1" CornerRadius="10,10,10,10" BorderBrush="#00000000" Background="#FF000000" Name="Border" Width="247.668382668383" MinWidth="5" Height="747" MinHeight="5" RenderTransformOrigin="0.5,0.5" Opacity="0.4" IsHitTestVisible="True" Canvas.Left="9" Canvas.Top="79.846977683078" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <Rectangle Fill="#FF000000" Stroke="#00000000" Name="Rectangle1" Width="1325" MinWidth="5" Height="67.5450637359349" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="261.2472899729" Canvas.Top="758.301913947143" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="GridAlarmWindow" Width="1325" Height="745" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="261.2472899729" Canvas.Top="80.846977683078" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <Border BorderThickness="2,2,2,2" Padding="0,0,0,0" CornerRadius="5,5,5,5" BorderBrush="#00000000" Name="Border3" Width="350" MinWidth="5" Height="61" MinHeight="5" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Opacity="1" IsHitTestVisible="True" Canvas.Left="7.49063317622972" Canvas.Top="831.577946441609" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <Border.Background>
+      <VisualBrush>
+        <VisualBrush.Visual>
+          <Image>
+            <Image.Source>
+              <Binding ConverterParameter="AI_Logo_New.png">
+                <Binding.Converter>
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\premelgado\Desktop\AI_Scada_20200710_00\AI_Scada_20200710_00\Screen\Spark\VSR\" AbsolutePath2="C:\Users\premelgado\Desktop\AI_Scada_20200710_00\Images\" />
+                </Binding.Converter>
+              </Binding>
+            </Image.Source>
+          </Image>
+        </VisualBrush.Visual>
+      </VisualBrush>
+    </Border.Background>
+  </Border>
+  <Border BorderThickness="1,1,1,1" CornerRadius="10,10,10,10" BorderBrush="#00000000" Background="#FF000000" Name="Border10" Width="199.559988192357" MinWidth="5" Height="70" MinHeight="5" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Opacity="0.4" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="1392.00081482549" Canvas.Top="7" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <Border BorderThickness="1,1,1,1" CornerRadius="10,10,10,10" BorderBrush="#00000000" Background="#FF000000" Name="Border02" Width="88.9591397849465" MinWidth="5" Height="70" MinHeight="5" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Opacity="0.4" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="1392.00081482549" Canvas.Top="7" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" FontSize="24" FontWeight="Normal" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="TextBox" Width="83.5847685568126" MinWidth="5" Height="48.75" MinHeight="5" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="1394.11050493682" Canvas.Top="17" syncfusion:SkinStorage.OverrideVisualStyle="True">Active</TextBox>
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" Foreground="#FFA7A8AA" FontSize="24" FontWeight="Normal" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="TextBox1" Width="109.138461538462" MinWidth="5" Height="48.75" MinHeight="5" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="1478.97204339836" Canvas.Top="17" syncfusion:SkinStorage.OverrideVisualStyle="True">Historical</TextBox>
+  <hr:HotRegionControl BorderBrush="{DynamicResource GS_gray2}" BorderThickness="1,1,1,1" Background="{DynamicResource GS_black2}" FontSize="11.5" Style="{DynamicResource HotregionStyle}" Name="HotRegionControl03" Width="110.815384615385" Height="64.2" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Opacity="0.3" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="1480.34747231951" Canvas.Top="9.35119933829623" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="ButtonControl1" Width="96.6000000000002" Height="60.9999999999999" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="29.7921634436749" Canvas.Top="172" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl3" Width="96.6000000000002" Height="60.9999999999999" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="29.3769587653123" Canvas.Top="99.0760233918128" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl4" Width="96.6000000000002" Height="60.9999999999999" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="30.5921634436749" Canvas.Top="319.2" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl5" Width="96.6000000000002" Height="60.9999999999999" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="29.7921634436749" Canvas.Top="245.6" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl6" Width="96.6000000000002" Height="60.9999999999999" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="29.7921634436749" Canvas.Top="465.6" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl7" Width="96.6000000000002" Height="60.9999999999999" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="29.7921634436749" Canvas.Top="393.6" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl9" Width="96.6000000000002" Height="60.9999999999999" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="29.7921634436749" Canvas.Top="537.6" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl8" Width="96.6000000000002" Height="60.9999999999999" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="139.392163443675" Canvas.Top="171.2" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl11" Width="96.6000000000002" Height="60.9999999999999" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="139.392163443675" Canvas.Top="99.2" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl12" Width="96.6000000000002" Height="60.9999999999999" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="139.392163443675" Canvas.Top="318.4" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl13" Width="96.6000000000002" Height="60.9999999999999" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="139.392163443675" Canvas.Top="244.8" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl14" Width="96.6000000000002" Height="60.9999999999999" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="139.392163443675" Canvas.Top="464.8" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl15" Width="96.6000000000002" Height="60.9999999999999" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="139.392163443675" Canvas.Top="392.8" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl16" Width="96.6000000000002" Height="60.9999999999999" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="139.392163443675" Canvas.Top="536.800000000001" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl10" Width="209.4" Height="60.9999999999999" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="27.6" Canvas.Top="676.4" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="ButtonControl02" Width="209.4" Height="60.9999999999999" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="28.4" Canvas.Top="745.2" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <Border BorderThickness="1,1,1,1" CornerRadius="10,10,10,10" BorderBrush="#00000000" Background="#FF000000" Name="Border1" Width="806.929084132076" MinWidth="5" Height="70" MinHeight="5" RenderTransformOrigin="0.5,0.5" Opacity="0.4" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="8" Canvas.Top="5" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="EditDisplay12" Width="113" Height="31" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="215" Canvas.Top="37.5" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EditDisplay03" Width="113" Height="31" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="215" Canvas.Top="9.5" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <Line X1="210.500000000001" Y1="13" X2="210.500000000001" Y2="69.4999999999999" Stroke="#FF999999" StrokeThickness="2" Name="Line" MinWidth="5" MinHeight="5" RenderTransform="{x:Null}" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="0" Canvas.Top="0" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <Border BorderThickness="1,1,1,1" CornerRadius="10,10,10,10" BorderBrush="#00000000" Background="#FFBFDAE3" Name="Border2" Width="136" MinWidth="5" Height="70" MinHeight="5" RenderTransformOrigin="0.5,0.5" Opacity="0.1" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="8" Canvas.Top="5" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <Rectangle Stroke="#00000000" Name="Rectangle" Width="120" MinWidth="5" Height="30" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="16.75" Canvas.Top="25.5" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <Rectangle.Fill>
+      <VisualBrush>
+        <VisualBrush.Visual>
+          <Image>
+            <Image.Source>
+              <Binding ConverterParameter="Ecobite_logo.png">
+                <Binding.Converter>
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                </Binding.Converter>
+              </Binding>
+            </Image.Source>
+          </Image>
+        </VisualBrush.Visual>
+      </VisualBrush>
+    </Rectangle.Fill>
+  </Rectangle>
+  <ContentControl Background="#FFFFFFFF" Name="ContentControl1" Width="43" Height="43" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="337.5" Canvas.Top="16" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <Line X1="331.500000000001" Y1="13" X2="331.500000000001" Y2="69.4999999999999" Stroke="#FF999999" StrokeThickness="2" Name="Line1" MinWidth="5" MinHeight="5" RenderTransform="{x:Null}" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="0" Canvas.Top="0" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="EditDisplay13" Width="97" Height="29" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="375.5" Canvas.Top="23" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <hr:HotRegionControl BorderBrush="{DynamicResource GS_gray2}" BorderThickness="1,1,1,1" Background="{DynamicResource GS_black2}" Style="{DynamicResource HotregionStyle}" Name="HotRegionControl1" Width="60" Height="65" RenderTransformOrigin="0.5,0.5" Opacity="0.3" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="333.5" Canvas.Top="8" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <Viewbox Stretch="Fill" Name="Viewbox3" Width="44" Height="51" RenderTransformOrigin="0.5,0.5" Opacity="0.5" IsManipulationEnabled="False" Canvas.Left="154" Canvas.Top="16" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <Canvas Width="32.7735595703125" Height="45.0847473144531" Canvas.Left="0" Canvas.Top="0">
+      <Polyline Points="0,0 15,10 30,0" Stroke="#FFF5F5F5" StrokeThickness="5" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" MinWidth="5" MinHeight="5" RenderTransform="{x:Null}" RenderTransformOrigin="0.5,0.5" x:Uid="Polyline2" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="1.38677978515625" Canvas.Top="2.08012390136719" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+      <Polyline Points="0,0 15,10 30,0" Stroke="#FFF5F5F5" StrokeThickness="5" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" MinWidth="5" MinHeight="5" RenderTransform="{x:Null}" RenderTransformOrigin="0.5,0.5" x:Uid="Polyline4" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="1.38677978515625" Canvas.Top="17.0801239013672" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+      <Polyline Points="0,0 15,10 30,0" Stroke="#FFF5F5F5" StrokeThickness="5" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" MinWidth="5" MinHeight="5" RenderTransform="{x:Null}" RenderTransformOrigin="0.5,0.5" x:Uid="Polyline6" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="1.38677978515625" Canvas.Top="32.0801239013672" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+    </Canvas>
+  </Viewbox>
+  <hr:HotRegionControl BorderBrush="{DynamicResource GS_gray2}" BorderThickness="1,1,1,1" Background="{DynamicResource GS_black2}" Style="{DynamicResource HotregionStyle}" Name="HotRegionControl2" Width="60" Height="66" RenderTransformOrigin="0.5,0.5" Opacity="0.3" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="148" Canvas.Top="7.5" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Background="#FFFFFFFF" Name="ContentControl22" Width="30" Height="35" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="476.5" Canvas.Top="20" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <hr:HotRegionControl BorderBrush="{DynamicResource GS_gray2}" BorderThickness="1,1,1,1" Background="{DynamicResource GS_black2}" Style="{DynamicResource HotregionStyle}" Name="HotRegionControl3" Width="45.6666666666669" Height="65" RenderTransformOrigin="0.5,0.5" Opacity="0.3" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="467" Canvas.Top="8.5" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <Line X1="517.5" Y1="11.0000000000002" X2="517.5" Y2="67.5000000000003" Stroke="#FF999999" StrokeThickness="2" Name="Line26" MinWidth="5" MinHeight="5" RenderTransform="{x:Null}" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="0" Canvas.Top="0" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Background="#FFFFFFFF" Name="ContentControl19" Width="46.5852401459854" Height="35.6206131386861" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="528.941605839416" Canvas.Top="21.3576642335767" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+          <RotateTransform Angle="180" />
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <hr:HotRegionControl BorderBrush="{DynamicResource GS_gray2}" BorderThickness="1,1,1,1" Background="{DynamicResource GS_black2}" Style="{DynamicResource HotregionStyle}" Name="HotRegionControl33" Width="60" Height="65" RenderTransformOrigin="0.5,0.5" Opacity="0.3" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="523.164233576642" Canvas.Top="8.2408759124087" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <Border BorderThickness="1,1,1,1" CornerRadius="10,10,10,10" BorderBrush="#00000000" Background="#FF000000" Name="Border4" Width="165.159988192356" MinWidth="5" Height="70" MinHeight="5" RenderTransformOrigin="0.5,0.5" Opacity="0.4" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="816.812070282659" Canvas.Top="5" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <Line X1="589.863636363637" Y1="11.0000000000002" X2="589.863636363637" Y2="67.5000000000003" Stroke="#FF999999" StrokeThickness="2" Name="Line02" MinWidth="5" MinHeight="5" RenderTransform="{x:Null}" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="0" Canvas.Top="0" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Name="EditDisplay5" Width="160.8" Height="30" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="818.071428571429" Canvas.Top="23.8190476190476" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Background="#FFFFFFFF" FontSize="11.5" Name="ContentControl7" Width="45" Height="40" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="765.122868190411" Canvas.Top="18.5923289824784" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <hr:HotRegionControl BorderBrush="{DynamicResource GS_gray2}" BorderThickness="1,1,1,1" Background="{DynamicResource GS_black2}" FontSize="11.5" Style="{DynamicResource HotregionStyle}" Name="HotRegionControl02" Width="50.4869674067251" Height="54.9869481765835" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Opacity="0.3" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="761.468166052763" Canvas.Top="12.735683331707" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Background="#FFFFFFFF" Name="ContentControl25" Width="45" Height="45" RenderTransformOrigin="0.5,0.5" Canvas.Left="710.552875806879" Canvas.Top="18.8810652082155" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Background="#FFFFFFFF" Name="ContentControl27" Width="45" Height="45" RenderTransformOrigin="0.5,0.5" Canvas.Left="599.205365391552" Canvas.Top="18.0184594490431" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Background="#FFFFFFFF" Name="ContentControl23" Width="45" Height="40" RenderTransformOrigin="0.5,0.5" Canvas.Left="655.15468174224" Canvas.Top="21.2938535797537" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <hr:HotRegionControl BorderBrush="{DynamicResource GS_gray2}" BorderThickness="1,1,1,1" Background="{DynamicResource GS_black2}" FontSize="11.5" Style="{DynamicResource HotregionStyle}" Name="HotRegionControl04" Width="50.4869674067251" Height="54.9869481765835" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Opacity="0.3" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="707.149548010536" Canvas.Top="13.6953762299795" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <hr:HotRegionControl BorderBrush="{DynamicResource GS_gray2}" BorderThickness="1,1,1,1" Background="{DynamicResource GS_black2}" FontSize="11.5" Style="{DynamicResource HotregionStyle}" Name="HotRegionControl05" Width="50.4869674067251" Height="54.9869481765835" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Opacity="0.3" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="651.295421331074" Canvas.Top="13.8873148096341" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <hr:HotRegionControl BorderBrush="{DynamicResource GS_gray2}" BorderThickness="1,1,1,1" Background="{DynamicResource GS_black2}" FontSize="11.5" Style="{DynamicResource HotregionStyle}" Name="HotRegionControl06" Width="50.4869674067251" Height="54.9869481765835" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Opacity="0.3" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="597.744557607466" Canvas.Top="14.0792533892887" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+</Canvas>

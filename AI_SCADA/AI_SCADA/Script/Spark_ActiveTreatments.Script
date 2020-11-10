@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScriptDocument xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
+  <bEnableLog>false</bEnableLog>
+  <bEnableSysLog>false</bEnableSysLog>
+  <breakpoints xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <currentStatusTag i:nil="true" />
+  <cycleTimeTag i:nil="true" />
+  <disableWhenNotUsed>true</disableWhenNotUsed>
+  <fastSamplingInterval>500</fastSamplingInterval>
+  <forceWritingOnServer>false</forceWritingOnServer>
+  <id>00000000-0000-0000-0000-000000000000</id>
+  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>SPARK_VSR01_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR01_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR01_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR01_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR01_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR01_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>SPARK_VSR02_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR02_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR02_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR02_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR02_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR02_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>SPARK_VSR03_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR03_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR03_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR03_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR03_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR03_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>SPARK_VSR04_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR04_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR04_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR04_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR04_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR04_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>SPARK_VSR05_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR05_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR05_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR05_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR05_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR05_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>SPARK_VSR06_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR06_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR06_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR06_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR06_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR06_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>SPARK_VSR07_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR07_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR07_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR07_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR07_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR07_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>SPARK_VSR08_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR08_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR08_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR08_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR08_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR08_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>SPARK_VSR09_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR09_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR09_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR09_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR09_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR09_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>SPARK_VSR10_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR10_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR10_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR10_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR10_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR10_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>SPARK_VSR11_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR11_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR11_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR11_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR11_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR11_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>SPARK_VSR12_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR12_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR12_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR12_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR12_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR12_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>SPARK_VSR13_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR13_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR13_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR13_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR13_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR13_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>SPARK_VSR14_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR14_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR14_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR14_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR14_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR14_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>SPARK_VSR01_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR02_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR03_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR04_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR05_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR06_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR07_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR08_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR09_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR10_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR11_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR12_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR13_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR14_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR15_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR16_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR17_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR18_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR19_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR20_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR01_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR11_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR12_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR13_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR14_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR15_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR16_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR17_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR18_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR19_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_VSR20_SCADA_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_TableOfRemainedTime</d2p1:string>
+    <d2p1:string>SPARK_TableOfVSRNames</d2p1:string>
+    <d2p1:string>SPARK_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>SPARK_TableNameVisible</d2p1:string>
+  </listVariableUsed>
+  <maxCleanCount>2</maxCleanCount>
+  <nSelLength>1877</nSelLength>
+  <nSleepTime>50</nSleepTime>
+  <nStartSel>5576</nStartSel>
+  <publishingInterval>1000</publishingInterval>
+  <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
+  <sCode>'#Language "WWB.NET"
+Sub Main Handles .Main
+
+
+    Dim i As Integer
+    Dim RemainedTime(19) As Integer
+    Dim WaitingForUnload_Timer(19) As Integer
+    Dim VSR_Name(19) As String
+    Dim VSR_Name_Visible(19) As Boolean
+
+
+    VSR_Name(0)= "VSR 1"
+    VSR_Name(1)= "VSR 2"
+    VSR_Name(2)= "VSR 3"
+    VSR_Name(3)= "VSR 4"
+    VSR_Name(4)= "VSR 5"
+    VSR_Name(5)= "VSR 6"
+    VSR_Name(6)= "VSR 7"
+    VSR_Name(7)= "VSR 8"
+    VSR_Name(8)= "VSR 9"
+    VSR_Name(9)= "VSR 10"
+    VSR_Name(10)="VSR 11"
+    VSR_Name(11)="VSR 12"
+    VSR_Name(12)="VSR 13"
+    VSR_Name(13)="VSR 14"
+    VSR_Name(14)="VSR 15"
+    VSR_Name(15)="VSR 16"
+    VSR_Name(16)="VSR 17"
+    VSR_Name(17)="VSR 18"
+    VSR_Name(18)="VSR 19"
+    VSR_Name(19)="VSR 20"
+
+    RemainedTime(0)= 0
+    RemainedTime(1)= 0
+    RemainedTime(2)= 0
+    RemainedTime(3)= 0
+    RemainedTime(4)= 0
+    RemainedTime(5)= 0
+    RemainedTime(6)= 0
+    RemainedTime(7)= 0
+    RemainedTime(8)= 0
+    RemainedTime(9)= 0
+    RemainedTime(10)=0
+    RemainedTime(11)=0
+    RemainedTime(12)=0
+    RemainedTime(13)=0
+    RemainedTime(14)=0
+    RemainedTime(15)=0
+    RemainedTime(16)=0
+    RemainedTime(17)=0
+    RemainedTime(18)=0
+    RemainedTime(19)=0
+
+
+    Try
+    RemainedTime(0)= SPARK_VSR01_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR01_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR01_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR01_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR01_PLC_Analog_Contagen_horas*60 + SPARK_VSR01_PLC_Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(1)= SPARK_VSR02_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR02_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR02_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR02_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR02_PLC_Analog_Contagen_horas*60 + SPARK_VSR02_PLC_Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(2)= SPARK_VSR03_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR03_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR03_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR03_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR03_PLC_Analog_Contagen_horas*60 + SPARK_VSR03_PLC_Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(3)= SPARK_VSR04_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR04_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR04_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR04_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR04_PLC_Analog_Contagen_horas*60 + SPARK_VSR04_PLC_Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(4)= SPARK_VSR05_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR05_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR05_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR05_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR05_PLC_Analog_Contagen_horas*60 + SPARK_VSR05_PLC_Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(5)= SPARK_VSR06_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR06_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR06_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR06_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR06_PLC_Analog_Contagen_horas*60 + SPARK_VSR06_PLC_Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(6)= SPARK_VSR07_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR07_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR07_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR07_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR07_PLC_Analog_Contagen_horas*60 + SPARK_VSR07_PLC_Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(7)= SPARK_VSR08_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR08_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR08_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR08_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR08_PLC_Analog_Contagen_horas*60 + SPARK_VSR08_PLC_Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(8)= SPARK_VSR09_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR09_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR09_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR09_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR09_PLC_Analog_Contagen_horas*60 + SPARK_VSR09_PLC_Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(9)= SPARK_VSR10_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR10_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR10_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR10_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR10_PLC_Analog_Contagen_horas*60 + SPARK_VSR10_PLC_Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(10)=SPARK_VSR11_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR11_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR11_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR11_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR11_PLC_Analog_Contagen_horas*60 + SPARK_VSR11_PLC_Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(11)=SPARK_VSR12_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR12_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR12_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR12_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR12_PLC_Analog_Contagen_horas*60 + SPARK_VSR12_PLC_Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(12)=SPARK_VSR13_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR13_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR13_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR13_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR13_PLC_Analog_Contagen_horas*60 + SPARK_VSR13_PLC_Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(13)=SPARK_VSR14_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR14_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR14_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR14_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR14_PLC_Analog_Contagen_horas*60 + SPARK_VSR14_PLC_Analog_Contagem_min)
+    End Try
+
+    'Try
+    'RemainedTime(14)= SPARK_VSR15_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR15_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR15_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR15_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR15_PLC_Analog_Contagen_horas*60 + SPARK_VSR15_PLC_Analog_Contagem_min)
+    'End Try
+'
+    'Try
+    'RemainedTime(15)= SPARK_VSR16_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR16_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR16_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR16_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR16_PLC_Analog_Contagen_horas*60 + SPARK_VSR16_PLC_Analog_Contagem_min)
+    'End Try
+'
+    'Try
+    'RemainedTime(16)=SPARK_VSR17_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR17_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR17_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR17_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR17_PLC_Analog_Contagen_horas*60 + SPARK_VSR17_PLC_Analog_Contagem_min)
+    'End Try
+'
+    'Try
+    'RemainedTime(17)=SPARK_VSR18_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR18_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR18_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR18_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR18_PLC_Analog_Contagen_horas*60 + SPARK_VSR18_PLC_Analog_Contagem_min)
+    'End Try
+'
+    'Try
+    'RemainedTime(18)=SPARK_VSR19_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR19_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR19_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR19_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR19_PLC_Analog_Contagen_horas*60 + SPARK_VSR19_PLC_Analog_Contagem_min)
+    'End Try
+'
+    'Try
+    'RemainedTime(19)=SPARK_VSR20_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR20_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR20_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR20_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR20_PLC_Analog_Contagen_horas*60 + SPARK_VSR20_PLC_Analog_Contagem_min)
+    'End Try
+
+
+
+    If SPARK_VSR01_Status &lt;&gt; 1 Then
+        RemainedTime(0)= 0
+    End If
+
+    If SPARK_VSR02_Status &lt;&gt; 1 Then
+        RemainedTime(1)= 0
+    End If
+
+    If SPARK_VSR03_Status &lt;&gt; 1 Then
+        RemainedTime(2)= 0
+    End If
+
+    If SPARK_VSR04_Status &lt;&gt; 1 Then
+        RemainedTime(3)= 0
+    End If
+
+    If SPARK_VSR05_Status &lt;&gt; 1 Then
+        RemainedTime(4)= 0
+    End If
+
+    If SPARK_VSR06_Status &lt;&gt; 1 Then
+        RemainedTime(5)= 0
+    End If
+
+    If SPARK_VSR07_Status &lt;&gt; 1 Then
+        RemainedTime(6)= 0
+    End If
+
+    If SPARK_VSR08_Status &lt;&gt; 1 Then
+        RemainedTime(7)= 0
+    End If
+
+    If SPARK_VSR09_Status &lt;&gt; 1 Then
+        RemainedTime(8)= 0
+    End If
+
+    If SPARK_VSR10_Status &lt;&gt; 1 Then
+        RemainedTime(9)= 0
+    End If
+
+    If SPARK_VSR11_Status &lt;&gt; 1 Then
+        RemainedTime(10)= 0
+    End If
+
+    If SPARK_VSR12_Status &lt;&gt; 1 Then
+        RemainedTime(11)= 0
+    End If
+
+    If SPARK_VSR13_Status &lt;&gt; 1 Then
+        RemainedTime(12)= 0
+    End If
+
+    If SPARK_VSR14_Status &lt;&gt; 1 Then
+        RemainedTime(13)= 0
+    End If
+
+    If SPARK_VSR15_Status &lt;&gt; 1 Then
+        RemainedTime(14)= 0
+    End If
+
+    If SPARK_VSR16_Status &lt;&gt; 1 Then
+        RemainedTime(15)= 0
+    End If
+
+    If SPARK_VSR17_Status &lt;&gt; 1 Then
+        RemainedTime(16)= 0
+    End If
+
+    If SPARK_VSR18_Status &lt;&gt; 1 Then
+        RemainedTime(17)= 0
+    End If
+
+    If SPARK_VSR19_Status &lt;&gt; 1 Then
+        RemainedTime(18)= 0
+    End If
+
+    If SPARK_VSR20_Status &lt;&gt; 1 Then
+        RemainedTime(19)= 0
+    End If
+
+
+
+
+    If SPARK_VSR01_Status = 2 Then
+        SPARK_VSR01_SCADA_WaitingForUnload_Timer = SPARK_VSR01_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR01_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(0) = SPARK_VSR01_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR02_Status = 2 Then
+        SPARK_VSR02_SCADA_WaitingForUnload_Timer = SPARK_VSR02_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR02_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(1) = SPARK_VSR02_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR03_Status = 2 Then
+        SPARK_VSR03_SCADA_WaitingForUnload_Timer = SPARK_VSR03_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR03_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(2) = SPARK_VSR03_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR04_Status = 2 Then
+        SPARK_VSR04_SCADA_WaitingForUnload_Timer = SPARK_VSR04_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR04_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(3) = SPARK_VSR04_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR05_Status = 2 Then
+        SPARK_VSR05_SCADA_WaitingForUnload_Timer = SPARK_VSR05_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR05_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(4) = SPARK_VSR05_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR06_Status = 2 Then
+        SPARK_VSR06_SCADA_WaitingForUnload_Timer = SPARK_VSR06_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR06_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(5) = SPARK_VSR06_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR07_Status = 2 Then
+        SPARK_VSR07_SCADA_WaitingForUnload_Timer = SPARK_VSR07_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR07_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(6) = SPARK_VSR07_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR08_Status = 2 Then
+        SPARK_VSR08_SCADA_WaitingForUnload_Timer = SPARK_VSR08_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR08_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(7) = SPARK_VSR08_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR09_Status = 2 Then
+        SPARK_VSR09_SCADA_WaitingForUnload_Timer = SPARK_VSR09_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR09_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(8) = SPARK_VSR09_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR10_Status = 2 Then
+        SPARK_VSR10_SCADA_WaitingForUnload_Timer = SPARK_VSR10_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR10_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(9) = SPARK_VSR10_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR11_Status = 2 Then
+        SPARK_VSR11_SCADA_WaitingForUnload_Timer = SPARK_VSR11_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR11_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(10) = SPARK_VSR11_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR12_Status = 2 Then
+        SPARK_VSR12_SCADA_WaitingForUnload_Timer = SPARK_VSR12_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR12_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(11) = SPARK_VSR12_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR13_Status = 2 Then
+        SPARK_VSR13_SCADA_WaitingForUnload_Timer = SPARK_VSR13_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR13_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(12) = SPARK_VSR13_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR14_Status = 2 Then
+        SPARK_VSR14_SCADA_WaitingForUnload_Timer = SPARK_VSR14_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR14_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(13) = SPARK_VSR14_SCADA_WaitingForUnload_Timer
+
+
+     If SPARK_VSR15_Status = 2 Then
+        SPARK_VSR15_SCADA_WaitingForUnload_Timer = SPARK_VSR15_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR15_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(14) = SPARK_VSR15_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR16_Status = 2 Then
+        SPARK_VSR16_SCADA_WaitingForUnload_Timer = SPARK_VSR16_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR16_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(15) = SPARK_VSR16_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR17_Status = 2 Then
+        SPARK_VSR17_SCADA_WaitingForUnload_Timer = SPARK_VSR17_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR17_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(16) = SPARK_VSR17_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR18_Status = 2 Then
+        SPARK_VSR18_SCADA_WaitingForUnload_Timer = SPARK_VSR18_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR18_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(17) = SPARK_VSR18_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR19_Status = 2 Then
+        SPARK_VSR19_SCADA_WaitingForUnload_Timer = SPARK_VSR19_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR19_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(18) = SPARK_VSR19_SCADA_WaitingForUnload_Timer
+
+    If SPARK_VSR20_Status = 2 Then
+        SPARK_VSR20_SCADA_WaitingForUnload_Timer = SPARK_VSR20_SCADA_WaitingForUnload_Timer +1
+    Else
+        SPARK_VSR20_SCADA_WaitingForUnload_Timer=0
+    End If
+    WaitingForUnload_Timer(19) = SPARK_VSR20_SCADA_WaitingForUnload_Timer
+
+    sort(RemainedTime, WaitingForUnload_Timer, VSR_Name)
+
+    For i=0 To 19
+        VSR_Name_Visible(i) = RemainedTime(i)&gt;0 or WaitingForUnload_Timer(i)&gt;0
+    Next
+
+    SPARK_TableOfRemainedTime = RemainedTime
+    SPARK_TableOfVSRNames = VSR_Name
+    SPARK_WaitingForUnload_Timer = WaitingForUnload_Timer
+    SPARK_TableNameVisible = VSR_Name_Visible
+
+End Sub
+
+Sub sort(ByRef array() As Integer, ByRef Timers() As Integer, ByRef Names() As String)
+
+    Dim i, j, tmp, tmp_timers As Integer
+    Dim tmp_name As String
+
+    Try
+        For i= 0 To array.Length-2
+            For j= 0 To array.Length-2
+                If array(j)+1000*Timers(j)&gt;array(j+1)+1000*Timers(j+1) And array(j+1)+Timers(j+1)&lt;&gt;0 Then
+                    tmp = array(j)
+                    array(j)=array(j+1)
+                    array(j+1)=tmp
+    
+                    tmp_timers = Timers(j)
+                    Timers(j)=Timers(j+1)
+                    Timers(j+1)=tmp_timers
+    
+                    tmp_name = Names(j)
+                    Names(j)=Names(j+1)
+                    Names(j+1)=tmp_name
+                End If
+
+                If array(j)+Timers(j)=0 Then
+                    array(j)=array(j+1)
+                    array(j+1)=0
+
+                    Timers(j)=Timers(j+1)
+                    Timers(j+1)=0
+    
+                    tmp_name = Names(j)
+                    Names(j)=Names(j+1)
+                    Names(j+1)=tmp_name
+                End If
+            Next
+        Next
+
+    End Try
+
+End Sub
+</sCode>
+  <sessionName i:nil="true" />
+  <slowSamplingInterval>5000</slowSamplingInterval>
+  <stopCommandTimeout>2000</stopCommandTimeout>
+  <threadPriority>Normal</threadPriority>
+  <useAlwaysSecureConnections>false</useAlwaysSecureConnections>
+  <writeTimeout>0</writeTimeout>
+</ScriptDocument>

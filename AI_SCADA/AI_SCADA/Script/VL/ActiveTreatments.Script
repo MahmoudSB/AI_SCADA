@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScriptDocument xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
+  <bEnableLog>false</bEnableLog>
+  <bEnableSysLog>false</bEnableSysLog>
+  <breakpoints xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <currentStatusTag i:nil="true" />
+  <cycleTimeTag i:nil="true" />
+  <disableWhenNotUsed>true</disableWhenNotUsed>
+  <fastSamplingInterval>500</fastSamplingInterval>
+  <forceWritingOnServer>false</forceWritingOnServer>
+  <id>00000000-0000-0000-0000-000000000000</id>
+  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>VL_VSRA1_PLC-Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>VL_VSRA1_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>VL_VSRA1_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>VL_VSRA1_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>VL_VSRA1_PLC-Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>VL_VSRA1_PLC-Analog_Contagem_min</d2p1:string>
+    <d2p1:string>VL_VSRA2_PLC-Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>VL_VSRA2_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>VL_VSRA2_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>VL_VSRA2_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>VL_VSRA2_PLC-Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>VL_VSRA2_PLC-Analog_Contagem_min</d2p1:string>
+    <d2p1:string>VL_VSRA3_PLC-Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>VL_VSRA3_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>VL_VSRA3_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>VL_VSRA3_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>VL_VSRA3_PLC-Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>VL_VSRA3_PLC-Analog_Contagem_min</d2p1:string>
+    <d2p1:string>VL_VSRA4_PLC-Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>VL_VSRA4_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>VL_VSRA4_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>VL_VSRA4_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>VL_VSRA4_PLC-Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>VL_VSRA4_PLC-Analog_Contagem_min</d2p1:string>
+    <d2p1:string>VL_VSRA5_PLC-Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>VL_VSRA5_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>VL_VSRA5_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>VL_VSRA5_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>VL_VSRA5_PLC-Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>VL_VSRA5_PLC-Analog_Contagem_min</d2p1:string>
+    <d2p1:string>VL_VSRB1_PLC-Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>VL_VSRB1_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>VL_VSRB1_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>VL_VSRB1_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>VL_VSRB1_PLC-Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>VL_VSRB1_PLC-Analog_Contagem_min</d2p1:string>
+    <d2p1:string>VL_VSRB2_PLC-Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>VL_VSRB2_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>VL_VSRB2_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>VL_VSRB2_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>VL_VSRB2_PLC-Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>VL_VSRB2_PLC-Analog_Contagem_min</d2p1:string>
+    <d2p1:string>VL_VSRB3_PLC-Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>VL_VSRB3_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>VL_VSRB3_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>VL_VSRB3_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>VL_VSRB3_PLC-Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>VL_VSRB3_PLC-Analog_Contagem_min</d2p1:string>
+    <d2p1:string>VL_VSRB4_PLC-Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>VL_VSRB4_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>VL_VSRB4_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>VL_VSRB4_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>VL_VSRB4_PLC-Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>VL_VSRB4_PLC-Analog_Contagem_min</d2p1:string>
+    <d2p1:string>VL_VSRB5_PLC-Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>VL_VSRB5_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>VL_VSRB5_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>VL_VSRB5_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>VL_VSRB5_PLC-Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>VL_VSRB5_PLC-Analog_Contagem_min</d2p1:string>
+    <d2p1:string>VL_VSRA1_SCADA-Status</d2p1:string>
+    <d2p1:string>VL_VSRA2_SCADA-Status</d2p1:string>
+    <d2p1:string>VL_VSRA3_SCADA-Status</d2p1:string>
+    <d2p1:string>VL_VSRA4_SCADA-Status</d2p1:string>
+    <d2p1:string>VL_VSRA5_SCADA-Status</d2p1:string>
+    <d2p1:string>VL_VSRA6_SCADA-Status</d2p1:string>
+    <d2p1:string>VL_VSRA7_SCADA-Status</d2p1:string>
+    <d2p1:string>VL_VSRB1_SCADA-Status</d2p1:string>
+    <d2p1:string>VL_VSRB2_SCADA-Status</d2p1:string>
+    <d2p1:string>VL_VSRB3_SCADA-Status</d2p1:string>
+    <d2p1:string>VL_VSRB4_SCADA-Status</d2p1:string>
+    <d2p1:string>VL_VSRB5_SCADA-Status</d2p1:string>
+    <d2p1:string>VL_VSRB6_SCADA-Status</d2p1:string>
+    <d2p1:string>VL_VSRB7_SCADA-Status</d2p1:string>
+    <d2p1:string>VL_TableOfRemainedTime</d2p1:string>
+    <d2p1:string>VL_TableOfVSRNames</d2p1:string>
+    <d2p1:string>VL_WaitingForUnload_Timer</d2p1:string>
+    <d2p1:string>VL_TableNameVisible</d2p1:string>
+  </listVariableUsed>
+  <maxCleanCount>2</maxCleanCount>
+  <nSelLength>591</nSelLength>
+  <nSleepTime>50</nSleepTime>
+  <nStartSel>4490</nStartSel>
+  <publishingInterval>1000</publishingInterval>
+  <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
+  <sCode>'#Language "WWB.NET"
+Sub Main Handles .Main
+
+    Dim i As Integer
+    Dim RemainedTime(13) As Integer
+    Dim WaitingForUnload_Timer(13) As Integer
+    Dim VSR_Name(13) As String
+    Dim VSR_Name_Visible(13) As Boolean
+    Dim zeros(13) As Integer
+
+
+    VSR_Name(0)= "VSR 01"
+    VSR_Name(1)= "VSR 02"
+    VSR_Name(2)= "VSR 03"
+    VSR_Name(3)= "VSR 04"
+    VSR_Name(4)= "VSR 05"
+    VSR_Name(5)= "VSR 06"
+    VSR_Name(6)= "VSR 07"
+    VSR_Name(7)= "VSR 08"
+    VSR_Name(8)= "VSR 09"
+    VSR_Name(9)= "VSR 10"
+    VSR_Name(10)="VSR 11"
+    VSR_Name(11)="VSR 12"
+    VSR_Name(12)="VSR 13"
+    VSR_Name(13)="VSR 14"
+
+    RemainedTime(0)=0
+    RemainedTime(1)=0
+    RemainedTime(2)=0
+    RemainedTime(3)=0
+    RemainedTime(4)=0
+    RemainedTime(5)=0
+    RemainedTime(6)=0
+    RemainedTime(7)=0
+    RemainedTime(8)=0
+    RemainedTime(9)=0
+    RemainedTime(10)=0
+    RemainedTime(11)=0
+    RemainedTime(12)=0
+    RemainedTime(13)=0
+
+
+    Try
+    RemainedTime(0)=  VL_VSRA1_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA1_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA1_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA1_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA1_PLC.Analog_Contagen_horas*60 + VL_VSRA1_PLC.Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(1)=  VL_VSRA2_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA2_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA2_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA2_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA2_PLC.Analog_Contagen_horas*60 + VL_VSRA2_PLC.Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(2)=  VL_VSRA3_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA3_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA3_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA3_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA3_PLC.Analog_Contagen_horas*60 + VL_VSRA3_PLC.Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(3)=  VL_VSRA4_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA4_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA4_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA4_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA4_PLC.Analog_Contagen_horas*60 + VL_VSRA4_PLC.Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(4)=  VL_VSRA5_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA5_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA5_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA5_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA5_PLC.Analog_Contagen_horas*60 + VL_VSRA5_PLC.Analog_Contagem_min)
+    End Try
+
+    'Try
+    'RemainedTime(5)=  VL_VSRA6_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA6_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA6_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA6_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA6_PLC.Analog_Contagen_horas*60 + VL_VSRA6_PLC.Analog_Contagem_min)
+    'End Try
+'
+    'Try
+    'RemainedTime(6)=  VL_VSRA7_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA7_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA7_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA7_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA7_PLC.Analog_Contagen_horas*60 + VL_VSRA7_PLC.Analog_Contagem_min)
+    'End Try
+
+    Try
+    RemainedTime(7)=  VL_VSRB1_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB1_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB1_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB1_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB1_PLC.Analog_Contagen_horas*60  + VL_VSRB1_PLC.Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(8)=  VL_VSRB2_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB2_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB2_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB2_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB2_PLC.Analog_Contagen_horas*60  + VL_VSRB2_PLC.Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(9)=  VL_VSRB3_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB3_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB3_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB3_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB3_PLC.Analog_Contagen_horas*60  + VL_VSRB3_PLC.Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(10)=VL_VSRB4_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB4_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB4_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB4_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB4_PLC.Analog_Contagen_horas*60  + VL_VSRB4_PLC.Analog_Contagem_min)
+    End Try
+
+    Try
+    RemainedTime(11)=VL_VSRB5_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB5_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB5_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB5_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB5_PLC.Analog_Contagen_horas*60  + VL_VSRB5_PLC.Analog_Contagem_min)
+    End Try
+
+    'Try
+    'RemainedTime(12)=VL_VSRB6_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB6_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB6_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB6_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB6_PLC.Analog_Contagen_horas*60  + VL_VSRB6_PLC.Analog_Contagem_min)
+    'End Try
+'
+    'Try
+    'RemainedTime(13)=VL_VSRB7_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB7_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB7_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB7_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB7_PLC.Analog_Contagen_horas*60  + VL_VSRB7_PLC.Analog_Contagem_min)
+    'End Try
+
+
+    If VL_VSRA1_SCADA.Status &lt;&gt; 1 Then
+        RemainedTime(0)= 0
+    End If
+
+    If VL_VSRA2_SCADA.Status &lt;&gt; 1 Then
+        RemainedTime(1)= 0
+    End If
+
+    If VL_VSRA3_SCADA.Status &lt;&gt; 1 Then
+        RemainedTime(2)= 0
+    End If
+
+    If VL_VSRA4_SCADA.Status &lt;&gt; 1 Then
+        RemainedTime(3)= 0
+    End If
+
+    If VL_VSRA5_SCADA.Status &lt;&gt; 1 Then
+        RemainedTime(4)= 0
+    End If
+
+    If VL_VSRA6_SCADA.Status &lt;&gt; 1 Then
+        RemainedTime(5)= 0
+    End If
+
+    If VL_VSRA7_SCADA.Status &lt;&gt; 1 Then
+        RemainedTime(6)= 0
+    End If
+
+    If VL_VSRB1_SCADA.Status &lt;&gt; 1 Then
+        RemainedTime(7)= 0
+    End If
+
+    If VL_VSRB2_SCADA.Status &lt;&gt; 1 Then
+        RemainedTime(8)= 0
+    End If
+
+    If VL_VSRB3_SCADA.Status &lt;&gt; 1 Then
+        RemainedTime(9)= 0
+    End If
+
+    If VL_VSRB4_SCADA.Status &lt;&gt; 1 Then
+        RemainedTime(10)= 0
+    End If
+
+    If VL_VSRB5_SCADA.Status &lt;&gt; 1 Then
+        RemainedTime(11)= 0
+    End If
+
+    If VL_VSRB6_SCADA.Status &lt;&gt; 1 Then
+        RemainedTime(12)= 0
+    End If
+
+    If VL_VSRB7_SCADA.Status &lt;&gt; 1 Then
+        RemainedTime(13)= 0
+    End If
+
+
+
+    If VL_VSRA1_SCADA.Status  = 2 Then
+       ScriptDocument.SetVariableValue("VL\VSRA1\SCADA:Treatment\Timer_UnloadAwiating",  ScriptDocument.GetVariableValue("VL\VSRA1\SCADA:Treatment\Timer_UnloadAwiating")+1)
+    Else
+         ScriptDocument.SetVariableValue("VL\VSRA1\SCADA:Treatment\Timer_UnloadAwiating", 0)
+    End If
+    WaitingForUnload_Timer(0) = ScriptDocument.GetVariableValue("VL\VSRA1\SCADA:Treatment\Timer_UnloadAwiating")
+
+    If VL_VSRA2_SCADA.Status  = 2 Then
+       ScriptDocument.SetVariableValue("VL\VSRA2\SCADA:Treatment\Timer_UnloadAwiating",  ScriptDocument.GetVariableValue("VL\VSRA2\SCADA:Treatment\Timer_UnloadAwiating")+1)
+    Else
+         ScriptDocument.SetVariableValue("VL\VSRA2\SCADA:Treatment\Timer_UnloadAwiating", 0)
+    End If
+    WaitingForUnload_Timer(1) = ScriptDocument.GetVariableValue("VL\VSRA2\SCADA:Treatment\Timer_UnloadAwiating")
+
+    If VL_VSRA3_SCADA.Status  = 2 Then
+       ScriptDocument.SetVariableValue("VL\VSRA3\SCADA:Treatment\Timer_UnloadAwiating",  ScriptDocument.GetVariableValue("VL\VSRA3\SCADA:Treatment\Timer_UnloadAwiating")+1)
+    Else
+         ScriptDocument.SetVariableValue("VL\VSRA3\SCADA:Treatment\Timer_UnloadAwiating", 0)
+    End If
+    WaitingForUnload_Timer(2) = ScriptDocument.GetVariableValue("VL\VSRA3\SCADA:Treatment\Timer_UnloadAwiating")
+
+    If VL_VSRA4_SCADA.Status  = 2 Then
+       ScriptDocument.SetVariableValue("VL\VSRA4\SCADA:Treatment\Timer_UnloadAwiating",  ScriptDocument.GetVariableValue("VL\VSRA4\SCADA:Treatment\Timer_UnloadAwiating")+1)
+    Else
+         ScriptDocument.SetVariableValue("VL\VSRA4\SCADA:Treatment\Timer_UnloadAwiating", 0)
+    End If
+    WaitingForUnload_Timer(3) = ScriptDocument.GetVariableValue("VL\VSRA4\SCADA:Treatment\Timer_UnloadAwiating")
+
+    If VL_VSRA5_SCADA.Status  = 2 Then
+       ScriptDocument.SetVariableValue("VL\VSRA5\SCADA:Treatment\Timer_UnloadAwiating",  ScriptDocument.GetVariableValue("VL\VSRA5\SCADA:Treatment\Timer_UnloadAwiating")+1)
+    Else
+         ScriptDocument.SetVariableValue("VL\VSRA5\SCADA:Treatment\Timer_UnloadAwiating", 0)
+    End If
+    WaitingForUnload_Timer(4) = ScriptDocument.GetVariableValue("VL\VSRA5\SCADA:Treatment\Timer_UnloadAwiating")
+
+    If VL_VSRA6_SCADA.Status  = 2 Then
+       ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Timer_UnloadAwiating",  ScriptDocument.GetVariableValue("VL\VSRA6\SCADA:Treatment\Timer_UnloadAwiating")+1)
+    Else
+         ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Timer_UnloadAwiating", 0)
+    End If
+    WaitingForUnload_Timer(5) = ScriptDocument.GetVariableValue("VL\VSRA6\SCADA:Treatment\Timer_UnloadAwiating")
+
+    If VL_VSRA7_SCADA.Status  = 2 Then
+       ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Timer_UnloadAwiating",  ScriptDocument.GetVariableValue("VL\VSRA7\SCADA:Treatment\Timer_UnloadAwiating")+1)
+    Else
+         ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Timer_UnloadAwiating", 0)
+    End If
+    WaitingForUnload_Timer(6) = ScriptDocument.GetVariableValue("VL\VSRA7\SCADA:Treatment\Timer_UnloadAwiating")
+
+    If VL_VSRB1_SCADA.Status  = 2 Then
+       ScriptDocument.SetVariableValue("VL\VSRB1\SCADA:Treatment\Timer_UnloadAwiating",  ScriptDocument.GetVariableValue("VL\VSRB1\SCADA:Treatment\Timer_UnloadAwiating")+1)
+    Else
+         ScriptDocument.SetVariableValue("VL\VSRB1\SCADA:Treatment\Timer_UnloadAwiating", 0)
+    End If
+    WaitingForUnload_Timer(7) = ScriptDocument.GetVariableValue("VL\VSRB1\SCADA:Treatment\Timer_UnloadAwiating")
+
+    If VL_VSRB2_SCADA.Status  = 2 Then
+       ScriptDocument.SetVariableValue("VL\VSRB2\SCADA:Treatment\Timer_UnloadAwiating",  ScriptDocument.GetVariableValue("VL\VSRB2\SCADA:Treatment\Timer_UnloadAwiating")+1)
+    Else
+         ScriptDocument.SetVariableValue("VL\VSRB2\SCADA:Treatment\Timer_UnloadAwiating", 0)
+    End If
+    WaitingForUnload_Timer(8) = ScriptDocument.GetVariableValue("VL\VSRB2\SCADA:Treatment\Timer_UnloadAwiating")
+
+    If VL_VSRB3_SCADA.Status  = 2 Then
+       ScriptDocument.SetVariableValue("VL\VSRB3\SCADA:Treatment\Timer_UnloadAwiating",  ScriptDocument.GetVariableValue("VL\VSRB3\SCADA:Treatment\Timer_UnloadAwiating")+1)
+    Else
+         ScriptDocument.SetVariableValue("VL\VSRB3\SCADA:Treatment\Timer_UnloadAwiating", 0)
+    End If
+    WaitingForUnload_Timer(9) = ScriptDocument.GetVariableValue("VL\VSRB3\SCADA:Treatment\Timer_UnloadAwiating")
+
+    If VL_VSRB4_SCADA.Status  = 2 Then
+       ScriptDocument.SetVariableValue("VL\VSRB4\SCADA:Treatment\Timer_UnloadAwiating",  ScriptDocument.GetVariableValue("VL\VSRB4\SCADA:Treatment\Timer_UnloadAwiating")+1)
+    Else
+         ScriptDocument.SetVariableValue("VL\VSRB4\SCADA:Treatment\Timer_UnloadAwiating", 0)
+    End If
+    WaitingForUnload_Timer(10) = ScriptDocument.GetVariableValue("VL\VSRB4\SCADA:Treatment\Timer_UnloadAwiating")
+
+    If VL_VSRB5_SCADA.Status  = 2 Then
+       ScriptDocument.SetVariableValue("VL\VSRB5\SCADA:Treatment\Timer_UnloadAwiating",  ScriptDocument.GetVariableValue("VL\VSRB5\SCADA:Treatment\Timer_UnloadAwiating")+1)
+    Else
+         ScriptDocument.SetVariableValue("VL\VSRB5\SCADA:Treatment\Timer_UnloadAwiating", 0)
+    End If
+    WaitingForUnload_Timer(11) = ScriptDocument.GetVariableValue("VL\VSRB5\SCADA:Treatment\Timer_UnloadAwiating")
+
+    If VL_VSRB6_SCADA.Status  = 2 Then
+       ScriptDocument.SetVariableValue("VL\VSRB6\SCADA:Treatment\Timer_UnloadAwiating",  ScriptDocument.GetVariableValue("VL\VSRB6\SCADA:Treatment\Timer_UnloadAwiating")+1)
+    Else
+         ScriptDocument.SetVariableValue("VL\VSRB6\SCADA:Treatment\Timer_UnloadAwiating", 0)
+    End If
+    WaitingForUnload_Timer(12) = ScriptDocument.GetVariableValue("VL\VSRB6\SCADA:Treatment\Timer_UnloadAwiating")
+
+    If VL_VSRB7_SCADA.Status  = 2 Then
+       ScriptDocument.SetVariableValue("VL\VSRB7\SCADA:Treatment\Timer_UnloadAwiating",  ScriptDocument.GetVariableValue("VL\VSRB7\SCADA:Treatment\Timer_UnloadAwiating")+1)
+    Else
+         ScriptDocument.SetVariableValue("VL\VSRB7\SCADA:Treatment\Timer_UnloadAwiating", 0)
+    End If
+    WaitingForUnload_Timer(13) = ScriptDocument.GetVariableValue("VL\VSRB7\SCADA:Treatment\Timer_UnloadAwiating")
+
+
+    sort(RemainedTime, WaitingForUnload_Timer, VSR_Name)
+
+    For i=0 To 13
+        VSR_Name_Visible(i) = RemainedTime(i)&gt;0 or WaitingForUnload_Timer(i)&gt;0
+    Next
+
+    VL_TableOfRemainedTime = RemainedTime
+    VL_TableOfVSRNames = VSR_Name
+    VL_WaitingForUnload_Timer = WaitingForUnload_Timer
+    VL_TableNameVisible = VSR_Name_Visible
+
+End Sub
+
+Sub sort(ByRef array() As Integer, ByRef Timers() As Integer, ByRef Names() As String)
+
+    Dim i, j, tmp, tmp_timers As Integer
+    Dim tmp_name As String
+
+    Try
+        For i= 0 To array.Length-2
+            For j= 0 To array.Length-2
+                If array(j)+1000*Timers(j)&gt;array(j+1)+1000*Timers(j+1) And array(j+1)+Timers(j+1)&lt;&gt;0 Then
+                    tmp = array(j)
+                    array(j)=array(j+1)
+                    array(j+1)=tmp
+    
+                    tmp_timers = Timers(j)
+                    Timers(j)=Timers(j+1)
+                    Timers(j+1)=tmp_timers
+    
+                    tmp_name = Names(j)
+                    Names(j)=Names(j+1)
+                    Names(j+1)=tmp_name
+                End If
+
+                If array(j)+Timers(j)=0 Then
+                    array(j)=array(j+1)
+                    array(j+1)=0
+
+                    Timers(j)=Timers(j+1)
+                    Timers(j+1)=0
+    
+                    tmp_name = Names(j)
+                    Names(j)=Names(j+1)
+                    Names(j+1)=tmp_name
+                End If
+            Next
+        Next
+
+    End Try
+
+End Sub
+</sCode>
+  <sessionName i:nil="true" />
+  <slowSamplingInterval>5000</slowSamplingInterval>
+  <stopCommandTimeout>2000</stopCommandTimeout>
+  <threadPriority>Normal</threadPriority>
+  <useAlwaysSecureConnections>false</useAlwaysSecureConnections>
+  <writeTimeout>0</writeTimeout>
+</ScriptDocument>

@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScriptDocument xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
+  <bEnableLog>false</bEnableLog>
+  <bEnableSysLog>false</bEnableSysLog>
+  <breakpoints xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <currentStatusTag i:nil="true" />
+  <cycleTimeTag i:nil="true" />
+  <disableWhenNotUsed>true</disableWhenNotUsed>
+  <fastSamplingInterval>500</fastSamplingInterval>
+  <forceWritingOnServer>false</forceWritingOnServer>
+  <id>00000000-0000-0000-0000-000000000000</id>
+  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>SPARK_VSR06_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR06_PLC_Maquina_em_tratamento</d2p1:string>
+    <d2p1:string>SPARK_VSR06_PLC_UnloadInProgress</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_tmp_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_Treatment_Start</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_Treatment_End</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_Unload_Start</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_Unload_End</d2p1:string>
+    <d2p1:string>SPARK_Treatment_VSR</d2p1:string>
+    <d2p1:string>SPARK_Treatment_Start</d2p1:string>
+    <d2p1:string>SPARK_Treatment_End</d2p1:string>
+    <d2p1:string>SPARK_Unload_Start</d2p1:string>
+    <d2p1:string>SPARK_Unload_End</d2p1:string>
+    <d2p1:string>SPARK_Treatment_Rec_Trig</d2p1:string>
+    <d2p1:string>SPARK_VSR07_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR07_PLC_Maquina_em_tratamento</d2p1:string>
+    <d2p1:string>SPARK_VSR07_PLC_UnloadInProgress</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_tmp_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_Treatment_Start</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_Treatment_End</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_Unload_Start</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_Unload_End</d2p1:string>
+    <d2p1:string>SPARK_VSR08_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR08_PLC_Maquina_em_tratamento</d2p1:string>
+    <d2p1:string>SPARK_VSR08_PLC_UnloadInProgress</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_tmp_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_Treatment_Start</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_Treatment_End</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_Unload_Start</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_Unload_End</d2p1:string>
+    <d2p1:string>SPARK_VSR09_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR09_PLC_Maquina_em_tratamento</d2p1:string>
+    <d2p1:string>SPARK_VSR09_PLC_UnloadInProgress</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_tmp_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_Treatment_Start</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_Treatment_End</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_Unload_Start</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_Unload_End</d2p1:string>
+    <d2p1:string>SPARK_VSR10_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR10_PLC_Maquina_em_tratamento</d2p1:string>
+    <d2p1:string>SPARK_VSR10_PLC_UnloadInProgress</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_tmp_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_Treatment_Start</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_Treatment_End</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_Unload_Start</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_Unload_End</d2p1:string>
+  </listVariableUsed>
+  <maxCleanCount>2</maxCleanCount>
+  <nSelLength>0</nSelLength>
+  <nSleepTime>50</nSleepTime>
+  <nStartSel>11252</nStartSel>
+  <publishingInterval>1000</publishingInterval>
+  <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
+  <sCode>'#Language "WWB.NET"
+Sub Main Handles .Main
+
+    Dim DateTime As String
+    DateTime = Format(Now, "MM/dd/yyyy HH:mm:ss")
+
+    'Status:  1:Running  2:WaitingForUnload  3:Unloading  4:Free
+
+     'VSR06
+    Try
+
+    Select Case SPARK_VSR06_Status
+
+    Case 0
+        If  SPARK_VSR06_PLC_Maquina_em_tratamento Then
+            SPARK_VSR06_Status = 1
+        End If
+
+    Case 1
+        If Not SPARK_VSR06_PLC_Maquina_em_tratamento Then
+            SPARK_VSR06_Status = 2
+        End If
+
+    Case 2
+        If SPARK_VSR06_PLC_UnloadInProgress=4 Then
+            SPARK_VSR06_Status = 3
+        End If
+        If  SPARK_VSR06_PLC_Maquina_em_tratamento Then
+            SPARK_VSR06_Status = 5
+        End If
+
+    Case 3
+        If  Not SPARK_VSR06_PLC_UnloadInProgress=4 Then
+            SPARK_VSR06_Status = 4
+        End If
+         If  SPARK_VSR06_PLC_Maquina_em_tratamento Then
+            SPARK_VSR06_Status = 5
+        End If
+
+    Case Else
+            SPARK_VSR06_Status = 0
+    End Select
+
+    Catch
+    Finally
+    End Try
+
+    If SPARK_VSR06_Status &lt;&gt; SPARK_VSR06_SCADA_tmp_Status Then
+
+        If SPARK_VSR06_Status = 1 Then
+            SPARK_VSR06_SCADA_Treatment_Start = DateTime
+        End If
+
+        If SPARK_VSR06_Status = 2 Then
+            SPARK_VSR06_SCADA_Treatment_End = DateTime
+        End If
+
+        If SPARK_VSR06_Status = 3 Then
+            SPARK_VSR06_SCADA_Unload_Start = DateTime
+        End If
+
+        If SPARK_VSR06_Status = 4 Or SPARK_VSR06_Status = 5 Then
+            If SPARK_VSR06_Status = 4 Then
+                SPARK_VSR06_SCADA_Unload_End = DateTime
+            End If
+            SPARK_Treatment_VSR = "VSR06"
+            SPARK_Treatment_Start = SPARK_VSR06_SCADA_Treatment_Start
+            SPARK_Treatment_End   = SPARK_VSR06_SCADA_Treatment_End
+            SPARK_Unload_Start    = SPARK_VSR06_SCADA_Unload_Start
+            SPARK_Unload_End      = SPARK_VSR06_SCADA_Unload_End
+            SPARK_Treatment_Rec_Trig = True
+        End If
+
+        If SPARK_VSR06_Status = 0 Then
+            SPARK_VSR06_SCADA_Treatment_Start = "NoRec"
+            SPARK_VSR06_SCADA_Treatment_End   = "NoRec"
+            SPARK_VSR06_SCADA_Unload_Start    = "NoRec"
+            SPARK_VSR06_SCADA_Unload_End      = "NoRec"
+        End If
+
+    End If
+
+    SPARK_VSR06_SCADA_tmp_Status = SPARK_VSR06_Status
+
+
+     'VSR07
+    Try
+
+    Select Case SPARK_VSR07_Status
+
+    Case 0
+        If  SPARK_VSR07_PLC_Maquina_em_tratamento Then
+            SPARK_VSR07_Status = 1
+        End If
+
+    Case 1
+        If Not SPARK_VSR07_PLC_Maquina_em_tratamento Then
+            SPARK_VSR07_Status = 2
+        End If
+
+    Case 2
+        If SPARK_VSR07_PLC_UnloadInProgress=4 Then
+            SPARK_VSR07_Status = 3
+        End If
+        If  SPARK_VSR07_PLC_Maquina_em_tratamento Then
+            SPARK_VSR07_Status = 5
+        End If
+
+    Case 3
+        If  Not SPARK_VSR07_PLC_UnloadInProgress=4 Then
+            SPARK_VSR07_Status = 4
+        End If
+         If  SPARK_VSR07_PLC_Maquina_em_tratamento Then
+            SPARK_VSR07_Status = 5
+        End If
+
+    Case Else
+            SPARK_VSR07_Status = 0
+    End Select
+
+    Catch
+    Finally
+    End Try
+
+    If SPARK_VSR07_Status &lt;&gt; SPARK_VSR07_SCADA_tmp_Status Then
+
+        If SPARK_VSR07_Status = 1 Then
+            SPARK_VSR07_SCADA_Treatment_Start = DateTime
+        End If
+
+        If SPARK_VSR07_Status = 2 Then
+            SPARK_VSR07_SCADA_Treatment_End = DateTime
+        End If
+
+        If SPARK_VSR07_Status = 3 Then
+            SPARK_VSR07_SCADA_Unload_Start = DateTime
+        End If
+
+        If SPARK_VSR07_Status = 4 Or SPARK_VSR07_Status = 5 Then
+            If SPARK_VSR07_Status = 4 Then
+                SPARK_VSR07_SCADA_Unload_End = DateTime
+            End If
+            SPARK_Treatment_VSR = "VSR07"
+            SPARK_Treatment_Start = SPARK_VSR07_SCADA_Treatment_Start
+            SPARK_Treatment_End   = SPARK_VSR07_SCADA_Treatment_End
+            SPARK_Unload_Start    = SPARK_VSR07_SCADA_Unload_Start
+            SPARK_Unload_End      = SPARK_VSR07_SCADA_Unload_End
+            SPARK_Treatment_Rec_Trig = True
+        End If
+
+        If SPARK_VSR07_Status = 0 Then
+            SPARK_VSR07_SCADA_Treatment_Start = "NoRec"
+            SPARK_VSR07_SCADA_Treatment_End   = "NoRec"
+            SPARK_VSR07_SCADA_Unload_Start    = "NoRec"
+            SPARK_VSR07_SCADA_Unload_End      = "NoRec"
+        End If
+
+    End If
+
+    SPARK_VSR07_SCADA_tmp_Status = SPARK_VSR07_Status
+
+
+    'VSR08
+    Try
+
+    Select Case SPARK_VSR08_Status
+
+    Case 0
+        If  SPARK_VSR08_PLC_Maquina_em_tratamento Then
+            SPARK_VSR08_Status = 1
+        End If
+
+    Case 1
+        If Not SPARK_VSR08_PLC_Maquina_em_tratamento Then
+            SPARK_VSR08_Status = 2
+        End If
+
+    Case 2
+        If SPARK_VSR08_PLC_UnloadInProgress=4 Then
+            SPARK_VSR08_Status = 3
+        End If
+        If  SPARK_VSR08_PLC_Maquina_em_tratamento Then
+            SPARK_VSR08_Status = 5
+        End If
+
+    Case 3
+        If  Not SPARK_VSR08_PLC_UnloadInProgress=4 Then
+            SPARK_VSR08_Status = 4
+        End If
+         If  SPARK_VSR08_PLC_Maquina_em_tratamento Then
+            SPARK_VSR08_Status = 5
+        End If
+
+    Case Else
+            SPARK_VSR08_Status = 0
+    End Select
+
+    Catch
+    Finally
+    End Try
+
+    If SPARK_VSR08_Status &lt;&gt; SPARK_VSR08_SCADA_tmp_Status Then
+
+        If SPARK_VSR08_Status = 1 Then
+            SPARK_VSR08_SCADA_Treatment_Start = DateTime
+        End If
+
+        If SPARK_VSR08_Status = 2 Then
+            SPARK_VSR08_SCADA_Treatment_End = DateTime
+        End If
+
+        If SPARK_VSR08_Status = 3 Then
+            SPARK_VSR08_SCADA_Unload_Start = DateTime
+        End If
+
+        If SPARK_VSR08_Status = 4 Or SPARK_VSR08_Status = 5 Then
+            If SPARK_VSR08_Status = 4 Then
+                SPARK_VSR08_SCADA_Unload_End = DateTime
+            End If
+            SPARK_Treatment_VSR = "VSR08"
+            SPARK_Treatment_Start = SPARK_VSR08_SCADA_Treatment_Start
+            SPARK_Treatment_End   = SPARK_VSR08_SCADA_Treatment_End
+            SPARK_Unload_Start    = SPARK_VSR08_SCADA_Unload_Start
+            SPARK_Unload_End      = SPARK_VSR08_SCADA_Unload_End
+            SPARK_Treatment_Rec_Trig = True
+        End If
+
+        If SPARK_VSR08_Status = 0 Then
+            SPARK_VSR08_SCADA_Treatment_Start = "NoRec"
+            SPARK_VSR08_SCADA_Treatment_End   = "NoRec"
+            SPARK_VSR08_SCADA_Unload_Start    = "NoRec"
+            SPARK_VSR08_SCADA_Unload_End      = "NoRec"
+        End If
+
+    End If
+
+    SPARK_VSR08_SCADA_tmp_Status = SPARK_VSR08_Status
+
+
+    'VSR09
+    Try
+
+    Select Case SPARK_VSR09_Status
+
+    Case 0
+        If  SPARK_VSR09_PLC_Maquina_em_tratamento Then
+            SPARK_VSR09_Status = 1
+        End If
+
+    Case 1
+        If Not SPARK_VSR09_PLC_Maquina_em_tratamento Then
+            SPARK_VSR09_Status = 2
+        End If
+
+    Case 2
+        If SPARK_VSR09_PLC_UnloadInProgress=4 Then
+            SPARK_VSR09_Status = 3
+        End If
+        If  SPARK_VSR09_PLC_Maquina_em_tratamento Then
+            SPARK_VSR09_Status = 5
+        End If
+
+    Case 3
+        If  Not SPARK_VSR09_PLC_UnloadInProgress=4 Then
+            SPARK_VSR09_Status = 4
+        End If
+         If  SPARK_VSR09_PLC_Maquina_em_tratamento Then
+            SPARK_VSR09_Status = 5
+        End If
+
+    Case Else
+            SPARK_VSR09_Status = 0
+    End Select
+
+    Catch
+    Finally
+    End Try
+
+    If SPARK_VSR09_Status &lt;&gt; SPARK_VSR09_SCADA_tmp_Status Then
+
+        If SPARK_VSR09_Status = 1 Then
+            SPARK_VSR09_SCADA_Treatment_Start = DateTime
+        End If
+
+        If SPARK_VSR09_Status = 2 Then
+            SPARK_VSR09_SCADA_Treatment_End = DateTime
+        End If
+
+        If SPARK_VSR09_Status = 3 Then
+            SPARK_VSR09_SCADA_Unload_Start = DateTime
+        End If
+
+        If SPARK_VSR09_Status = 4 Or SPARK_VSR09_Status = 5 Then
+            If SPARK_VSR09_Status = 4 Then
+                SPARK_VSR09_SCADA_Unload_End = DateTime
+            End If
+            SPARK_Treatment_VSR = "VSR09"
+            SPARK_Treatment_Start = SPARK_VSR09_SCADA_Treatment_Start
+            SPARK_Treatment_End   = SPARK_VSR09_SCADA_Treatment_End
+            SPARK_Unload_Start    = SPARK_VSR09_SCADA_Unload_Start
+            SPARK_Unload_End      = SPARK_VSR09_SCADA_Unload_End
+            SPARK_Treatment_Rec_Trig = True
+        End If
+
+        If SPARK_VSR09_Status = 0 Then
+            SPARK_VSR09_SCADA_Treatment_Start = "NoRec"
+            SPARK_VSR09_SCADA_Treatment_End   = "NoRec"
+            SPARK_VSR09_SCADA_Unload_Start    = "NoRec"
+            SPARK_VSR09_SCADA_Unload_End      = "NoRec"
+        End If
+
+    End If
+
+    SPARK_VSR09_SCADA_tmp_Status = SPARK_VSR09_Status
+
+
+     'VSR10
+    Try
+
+    Select Case SPARK_VSR10_Status
+
+    Case 0
+        If  SPARK_VSR10_PLC_Maquina_em_tratamento Then
+            SPARK_VSR10_Status = 1
+        End If
+
+    Case 1
+        If Not SPARK_VSR10_PLC_Maquina_em_tratamento Then
+            SPARK_VSR10_Status = 2
+        End If
+
+    Case 2
+        If SPARK_VSR10_PLC_UnloadInProgress=4 Then
+            SPARK_VSR10_Status = 3
+        End If
+        If  SPARK_VSR10_PLC_Maquina_em_tratamento Then
+            SPARK_VSR10_Status = 5
+        End If
+
+    Case 3
+        If  Not SPARK_VSR10_PLC_UnloadInProgress=4 Then
+            SPARK_VSR10_Status = 4
+        End If
+         If  SPARK_VSR10_PLC_Maquina_em_tratamento Then
+            SPARK_VSR10_Status = 5
+        End If
+
+    Case Else
+            SPARK_VSR10_Status = 0
+    End Select
+
+    Catch
+    Finally
+    End Try
+
+    If SPARK_VSR10_Status &lt;&gt; SPARK_VSR10_SCADA_tmp_Status Then
+
+        If SPARK_VSR10_Status = 1 Then
+            SPARK_VSR10_SCADA_Treatment_Start = DateTime
+        End If
+
+        If SPARK_VSR10_Status = 2 Then
+            SPARK_VSR10_SCADA_Treatment_End = DateTime
+        End If
+
+        If SPARK_VSR10_Status = 3 Then
+            SPARK_VSR10_SCADA_Unload_Start = DateTime
+        End If
+
+        If SPARK_VSR10_Status = 4 Or SPARK_VSR10_Status = 5 Then
+            If SPARK_VSR10_Status = 4 Then
+                SPARK_VSR10_SCADA_Unload_End = DateTime
+            End If
+            SPARK_Treatment_VSR = "VSR10"
+            SPARK_Treatment_Start = SPARK_VSR10_SCADA_Treatment_Start
+            SPARK_Treatment_End   = SPARK_VSR10_SCADA_Treatment_End
+            SPARK_Unload_Start    = SPARK_VSR10_SCADA_Unload_Start
+            SPARK_Unload_End      = SPARK_VSR10_SCADA_Unload_End
+            SPARK_Treatment_Rec_Trig = True
+        End If
+
+        If SPARK_VSR10_Status = 0 Then
+            SPARK_VSR10_SCADA_Treatment_Start = "NoRec"
+            SPARK_VSR10_SCADA_Treatment_End   = "NoRec"
+            SPARK_VSR10_SCADA_Unload_Start    = "NoRec"
+            SPARK_VSR10_SCADA_Unload_End      = "NoRec"
+        End If
+
+    End If
+
+    SPARK_VSR10_SCADA_tmp_Status = SPARK_VSR10_Status
+
+End Sub
+</sCode>
+  <sessionName i:nil="true" />
+  <slowSamplingInterval>5000</slowSamplingInterval>
+  <stopCommandTimeout>2000</stopCommandTimeout>
+  <threadPriority>Normal</threadPriority>
+  <useAlwaysSecureConnections>false</useAlwaysSecureConnections>
+  <writeTimeout>0</writeTimeout>
+</ScriptDocument>

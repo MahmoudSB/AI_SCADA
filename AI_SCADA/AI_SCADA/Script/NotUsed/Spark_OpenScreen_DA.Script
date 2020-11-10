@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScriptDocument xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
+  <bEnableLog>false</bEnableLog>
+  <bEnableSysLog>false</bEnableSysLog>
+  <breakpoints xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <currentStatusTag i:nil="true" />
+  <cycleTimeTag i:nil="true" />
+  <disableWhenNotUsed>true</disableWhenNotUsed>
+  <fastSamplingInterval>500</fastSamplingInterval>
+  <forceWritingOnServer>false</forceWritingOnServer>
+  <id>00000000-0000-0000-0000-000000000000</id>
+  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>SPARK_VSR_ID</d2p1:string>
+    <d2p1:string>SPARK_VSR_Name</d2p1:string>
+  </listVariableUsed>
+  <maxCleanCount>2</maxCleanCount>
+  <nSelLength>0</nSelLength>
+  <nSleepTime>50</nSleepTime>
+  <nStartSel>1911</nStartSel>
+  <publishingInterval>1000</publishingInterval>
+  <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
+  <sCode>'#Reference #System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=AMD64
+'#Reference #CommandManager, Version=3.4.259.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL, Path=&lt;APPDIR&gt;\Managers\CommandManager.dll
+'#Reference #UFInterfaces, Version=3.4.259.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL, Path=&lt;APPDIR&gt;\UFInterfaces.dll
+'#Language "WWB.NET"
+
+Imports System
+Imports System.Globalization
+
+Dim connectionString As String = "Data Source=AMR-DBVM16;Database=ScadaAC;" _
+                               &amp; "Persist Security Info=true;User ID=scada;Password=WkIlE!A2njfa"
+
+Dim myConn As System.Data.SqlClient.SqlConnection = New System.Data.SqlClient.SqlConnection (connectionString)   ' connection string to DB
+
+Sub Main Handles .Main
+    
+    If (SPARK_VSR_ID&gt;=1 And SPARK_VSR_ID&lt;10) Then
+        SPARK_VSR_Name = "VSR0" &amp; SPARK_VSR_ID.ToString
+    ElseIf (SPARK_VSR_ID&gt;=10 And SPARK_VSR_ID&lt;=14) Then
+        SPARK_VSR_Name = "VSR" &amp; SPARK_VSR_ID.ToString
+    Else
+        SPARK_VSR_Name = "VSR00"
+    End If
+
+    myConn.Open()
+    Call TSQL_to_Server(SPARK_VSR_Name)
+    myConn.Close()
+    Wait(1)
+
+    UFProjectDocument.Screens.OpenScreenNormal "Spark\VSR\Data_Analysis", "SPARK_" &amp; SPARK_VSR_Name
+
+End Sub
+
+
+Sub TSQL_to_Server(vsr As String)
+
+
+    Dim queryString As String = _
+                                "INSERT INTO [dbo].[Spark_VSRxx] ([UtcTimeCol],[LocalTimeCol],[MillisecondsCol],[UserCol],[ReasonCol],[Chamb_Press_VSR],[Champ_Temp_VSR],[Corck_Temp_VSR],[Pump_Press_VSR])" _
+                              &amp; " Select [UtcTimeCol],[LocalTimeCol],[MillisecondsCol],[UserCol],[ReasonCol],[Chamb_Press_" &amp; SPARK_VSR_Name &amp; "],[Champ_Temp_" &amp; SPARK_VSR_Name &amp; "],[Corck_Temp_" &amp; SPARK_VSR_Name &amp; "],[Pump_Press_" &amp; SPARK_VSR_Name &amp; "] FROM [dbo].[Spark_" &amp; vsr &amp; "]"
+
+        Dim myCmd As New System.Data.SqlClient.SqlCommand
+
+
+        ' Create and execute SQL Query to purge destination table
+        myCmd = myConn.CreateCommand()
+        myCmd.CommandType = System.Data.CommandType.Text
+        myCmd.CommandText = "DELETE FROM [Spark_VSRxx]"
+        myCmd.ExecuteNonQuery
+
+        ' Create SQL Query to insert value into destination table
+        myCmd.CommandText = queryString
+        myCmd.ExecuteNonQuery
+
+End Sub
+</sCode>
+  <sessionName i:nil="true" />
+  <slowSamplingInterval>5000</slowSamplingInterval>
+  <stopCommandTimeout>2000</stopCommandTimeout>
+  <threadPriority>Normal</threadPriority>
+  <useAlwaysSecureConnections>false</useAlwaysSecureConnections>
+  <writeTimeout>0</writeTimeout>
+</ScriptDocument>
