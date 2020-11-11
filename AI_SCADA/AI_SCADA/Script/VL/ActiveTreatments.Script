@@ -9,90 +9,11 @@
   <fastSamplingInterval>500</fastSamplingInterval>
   <forceWritingOnServer>false</forceWritingOnServer>
   <id>00000000-0000-0000-0000-000000000000</id>
-  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-    <d2p1:string>VL_VSRA1_PLC-Analog_Pedido_T_Processo</d2p1:string>
-    <d2p1:string>VL_VSRA1_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
-    <d2p1:string>VL_VSRA1_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
-    <d2p1:string>VL_VSRA1_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
-    <d2p1:string>VL_VSRA1_PLC-Analog_Contagen_horas</d2p1:string>
-    <d2p1:string>VL_VSRA1_PLC-Analog_Contagem_min</d2p1:string>
-    <d2p1:string>VL_VSRA2_PLC-Analog_Pedido_T_Processo</d2p1:string>
-    <d2p1:string>VL_VSRA2_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
-    <d2p1:string>VL_VSRA2_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
-    <d2p1:string>VL_VSRA2_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
-    <d2p1:string>VL_VSRA2_PLC-Analog_Contagen_horas</d2p1:string>
-    <d2p1:string>VL_VSRA2_PLC-Analog_Contagem_min</d2p1:string>
-    <d2p1:string>VL_VSRA3_PLC-Analog_Pedido_T_Processo</d2p1:string>
-    <d2p1:string>VL_VSRA3_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
-    <d2p1:string>VL_VSRA3_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
-    <d2p1:string>VL_VSRA3_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
-    <d2p1:string>VL_VSRA3_PLC-Analog_Contagen_horas</d2p1:string>
-    <d2p1:string>VL_VSRA3_PLC-Analog_Contagem_min</d2p1:string>
-    <d2p1:string>VL_VSRA4_PLC-Analog_Pedido_T_Processo</d2p1:string>
-    <d2p1:string>VL_VSRA4_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
-    <d2p1:string>VL_VSRA4_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
-    <d2p1:string>VL_VSRA4_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
-    <d2p1:string>VL_VSRA4_PLC-Analog_Contagen_horas</d2p1:string>
-    <d2p1:string>VL_VSRA4_PLC-Analog_Contagem_min</d2p1:string>
-    <d2p1:string>VL_VSRA5_PLC-Analog_Pedido_T_Processo</d2p1:string>
-    <d2p1:string>VL_VSRA5_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
-    <d2p1:string>VL_VSRA5_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
-    <d2p1:string>VL_VSRA5_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
-    <d2p1:string>VL_VSRA5_PLC-Analog_Contagen_horas</d2p1:string>
-    <d2p1:string>VL_VSRA5_PLC-Analog_Contagem_min</d2p1:string>
-    <d2p1:string>VL_VSRB1_PLC-Analog_Pedido_T_Processo</d2p1:string>
-    <d2p1:string>VL_VSRB1_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
-    <d2p1:string>VL_VSRB1_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
-    <d2p1:string>VL_VSRB1_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
-    <d2p1:string>VL_VSRB1_PLC-Analog_Contagen_horas</d2p1:string>
-    <d2p1:string>VL_VSRB1_PLC-Analog_Contagem_min</d2p1:string>
-    <d2p1:string>VL_VSRB2_PLC-Analog_Pedido_T_Processo</d2p1:string>
-    <d2p1:string>VL_VSRB2_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
-    <d2p1:string>VL_VSRB2_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
-    <d2p1:string>VL_VSRB2_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
-    <d2p1:string>VL_VSRB2_PLC-Analog_Contagen_horas</d2p1:string>
-    <d2p1:string>VL_VSRB2_PLC-Analog_Contagem_min</d2p1:string>
-    <d2p1:string>VL_VSRB3_PLC-Analog_Pedido_T_Processo</d2p1:string>
-    <d2p1:string>VL_VSRB3_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
-    <d2p1:string>VL_VSRB3_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
-    <d2p1:string>VL_VSRB3_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
-    <d2p1:string>VL_VSRB3_PLC-Analog_Contagen_horas</d2p1:string>
-    <d2p1:string>VL_VSRB3_PLC-Analog_Contagem_min</d2p1:string>
-    <d2p1:string>VL_VSRB4_PLC-Analog_Pedido_T_Processo</d2p1:string>
-    <d2p1:string>VL_VSRB4_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
-    <d2p1:string>VL_VSRB4_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
-    <d2p1:string>VL_VSRB4_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
-    <d2p1:string>VL_VSRB4_PLC-Analog_Contagen_horas</d2p1:string>
-    <d2p1:string>VL_VSRB4_PLC-Analog_Contagem_min</d2p1:string>
-    <d2p1:string>VL_VSRB5_PLC-Analog_Pedido_T_Processo</d2p1:string>
-    <d2p1:string>VL_VSRB5_PLC-Analog_Pedido_T_Azoto_Final</d2p1:string>
-    <d2p1:string>VL_VSRB5_PLC-Analog_Pedido_T_Vapor_Final</d2p1:string>
-    <d2p1:string>VL_VSRB5_PLC-Analog_Ped_Azoto_pos_vapor</d2p1:string>
-    <d2p1:string>VL_VSRB5_PLC-Analog_Contagen_horas</d2p1:string>
-    <d2p1:string>VL_VSRB5_PLC-Analog_Contagem_min</d2p1:string>
-    <d2p1:string>VL_VSRA1_SCADA-Status</d2p1:string>
-    <d2p1:string>VL_VSRA2_SCADA-Status</d2p1:string>
-    <d2p1:string>VL_VSRA3_SCADA-Status</d2p1:string>
-    <d2p1:string>VL_VSRA4_SCADA-Status</d2p1:string>
-    <d2p1:string>VL_VSRA5_SCADA-Status</d2p1:string>
-    <d2p1:string>VL_VSRA6_SCADA-Status</d2p1:string>
-    <d2p1:string>VL_VSRA7_SCADA-Status</d2p1:string>
-    <d2p1:string>VL_VSRB1_SCADA-Status</d2p1:string>
-    <d2p1:string>VL_VSRB2_SCADA-Status</d2p1:string>
-    <d2p1:string>VL_VSRB3_SCADA-Status</d2p1:string>
-    <d2p1:string>VL_VSRB4_SCADA-Status</d2p1:string>
-    <d2p1:string>VL_VSRB5_SCADA-Status</d2p1:string>
-    <d2p1:string>VL_VSRB6_SCADA-Status</d2p1:string>
-    <d2p1:string>VL_VSRB7_SCADA-Status</d2p1:string>
-    <d2p1:string>VL_TableOfRemainedTime</d2p1:string>
-    <d2p1:string>VL_TableOfVSRNames</d2p1:string>
-    <d2p1:string>VL_WaitingForUnload_Timer</d2p1:string>
-    <d2p1:string>VL_TableNameVisible</d2p1:string>
-  </listVariableUsed>
+  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
   <maxCleanCount>2</maxCleanCount>
-  <nSelLength>591</nSelLength>
+  <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>4490</nStartSel>
+  <nStartSel>5807</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
@@ -137,62 +58,90 @@ Sub Main Handles .Main
     RemainedTime(13)=0
 
 
-    Try
-    RemainedTime(0)=  VL_VSRA1_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA1_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA1_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA1_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA1_PLC.Analog_Contagen_horas*60 + VL_VSRA1_PLC.Analog_Contagem_min)
-    End Try
+    If General_VL_VSR01_PLCStateVariable = 0 Then
+        Try
+        End If
+        RemainedTime(0)=  VL_VSRA1_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA1_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA1_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA1_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA1_PLC.Analog_Contagen_horas*60 + VL_VSRA1_PLC.Analog_Contagem_min)
+        End Try
+     End If
 
-    Try
-    RemainedTime(1)=  VL_VSRA2_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA2_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA2_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA2_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA2_PLC.Analog_Contagen_horas*60 + VL_VSRA2_PLC.Analog_Contagem_min)
-    End Try
+     If General_VL_VSR02_PLCStateVariable = 0 Then
+        Try
+        RemainedTime(1)=  VL_VSRA2_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA2_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA2_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA2_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA2_PLC.Analog_Contagen_horas*60 + VL_VSRA2_PLC.Analog_Contagem_min)
+        End Try
+    End If
 
-    Try
-    RemainedTime(2)=  VL_VSRA3_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA3_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA3_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA3_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA3_PLC.Analog_Contagen_horas*60 + VL_VSRA3_PLC.Analog_Contagem_min)
-    End Try
+     If General_VL_VSR03_PLCStateVariable = 0 Then
+        Try
+        RemainedTime(2)=  VL_VSRA3_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA3_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA3_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA3_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA3_PLC.Analog_Contagen_horas*60 + VL_VSRA3_PLC.Analog_Contagem_min)
+        End Try
+    End If
 
-    Try
-    RemainedTime(3)=  VL_VSRA4_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA4_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA4_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA4_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA4_PLC.Analog_Contagen_horas*60 + VL_VSRA4_PLC.Analog_Contagem_min)
-    End Try
+     If General_VL_VSR04_PLCStateVariable = 0 Then
+        Try
+        RemainedTime(3)=  VL_VSRA4_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA4_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA4_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA4_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA4_PLC.Analog_Contagen_horas*60 + VL_VSRA4_PLC.Analog_Contagem_min)
+        End Try
+    End If
 
-    Try
-    RemainedTime(4)=  VL_VSRA5_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA5_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA5_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA5_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA5_PLC.Analog_Contagen_horas*60 + VL_VSRA5_PLC.Analog_Contagem_min)
-    End Try
+     If General_VL_VSR05_PLCStateVariable = 0 Then
+        Try
+        RemainedTime(4)=  VL_VSRA5_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA5_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA5_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA5_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA5_PLC.Analog_Contagen_horas*60 + VL_VSRA5_PLC.Analog_Contagem_min)
+        End Try
+    End If
 
-    'Try
-    'RemainedTime(5)=  VL_VSRA6_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA6_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA6_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA6_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA6_PLC.Analog_Contagen_horas*60 + VL_VSRA6_PLC.Analog_Contagem_min)
-    'End Try
-'
-    'Try
-    'RemainedTime(6)=  VL_VSRA7_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA7_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA7_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA7_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA7_PLC.Analog_Contagen_horas*60 + VL_VSRA7_PLC.Analog_Contagem_min)
-    'End Try
+     If General_VL_VSR06_PLCStateVariable = 0 Then
+        Try
+        RemainedTime(5)=  VL_VSRA6_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA6_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA6_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA6_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA6_PLC.Analog_Contagen_horas*60 + VL_VSRA6_PLC.Analog_Contagem_min)
+        End Try
+     End If
 
-    Try
-    RemainedTime(7)=  VL_VSRB1_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB1_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB1_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB1_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB1_PLC.Analog_Contagen_horas*60  + VL_VSRB1_PLC.Analog_Contagem_min)
-    End Try
+     If General_VL_VSR07_PLCStateVariable = 0 Then
+        Try
+        RemainedTime(6)=  VL_VSRA7_PLC.Analog_Pedido_T_Processo*6 + VL_VSRA7_PLC.Analog_Pedido_T_Azoto_Final + VL_VSRA7_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRA7_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRA7_PLC.Analog_Contagen_horas*60 + VL_VSRA7_PLC.Analog_Contagem_min)
+        End Try
+     End If
 
-    Try
-    RemainedTime(8)=  VL_VSRB2_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB2_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB2_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB2_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB2_PLC.Analog_Contagen_horas*60  + VL_VSRB2_PLC.Analog_Contagem_min)
-    End Try
+     If General_VL_VSR08_PLCStateVariable = 0 Then
+        Try
+        RemainedTime(7)=  VL_VSRB1_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB1_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB1_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB1_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB1_PLC.Analog_Contagen_horas*60  + VL_VSRB1_PLC.Analog_Contagem_min)
+        End Try
+    End If
 
-    Try
-    RemainedTime(9)=  VL_VSRB3_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB3_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB3_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB3_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB3_PLC.Analog_Contagen_horas*60  + VL_VSRB3_PLC.Analog_Contagem_min)
-    End Try
+     If General_VL_VSR09_PLCStateVariable = 0 Then
+        Try
+        RemainedTime(8)=  VL_VSRB2_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB2_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB2_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB2_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB2_PLC.Analog_Contagen_horas*60  + VL_VSRB2_PLC.Analog_Contagem_min)
+        End Try
+    End If
 
-    Try
-    RemainedTime(10)=VL_VSRB4_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB4_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB4_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB4_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB4_PLC.Analog_Contagen_horas*60  + VL_VSRB4_PLC.Analog_Contagem_min)
-    End Try
+     If General_VL_VSR10_PLCStateVariable = 0 Then
+        Try
+        RemainedTime(9)=  VL_VSRB3_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB3_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB3_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB3_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB3_PLC.Analog_Contagen_horas*60  + VL_VSRB3_PLC.Analog_Contagem_min)
+        End Try
+    End If
 
-    Try
-    RemainedTime(11)=VL_VSRB5_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB5_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB5_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB5_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB5_PLC.Analog_Contagen_horas*60  + VL_VSRB5_PLC.Analog_Contagem_min)
-    End Try
+     If General_VL_VSR11_PLCStateVariable = 0 Then
+        Try
+        RemainedTime(10)=VL_VSRB4_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB4_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB4_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB4_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB4_PLC.Analog_Contagen_horas*60  + VL_VSRB4_PLC.Analog_Contagem_min)
+        End Try
+    End If
 
-    'Try
-    'RemainedTime(12)=VL_VSRB6_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB6_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB6_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB6_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB6_PLC.Analog_Contagen_horas*60  + VL_VSRB6_PLC.Analog_Contagem_min)
-    'End Try
-'
-    'Try
-    'RemainedTime(13)=VL_VSRB7_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB7_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB7_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB7_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB7_PLC.Analog_Contagen_horas*60  + VL_VSRB7_PLC.Analog_Contagem_min)
-    'End Try
+     If General_VL_VSR12_PLCStateVariable = 0 Then
+        Try
+        RemainedTime(11)=VL_VSRB5_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB5_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB5_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB5_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB5_PLC.Analog_Contagen_horas*60  + VL_VSRB5_PLC.Analog_Contagem_min)
+        End Try
+    End If
 
+     If General_VL_VSR13_PLCStateVariable = 0 Then
+        Try
+        RemainedTime(12)=VL_VSRB6_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB6_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB6_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB6_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB6_PLC.Analog_Contagen_horas*60  + VL_VSRB6_PLC.Analog_Contagem_min)
+        End Try
+     End If
+
+     If General_VL_VSR14_PLCStateVariable = 0 Then
+        Try
+        RemainedTime(13)=VL_VSRB7_PLC.Analog_Pedido_T_Processo*6 + VL_VSRB7_PLC.Analog_Pedido_T_Azoto_Final  + VL_VSRB7_PLC.Analog_Pedido_T_Vapor_Final + VL_VSRB7_PLC.Analog_Ped_Azoto_pos_vapor - (VL_VSRB7_PLC.Analog_Contagen_horas*60  + VL_VSRB7_PLC.Analog_Contagem_min)
+        End Try
+     End If
 
     If VL_VSRA1_SCADA.Status &lt;&gt; 1 Then
         RemainedTime(0)= 0

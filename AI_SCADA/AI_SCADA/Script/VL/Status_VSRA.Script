@@ -10,6 +10,7 @@
   <forceWritingOnServer>false</forceWritingOnServer>
   <id>00000000-0000-0000-0000-000000000000</id>
   <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>General_VL_VSR01_PLCStateVariable</d2p1:string>
     <d2p1:string>VL_VSRA1_SCADA-Status</d2p1:string>
     <d2p1:string>VL_VSRA1_PLC-Maquina_em_tratamento</d2p1:string>
     <d2p1:string>VL_VSRA1_PLC-UnloadInProgress</d2p1:string>
@@ -20,27 +21,41 @@
     <d2p1:string>VL_Unload_Start</d2p1:string>
     <d2p1:string>VL_Unload_End</d2p1:string>
     <d2p1:string>VL_Treatment_Rec_Trig</d2p1:string>
+    <d2p1:string>General_VL_VSR02_PLCStateVariable</d2p1:string>
     <d2p1:string>VL_VSRA2_SCADA-Status</d2p1:string>
     <d2p1:string>VL_VSRA2_PLC-Maquina_em_tratamento</d2p1:string>
     <d2p1:string>VL_VSRA2_PLC-UnloadInProgress</d2p1:string>
     <d2p1:string>VL_VSRA2_SCADA-Status_tmp</d2p1:string>
+    <d2p1:string>General_VL_VSR03_PLCStateVariable</d2p1:string>
     <d2p1:string>VL_VSRA3_SCADA-Status</d2p1:string>
     <d2p1:string>VL_VSRA3_PLC-Maquina_em_tratamento</d2p1:string>
     <d2p1:string>VL_VSRA3_PLC-UnloadInProgress</d2p1:string>
     <d2p1:string>VL_VSRA3_SCADA-Status_tmp</d2p1:string>
+    <d2p1:string>General_VL_VSR04_PLCStateVariable</d2p1:string>
     <d2p1:string>VL_VSRA4_SCADA-Status</d2p1:string>
     <d2p1:string>VL_VSRA4_PLC-Maquina_em_tratamento</d2p1:string>
     <d2p1:string>VL_VSRA4_PLC-UnloadInProgress</d2p1:string>
     <d2p1:string>VL_VSRA4_SCADA-Status_tmp</d2p1:string>
+    <d2p1:string>General_VL_VSR05_PLCStateVariable</d2p1:string>
     <d2p1:string>VL_VSRA5_SCADA-Status</d2p1:string>
     <d2p1:string>VL_VSRA5_PLC-Maquina_em_tratamento</d2p1:string>
     <d2p1:string>VL_VSRA5_PLC-UnloadInProgress</d2p1:string>
     <d2p1:string>VL_VSRA5_SCADA-Status_tmp</d2p1:string>
+    <d2p1:string>General_VL_VSR06_PLCStateVariable</d2p1:string>
+    <d2p1:string>VL_VSRA6_SCADA-Status</d2p1:string>
+    <d2p1:string>VL_VSRA6_PLC-Maquina_em_tratamento</d2p1:string>
+    <d2p1:string>VL_VSRA6_PLC-UnloadInProgress</d2p1:string>
+    <d2p1:string>VL_VSRA6_SCADA-Status_tmp</d2p1:string>
+    <d2p1:string>General_VL_VSR07_PLCStateVariable</d2p1:string>
+    <d2p1:string>VL_VSRA7_SCADA-Status</d2p1:string>
+    <d2p1:string>VL_VSRA7_PLC-Maquina_em_tratamento</d2p1:string>
+    <d2p1:string>VL_VSRA7_PLC-UnloadInProgress</d2p1:string>
+    <d2p1:string>VL_VSRA7_SCADA-Status_tmp</d2p1:string>
   </listVariableUsed>
   <maxCleanCount>2</maxCleanCount>
-  <nSelLength>5545</nSelLength>
+  <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>13714</nStartSel>
+  <nStartSel>19491</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
@@ -52,6 +67,7 @@ Sub Main Handles .Main
     'Status:  0:Free 1:Running  2:WaitingForUnload  3:Unloading  4:End of Treatment 5: Fail
 
      'VSR01
+If General_VL_VSR01_PLCStateVariable = 0 Then
     Try
 
     Select Case VL_VSRA1_SCADA.Status
@@ -126,8 +142,10 @@ Sub Main Handles .Main
     End If
 
     VL_VSRA1_SCADA.Status_tmp = VL_VSRA1_SCADA.Status
+End If
 
      'VSR02
+If General_VL_VSR02_PLCStateVariable = 0 Then
     Try
 
     Select Case VL_VSRA2_SCADA.Status
@@ -202,8 +220,10 @@ Sub Main Handles .Main
     End If
 
     VL_VSRA2_SCADA.Status_tmp = VL_VSRA2_SCADA.Status
+End If
 
      'VSR03
+If General_VL_VSR03_PLCStateVariable = 0 Then
     Try
 
     Select Case VL_VSRA3_SCADA.Status
@@ -278,8 +298,10 @@ Sub Main Handles .Main
     End If
 
     VL_VSRA3_SCADA.Status_tmp = VL_VSRA3_SCADA.Status
+End If
 
      'VSR04
+If General_VL_VSR04_PLCStateVariable = 0 Then
     Try
 
     Select Case VL_VSRA4_SCADA.Status
@@ -354,8 +376,10 @@ Sub Main Handles .Main
     End If
 
     VL_VSRA4_SCADA.Status_tmp = VL_VSRA4_SCADA.Status
+End If
 
      'VSR05
+If General_VL_VSR05_PLCStateVariable = 0 Then
     Try
 
     Select Case VL_VSRA5_SCADA.Status
@@ -430,159 +454,163 @@ Sub Main Handles .Main
     End If
 
     VL_VSRA5_SCADA.Status_tmp = VL_VSRA5_SCADA.Status
+End If
 
-     ''VSR06
-    'Try
-'
-    'Select Case VL_VSRA6_SCADA.Status
-'
-    'Case 0
-        'If  VL_VSRA6_PLC.Maquina_em_tratamento Then
-            'VL_VSRA6_SCADA.Status = 1
-        'End If
-'
-    'Case 1
-        'If Not VL_VSRA6_PLC.Maquina_em_tratamento Then
-            'VL_VSRA6_SCADA.Status = 2
-        'End If
-'
-    'Case 2
-        'If VL_VSRA6_PLC.UnloadInProgress=4 Then
-            'VL_VSRA6_SCADA.Status = 3
-        'End If
-        'If  VL_VSRA6_PLC.Maquina_em_tratamento Then
-            'VL_VSRA6_SCADA.Status = 5
-        'End If
-'
-    'Case 3
-        'If  Not VL_VSRA6_PLC.UnloadInProgress=4 Then
-            'VL_VSRA6_SCADA.Status = 4
-        'End If
-         'If  VL_VSRA6_PLC.Maquina_em_tratamento Then
-            'VL_VSRA6_SCADA.Status = 5
-        'End If
-'
-    'Case Else
-            'VL_VSRA6_SCADA.Status = 0
-    'End Select
-'
-    'Catch
-    'Finally
-    'End Try
-'
-    'If VL_VSRA6_SCADA.Status &lt;&gt; VL_VSRA6_SCADA.Status_tmp Then
-'
-        'If VL_VSRA6_SCADA.Status = 1 Then
-            'ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Treatment_Start", DateTime)
-        'End If
-'
-        'If VL_VSRA6_SCADA.Status = 2 Then
-            'ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Treatment_End", DateTime)
-        'End If
-'
-        'If VL_VSRA6_SCADA.Status = 3 Then
-            'ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Unload_Start", DateTime)
-        'End If
-'
-        'If VL_VSRA6_SCADA.Status = 4 Or VL_VSRA6_SCADA.Status = 5 Then
-            'If VL_VSRA6_SCADA.Status = 4 Then
-                'ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Unload_End", DateTime)
-            'End If
-            'VL_Treatment_VSR = "VSR06"
-            'VL_Treatment_Start =  ScriptDocument.GetVariableValue("VL\VSRA6\SCADA:Treatment\Treatment_Start")
-            'VL_Treatment_End = ScriptDocument.GetVariableValue("VL\VSRA6\SCADA:Treatment\Treatment_End")
-            'VL_Unload_Start = ScriptDocument.GetVariableValue("VL\VSRA6\SCADA:Treatment\Unload_Start")
-            'VL_Unload_End = ScriptDocument.GetVariableValue("VL\VSRA6\SCADA:Treatment\Unload_End")
-            'VL_Treatment_Rec_Trig = True
-        'End If
-'
-        'If VL_VSRA6_SCADA.Status = 0 Then
-             'ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Treatment_Start", "NoRec")
-             'ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Treatment_End", "NoRec")
-             'ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Unload_Start", "NoRec")
-             'ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Unload_End", "NoRec")
-        'End If
-'
-    'End If
-'
-    'VL_VSRA6_SCADA.Status_tmp = VL_VSRA6_SCADA.Status
-'
-     ''VSR07
-    'Try
-'
-    'Select Case VL_VSRA7_SCADA.Status
-'
-    'Case 0
-        'If  VL_VSRA7_PLC.Maquina_em_tratamento Then
-            'VL_VSRA7_SCADA.Status = 1
-        'End If
-'
-    'Case 1
-        'If Not VL_VSRA7_PLC.Maquina_em_tratamento Then
-            'VL_VSRA7_SCADA.Status = 2
-        'End If
-'
-    'Case 2
-        'If VL_VSRA7_PLC.UnloadInProgress=4 Then
-            'VL_VSRA7_SCADA.Status = 3
-        'End If
-        'If  VL_VSRA7_PLC.Maquina_em_tratamento Then
-            'VL_VSRA7_SCADA.Status = 5
-        'End If
-'
-    'Case 3
-        'If  Not VL_VSRA7_PLC.UnloadInProgress=4 Then
-            'VL_VSRA7_SCADA.Status = 4
-        'End If
-         'If  VL_VSRA7_PLC.Maquina_em_tratamento Then
-            'VL_VSRA7_SCADA.Status = 5
-        'End If
-'
-    'Case Else
-            'VL_VSRA7_SCADA.Status = 0
-    'End Select
-'
-    'Catch
-    'Finally
-    'End Try
-'
-    'If VL_VSRA7_SCADA.Status &lt;&gt; VL_VSRA7_SCADA.Status_tmp Then
-'
-        'If VL_VSRA7_SCADA.Status = 1 Then
-            'ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Treatment_Start", DateTime)
-        'End If
-'
-        'If VL_VSRA7_SCADA.Status = 2 Then
-            'ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Treatment_End", DateTime)
-        'End If
-'
-        'If VL_VSRA7_SCADA.Status = 3 Then
-            'ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Unload_Start", DateTime)
-        'End If
-'
-        'If VL_VSRA7_SCADA.Status = 4 Or VL_VSRA7_SCADA.Status = 5 Then
-            'If VL_VSRA7_SCADA.Status = 4 Then
-                'ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Unload_End", DateTime)
-            'End If
-            'VL_Treatment_VSR = "VSR07"
-            'VL_Treatment_Start =  ScriptDocument.GetVariableValue("VL\VSRA7\SCADA:Treatment\Treatment_Start")
-            'VL_Treatment_End = ScriptDocument.GetVariableValue("VL\VSRA7\SCADA:Treatment\Treatment_End")
-            'VL_Unload_Start = ScriptDocument.GetVariableValue("VL\VSRA7\SCADA:Treatment\Unload_Start")
-            'VL_Unload_End = ScriptDocument.GetVariableValue("VL\VSRA7\SCADA:Treatment\Unload_End")
-            'VL_Treatment_Rec_Trig = True
-        'End If
-'
-        'If VL_VSRA7_SCADA.Status = 0 Then
-             'ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Treatment_Start", "NoRec")
-             'ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Treatment_End", "NoRec")
-             'ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Unload_Start", "NoRec")
-             'ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Unload_End", "NoRec")
-        'End If
-'
-    'End If
-'
-    'VL_VSRA7_SCADA.Status_tmp = VL_VSRA7_SCADA.Status
+     'VSR06
+If General_VL_VSR06_PLCStateVariable = 0 Then
+    Try
 
+    Select Case VL_VSRA6_SCADA.Status
+
+    Case 0
+        If  VL_VSRA6_PLC.Maquina_em_tratamento Then
+            VL_VSRA6_SCADA.Status = 1
+        End If
+
+    Case 1
+        If Not VL_VSRA6_PLC.Maquina_em_tratamento Then
+            VL_VSRA6_SCADA.Status = 2
+        End If
+
+    Case 2
+        If VL_VSRA6_PLC.UnloadInProgress=4 Then
+            VL_VSRA6_SCADA.Status = 3
+        End If
+        If  VL_VSRA6_PLC.Maquina_em_tratamento Then
+            VL_VSRA6_SCADA.Status = 5
+        End If
+
+    Case 3
+        If  Not VL_VSRA6_PLC.UnloadInProgress=4 Then
+            VL_VSRA6_SCADA.Status = 4
+        End If
+         If  VL_VSRA6_PLC.Maquina_em_tratamento Then
+            VL_VSRA6_SCADA.Status = 5
+        End If
+
+    Case Else
+            VL_VSRA6_SCADA.Status = 0
+    End Select
+
+    Catch
+    Finally
+    End Try
+
+    If VL_VSRA6_SCADA.Status &lt;&gt; VL_VSRA6_SCADA.Status_tmp Then
+
+        If VL_VSRA6_SCADA.Status = 1 Then
+            ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Treatment_Start", DateTime)
+        End If
+
+        If VL_VSRA6_SCADA.Status = 2 Then
+            ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Treatment_End", DateTime)
+        End If
+
+        If VL_VSRA6_SCADA.Status = 3 Then
+            ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Unload_Start", DateTime)
+        End If
+
+        If VL_VSRA6_SCADA.Status = 4 Or VL_VSRA6_SCADA.Status = 5 Then
+            If VL_VSRA6_SCADA.Status = 4 Then
+                ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Unload_End", DateTime)
+            End If
+            VL_Treatment_VSR = "VSR06"
+            VL_Treatment_Start =  ScriptDocument.GetVariableValue("VL\VSRA6\SCADA:Treatment\Treatment_Start")
+            VL_Treatment_End = ScriptDocument.GetVariableValue("VL\VSRA6\SCADA:Treatment\Treatment_End")
+            VL_Unload_Start = ScriptDocument.GetVariableValue("VL\VSRA6\SCADA:Treatment\Unload_Start")
+            VL_Unload_End = ScriptDocument.GetVariableValue("VL\VSRA6\SCADA:Treatment\Unload_End")
+            VL_Treatment_Rec_Trig = True
+        End If
+
+        If VL_VSRA6_SCADA.Status = 0 Then
+             ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Treatment_Start", "NoRec")
+             ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Treatment_End", "NoRec")
+             ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Unload_Start", "NoRec")
+             ScriptDocument.SetVariableValue("VL\VSRA6\SCADA:Treatment\Unload_End", "NoRec")
+        End If
+
+    End If
+
+    VL_VSRA6_SCADA.Status_tmp = VL_VSRA6_SCADA.Status
+End If
+
+     'VSR07
+If General_VL_VSR07_PLCStateVariable = 0 Then
+    Try
+
+    Select Case VL_VSRA7_SCADA.Status
+
+    Case 0
+        If  VL_VSRA7_PLC.Maquina_em_tratamento Then
+            VL_VSRA7_SCADA.Status = 1
+        End If
+
+    Case 1
+        If Not VL_VSRA7_PLC.Maquina_em_tratamento Then
+            VL_VSRA7_SCADA.Status = 2
+        End If
+
+    Case 2
+        If VL_VSRA7_PLC.UnloadInProgress=4 Then
+            VL_VSRA7_SCADA.Status = 3
+        End If
+        If  VL_VSRA7_PLC.Maquina_em_tratamento Then
+            VL_VSRA7_SCADA.Status = 5
+        End If
+
+    Case 3
+        If  Not VL_VSRA7_PLC.UnloadInProgress=4 Then
+            VL_VSRA7_SCADA.Status = 4
+        End If
+         If  VL_VSRA7_PLC.Maquina_em_tratamento Then
+            VL_VSRA7_SCADA.Status = 5
+        End If
+
+    Case Else
+            VL_VSRA7_SCADA.Status = 0
+    End Select
+
+    Catch
+    Finally
+    End Try
+
+    If VL_VSRA7_SCADA.Status &lt;&gt; VL_VSRA7_SCADA.Status_tmp Then
+
+        If VL_VSRA7_SCADA.Status = 1 Then
+            ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Treatment_Start", DateTime)
+        End If
+
+        If VL_VSRA7_SCADA.Status = 2 Then
+            ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Treatment_End", DateTime)
+        End If
+
+        If VL_VSRA7_SCADA.Status = 3 Then
+            ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Unload_Start", DateTime)
+        End If
+
+        If VL_VSRA7_SCADA.Status = 4 Or VL_VSRA7_SCADA.Status = 5 Then
+            If VL_VSRA7_SCADA.Status = 4 Then
+                ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Unload_End", DateTime)
+            End If
+            VL_Treatment_VSR = "VSR07"
+            VL_Treatment_Start =  ScriptDocument.GetVariableValue("VL\VSRA7\SCADA:Treatment\Treatment_Start")
+            VL_Treatment_End = ScriptDocument.GetVariableValue("VL\VSRA7\SCADA:Treatment\Treatment_End")
+            VL_Unload_Start = ScriptDocument.GetVariableValue("VL\VSRA7\SCADA:Treatment\Unload_Start")
+            VL_Unload_End = ScriptDocument.GetVariableValue("VL\VSRA7\SCADA:Treatment\Unload_End")
+            VL_Treatment_Rec_Trig = True
+        End If
+
+        If VL_VSRA7_SCADA.Status = 0 Then
+             ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Treatment_Start", "NoRec")
+             ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Treatment_End", "NoRec")
+             ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Unload_Start", "NoRec")
+             ScriptDocument.SetVariableValue("VL\VSRA7\SCADA:Treatment\Unload_End", "NoRec")
+        End If
+
+    End If
+
+    VL_VSRA7_SCADA.Status_tmp = VL_VSRA7_SCADA.Status
+end if
     
 End Sub
 </sCode>

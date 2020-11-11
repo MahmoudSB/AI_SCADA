@@ -22713,6 +22713,26 @@
       <TagName>VL/Conveyor/Alarm_Related/Erro_Manobra_Cilindro_Desviador_Maq_16</TagName>
       <NodeId>484b6330-80a9-47a2-bb91-76b0581e520a</NodeId>
     </entry>
+    <entry>
+      <TagName>General/intDummy</TagName>
+      <NodeId>71cf2b8c-fc1e-4aaf-bc84-08cb7eba7c44</NodeId>
+    </entry>
+    <entry>
+      <TagName>General/bitDummy2</TagName>
+      <NodeId>c72672ed-7f28-42b7-9e11-32f9ab145f30</NodeId>
+    </entry>
+    <entry>
+      <TagName>General/bitDummy1</TagName>
+      <NodeId>0ae99c25-1ec3-4b13-8d91-dfcc37a4941b</NodeId>
+    </entry>
+    <entry>
+      <TagName>General/VL_VSR16_PLCStateVariable</TagName>
+      <NodeId>6f11e526-3ff4-4263-bdbe-7f0c6b2c27c4</NodeId>
+    </entry>
+    <entry>
+      <TagName>General/VL_VSR15_PLCStateVariable</TagName>
+      <NodeId>208de755-9585-47fe-b5c6-56f5a5b4a8c0</NodeId>
+    </entry>
   </addressSpaceTags>
   <prototypeMembers>
     <entry>

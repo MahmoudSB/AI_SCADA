@@ -28,14 +28,14 @@
   <maxCleanCount>2</maxCleanCount>
   <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>2008</nStartSel>
+  <nStartSel>2221</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
 Sub Main Handles .Main
 
     Dim i, j As Integer
-    Dim VaribleAddress As String
+    Dim VaribleAddress, VSRxx As String
     Dim bitAddress As String
     Dim bitNumbers_AlarmMsg1(), bitNumbers_AlarmMsg2() As Integer
     bitNumbers_AlarmMsg1={0, 6, 7, 8, 12}
@@ -56,60 +56,66 @@ Sub Main Handles .Main
     VL_VSRB6_SCADA.NumberOfAlarms = 0
     VL_VSRB7_SCADA.NumberOfAlarms = 0
 
-    For  i=1 To 5
+    For  i=1 To 7
+       If ScriptDocument.GetVariableValue("General\VL_VSR0" &amp; i.ToString() &amp;  "_PLCStateVariable" ) = 0 Then
+            For j=0 To bitNumbers_AlarmMsg1.Length-1
+                If bitNumbers_AlarmMsg1(j)&lt;10 Then
+                    bitAddress ="bit0" &amp; bitNumbers_AlarmMsg1(j).ToString()
+                Else
+                    bitAddress ="bit" &amp; bitNumbers_AlarmMsg1(j).ToString()
+                End If
+                VaribleAddress = "VL\VSRA" &amp; i.ToString() &amp; "\PLC:Alarms\AlarmMsg1_" &amp; bitAddress
+                If ScriptDocument.GetVariableValue(VaribleAddress) Then
+                    VL_VSRA1_SCADA.NumberOfAlarms = VL_VSRA1_SCADA.NumberOfAlarms+1
+                End If
+            Next
 
-        For j=0 To bitNumbers_AlarmMsg1.Length-1
-            If bitNumbers_AlarmMsg1(j)&lt;10 Then
-                bitAddress ="bit0" &amp; bitNumbers_AlarmMsg1(j).ToString()
-            Else
-                bitAddress ="bit" &amp; bitNumbers_AlarmMsg1(j).ToString()
-            End If
-            VaribleAddress = "VL\VSRA" &amp; i.ToString() &amp; "\PLC:Alarms\AlarmMsg1_" &amp; bitAddress
-            If ScriptDocument.GetVariableValue(VaribleAddress) Then
-                VL_VSRA1_SCADA.NumberOfAlarms = VL_VSRA1_SCADA.NumberOfAlarms+1
-            End If
-        Next
-
-        For j=0 To bitNumbers_AlarmMsg2.Length-1
-            If bitNumbers_AlarmMsg2(j)&lt;10 Then
-                bitAddress ="bit0" &amp; bitNumbers_AlarmMsg2(j).ToString()
-            Else
-                bitAddress ="bit" &amp; bitNumbers_AlarmMsg2(j).ToString()
-            End If
-            VaribleAddress = "VL\VSRA" &amp; i.ToString() &amp; "\PLC:Alarms\AlarmMsg2_" &amp; bitAddress
-            If ScriptDocument.GetVariableValue(VaribleAddress) Then
-                VL_VSRA1_SCADA.NumberOfAlarms = VL_VSRA1_SCADA.NumberOfAlarms+1
-            End If
-        Next
-
+            For j=0 To bitNumbers_AlarmMsg2.Length-1
+                If bitNumbers_AlarmMsg2(j)&lt;10 Then
+                    bitAddress ="bit0" &amp; bitNumbers_AlarmMsg2(j).ToString()
+                Else
+                    bitAddress ="bit" &amp; bitNumbers_AlarmMsg2(j).ToString()
+                End If
+                VaribleAddress = "VL\VSRA" &amp; i.ToString() &amp; "\PLC:Alarms\AlarmMsg2_" &amp; bitAddress
+                If ScriptDocument.GetVariableValue(VaribleAddress) Then
+                    VL_VSRA1_SCADA.NumberOfAlarms = VL_VSRA1_SCADA.NumberOfAlarms+1
+                End If
+            Next
+        End If
     Next
 
-        For  i=1 To 5
+    For  i=1 To 7
+        If i&lt;3 Then
+            VSRxx = "VSR0" &amp; (i+7).ToString()
+        Else
+            VSRxx = "VSR0" &amp; (i+7).ToString()
+        End If
 
-        For j=0 To bitNumbers_AlarmMsg1.Length-1
-            If bitNumbers_AlarmMsg1(j)&lt;10 Then
-                bitAddress ="bit0" &amp; bitNumbers_AlarmMsg1(j).ToString()
-            Else
-                bitAddress ="bit" &amp; bitNumbers_AlarmMsg1(j).ToString()
-            End If
-            VaribleAddress = "VL\VSRB" &amp; i.ToString() &amp; "\PLC:Alarms\AlarmMsg1_" &amp; bitAddress
-            If ScriptDocument.GetVariableValue(VaribleAddress) Then
-                VL_VSRA1_SCADA.NumberOfAlarms = VL_VSRA1_SCADA.NumberOfAlarms+1
-            End If
-        Next
+        If ScriptDocument.GetVariableValue("General\VL_" &amp; VSRxx &amp;  "_PLCStateVariable" ) = 0 Then
+            For j=0 To bitNumbers_AlarmMsg1.Length-1
+                If bitNumbers_AlarmMsg1(j)&lt;10 Then
+                    bitAddress ="bit0" &amp; bitNumbers_AlarmMsg1(j).ToString()
+                Else
+                    bitAddress ="bit" &amp; bitNumbers_AlarmMsg1(j).ToString()
+                End If
+                VaribleAddress = "VL\VSRB" &amp; i.ToString() &amp; "\PLC:Alarms\AlarmMsg1_" &amp; bitAddress
+                If ScriptDocument.GetVariableValue(VaribleAddress) Then
+                    VL_VSRA1_SCADA.NumberOfAlarms = VL_VSRA1_SCADA.NumberOfAlarms+1
+                End If
+            Next
 
-        For j=0 To bitNumbers_AlarmMsg2.Length-1
-            If bitNumbers_AlarmMsg2(j)&lt;10 Then
-                bitAddress ="bit0" &amp; bitNumbers_AlarmMsg2(j).ToString()
-            Else
-                bitAddress ="bit" &amp; bitNumbers_AlarmMsg2(j).ToString()
-            End If
-            VaribleAddress = "VL\VSRB" &amp; i.ToString() &amp; "\PLC:Alarms\AlarmMsg2_" &amp; bitAddress
-            If ScriptDocument.GetVariableValue(VaribleAddress) Then
-                VL_VSRA1_SCADA.NumberOfAlarms = VL_VSRA1_SCADA.NumberOfAlarms+1
-            End If
-        Next
-
+            For j=0 To bitNumbers_AlarmMsg2.Length-1
+                If bitNumbers_AlarmMsg2(j)&lt;10 Then
+                    bitAddress ="bit0" &amp; bitNumbers_AlarmMsg2(j).ToString()
+                Else
+                    bitAddress ="bit" &amp; bitNumbers_AlarmMsg2(j).ToString()
+                End If
+                VaribleAddress = "VL\VSRB" &amp; i.ToString() &amp; "\PLC:Alarms\AlarmMsg2_" &amp; bitAddress
+                If ScriptDocument.GetVariableValue(VaribleAddress) Then
+                    VL_VSRA1_SCADA.NumberOfAlarms = VL_VSRA1_SCADA.NumberOfAlarms+1
+                End If
+            Next
+        End If
     Next
 
 End Sub

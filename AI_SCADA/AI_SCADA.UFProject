@@ -14,7 +14,7 @@
   </defaultSpeechCommands>
   <description i:nil="true" />
   <disableWhenNotUsed>true</disableWhenNotUsed>
-  <enableBackup>true</enableBackup>
+  <enableBackup>false</enableBackup>
   <fastSamplingInterval>500</fastSamplingInterval>
   <identityColor xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
     <d2p1:A>255</d2p1:A>
