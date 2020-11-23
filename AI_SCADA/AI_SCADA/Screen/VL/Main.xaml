@@ -6,7 +6,7 @@
           <Image.Source>
             <Binding ConverterParameter="main_VL.png">
               <Binding.Converter>
-                <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
               </Binding.Converter>
             </Binding>
           </Image.Source>
@@ -22,7 +22,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_conv_AB_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -39,7 +39,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_conv_AB_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -63,7 +63,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_Cnt_Unloud_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -80,7 +80,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_Cnt_feed_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -97,7 +97,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_conv_AB_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -114,7 +114,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_conv_AB_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -138,7 +138,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_conv_main_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -155,7 +155,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_conv_main_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -179,7 +179,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_Cov_unload_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -196,7 +196,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_Cov_unload_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -220,7 +220,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_Cov_unload_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -237,7 +237,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_Cov_unload_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -261,7 +261,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -278,7 +278,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -295,7 +295,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -312,7 +312,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -329,7 +329,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -346,7 +346,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -363,7 +363,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -380,7 +380,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -397,7 +397,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -414,7 +414,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -431,7 +431,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -448,7 +448,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -465,7 +465,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Front_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -482,7 +482,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Front_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -531,7 +531,7 @@
             <Image.Source>
               <Binding ConverterParameter="chiller_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -548,7 +548,7 @@
             <Image.Source>
               <Binding ConverterParameter="fan_anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -565,7 +565,7 @@
             <Image.Source>
               <Binding ConverterParameter="elv_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -591,7 +591,7 @@
             <Image.Source>
               <Binding ConverterParameter="Emcy.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -631,7 +631,7 @@
             <Image.Source>
               <Binding ConverterParameter="elv_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -655,7 +655,7 @@
             <Image.Source>
               <Binding ConverterParameter="elv_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -679,7 +679,7 @@
             <Image.Source>
               <Binding ConverterParameter="elv_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -703,7 +703,7 @@
             <Image.Source>
               <Binding ConverterParameter="MainPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -720,7 +720,7 @@
             <Image.Source>
               <Binding ConverterParameter="chiller_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -843,7 +843,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -860,7 +860,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -887,7 +887,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -904,7 +904,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -930,7 +930,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -947,7 +947,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -975,7 +975,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -992,7 +992,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1019,7 +1019,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1036,7 +1036,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1063,7 +1063,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1080,7 +1080,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1107,7 +1107,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1124,7 +1124,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1153,7 +1153,7 @@
             <Image.Source>
               <Binding ConverterParameter="MainPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1173,7 +1173,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1190,7 +1190,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1217,7 +1217,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1234,7 +1234,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1261,7 +1261,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1278,7 +1278,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1305,7 +1305,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1322,7 +1322,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1349,7 +1349,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1366,7 +1366,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1393,7 +1393,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1410,7 +1410,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1437,7 +1437,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1454,7 +1454,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1480,7 +1480,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_cntFeed_diag_anim_base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1497,7 +1497,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_cntFeed_diag_anim_blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1521,7 +1521,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_conv_Diag_anim_base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1545,7 +1545,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_conv_Diag_anim_blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1569,7 +1569,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_Cnt_Unloud_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
