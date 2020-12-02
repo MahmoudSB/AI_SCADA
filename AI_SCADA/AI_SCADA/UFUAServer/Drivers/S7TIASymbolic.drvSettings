@@ -490,7 +490,7 @@
     <KeepOpened>true</KeepOpened>
     <StateCommandTag>301ef643-0a2f-422a-913e-c268a4afc351|2:Tags/2:General/2:VL_VSR07_PLCStateVariable|ns=2;g=301ef643-0a2f-422a-913e-c268a4afc351|General\VL_VSR07_PLCStateVariable (AI_Spark_20200515_00_IOServer)</StateCommandTag>
     <DriverSettings>1</DriverSettings>
-    <OptimisticLockField>3</OptimisticLockField>
+    <OptimisticLockField>5</OptimisticLockField>
     <ObjectType>2</ObjectType>
     <TcpChannelSettingsHostName>172.29.83.179</TcpChannelSettingsHostName>
     <TcpChannelSettingsHostPort>102</TcpChannelSettingsHostPort>

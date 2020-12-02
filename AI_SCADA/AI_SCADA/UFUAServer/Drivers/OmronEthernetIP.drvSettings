@@ -194,9 +194,9 @@
     <PollingTimeNotInUse>0</PollingTimeNotInUse>
     <PollingTimeInError>0</PollingTimeInError>
     <KeepOpened>true</KeepOpened>
-    <StateCommandTag>00000000-0000-0000-0000-000000000000||i=0|</StateCommandTag>
+    <StateCommandTag>6172bfc8-ad80-41f8-8208-a435cf7b6ab2|2:Tags/2:General/2:Spark_Conveyor_PLCStateVariable|ns=2;g=6172bfc8-ad80-41f8-8208-a435cf7b6ab2|General\Spark_Conveyor_PLCStateVariable (AI_Spark_20200515_00_IOServer)</StateCommandTag>
     <DriverSettings>1</DriverSettings>
-    <OptimisticLockField>0</OptimisticLockField>
+    <OptimisticLockField>2</OptimisticLockField>
     <ObjectType>2</ObjectType>
   </ChannelSettings>
   <ChannelSettings>
@@ -208,9 +208,9 @@
     <PollingTimeNotInUse>0</PollingTimeNotInUse>
     <PollingTimeInError>0</PollingTimeInError>
     <KeepOpened>true</KeepOpened>
-    <StateCommandTag>00000000-0000-0000-0000-000000000000||i=0|</StateCommandTag>
+    <StateCommandTag>e97004c3-260a-41fe-95a6-0b6dc838fefa|2:Tags/2:General/2:VL_Conveyor_PLCStateVariable|ns=2;g=e97004c3-260a-41fe-95a6-0b6dc838fefa|General\VL_Conveyor_PLCStateVariable (AI_Spark_20200515_00_IOServer)</StateCommandTag>
     <DriverSettings>1</DriverSettings>
-    <OptimisticLockField>3</OptimisticLockField>
+    <OptimisticLockField>5</OptimisticLockField>
     <ObjectType>2</ObjectType>
   </ChannelSettings>
   <DriverSettings>

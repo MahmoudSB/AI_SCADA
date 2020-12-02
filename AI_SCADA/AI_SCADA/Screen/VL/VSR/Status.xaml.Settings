@@ -245,10 +245,10 @@
         <preserveVariables>true</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF5F9EA0&lt;/SolidColorBrush&gt;</preservedBrush>
-        <preservedHeight>44</preservedHeight>
+        <preservedHeight>40</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText>Position</preservedText>
-        <preservedWidth>91</preservedWidth>
+        <preservedWidth>98</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
         <sCode i:nil="true" />
@@ -11522,10 +11522,10 @@
         <preserveVariables>true</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
-        <preservedHeight>30.000006134186549</preservedHeight>
+        <preservedHeight>30.0000061341865</preservedHeight>
         <preservedPen i:nil="true" />
         <preservedText i:nil="true" />
-        <preservedWidth>12.000002070225491</preservedWidth>
+        <preservedWidth>12.0000020702255</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
         <sCode i:nil="true" />

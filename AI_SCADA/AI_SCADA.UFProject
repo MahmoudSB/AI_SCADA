@@ -518,6 +518,10 @@
       <d2p1:Key>C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\ScreenParameter\VL_VSRB7.xml</d2p1:Key>
       <d2p1:Value>C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\ScreenParameter\VL_VSR14.xml</d2p1:Value>
     </d2p1:KeyValueOfstringstring>
+    <d2p1:KeyValueOfstringstring>
+      <d2p1:Key>C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Script\Spark_VSR1to4_Color.Script</d2p1:Key>
+      <d2p1:Value>C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Script\Spark_VSR_Color.Script</d2p1:Value>
+    </d2p1:KeyValueOfstringstring>
   </mapRenamedResources>
   <mapUriChildProjectData xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <mapUriControllerData xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
@@ -1981,14 +1985,14 @@
       <d2p1:Key>Screen/VL/VSR/</d2p1:Key>
       <d2p1:Value>
         <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
-          <d5p1:A>0</d5p1:A>
-          <d5p1:B>255</d5p1:B>
-          <d5p1:G>255</d5p1:G>
-          <d5p1:R>255</d5p1:R>
-          <d5p1:ScA>0</d5p1:ScA>
-          <d5p1:ScB>1</d5p1:ScB>
-          <d5p1:ScG>1</d5p1:ScG>
-          <d5p1:ScR>1</d5p1:ScR>
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>134</d5p1:B>
+          <d5p1:G>118</d5p1:G>
+          <d5p1:R>27</d5p1:R>
+          <d5p1:ScA>1</d5p1:ScA>
+          <d5p1:ScB>0.2383976</d5p1:ScB>
+          <d5p1:ScG>0.18116425</d5p1:ScG>
+          <d5p1:ScR>0.0109600946</d5p1:ScR>
         </color>
         <description i:nil="true" />
         <latitude>NaN</latitude>
@@ -2015,6 +2019,32 @@
           <d5p1:ScB>0.005181517</d5p1:ScB>
           <d5p1:ScG>0.6938718</d5p1:ScG>
           <d5p1:ScR>0.116970673</d5p1:ScR>
+        </color>
+        <description i:nil="true" />
+        <latitude>NaN</latitude>
+        <latitudeTag i:nil="true" />
+        <longitude>NaN</longitude>
+        <longitudeTag i:nil="true" />
+        <mapMaxZoomLevelVisibility>20</mapMaxZoomLevelVisibility>
+        <mapZoomLevelVisibility>1</mapZoomLevelVisibility>
+        <rolesVisibility i:nil="true" />
+        <tileSize>Small</tileSize>
+        <usersVisibility i:nil="true" />
+        <visible>true</visible>
+      </d2p1:Value>
+    </d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+    <d2p1:KeyValueOfanyURIControllerDataM96vBvSk>
+      <d2p1:Key>Screen/Spark/VSR/Status1.xaml</d2p1:Key>
+      <d2p1:Value>
+        <color xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows.Media">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>92</d5p1:B>
+          <d5p1:G>27</d5p1:G>
+          <d5p1:R>112</d5p1:R>
+          <d5p1:ScA>1</d5p1:ScA>
+          <d5p1:ScB>0.107023105</d5p1:ScB>
+          <d5p1:ScG>0.0109600946</d5p1:ScG>
+          <d5p1:ScR>0.162029386</d5p1:ScR>
         </color>
         <description i:nil="true" />
         <latitude>NaN</latitude>

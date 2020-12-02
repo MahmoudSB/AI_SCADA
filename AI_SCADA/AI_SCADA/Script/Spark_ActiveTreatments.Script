@@ -10,90 +10,146 @@
   <forceWritingOnServer>false</forceWritingOnServer>
   <id>00000000-0000-0000-0000-000000000000</id>
   <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>General_Spark_VSR01_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR01_PLC_Analog_Pedido_T_Processo</d2p1:string>
     <d2p1:string>SPARK_VSR01_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
     <d2p1:string>SPARK_VSR01_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
     <d2p1:string>SPARK_VSR01_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
     <d2p1:string>SPARK_VSR01_PLC_Analog_Contagen_horas</d2p1:string>
     <d2p1:string>SPARK_VSR01_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR02_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR02_PLC_Analog_Pedido_T_Processo</d2p1:string>
     <d2p1:string>SPARK_VSR02_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
     <d2p1:string>SPARK_VSR02_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
     <d2p1:string>SPARK_VSR02_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
     <d2p1:string>SPARK_VSR02_PLC_Analog_Contagen_horas</d2p1:string>
     <d2p1:string>SPARK_VSR02_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR03_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR03_PLC_Analog_Pedido_T_Processo</d2p1:string>
     <d2p1:string>SPARK_VSR03_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
     <d2p1:string>SPARK_VSR03_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
     <d2p1:string>SPARK_VSR03_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
     <d2p1:string>SPARK_VSR03_PLC_Analog_Contagen_horas</d2p1:string>
     <d2p1:string>SPARK_VSR03_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR04_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR04_PLC_Analog_Pedido_T_Processo</d2p1:string>
     <d2p1:string>SPARK_VSR04_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
     <d2p1:string>SPARK_VSR04_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
     <d2p1:string>SPARK_VSR04_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
     <d2p1:string>SPARK_VSR04_PLC_Analog_Contagen_horas</d2p1:string>
     <d2p1:string>SPARK_VSR04_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR05_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR05_PLC_Analog_Pedido_T_Processo</d2p1:string>
     <d2p1:string>SPARK_VSR05_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
     <d2p1:string>SPARK_VSR05_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
     <d2p1:string>SPARK_VSR05_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
     <d2p1:string>SPARK_VSR05_PLC_Analog_Contagen_horas</d2p1:string>
     <d2p1:string>SPARK_VSR05_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR06_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR06_PLC_Analog_Pedido_T_Processo</d2p1:string>
     <d2p1:string>SPARK_VSR06_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
     <d2p1:string>SPARK_VSR06_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
     <d2p1:string>SPARK_VSR06_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
     <d2p1:string>SPARK_VSR06_PLC_Analog_Contagen_horas</d2p1:string>
     <d2p1:string>SPARK_VSR06_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR07_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR07_PLC_Analog_Pedido_T_Processo</d2p1:string>
     <d2p1:string>SPARK_VSR07_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
     <d2p1:string>SPARK_VSR07_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
     <d2p1:string>SPARK_VSR07_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
     <d2p1:string>SPARK_VSR07_PLC_Analog_Contagen_horas</d2p1:string>
     <d2p1:string>SPARK_VSR07_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR08_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR08_PLC_Analog_Pedido_T_Processo</d2p1:string>
     <d2p1:string>SPARK_VSR08_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
     <d2p1:string>SPARK_VSR08_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
     <d2p1:string>SPARK_VSR08_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
     <d2p1:string>SPARK_VSR08_PLC_Analog_Contagen_horas</d2p1:string>
     <d2p1:string>SPARK_VSR08_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR09_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR09_PLC_Analog_Pedido_T_Processo</d2p1:string>
     <d2p1:string>SPARK_VSR09_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
     <d2p1:string>SPARK_VSR09_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
     <d2p1:string>SPARK_VSR09_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
     <d2p1:string>SPARK_VSR09_PLC_Analog_Contagen_horas</d2p1:string>
     <d2p1:string>SPARK_VSR09_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR10_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR10_PLC_Analog_Pedido_T_Processo</d2p1:string>
     <d2p1:string>SPARK_VSR10_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
     <d2p1:string>SPARK_VSR10_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
     <d2p1:string>SPARK_VSR10_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
     <d2p1:string>SPARK_VSR10_PLC_Analog_Contagen_horas</d2p1:string>
     <d2p1:string>SPARK_VSR10_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR11_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR11_PLC_Analog_Pedido_T_Processo</d2p1:string>
     <d2p1:string>SPARK_VSR11_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
     <d2p1:string>SPARK_VSR11_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
     <d2p1:string>SPARK_VSR11_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
     <d2p1:string>SPARK_VSR11_PLC_Analog_Contagen_horas</d2p1:string>
     <d2p1:string>SPARK_VSR11_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR12_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR12_PLC_Analog_Pedido_T_Processo</d2p1:string>
     <d2p1:string>SPARK_VSR12_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
     <d2p1:string>SPARK_VSR12_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
     <d2p1:string>SPARK_VSR12_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
     <d2p1:string>SPARK_VSR12_PLC_Analog_Contagen_horas</d2p1:string>
     <d2p1:string>SPARK_VSR12_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR13_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR13_PLC_Analog_Pedido_T_Processo</d2p1:string>
     <d2p1:string>SPARK_VSR13_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
     <d2p1:string>SPARK_VSR13_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
     <d2p1:string>SPARK_VSR13_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
     <d2p1:string>SPARK_VSR13_PLC_Analog_Contagen_horas</d2p1:string>
     <d2p1:string>SPARK_VSR13_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR14_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR14_PLC_Analog_Pedido_T_Processo</d2p1:string>
     <d2p1:string>SPARK_VSR14_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
     <d2p1:string>SPARK_VSR14_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
     <d2p1:string>SPARK_VSR14_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
     <d2p1:string>SPARK_VSR14_PLC_Analog_Contagen_horas</d2p1:string>
     <d2p1:string>SPARK_VSR14_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR15_PLCStateVariable</d2p1:string>
+    <d2p1:string>SPARK_VSR15_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR15_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR15_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR15_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR15_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR15_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR16_PLCStateVariable</d2p1:string>
+    <d2p1:string>SPARK_VSR16_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR16_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR16_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR16_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR16_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR16_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR17_PLCStateVariable</d2p1:string>
+    <d2p1:string>SPARK_VSR17_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR17_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR17_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR17_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR17_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR17_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR18_PLCStateVariable</d2p1:string>
+    <d2p1:string>SPARK_VSR18_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR18_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR18_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR18_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR18_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR18_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR19_PLCStateVariable</d2p1:string>
+    <d2p1:string>SPARK_VSR19_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR19_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR19_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR19_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR19_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR19_PLC_Analog_Contagem_min</d2p1:string>
+    <d2p1:string>General_Spark_VSR20_PLCStateVariable</d2p1:string>
+    <d2p1:string>SPARK_VSR20_PLC_Analog_Pedido_T_Processo</d2p1:string>
+    <d2p1:string>SPARK_VSR20_PLC_Analog_Pedido_T_Azoto_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR20_PLC_Analog_Pedido_T_Vapor_Final</d2p1:string>
+    <d2p1:string>SPARK_VSR20_PLC_Analog_Ped_Azoto_pos_vapor</d2p1:string>
+    <d2p1:string>SPARK_VSR20_PLC_Analog_Contagen_horas</d2p1:string>
+    <d2p1:string>SPARK_VSR20_PLC_Analog_Contagem_min</d2p1:string>
     <d2p1:string>SPARK_VSR01_Status</d2p1:string>
     <d2p1:string>SPARK_VSR02_Status</d2p1:string>
     <d2p1:string>SPARK_VSR03_Status</d2p1:string>
@@ -140,9 +196,9 @@
     <d2p1:string>SPARK_TableNameVisible</d2p1:string>
   </listVariableUsed>
   <maxCleanCount>2</maxCleanCount>
-  <nSelLength>1877</nSelLength>
+  <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>5576</nStartSel>
+  <nStartSel>4570</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
@@ -198,88 +254,205 @@ Sub Main Handles .Main
     RemainedTime(18)=0
     RemainedTime(19)=0
 
+    If General_Spark_VSR01_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(0)= SPARK_VSR01_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR01_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR01_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR01_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR01_PLC_Analog_Contagen_horas*60 + SPARK_VSR01_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(0)= 0
+        End Try
+    Else
+         RemainedTime(0)= 0
+    End If
 
-    Try
-    RemainedTime(0)= SPARK_VSR01_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR01_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR01_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR01_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR01_PLC_Analog_Contagen_horas*60 + SPARK_VSR01_PLC_Analog_Contagem_min)
-    End Try
+    If General_Spark_VSR02_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(1)= SPARK_VSR02_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR02_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR02_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR02_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR02_PLC_Analog_Contagen_horas*60 + SPARK_VSR02_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(1)= 0
+        End Try
+    Else
+         RemainedTime(1)= 0
+    End If
 
-    Try
-    RemainedTime(1)= SPARK_VSR02_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR02_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR02_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR02_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR02_PLC_Analog_Contagen_horas*60 + SPARK_VSR02_PLC_Analog_Contagem_min)
-    End Try
+    If General_Spark_VSR03_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(2)= SPARK_VSR03_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR03_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR03_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR03_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR03_PLC_Analog_Contagen_horas*60 + SPARK_VSR03_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(2)= 0
+        End Try
+    Else
+         RemainedTime(2)= 0
+    End If
 
-    Try
-    RemainedTime(2)= SPARK_VSR03_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR03_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR03_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR03_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR03_PLC_Analog_Contagen_horas*60 + SPARK_VSR03_PLC_Analog_Contagem_min)
-    End Try
+    If General_Spark_VSR04_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(3)= SPARK_VSR04_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR04_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR04_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR04_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR04_PLC_Analog_Contagen_horas*60 + SPARK_VSR04_PLC_Analog_Contagem_min)
+       Catch
+            RemainedTime(3)= 0
+        End Try
+    Else
+         RemainedTime(3)= 0
+    End If
 
-    Try
-    RemainedTime(3)= SPARK_VSR04_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR04_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR04_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR04_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR04_PLC_Analog_Contagen_horas*60 + SPARK_VSR04_PLC_Analog_Contagem_min)
-    End Try
+    If General_Spark_VSR05_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(4)= SPARK_VSR05_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR05_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR05_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR05_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR05_PLC_Analog_Contagen_horas*60 + SPARK_VSR05_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(4)= 0
+        End Try
+    Else
+         RemainedTime(4)= 0
+    End If
 
-    Try
-    RemainedTime(4)= SPARK_VSR05_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR05_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR05_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR05_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR05_PLC_Analog_Contagen_horas*60 + SPARK_VSR05_PLC_Analog_Contagem_min)
-    End Try
+    If General_Spark_VSR06_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(5)= SPARK_VSR06_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR06_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR06_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR06_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR06_PLC_Analog_Contagen_horas*60 + SPARK_VSR06_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(5)= 0
+        End Try
+    Else
+         RemainedTime(5)= 0
+    End If
 
-    Try
-    RemainedTime(5)= SPARK_VSR06_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR06_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR06_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR06_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR06_PLC_Analog_Contagen_horas*60 + SPARK_VSR06_PLC_Analog_Contagem_min)
-    End Try
+    If General_Spark_VSR07_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(6)= SPARK_VSR07_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR07_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR07_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR07_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR07_PLC_Analog_Contagen_horas*60 + SPARK_VSR07_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(6)= 0
+        End Try
+    Else
+         RemainedTime(6)= 0
+    End If
 
-    Try
-    RemainedTime(6)= SPARK_VSR07_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR07_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR07_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR07_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR07_PLC_Analog_Contagen_horas*60 + SPARK_VSR07_PLC_Analog_Contagem_min)
-    End Try
+    If General_Spark_VSR08_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(7)= SPARK_VSR08_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR08_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR08_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR08_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR08_PLC_Analog_Contagen_horas*60 + SPARK_VSR08_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(7)= 0
+        End Try
+    Else
+         RemainedTime(7)= 0
+    End If
 
-    Try
-    RemainedTime(7)= SPARK_VSR08_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR08_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR08_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR08_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR08_PLC_Analog_Contagen_horas*60 + SPARK_VSR08_PLC_Analog_Contagem_min)
-    End Try
+    If General_Spark_VSR09_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(8)= SPARK_VSR09_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR09_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR09_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR09_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR09_PLC_Analog_Contagen_horas*60 + SPARK_VSR09_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(8)= 0
+        End Try
+    Else
+         RemainedTime(8)= 0
+    End If
 
-    Try
-    RemainedTime(8)= SPARK_VSR09_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR09_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR09_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR09_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR09_PLC_Analog_Contagen_horas*60 + SPARK_VSR09_PLC_Analog_Contagem_min)
-    End Try
+    If General_Spark_VSR10_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(9)= SPARK_VSR10_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR10_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR10_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR10_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR10_PLC_Analog_Contagen_horas*60 + SPARK_VSR10_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(9)= 0
+        End Try
+    Else
+         RemainedTime(9)= 0
+    End If
 
-    Try
-    RemainedTime(9)= SPARK_VSR10_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR10_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR10_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR10_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR10_PLC_Analog_Contagen_horas*60 + SPARK_VSR10_PLC_Analog_Contagem_min)
-    End Try
+    If General_Spark_VSR11_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(10)=SPARK_VSR11_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR11_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR11_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR11_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR11_PLC_Analog_Contagen_horas*60 + SPARK_VSR11_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(10)= 0
+        End Try
+    Else
+         RemainedTime(10)= 0
+    End If
 
-    Try
-    RemainedTime(10)=SPARK_VSR11_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR11_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR11_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR11_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR11_PLC_Analog_Contagen_horas*60 + SPARK_VSR11_PLC_Analog_Contagem_min)
-    End Try
+    If General_Spark_VSR12_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(11)=SPARK_VSR12_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR12_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR12_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR12_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR12_PLC_Analog_Contagen_horas*60 + SPARK_VSR12_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(11)= 0
+        End Try
+    Else
+         RemainedTime(11)= 0
+    End If
 
-    Try
-    RemainedTime(11)=SPARK_VSR12_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR12_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR12_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR12_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR12_PLC_Analog_Contagen_horas*60 + SPARK_VSR12_PLC_Analog_Contagem_min)
-    End Try
+    If General_Spark_VSR13_PLCStateVariable = 0 Then
+        Try
+        RemainedTime(12)=SPARK_VSR13_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR13_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR13_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR13_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR13_PLC_Analog_Contagen_horas*60 + SPARK_VSR13_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(12)= 0
+        End Try
+    Else
+         RemainedTime(12)= 0
+    End If
 
-    Try
-    RemainedTime(12)=SPARK_VSR13_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR13_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR13_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR13_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR13_PLC_Analog_Contagen_horas*60 + SPARK_VSR13_PLC_Analog_Contagem_min)
-    End Try
+    If General_Spark_VSR14_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(13)=SPARK_VSR14_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR14_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR14_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR14_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR14_PLC_Analog_Contagen_horas*60 + SPARK_VSR14_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(13)= 0
+        End Try
+    Else
+         RemainedTime(13)= 0
+    End If
 
-    Try
-    RemainedTime(13)=SPARK_VSR14_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR14_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR14_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR14_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR14_PLC_Analog_Contagen_horas*60 + SPARK_VSR14_PLC_Analog_Contagem_min)
-    End Try
+    If General_Spark_VSR15_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(14)= SPARK_VSR15_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR15_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR15_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR15_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR15_PLC_Analog_Contagen_horas*60 + SPARK_VSR15_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(14)= 0
+        End Try
+    Else
+         RemainedTime(14)= 0
+    End If
 
-    'Try
-    'RemainedTime(14)= SPARK_VSR15_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR15_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR15_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR15_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR15_PLC_Analog_Contagen_horas*60 + SPARK_VSR15_PLC_Analog_Contagem_min)
-    'End Try
-'
-    'Try
-    'RemainedTime(15)= SPARK_VSR16_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR16_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR16_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR16_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR16_PLC_Analog_Contagen_horas*60 + SPARK_VSR16_PLC_Analog_Contagem_min)
-    'End Try
-'
-    'Try
-    'RemainedTime(16)=SPARK_VSR17_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR17_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR17_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR17_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR17_PLC_Analog_Contagen_horas*60 + SPARK_VSR17_PLC_Analog_Contagem_min)
-    'End Try
-'
-    'Try
-    'RemainedTime(17)=SPARK_VSR18_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR18_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR18_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR18_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR18_PLC_Analog_Contagen_horas*60 + SPARK_VSR18_PLC_Analog_Contagem_min)
-    'End Try
-'
-    'Try
-    'RemainedTime(18)=SPARK_VSR19_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR19_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR19_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR19_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR19_PLC_Analog_Contagen_horas*60 + SPARK_VSR19_PLC_Analog_Contagem_min)
-    'End Try
-'
-    'Try
-    'RemainedTime(19)=SPARK_VSR20_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR20_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR20_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR20_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR20_PLC_Analog_Contagen_horas*60 + SPARK_VSR20_PLC_Analog_Contagem_min)
-    'End Try
+    If General_Spark_VSR16_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(15)= SPARK_VSR16_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR16_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR16_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR16_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR16_PLC_Analog_Contagen_horas*60 + SPARK_VSR16_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(15)= 0
+        End Try
+    Else
+         RemainedTime(15)= 0
+    End If
 
+    If General_Spark_VSR17_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(16)=SPARK_VSR17_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR17_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR17_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR17_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR17_PLC_Analog_Contagen_horas*60 + SPARK_VSR17_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(16)= 0
+        End Try
+    Else
+         RemainedTime(16)= 0
+    End If
 
+    If General_Spark_VSR18_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(17)=SPARK_VSR18_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR18_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR18_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR18_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR18_PLC_Analog_Contagen_horas*60 + SPARK_VSR18_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(17)= 0
+        End Try
+    Else
+         RemainedTime(17)= 0
+    End If
+
+    If General_Spark_VSR19_PLCStateVariable = 0 Then
+        Try
+            RemainedTime(18)=SPARK_VSR19_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR19_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR19_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR19_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR19_PLC_Analog_Contagen_horas*60 + SPARK_VSR19_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(18)= 0
+        End Try
+    Else
+         RemainedTime(18)= 0
+    End If
+
+    If General_Spark_VSR20_PLCStateVariable = 0 Then
+        Try
+        RemainedTime(19)=SPARK_VSR20_PLC_Analog_Pedido_T_Processo*6 + SPARK_VSR20_PLC_Analog_Pedido_T_Azoto_Final + SPARK_VSR20_PLC_Analog_Pedido_T_Vapor_Final + SPARK_VSR20_PLC_Analog_Ped_Azoto_pos_vapor - (SPARK_VSR20_PLC_Analog_Contagen_horas*60 + SPARK_VSR20_PLC_Analog_Contagem_min)
+        Catch
+            RemainedTime(19)= 0
+        End Try
+    Else
+         RemainedTime(19)= 0
+    End If
 
     If SPARK_VSR01_Status &lt;&gt; 1 Then
         RemainedTime(0)= 0

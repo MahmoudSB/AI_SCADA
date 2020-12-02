@@ -844,11 +844,11 @@ Public Sub Control_Click(ByVal sender As Object, ByVal e As System.Windows.Route
     End If
 End Sub
 @sExpression.nil†@sIdUnitConverter.nil†@sProblematicXaml.nil†@sReverseExpression.nil†@sSourceSymbolPath.nil†@sSourceSymbolProvider.nil†@sStyleResource.nil†@screen3DParameter.nil†@screen3DUri.nil†@showMenuOnLeft…@speechCommand.nil†@tagBrush.nil†@tagPen.nil†@useIntelliSense‡@visibilityLevelÿÿÿ@writableAccessMask@zoomLevelVisibilityX@zoomLevelVisibilityY@entry@XamlName™HotRegionControl07@Settings@accessLevel@accessLevelFromTag…@
-accessRole.nil†@bEnableManipulation…@bEnableMouseOver…@bExecuteAnyEnabledCommands‡@bForceDynamicOnClient…@bShowTooltipWhenDisabled…@bSourceSymbolLinked…@bSourceSymbolLinkedPassive…@bVisibleOnClient‡@breakpoints	a9http://schemas.microsoft.com/2003/10/Serialization/Arrays@id™$3951e122-ffef-4069-b792-90d05179f97d@listAnimations	a8http://schemas.datacontract.org/2004/07/AnimationManager@listCameraTransforms.nil†	a?http://schemas.datacontract.org/2004/07/ScreenSettings.Entities@listCommands@listItemSources.nil†@listopcuaSmartEntityReference.nil†@lockMovement…@mapAlias.nil†	a9http://schemas.microsoft.com/2003/10/Serialization/Arrays@mapHashInner3DEntities.nil†	a9http://schemas.microsoft.com/2003/10/Serialization/Arrays@"mapProblematicXamlWriterProperties.nil†	a?http://schemas.datacontract.org/2004/07/ScreenSettings.Entities@mapProps.nil†	a9http://schemas.microsoft.com/2003/10/Serialization/Arrays@max3DRotationAngleX@max3DRotationAngleY@max3DRotationAngleZ@max3DTranslateOffsetX@max3DTranslateOffsetY@	max3DZoom@menuName.nil†@min3DRotationAngleX@min3DRotationAngleY@min3DRotationAngleZ@min3DTranslateOffsetX@min3DTranslateOffsetY@	min3DZoom@
-nSelLength@	nStartSel@opcuaEntityReference.nil†@opcuaEntityReference3DZoom.nil†@preserveAnimations…@preserveCode…@preserveColors…@preserveCommands…@preserveExpression…@preserveMenu…@preserveSecurity…@preserveSize‡@preserveStyle…@preserveText‡@preserveVariables‡@preserveVisibility…@preservedBrush˜n<SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">#FF000000</SolidColorBrush>@preservedHeight@preservedPen™n<SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">#BFFFFFFF</SolidColorBrush>@preservedText.nil†@preservedWidth@readableAccessMask@readerItemSources.nil†	a2http://schemas.datacontract.org/2004/07/DataReader@sCodeš‰'#Language "WWB.NET"
+accessRole.nil†@bEnableManipulation…@bEnableMouseOver…@bExecuteAnyEnabledCommands‡@bForceDynamicOnClient…@bShowTooltipWhenDisabled…@bSourceSymbolLinked…@bSourceSymbolLinkedPassive…@bVisibleOnClient‡@breakpoints	a9http://schemas.microsoft.com/2003/10/Serialization/Arrays@id™$0dd38ede-fafb-482b-aac4-bdaef8434658@listAnimations	a8http://schemas.datacontract.org/2004/07/AnimationManager@listCameraTransforms.nil†	a?http://schemas.datacontract.org/2004/07/ScreenSettings.Entities@listCommands@listItemSources.nil†@listopcuaSmartEntityReference.nil†@lockMovement…@mapAlias.nil†	a9http://schemas.microsoft.com/2003/10/Serialization/Arrays@mapHashInner3DEntities.nil†	a9http://schemas.microsoft.com/2003/10/Serialization/Arrays@"mapProblematicXamlWriterProperties.nil†	a?http://schemas.datacontract.org/2004/07/ScreenSettings.Entities@mapProps.nil†	a9http://schemas.microsoft.com/2003/10/Serialization/Arrays@max3DRotationAngleX@max3DRotationAngleY@max3DRotationAngleZ@max3DTranslateOffsetX@max3DTranslateOffsetY@	max3DZoom@menuName.nil†@min3DRotationAngleX@min3DRotationAngleY@min3DRotationAngleZ@min3DTranslateOffsetX@min3DTranslateOffsetY@	min3DZoom@
+nSelLength@	nStartSel@opcuaEntityReference.nil†@opcuaEntityReference3DZoom.nil†@preserveAnimations…@preserveCode…@preserveColors…@preserveCommands…@preserveExpression…@preserveMenu…@preserveSecurity…@preserveSize‡@preserveStyle…@preserveText‡@preserveVariables‡@preserveVisibility…@preservedBrush.nil†@preservedHeight@preservedPen.nil†@preservedText.nil†@preservedWidth@readableAccessMask@readerItemSources.nil†	a2http://schemas.datacontract.org/2004/07/DataReader@sCodeše'#Language "WWB.NET"
 Public Sub Control_Click(ByVal sender As Object, ByVal e As System.Windows.RoutedEventArgs) Handles Control.Click
     
-    Dim VSRxx As String
+    Dim VSRxx, Status As String
 
     If (SPARK_VSR_ID>=1 And SPARK_VSR_ID<10) Then
         VSRxx = "VSR0" & SPARK_VSR_ID.ToString
@@ -858,10 +858,18 @@ Public Sub Control_Click(ByVal sender As Object, ByVal e As System.Windows.Route
         VSRxx = "VSR00"
     End If
 
+    If (SPARK_VSR_ID>=1 And SPARK_VSR_ID<7) Then
+        Status = "Status"
+    ElseIf (SPARK_VSR_ID>=7 And SPARK_VSR_ID<=20) Then
+        Status = "Status1"
+    Else
+        Status = ""
+    End If
+
     If Document.IsOnBlindServer Then
-        Document.OpenScreenNormal "Spark\VSR\Status", "SPARK_" & VSRxx
+        Document.OpenScreenNormal "Spark\VSR\" & Status, "SPARK_" & VSRxx
     Else       
-         Parent.Screens.OpenScreenNormal "Spark\VSR\Status", "SPARK_" & VSRxx
+         Parent.Screens.OpenScreenNormal "Spark\VSR\" & Status, "SPARK_" & VSRxx
     End If
 End Sub
 @sExpression.nil†@sIdUnitConverter.nil†@sProblematicXaml.nil†@sReverseExpression.nil†@sSourceSymbolPath.nil†@sSourceSymbolProvider.nil†@sStyleResource.nil†@screen3DParameter.nil†@screen3DUri.nil†@showMenuOnLeft…@speechCommand.nil†@tagBrush.nil†@tagPen.nil†@useIntelliSense‡@visibilityLevelÿÿÿ@writableAccessMask@zoomLevelVisibilityX@zoomLevelVisibilityY@mapScriptVariableUsed	a9http://schemas.microsoft.com/2003/10/Serialization/Arrays^%KeyValueOfstringArrayOfstringty7Ep6D1^Key™HotRegionControl07^Value^string™SPARK_VSR_ID^%KeyValueOfstringArrayOfstringty7Ep6D1^Key™HotRegionControl02^Value^string™SPARK_VSR_ID^%KeyValueOfstringArrayOfstringty7Ep6D1^Key™HotRegionControl05^Value^string™SPARK_VSR_ID^%KeyValueOfstringArrayOfstringty7Ep6D1^Key™HotRegionControl06^Value^string™SPARK_VSR_ID^%KeyValueOfstringArrayOfstringty7Ep6D1^Key™HotRegionControl04^Value^string™SPARK_VSR_ID@maxCleanCount‰@monitorNumber@publishingInterval‹ú @removeDisabledItemAfterSecs‰@requireUserLogin…@
