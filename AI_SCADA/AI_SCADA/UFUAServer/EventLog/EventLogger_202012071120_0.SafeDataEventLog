@@ -1,0 +1,1132 @@
+﻿<DefaultName>
+  <xs:schema id="DefaultName" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DefaultName" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="UFUAAuditLogItem">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="EventId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="EventType" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SourceNode" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SourceName" type="xs:string" minOccurs="0" />
+                <xs:element name="EventDateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EventDateTimeUtc" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EventMessage" type="xs:string" minOccurs="0" />
+                <xs:element name="EventDetails" type="xs:string" minOccurs="0" />
+                <xs:element name="EventState" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Severity" type="xs:unsignedShort" minOccurs="0" />
+                <xs:element name="EventComment" type="xs:string" minOccurs="0" />
+                <xs:element name="UserName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="EventDuration" type="xs:double" minOccurs="0" />
+                <xs:element name="EventOccurence" type="xs:unsignedLong" minOccurs="0" />
+                <xs:element name="EventSequence" type="xs:unsignedLong" minOccurs="0" />
+                <xs:element name="RedundancySyncTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUAAuditLogItem" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_EventId">
+        <xs:selector xpath=".//UFUAAuditLogItem" />
+        <xs:field xpath="EventId" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <UFUAAuditLogItem>
+    <OID>1</OID>
+    <EventId>bd51174e-1b40-4fd1-986a-684ab7769668</EventId>
+    <EventType>i=2130</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>AI_Spark_20200515_00_IOServer</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7183713+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7183713Z</EventDateTimeUtc>
+    <EventMessage>Server state changed : old state 'Shutdown', new state 'Running'</EventMessage>
+    <EventDetails></EventDetails>
+    <EventState></EventState>
+    <Severity>100</Severity>
+    <EventComment></EventComment>
+    <UserName></UserName>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>2</OID>
+    <EventId>3745d977-80ca-480b-8656-2bcc75e01ffd</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7918646+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7918646Z</EventDateTimeUtc>
+    <EventMessage>PLC_VL_VSRB2 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRB2_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRB2_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>3</OID>
+    <EventId>82408b9a-47a9-41d6-acbb-352a41a954ac</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7918646+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7918646Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR13 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR13_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR13_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>4</OID>
+    <EventId>74fa0833-34af-4806-ac28-ddc63b077a77</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7918646+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7918646Z</EventDateTimeUtc>
+    <EventMessage>PLC_VL_VSRA4 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRA4_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRA4_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>5</OID>
+    <EventId>cefaf54b-bae1-4cf2-9fc8-f96e35edfb0a</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7918646+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7918646Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR19 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR19_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR19_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>6</OID>
+    <EventId>db57e05f-2064-4106-91fb-b36785995139</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7918646+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7918646Z</EventDateTimeUtc>
+    <EventMessage>PLC_VL_VSRA2 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRA2_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRA2_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>7</OID>
+    <EventId>89689837-f9aa-4eb9-b6ec-d2d33bff852c</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7918646+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7918646Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR02 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR02_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR02_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>8</OID>
+    <EventId>e352710f-461c-4f0f-ad95-e6622e9fd7c5</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7938552+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7938552Z</EventDateTimeUtc>
+    <EventMessage>PLC_VL_VSRB3 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRB3_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRB3_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>9</OID>
+    <EventId>14821619-df33-4670-abb4-7b51eca64bcf</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7938552+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7938552Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR12 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR12_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR12_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>10</OID>
+    <EventId>a1104b1e-d716-4177-a8d7-fbb84dcaf6da</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.79585+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.79585Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR16 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR16_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR16_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>11</OID>
+    <EventId>1fb23731-292e-40bf-819b-f53ed0c99bf6</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.79585+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.79585Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR15 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR15_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR15_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>12</OID>
+    <EventId>04669c36-107c-437f-9997-9dc9f9eab2ee</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7968521+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7968521Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR11 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR11_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR11_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>13</OID>
+    <EventId>91b788cb-b669-43f0-aa6b-e60ec6dcad5a</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7968521+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7968521Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR08 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR08_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR08_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>14</OID>
+    <EventId>8c007750-138a-4e11-9010-8b18d5d49092</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7968521+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7968521Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR07 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR07_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR07_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>15</OID>
+    <EventId>49657281-772b-48d6-bdef-2c9e861d3f3f</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7978477+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7978477Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR14 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR14_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR14_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>16</OID>
+    <EventId>e3e44f4e-919a-49b9-a86a-616cbea5d899</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7978477+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7978477Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR18 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR18_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR18_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>17</OID>
+    <EventId>2546d15a-fa21-4a60-922b-2b777da8a2e8</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7988432+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7988432Z</EventDateTimeUtc>
+    <EventMessage>PLC_VL_VSRB4 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRB4_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRB4_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>18</OID>
+    <EventId>f69b8951-28a5-4474-95e2-a1012f130493</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7988432+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7988432Z</EventDateTimeUtc>
+    <EventMessage>PLC_VL_VSRB5 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRB5_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRB5_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>19</OID>
+    <EventId>db5dca83-b9af-491d-bc77-8e4dede85958</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7998395+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7998395Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR17 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR17_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR17_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>20</OID>
+    <EventId>5a929ce2-8cd9-4c37-9551-6c9d8e49d02a</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.7998395+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.7998395Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR04 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR04_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR04_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>21</OID>
+    <EventId>beef3761-c511-4e77-b85f-82c0415377d3</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.8008371+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.8008371Z</EventDateTimeUtc>
+    <EventMessage>PLC_VL_VSRA3 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRA3_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRA3_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>22</OID>
+    <EventId>374ec690-547a-42f0-aaa4-098253acc4ed</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.8008371+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.8008371Z</EventDateTimeUtc>
+    <EventMessage>PLC_VL_VSRB6 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRB6_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRB6_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>23</OID>
+    <EventId>665c3f07-da39-4192-912d-4573a26dafa7</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.8018352+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.8018352Z</EventDateTimeUtc>
+    <EventMessage>PLC_VL_VSRA1 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRA1_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRA1_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>24</OID>
+    <EventId>6389986e-ad50-4929-9c85-f2bad058099e</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.8018352+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.8018352Z</EventDateTimeUtc>
+    <EventMessage>PLC_VL_VSRA6 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRA6_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRA6_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>25</OID>
+    <EventId>00cc5994-4645-48a6-a450-4cc3f0dee7bf</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.8018352+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.8018352Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR05 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR05_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR05_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>26</OID>
+    <EventId>e5108fd5-6727-43f0-a01a-b298f3fb8693</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.8029525+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.8029525Z</EventDateTimeUtc>
+    <EventMessage>PLC_VL_VSRB1 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRB1_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRB1_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>27</OID>
+    <EventId>7800959d-5082-4d15-8173-da7036fea66b</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.8038301+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.8038301Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR09 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR09_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR09_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>28</OID>
+    <EventId>2575f762-0748-45f1-9385-98b57a10548a</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.8048283+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.8048283Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR06 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR06_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR06_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>29</OID>
+    <EventId>7fd7b515-e7b5-46bf-96a4-6927ccb25817</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.8058247+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.8058247Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR03 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR03_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR03_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>30</OID>
+    <EventId>ef94c6b4-07e0-4cd8-a4f3-ca134439c43e</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.8058247+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.8058247Z</EventDateTimeUtc>
+    <EventMessage>PLC_VL_VSRA5 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRA5_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRA5_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>31</OID>
+    <EventId>9c6d3586-2d7a-4be5-9751-da8597840f07</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.8068227+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.8068227Z</EventDateTimeUtc>
+    <EventMessage>PLC_VL_VSRB7 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRB7_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_VL_VSRB7_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>32</OID>
+    <EventId>9fa760f2-d1e1-4fb2-84de-5ee642959dcd</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.80782+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.80782Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR10 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR10_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR10_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>33</OID>
+    <EventId>ffbd290a-c09f-43b4-a071-2ea2de5b7cdd</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.8088161+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.8088161Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR01 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR01_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR01_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>34</OID>
+    <EventId>a40f2262-17f7-4765-b31f-a32b10581ecb</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.8098129+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.8098129Z</EventDateTimeUtc>
+    <EventMessage>PLC_SP_VSR20 Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR20_S7TIASymbolic.tia Symbol file {0} not found. C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\UFUAServer\Drivers\PLC_SP_VSR20_S7TIASymbolic.tia</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>35</OID>
+    <EventId>3e91d922-e6f6-414c-b8af-66ea0cdc9498</EventId>
+    <EventType>i=2130</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>AI_Spark_20200515_00_IOServer</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.817792+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.817792Z</EventDateTimeUtc>
+    <EventMessage>Server state changed : old state 'Running', new state 'CommunicationFault'</EventMessage>
+    <EventDetails></EventDetails>
+    <EventState></EventState>
+    <Severity>900</Severity>
+    <EventComment></EventComment>
+    <UserName></UserName>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>36</OID>
+    <EventId>b4274ed3-5a84-4b66-87ea-b785dfabfe71</EventId>
+    <EventType>i=2130</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>AI_Spark_20200515_00_IOServer</SourceName>
+    <EventDateTime>2020-12-07T11:19:14.8333599+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:14.8333599Z</EventDateTimeUtc>
+    <EventMessage>Server state changed : old state 'CommunicationFault', new state 'Running'</EventMessage>
+    <EventDetails></EventDetails>
+    <EventState></EventState>
+    <Severity>100</Severity>
+    <EventComment></EventComment>
+    <UserName></UserName>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>37</OID>
+    <EventId>5a5d1504-9fd4-4884-90c3-2d1fa90ec0d9</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.9716685+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.9716685Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>38</OID>
+    <EventId>1b607c10-4834-466d-90a1-031628ceeae9</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.9716685+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.9716685Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>39</OID>
+    <EventId>79036dcb-e5f5-4c28-a5b7-028e9f68c1ef</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.9726798+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.9726798Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>40</OID>
+    <EventId>27c285f2-ff16-4ba5-bea3-d8af78fa6037</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.9726798+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.9726798Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>41</OID>
+    <EventId>a6ef4c47-2442-407e-920e-322f084c7a84</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.9746571+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.9746571Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>42</OID>
+    <EventId>27a3abba-8d8f-4db0-9fa9-e57da6a510c5</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.9746571+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.9746571Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>43</OID>
+    <EventId>88d1e113-cfe4-4d08-bb84-e448324b332a</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.9746571+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.9746571Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>44</OID>
+    <EventId>8484e102-541f-4507-a996-213bec485031</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.9776488+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.9776488Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>45</OID>
+    <EventId>9e7d44ac-e5f1-46bb-ade6-7d76fd0143f9</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.9776488+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.9776488Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>46</OID>
+    <EventId>ee307149-dcd9-4944-81b2-e02f83178086</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.9876224+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.9876224Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>47</OID>
+    <EventId>614f29b1-269b-4562-a2c5-44afce0869b3</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.9886195+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.9886195Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>48</OID>
+    <EventId>b26e76ed-d0b7-4a70-a10f-1714f15c7bc2</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.9886195+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.9886195Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>49</OID>
+    <EventId>ede8865b-c9bb-4dc3-84c8-bc07950a5f0d</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.990615+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.990615Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>50</OID>
+    <EventId>d3255ff6-cb10-4ec5-a0b2-99ffc1b9d3ac</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.9916113+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.9916113Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>51</OID>
+    <EventId>b9c9f92e-e7dd-4825-9939-6d0d9f79237e</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.9916113+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.9916113Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>52</OID>
+    <EventId>34cd1b97-65ec-4f0f-9ba3-354dcec8bae0</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.9946035+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.9946035Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>53</OID>
+    <EventId>f21b7ac5-dcb1-4a6a-a446-252e7f67fcb1</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:19.9946035+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:19.9946035Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>54</OID>
+    <EventId>174b0bde-4f26-4285-bc02-88edaa2cae1b</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:20.0055782+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:20.0055782Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>55</OID>
+    <EventId>9e4478ed-d72e-4cd6-bdac-3b2514e62cb4</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:20.0065748+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:20.0065748Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>56</OID>
+    <EventId>e6926bff-0cb5-4dc3-8ebf-23c1ad47b287</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:20.0594305+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:20.0594305Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>57</OID>
+    <EventId>0991fdba-5ae9-4ca1-94ca-5ff6e5268568</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:20.0604274+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:20.0604274Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>58</OID>
+    <EventId>f70b5b66-479c-4d37-9146-dd5ff357a238</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:20.0614246+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:20.0614246Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>59</OID>
+    <EventId>85df897e-efb1-4257-877b-8f7e3038cb43</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:20.0614246+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:20.0614246Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>60</OID>
+    <EventId>be25c736-5c61-49a8-b8ae-09f6c342e60d</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:20.0644164+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:20.0644164Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>61</OID>
+    <EventId>78528f88-8389-49e3-94d3-a4365e59de4e</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:20.0674109+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:20.0674109Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>62</OID>
+    <EventId>adf0d1b4-8e6b-40c1-8e23-d29b57635a7a</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:20.069417+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:20.069417Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>63</OID>
+    <EventId>18ccc9c0-828d-42e0-a504-7c4fffb87074</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:20.0704014+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:20.0704014Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>64</OID>
+    <EventId>235502e5-5df6-44f0-95f0-64dc3cb42f0a</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:20.0713984+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:20.0713984Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>65</OID>
+    <EventId>d576f30d-28a8-4908-b2ac-9b5fc5be5550</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:20.0713984+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:20.0713984Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>66</OID>
+    <EventId>9d50cce1-13ba-4752-930d-bdd80a08f5d0</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:20.072395+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:20.072395Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>67</OID>
+    <EventId>c01bf263-3a65-4bd2-bd92-b1a6c7c613db</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:20.0713984+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:20.0713984Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>68</OID>
+    <EventId>7a668fae-ed9e-4202-9bcd-2738adf7c633</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:20.072395+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:20.072395Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>69</OID>
+    <EventId>38ea92ef-4827-4f24-9ff3-b1c0918264f5</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:19:20.0733925+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:20.0733925Z</EventDateTimeUtc>
+    <EventMessage>Connection to the device failed.</EventMessage>
+    <Severity>900</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>70</OID>
+    <EventId>5ef427b8-9a7a-4eef-b92e-832eca161350</EventId>
+    <EventType>i=2130</EventType>
+    <SourceNode>i=2253</SourceNode>
+    <SourceName>AI_Spark_20200515_00_IOServer</SourceName>
+    <EventDateTime>2020-12-07T11:19:30.5189857+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:19:30.5189857Z</EventDateTimeUtc>
+    <EventMessage>Server state changed : old state 'Running', new state 'CommunicationFault'</EventMessage>
+    <EventDetails></EventDetails>
+    <EventState></EventState>
+    <Severity>900</Severity>
+    <EventComment></EventComment>
+    <UserName></UserName>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+</DefaultName>

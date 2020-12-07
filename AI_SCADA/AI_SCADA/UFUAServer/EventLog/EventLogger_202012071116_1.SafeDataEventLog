@@ -1,0 +1,561 @@
+﻿<DefaultName>
+  <xs:schema id="DefaultName" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DefaultName" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="UFUAAuditLogItem">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="EventId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="EventType" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SourceNode" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SourceName" type="xs:string" minOccurs="0" />
+                <xs:element name="EventDateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EventDateTimeUtc" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EventMessage" type="xs:string" minOccurs="0" />
+                <xs:element name="EventDetails" type="xs:string" minOccurs="0" />
+                <xs:element name="EventState" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Severity" type="xs:unsignedShort" minOccurs="0" />
+                <xs:element name="EventComment" type="xs:string" minOccurs="0" />
+                <xs:element name="UserName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="EventDuration" type="xs:double" minOccurs="0" />
+                <xs:element name="EventOccurence" type="xs:unsignedLong" minOccurs="0" />
+                <xs:element name="EventSequence" type="xs:unsignedLong" minOccurs="0" />
+                <xs:element name="RedundancySyncTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUAAuditLogItem" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_EventId">
+        <xs:selector xpath=".//UFUAAuditLogItem" />
+        <xs:field xpath="EventId" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <UFUAAuditLogItem>
+    <OID>1</OID>
+    <EventId>7c67574e-df88-4748-906d-c8e14f4ea27a</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:41.4919299+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:41.4919299Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_VL_VSRA4 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_VL_VSRA4|LinkType=1|SA=PLC_1.Tags."Mem.Mens.Sistema"."Mens.Termico Extractor"|S7Typ=1012|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>2</OID>
+    <EventId>187155b5-2ba8-494b-8b3c-01ecb0283dfb</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:41.6614766+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:41.6614766Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_VL_VSRA3 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_VL_VSRA3|LinkType=1|SA=PLC_1.Tags."Mem.Mens.Sistema"."Mens.emergencia"|S7Typ=1012|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>3</OID>
+    <EventId>d7d46be4-ca4c-4a9b-8426-279c225a5da8</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:41.8320262+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:41.8320262Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_VL_VSRA2 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_VL_VSRA2|LinkType=1|SA=PLC_1.Tags."Mem.Mens.Sistema"."Mens.emergencia"|S7Typ=1012|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>4</OID>
+    <EventId>fb27a0c6-354d-4255-9a1e-6898bfff1a38</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:41.9252798+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:41.9252798Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR03 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR03|LinkType=1|SA=PLC_1.Blocks."KTP Temperat."."PV Camara"|S7Typ=1060|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>5</OID>
+    <EventId>df8160cd-4915-44b9-8f21-c93298e22737</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:41.9282744+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:41.9282744Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR15 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR15|LinkType=1|SA=PLC_1.Blocks."KTP Movim."."PV mbar Bombas"|S7Typ=1082|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>6</OID>
+    <EventId>31cfaccc-4eee-42f2-9eae-1c63a630ab1c</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:42.0978182+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:42.0978182Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_VL_VSRB7 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_VL_VSRB7|LinkType=1|SA=PLC_1.Tags."Mem.Mens.Sistema"."Mens.emergencia"|S7Typ=1012|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>7</OID>
+    <EventId>390b54ec-5969-4a58-bb00-1d74fb50aa73</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:42.2992802+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:42.2992802Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR11 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR11|LinkType=1|SA=PLC_1.Blocks."KTP Temperat."."PV Camara"|S7Typ=1060|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>8</OID>
+    <EventId>7117b0ec-a52b-41d2-af29-7ebe958868f1</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:42.3012776+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:42.3012776Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR06 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR06|LinkType=1|SA=PLC_1.Blocks."KTP Temperat."."PV Camara"|S7Typ=1060|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>9</OID>
+    <EventId>9be9657c-72d7-4926-b3ce-80e53b6ec535</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:42.468825+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:42.468825Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_VL_VSRA1 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_VL_VSRA1|LinkType=1|SA=PLC_1.Tags."Mem.Mens.Sistema"."Mens.temperat.camara"|S7Typ=1012|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>10</OID>
+    <EventId>733c9dd8-d8e1-4f3e-95d7-b01d417dac4e</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:42.4997418+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:42.4997418Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR19 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR19|LinkType=1|SA=PLC_1.Blocks."KTP Movim."."PV mbar Bombas"|S7Typ=1082|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>11</OID>
+    <EventId>d949aed7-4b2b-4d48-8739-9496fd5d651c</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:42.671283+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:42.671283Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR05 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR05|LinkType=1|SA=PLC_1.Blocks."KTP Temperat."."PV Rolhas"|S7Typ=1060|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>12</OID>
+    <EventId>1fd18522-aa41-458a-8070-af7541d1a050</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:42.671283+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:42.671283Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_VL_VSRA6 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_VL_VSRA6|LinkType=1|SA=PLC_1.Tags."Mem.Mens.Sistema"."Mens.Refrigerador"|S7Typ=1012|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>13</OID>
+    <EventId>3ecb33ee-520e-4217-8982-125849fed416</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:42.8428243+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:42.8428243Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_VL_VSRB1 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_VL_VSRB1|LinkType=1|SA=PLC_1.Blocks."KTP Movim."."PV mbar Camara"|S7Typ=1082|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>14</OID>
+    <EventId>73b603c7-229f-4591-966c-db42ef2c1983</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:42.8428243+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:42.8428243Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_VL_VSRA5 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_VL_VSRA5|LinkType=1|SA=PLC_1.Tags."Mem.Mens.Sistema"."Mens.emergencia"|S7Typ=1012|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>15</OID>
+    <EventId>926aba77-542c-42e1-99b0-1c89d5352220</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:42.8747387+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:42.8747387Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR10 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR10|LinkType=1|SA=PLC_1.Blocks."KTP Movim."."PV mbar Camara"|S7Typ=1082|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>16</OID>
+    <EventId>075198f1-2be7-42e2-b98c-179b99ba52f3</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:43.0422907+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:43.0422907Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR12 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR12|LinkType=1|SA=PLC_1.Blocks."KTP Temperat."."PV Rolhas"|S7Typ=1060|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>17</OID>
+    <EventId>231850b8-0bb9-43da-a3d1-cfe29361c353</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:43.0692178+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:43.0692178Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR01 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR01|LinkType=1|SA=PLC_1.Blocks."KTP Temperat."."PV Rolhas"|S7Typ=1060|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>18</OID>
+    <EventId>62d5f29f-2c86-4ef4-a938-990816ab5ff1</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:43.2407598+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:43.2407598Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_VL_VSRB3 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_VL_VSRB3|LinkType=1|SA=PLC_1.Tags."Mem.Mens.Sistema"."Mens.temperat.camara"|S7Typ=1012|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>19</OID>
+    <EventId>f45db749-f796-43ab-bbaa-134171cba68e</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:43.2427554+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:43.2427554Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR18 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR18|LinkType=1|SA=PLC_1.Blocks."KTP Movim."."PV mbar Bombas"|S7Typ=1082|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>20</OID>
+    <EventId>bcdbfa99-9eab-4185-9d81-2a7fae5fafe9</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:43.4103288+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:43.4103288Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_VL_VSRB5 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_VL_VSRB5|LinkType=1|SA=PLC_1.Tags."Mem.Mens.Sistema"."Mens.temperat.camara"|S7Typ=1012|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>21</OID>
+    <EventId>a1db5cb2-ed4d-45fc-b51b-d119a94ec92a</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:43.5808727+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:43.5808727Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_VL_VSRB4 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_VL_VSRB4|LinkType=1|SA=PLC_1.Tags."Mem.Mens.Sistema"."Mens.temperat.camara"|S7Typ=1012|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>22</OID>
+    <EventId>98e9a438-3a2d-4ce0-abfe-60230e3cb17a</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:43.7803395+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:43.7803395Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR14 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR14|LinkType=1|SA=PLC_1.Blocks."KTP Temperat."."PV Camara"|S7Typ=1060|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>23</OID>
+    <EventId>35e9ff8b-4b7f-4a79-87e4-a9d8ff38ab82</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:43.7982916+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:43.7982916Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR07 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR07|LinkType=1|SA=PLC_1.Blocks."KTP Temperat."."PV Camara"|S7Typ=1060|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>24</OID>
+    <EventId>d7a79975-750d-4256-91a7-80fe74c84135</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:43.9523379+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:43.9523379Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_VL_VSRB2 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_VL_VSRB2|LinkType=1|SA=PLC_1.Tags."Mem.Mens.Sistema"."Mens.emergencia"|S7Typ=1012|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>25</OID>
+    <EventId>3361fc29-89db-455f-ae85-41efa12dd929</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:44.1717738+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:44.1717738Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR08 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR08|LinkType=1|SA=PLC_1.Blocks."KTP Temperat."."PV Camara"|S7Typ=1060|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>26</OID>
+    <EventId>1cd66c50-739d-42dc-8ef1-5b34bc91d848</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:44.1717738+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:44.1717738Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR09 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR09|LinkType=1|SA=PLC_1.Blocks."KTP Temperat."."PV Camara"|S7Typ=1060|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>27</OID>
+    <EventId>6c3391a2-fdcb-4cfd-b689-6baa396fc70e</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:44.3881976+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:44.3881976Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR04 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR04|LinkType=1|SA=PLC_1.Blocks."KTP Movim."."PV mbar Bombas"|S7Typ=1082|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>28</OID>
+    <EventId>125a1a9e-089b-4c4e-bca7-66079049d38d</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:44.3881976+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:44.3881976Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR02 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR02|LinkType=1|SA=PLC_1.Blocks."KTP Temperat."."PV Camara"|S7Typ=1060|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>29</OID>
+    <EventId>b0aaafeb-b5b4-43d2-9a38-9af4f992b3bf</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:44.5956405+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:44.5956405Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR13 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR13|LinkType=1|SA=PLC_1.Blocks."KTP Temperat."."PV Rolhas"|S7Typ=1060|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>30</OID>
+    <EventId>c5343b88-91dd-4c7e-b868-675536eba676</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:44.5956405+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:44.5956405Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR16 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR16|LinkType=1|SA=PLC_1.Blocks."KTP Temperat."."PV Rolhas"|S7Typ=1060|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>31</OID>
+    <EventId>84dcf845-a497-4b8f-b582-4d8d00fec5c2</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:44.7662122+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:44.7662122Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_VL_VSRB6 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_VL_VSRB6|LinkType=1|SA=PLC_1.Tags."Mem.Mens.Sistema"."Mens.emergencia"|S7Typ=1012|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>32</OID>
+    <EventId>15387b40-d315-4b81-8318-160cb123e168</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:44.8173855+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:44.8173855Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR20 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR20|LinkType=1|SA=PLC_1.Blocks."KTP Temperat."."PV Camara"|S7Typ=1060|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>33</OID>
+    <EventId>9dd51617-5452-48f8-924a-5b6a0cc4b47f</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-07T11:15:44.9839315+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-07T11:15:44.9839315Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR17 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR17|LinkType=1|SA=PLC_1.Blocks."KTP Movim."."PV mbar Bombas"|S7Typ=1082|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+</DefaultName>

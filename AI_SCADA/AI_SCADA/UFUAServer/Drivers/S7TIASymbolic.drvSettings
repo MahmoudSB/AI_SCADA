@@ -618,9 +618,9 @@
     <KeepOpened>true</KeepOpened>
     <StateCommandTag>b82d6f5b-1454-4924-aeda-c5c649c27b29|2:Tags/2:General/2:Spark_VSR15_PLCStateVariable|ns=2;g=b82d6f5b-1454-4924-aeda-c5c649c27b29|General\Spark_VSR15_PLCStateVariable (AI_Spark_20200515_00_IOServer)</StateCommandTag>
     <DriverSettings>1</DriverSettings>
-    <OptimisticLockField>5</OptimisticLockField>
+    <OptimisticLockField>7</OptimisticLockField>
     <ObjectType>2</ObjectType>
-    <TcpChannelSettingsHostName>172.29.151.187</TcpChannelSettingsHostName>
+    <TcpChannelSettingsHostName>172.29.151.148</TcpChannelSettingsHostName>
     <TcpChannelSettingsHostPort>102</TcpChannelSettingsHostPort>
   </ChannelSettings>
   <ChannelSettings>
@@ -634,9 +634,9 @@
     <KeepOpened>true</KeepOpened>
     <StateCommandTag>88cf31dc-9eb6-4469-8610-70d71afa2c70|2:Tags/2:General/2:Spark_VSR16_PLCStateVariable|ns=2;g=88cf31dc-9eb6-4469-8610-70d71afa2c70|General\Spark_VSR16_PLCStateVariable (AI_Spark_20200515_00_IOServer)</StateCommandTag>
     <DriverSettings>1</DriverSettings>
-    <OptimisticLockField>6</OptimisticLockField>
+    <OptimisticLockField>8</OptimisticLockField>
     <ObjectType>2</ObjectType>
-    <TcpChannelSettingsHostName>172.29.151.189</TcpChannelSettingsHostName>
+    <TcpChannelSettingsHostName>172.29.151.150</TcpChannelSettingsHostName>
     <TcpChannelSettingsHostPort>102</TcpChannelSettingsHostPort>
   </ChannelSettings>
   <ChannelSettings>
@@ -650,9 +650,9 @@
     <KeepOpened>true</KeepOpened>
     <StateCommandTag>68021b77-7b61-47b4-9e2d-1e0ab777d761|2:Tags/2:General/2:Spark_VSR17_PLCStateVariable|ns=2;g=68021b77-7b61-47b4-9e2d-1e0ab777d761|General\Spark_VSR17_PLCStateVariable (AI_Spark_20200515_00_IOServer)</StateCommandTag>
     <DriverSettings>1</DriverSettings>
-    <OptimisticLockField>6</OptimisticLockField>
+    <OptimisticLockField>8</OptimisticLockField>
     <ObjectType>2</ObjectType>
-    <TcpChannelSettingsHostName>172.29.151.191</TcpChannelSettingsHostName>
+    <TcpChannelSettingsHostName>172.29.151.152</TcpChannelSettingsHostName>
     <TcpChannelSettingsHostPort>102</TcpChannelSettingsHostPort>
   </ChannelSettings>
   <ChannelSettings>
@@ -666,9 +666,9 @@
     <KeepOpened>true</KeepOpened>
     <StateCommandTag>c6e565fb-030f-4d29-a028-6d84f3bb07fe|2:Tags/2:General/2:Spark_VSR18_PLCStateVariable|ns=2;g=c6e565fb-030f-4d29-a028-6d84f3bb07fe|General\Spark_VSR18_PLCStateVariable (AI_Spark_20200515_00_IOServer)</StateCommandTag>
     <DriverSettings>1</DriverSettings>
-    <OptimisticLockField>5</OptimisticLockField>
+    <OptimisticLockField>7</OptimisticLockField>
     <ObjectType>2</ObjectType>
-    <TcpChannelSettingsHostName>172.29.151.193</TcpChannelSettingsHostName>
+    <TcpChannelSettingsHostName>172.29.151.154</TcpChannelSettingsHostName>
     <TcpChannelSettingsHostPort>102</TcpChannelSettingsHostPort>
   </ChannelSettings>
   <ChannelSettings>
@@ -682,9 +682,9 @@
     <KeepOpened>true</KeepOpened>
     <StateCommandTag>1b8afb05-ea16-46fe-9802-3490340a6f57|2:Tags/2:General/2:Spark_VSR19_PLCStateVariable|ns=2;g=1b8afb05-ea16-46fe-9802-3490340a6f57|General\Spark_VSR19_PLCStateVariable (AI_Spark_20200515_00_IOServer)</StateCommandTag>
     <DriverSettings>1</DriverSettings>
-    <OptimisticLockField>5</OptimisticLockField>
+    <OptimisticLockField>7</OptimisticLockField>
     <ObjectType>2</ObjectType>
-    <TcpChannelSettingsHostName>172.29.151.195</TcpChannelSettingsHostName>
+    <TcpChannelSettingsHostName>172.29.151.156</TcpChannelSettingsHostName>
     <TcpChannelSettingsHostPort>102</TcpChannelSettingsHostPort>
   </ChannelSettings>
   <ChannelSettings>
@@ -698,9 +698,9 @@
     <KeepOpened>true</KeepOpened>
     <StateCommandTag>6aaaca51-6dcd-4e4e-8453-ad38d2c344f7|2:Tags/2:General/2:Spark_VSR20_PLCStateVariable|ns=2;g=6aaaca51-6dcd-4e4e-8453-ad38d2c344f7|General\Spark_VSR20_PLCStateVariable (AI_Spark_20200515_00_IOServer)</StateCommandTag>
     <DriverSettings>1</DriverSettings>
-    <OptimisticLockField>5</OptimisticLockField>
+    <OptimisticLockField>7</OptimisticLockField>
     <ObjectType>2</ObjectType>
-    <TcpChannelSettingsHostName>172.29.151.197</TcpChannelSettingsHostName>
+    <TcpChannelSettingsHostName>172.29.151.158</TcpChannelSettingsHostName>
     <TcpChannelSettingsHostPort>102</TcpChannelSettingsHostPort>
   </ChannelSettings>
   <DriverSettings>
