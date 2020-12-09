@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <VL_VSR07>
+    <UtcTimeCol>2020-12-09T12:41:00+00:00</UtcTimeCol>
+    <LocalTimeCol>2020-12-09T12:41:00+00:00</LocalTimeCol>
+    <MillisecondsCol>0</MillisecondsCol>
+    <UserCol />
+    <ReasonCol>Recorded by Time</ReasonCol>
+  </VL_VSR07>
+  <VL_VSR07>
+    <UtcTimeCol>2020-12-09T12:42:00+00:00</UtcTimeCol>
+    <LocalTimeCol>2020-12-09T12:42:00+00:00</LocalTimeCol>
+    <MillisecondsCol>0</MillisecondsCol>
+    <UserCol />
+    <ReasonCol>Recorded by Time</ReasonCol>
+  </VL_VSR07>
+  <VL_VSR07>
+    <UtcTimeCol>2020-12-09T12:43:00+00:00</UtcTimeCol>
+    <LocalTimeCol>2020-12-09T12:43:00+00:00</LocalTimeCol>
+    <MillisecondsCol>0</MillisecondsCol>
+    <UserCol />
+    <ReasonCol>Recorded by Time</ReasonCol>
+  </VL_VSR07>
+  <VL_VSR07>
+    <UtcTimeCol>2020-12-09T12:44:00+00:00</UtcTimeCol>
+    <LocalTimeCol>2020-12-09T12:44:00+00:00</LocalTimeCol>
+    <MillisecondsCol>0</MillisecondsCol>
+    <UserCol />
+    <ReasonCol>Recorded by Time</ReasonCol>
+  </VL_VSR07>
+</DocumentElement>
