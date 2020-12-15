@@ -24527,5 +24527,21 @@
       <TagName>SCADA:LongMaxTempIsAbnormality</TagName>
       <NodeId>3638b699-d7d9-443a-8cee-be37d58ba560</NodeId>
     </entry>
+    <entry>
+      <TagName>Treatment:unloadingTimer</TagName>
+      <NodeId>10f5bdf3-046b-4c6e-b7c3-5b6cd97dc6c5</NodeId>
+    </entry>
+    <entry>
+      <TagName>Treatment:MaxTemperatureTimer</TagName>
+      <NodeId>e53bbf55-3b72-4af6-a24d-85ff4147187a</NodeId>
+    </entry>
+    <entry>
+      <TagName>Treatment:abnormalTreatment</TagName>
+      <NodeId>6522920a-5ce7-4f97-98f4-d711b932b85e</NodeId>
+    </entry>
+    <entry>
+      <TagName>Abnormality</TagName>
+      <NodeId>1b0858f7-467f-4d8c-a284-e08ba28ef6d3</NodeId>
+    </entry>
   </prototypeMembers>
 </RemovedVariablesDocument>

@@ -522,6 +522,14 @@
       <d2p1:Key>C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Script\Spark_VSR1to4_Color.Script</d2p1:Key>
       <d2p1:Value>C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Script\Spark_VSR_Color.Script</d2p1:Value>
     </d2p1:KeyValueOfstringstring>
+    <d2p1:KeyValueOfstringstring>
+      <d2p1:Key>C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Script\Script1.Script</d2p1:Key>
+      <d2p1:Value>C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Script\Spark_Abnormality_01to10.Script</d2p1:Value>
+    </d2p1:KeyValueOfstringstring>
+    <d2p1:KeyValueOfstringstring>
+      <d2p1:Key>C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Script\Spark_Abnormality_01to11.Script</d2p1:Key>
+      <d2p1:Value>C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Script\Spark_Abnormality_11to20.Script</d2p1:Value>
+    </d2p1:KeyValueOfstringstring>
   </mapRenamedResources>
   <mapUriChildProjectData xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <mapUriControllerData xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
