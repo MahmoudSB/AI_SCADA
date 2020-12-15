@@ -660,7 +660,7 @@
         <preserveVariables>true</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFBFEFF&lt;/SolidColorBrush&gt;</preservedBrush>
-        <preservedHeight>399.67021529820977</preservedHeight>
+        <preservedHeight>332.10264773064239</preservedHeight>
         <preservedPen i:nil="true" />
         <preservedText i:nil="true" />
         <preservedWidth>408.504114492451</preservedWidth>
@@ -3674,10 +3674,10 @@
         <preserveVariables>true</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
-        <preservedHeight>0</preservedHeight>
+        <preservedHeight>107.849138050306</preservedHeight>
         <preservedPen i:nil="true" />
         <preservedText i:nil="true" />
-        <preservedWidth>0</preservedWidth>
+        <preservedWidth>168.184491517331</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
         <sCode i:nil="true" />
@@ -8049,7 +8049,7 @@ End Sub
         <preservedHeight>38</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#BFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText>Consider the treatment abnormal when cork temperature exceeds the alarm range.</preservedText>
-        <preservedWidth>890</preservedWidth>
+        <preservedWidth>1091.2987012987012</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
         <sCode i:nil="true" />
@@ -8155,7 +8155,7 @@ End Sub
         <preservedHeight>38</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#BFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText>Email all recipients when cork temperature exceeds the alarm range.</preservedText>
-        <preservedWidth>890</preservedWidth>
+        <preservedWidth>1079.6103896103898</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
         <sCode i:nil="true" />
@@ -8343,8 +8343,8 @@ End Sub
         <preservedBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF333333&lt;/SolidColorBrush&gt;</preservedBrush>
         <preservedHeight>38</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#BFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
-        <preservedText>Consider the treatment abnormal when cork temperature exceeds the max. range for the given time.</preservedText>
-        <preservedWidth>1047.680308880309</preservedWidth>
+        <preservedText>Consider the treatment abnormal when cork temperature exceeds the maximum range for the given time.</preservedText>
+        <preservedWidth>1091.4984906984917</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
         <sCode i:nil="true" />
@@ -8450,7 +8450,7 @@ End Sub
         <preservedHeight>38</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#BFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText>Email all recipients when cork temperature exceeds the maximum range for the given time.</preservedText>
-        <preservedWidth>954.8</preservedWidth>
+        <preservedWidth>1089.8649350649353</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
         <sCode i:nil="true" />
@@ -8556,7 +8556,7 @@ End Sub
         <preservedHeight>38</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#BFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText>Consider the treatment abnormal when discharge takes more than the given time.</preservedText>
-        <preservedWidth>998.880308880309</preservedWidth>
+        <preservedWidth>1089.7893997893993</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
         <sCode i:nil="true" />
@@ -8662,7 +8662,7 @@ End Sub
         <preservedHeight>38</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#BFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText>Email all recipients when discharge takes more than the given time.</preservedText>
-        <preservedWidth>890</preservedWidth>
+        <preservedWidth>1084.8051948051948</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
         <sCode i:nil="true" />

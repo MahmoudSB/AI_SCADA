@@ -24491,5 +24491,41 @@
       <TagName>AlarmsInBits:AlarmMsg1_bit00</TagName>
       <NodeId>b8bd0070-d782-4b92-8523-c3f370311672</NodeId>
     </entry>
+    <entry>
+      <TagName>SCADA:CorkTemp_Max_Time</TagName>
+      <NodeId>7e58c937-4f0a-4c40-83ca-ba3698a1290d</NodeId>
+    </entry>
+    <entry>
+      <TagName>SCADA:EmailLongDischarge</TagName>
+      <NodeId>e7998b16-c4d0-46e1-9f70-e25f291d6538</NodeId>
+    </entry>
+    <entry>
+      <TagName>SCADA:EmailLongMaxTempAbnormality</TagName>
+      <NodeId>be27118c-9fc1-4050-b59c-b7badac37918</NodeId>
+    </entry>
+    <entry>
+      <TagName>SCADA:LongDischargeIsAbnormality</TagName>
+      <NodeId>075b00bf-1af4-4f28-b80f-33490ac1d4d1</NodeId>
+    </entry>
+    <entry>
+      <TagName>SCADA:CorkTemp_Alarm</TagName>
+      <NodeId>0790ec80-1ce9-4c68-9345-aa8a1f9f7d9f</NodeId>
+    </entry>
+    <entry>
+      <TagName>SCADA:AlarmTempIsAbnormality</TagName>
+      <NodeId>6a5abc35-5e49-4080-b9c7-10908d59949d</NodeId>
+    </entry>
+    <entry>
+      <TagName>SCADA:EmailAlarmTempAbnormality</TagName>
+      <NodeId>9b6a359f-4fe9-42dc-a369-b47fd9fed0d8</NodeId>
+    </entry>
+    <entry>
+      <TagName>SCADA:Discharge_Max_Time</TagName>
+      <NodeId>15f9fe7c-5840-41d6-88f8-f708ce8ffa12</NodeId>
+    </entry>
+    <entry>
+      <TagName>SCADA:LongMaxTempIsAbnormality</TagName>
+      <NodeId>3638b699-d7d9-443a-8cee-be37d58ba560</NodeId>
+    </entry>
   </prototypeMembers>
 </RemovedVariablesDocument>
