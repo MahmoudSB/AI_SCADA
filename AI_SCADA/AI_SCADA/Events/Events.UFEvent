@@ -272,4 +272,20 @@
     <UFEventFolder>2</UFEventFolder>
     <OptimisticLockField>4</OptimisticLockField>
   </UFEventObject>
+  <UFEventObject>
+    <OID>26</OID>
+    <Name>Abnormality</Name>
+    <NodeId>b554c82b-fd94-46eb-8d77-7c14805cc830</NodeId>
+    <Enable>true</Enable>
+    <Type>1</Type>
+    <Tag>&lt;OPCUADataReference xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;appName&gt;SystemVariables&lt;/appName&gt;&lt;endpointUrl i:nil="true"/&gt;&lt;hostName i:nil="true"/&gt;&lt;humanReadable&gt;Blink5s&lt;/humanReadable&gt;&lt;isRedundancyEnabled&gt;true&lt;/isRedundancyEnabled&gt;&lt;parentNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionIdList i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;parentTypeDefinitionName i:nil="true"/&gt;&lt;parentTypeDefinitionNameList i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/&gt;&lt;parentTypeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;readablPath i:nil="true"/&gt;&lt;relativePath&gt;Blink5s&lt;/relativePath&gt;&lt;resolvedItem&gt;false&lt;/resolvedItem&gt;&lt;resolvedNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;resolvedStartingNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;savedRelativePath i:nil="true"/&gt;&lt;savedStartingAddress i:nil="true"/&gt;&lt;startingAddress i:nil="true"/&gt;&lt;typeDefinitionName i:nil="true"/&gt;&lt;typeDefinitionNodeId i:nil="true" xmlns:a="http://opcfoundation.org/UA/2008/02/Types.xsd"/&gt;&lt;/OPCUADataReference&gt;</Tag>
+    <TagName>Blink5s</TagName>
+    <ConditionType>0</ConditionType>
+    <ActivationValue>1</ActivationValue>
+    <SchedType>0</SchedType>
+    <Time>2020-05-27T00:00:00</Time>
+    <EventCommandList>&lt;CommandManagerList xmlns="http://progea.com" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;entry i:type="RunScriptCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;parameter i:nil="true"/&gt;&lt;scriptName&gt;Script/Spark_Abnormality_01to10.Script&lt;/scriptName&gt;&lt;/entry&gt;&lt;entry i:type="RunScriptCommand"&gt;&lt;delayCommandSecs&gt;0&lt;/delayCommandSecs&gt;&lt;expression i:nil="true"/&gt;&lt;opcuaEntityReference i:nil="true"/&gt;&lt;executionMode&gt;Normal&lt;/executionMode&gt;&lt;parameter i:nil="true"/&gt;&lt;scriptName&gt;Script/Spark_Abnormality_11to20.Script&lt;/scriptName&gt;&lt;/entry&gt;&lt;/CommandManagerList&gt;</EventCommandList>
+    <UFEventFolder>1</UFEventFolder>
+    <OptimisticLockField>3</OptimisticLockField>
+  </UFEventObject>
 </DefaultName>

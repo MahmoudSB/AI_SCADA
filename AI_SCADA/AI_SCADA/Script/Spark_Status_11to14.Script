@@ -24,6 +24,8 @@
     <d2p1:string>SPARK_Treatment_End</d2p1:string>
     <d2p1:string>SPARK_Unload_Start</d2p1:string>
     <d2p1:string>SPARK_Unload_End</d2p1:string>
+    <d2p1:string>SPARK_Treatment_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR11_SCADA_abnormalityLog</d2p1:string>
     <d2p1:string>SPARK_Treatment_Rec_Trig</d2p1:string>
     <d2p1:string>General_Spark_VSR12_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR12_Status</d2p1:string>
@@ -34,6 +36,7 @@
     <d2p1:string>SPARK_VSR12_SCADA_Treatment_End</d2p1:string>
     <d2p1:string>SPARK_VSR12_SCADA_Unload_Start</d2p1:string>
     <d2p1:string>SPARK_VSR12_SCADA_Unload_End</d2p1:string>
+    <d2p1:string>SPARK_VSR12_SCADA_abnormalityLog</d2p1:string>
     <d2p1:string>General_Spark_VSR13_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR13_Status</d2p1:string>
     <d2p1:string>SPARK_VSR13_PLC_Maquina_em_tratamento</d2p1:string>
@@ -43,6 +46,7 @@
     <d2p1:string>SPARK_VSR13_SCADA_Treatment_End</d2p1:string>
     <d2p1:string>SPARK_VSR13_SCADA_Unload_Start</d2p1:string>
     <d2p1:string>SPARK_VSR13_SCADA_Unload_End</d2p1:string>
+    <d2p1:string>SPARK_VSR13_SCADA_abnormalityLog</d2p1:string>
     <d2p1:string>General_Spark_VSR14_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR14_Status</d2p1:string>
     <d2p1:string>SPARK_VSR14_PLC_Maquina_em_tratamento</d2p1:string>
@@ -52,11 +56,12 @@
     <d2p1:string>SPARK_VSR14_SCADA_Treatment_End</d2p1:string>
     <d2p1:string>SPARK_VSR14_SCADA_Unload_Start</d2p1:string>
     <d2p1:string>SPARK_VSR14_SCADA_Unload_End</d2p1:string>
+    <d2p1:string>SPARK_VSR14_SCADA_abnormalityLog</d2p1:string>
   </listVariableUsed>
   <maxCleanCount>2</maxCleanCount>
   <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>10335</nStartSel>
+  <nStartSel>10184</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
@@ -122,6 +127,7 @@ Sub Main Handles .Main
             SPARK_Treatment_End   = SPARK_VSR11_SCADA_Treatment_End
             SPARK_Unload_Start    = SPARK_VSR11_SCADA_Unload_Start
             SPARK_Unload_End      = SPARK_VSR11_SCADA_Unload_End
+            SPARK_Treatment_Status = SPARK_VSR11_SCADA_abnormalityLog
             SPARK_Treatment_Rec_Trig = True
         End If
         If SPARK_VSR11_Status = 0 Then
@@ -189,6 +195,7 @@ Sub Main Handles .Main
             SPARK_Treatment_End   = SPARK_VSR12_SCADA_Treatment_End
             SPARK_Unload_Start    = SPARK_VSR12_SCADA_Unload_Start
             SPARK_Unload_End      = SPARK_VSR12_SCADA_Unload_End
+            SPARK_Treatment_Status = SPARK_VSR12_SCADA_abnormalityLog
             SPARK_Treatment_Rec_Trig = True
         End If
         If SPARK_VSR12_Status = 0 Then
@@ -256,6 +263,7 @@ Sub Main Handles .Main
             SPARK_Treatment_End   = SPARK_VSR13_SCADA_Treatment_End
             SPARK_Unload_Start    = SPARK_VSR13_SCADA_Unload_Start
             SPARK_Unload_End      = SPARK_VSR13_SCADA_Unload_End
+            SPARK_Treatment_Status = SPARK_VSR13_SCADA_abnormalityLog
             SPARK_Treatment_Rec_Trig = True
         End If
         If SPARK_VSR13_Status = 0 Then
@@ -323,6 +331,7 @@ Sub Main Handles .Main
             SPARK_Treatment_End   = SPARK_VSR14_SCADA_Treatment_End
             SPARK_Unload_Start    = SPARK_VSR14_SCADA_Unload_Start
             SPARK_Unload_End      = SPARK_VSR14_SCADA_Unload_End
+            SPARK_Treatment_Status = SPARK_VSR14_SCADA_abnormalityLog
             SPARK_Treatment_Rec_Trig = True
         End If
         If SPARK_VSR14_Status = 0 Then

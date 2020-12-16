@@ -1,0 +1,141 @@
+﻿<DefaultName>
+  <xs:schema id="DefaultName" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DefaultName" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="UFUAAuditLogItem">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="EventId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="EventType" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SourceNode" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SourceName" type="xs:string" minOccurs="0" />
+                <xs:element name="EventDateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EventDateTimeUtc" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EventMessage" type="xs:string" minOccurs="0" />
+                <xs:element name="EventDetails" type="xs:string" minOccurs="0" />
+                <xs:element name="EventState" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Severity" type="xs:unsignedShort" minOccurs="0" />
+                <xs:element name="EventComment" type="xs:string" minOccurs="0" />
+                <xs:element name="UserName" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="256" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="EventDuration" type="xs:double" minOccurs="0" />
+                <xs:element name="EventOccurence" type="xs:unsignedLong" minOccurs="0" />
+                <xs:element name="EventSequence" type="xs:unsignedLong" minOccurs="0" />
+                <xs:element name="RedundancySyncTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//UFUAAuditLogItem" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_EventId">
+        <xs:selector xpath=".//UFUAAuditLogItem" />
+        <xs:field xpath="EventId" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <UFUAAuditLogItem>
+    <OID>1</OID>
+    <EventId>50d67721-0f47-4b7f-92e8-284798a5e4fc</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-16T17:49:15.9626808+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-16T17:49:15.9626808Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_VL_VSRB4 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_VL_VSRB4|LinkType=1|SA=PLC_1.Tags."Mem.Mens.Sistema"."Mens.temperat.camara"|S7Typ=1012|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>2</OID>
+    <EventId>6439e343-fd7d-4407-845c-906f66cfd42d</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-16T17:49:15.9776414+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-16T17:49:15.9776414Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR20 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR20|LinkType=1|SA=PLC_1.Blocks."KTP Temperat."."PV Rolhas"|S7Typ=1060|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>3</OID>
+    <EventId>0f866be5-5880-4f1b-9db3-d6ffe9cf4a30</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-16T17:49:16.1614312+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-16T17:49:16.1614312Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR14 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR14|LinkType=1|SA=PLC_1.Blocks."KTP Movim."."PV mbar Bombas"|S7Typ=1082|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>4</OID>
+    <EventId>fe9a60b3-30be-4eaf-b98e-b88fe2dc481f</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-16T17:49:16.1803804+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-16T17:49:16.1803804Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_SP_VSR13 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_SP_VSR13|LinkType=1|SA=PLC_1.Blocks."KTP Movim."."PV mbar Camara"|S7Typ=1082|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+  <UFUAAuditLogItem>
+    <OID>5</OID>
+    <EventId>88a38b9f-9763-4506-aee0-13bfd4f6fd79</EventId>
+    <EventType>i=2131</EventType>
+    <SourceNode>ns=2;s=S7TIASymbolic</SourceNode>
+    <SourceName>Communication Driver S7TIASymbolic</SourceName>
+    <EventDateTime>2020-12-16T17:49:16.3323343+00:00</EventDateTime>
+    <EventDateTimeUtc>2020-12-16T17:49:16.3323343Z</EventDateTimeUtc>
+    <EventMessage>S7TIASymbolic, Station PLC_VL_VSRA5 in Error : Timeout occurred.. (S7TIASymbolic.Station=PLC_VL_VSRA5|LinkType=1|SA=PLC_1.Tags."Mem.Mens.Sistema"."Mens.emergencia"|S7Typ=1012|DL=0)</EventMessage>
+    <Severity>100</Severity>
+    <EventDuration>0</EventDuration>
+    <EventOccurence>0</EventOccurence>
+    <EventSequence>0</EventSequence>
+    <OptimisticLockField>0</OptimisticLockField>
+  </UFUAAuditLogItem>
+</DefaultName>

@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Spark_Treatment_Record>
+    <UtcTimeCol>2020-12-16T17:49:28.2594029+00:00</UtcTimeCol>
+    <LocalTimeCol>2020-12-16T17:49:28.2594029+00:00</LocalTimeCol>
+    <MillisecondsCol>259</MillisecondsCol>
+    <UserCol>Anonymous</UserCol>
+    <ReasonCol>Recorded by Command</ReasonCol>
+    <VSR>VSR</VSR>
+    <TreatmentStart>10/27/2020 21:28:52</TreatmentStart>
+    <TreatmentEnd>10/28/2020 17:59:33</TreatmentEnd>
+    <UnloadStart>10/28/2020 18:02:37</UnloadStart>
+    <UnloadEnd>11/26/2020 15:06:17</UnloadEnd>
+    <UnloadEnd_timeStamp>2020-12-16T14:04:10.4580521+00:00</UnloadEnd_timeStamp>
+    <Status>VSR</Status>
+  </Spark_Treatment_Record>
+</DocumentElement>
