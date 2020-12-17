@@ -9,118 +9,23 @@
   <fastSamplingInterval>500</fastSamplingInterval>
   <forceWritingOnServer>false</forceWritingOnServer>
   <id>00000000-0000-0000-0000-000000000000</id>
-  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-    <d2p1:string>SPARK_VSR01_SCADA_MaxTemperatureTimer</d2p1:string>
-    <d2p1:string>SPARK_VSR01_SCADA_unloadingTimer</d2p1:string>
-    <d2p1:string>intDummy</d2p1:string>
-    <d2p1:string>SPARK_VSR01_SCADA_CorkTemp_Max_Time</d2p1:string>
-    <d2p1:string>SPARK_VSR01_SCADA_Discharge_Max_Time</d2p1:string>
-    <d2p1:string>SPARK_VSR01_SCADA_CorkTemp_Alarm</d2p1:string>
-    <d2p1:string>SPARK_VSR01_SCADA_CorkTemp_Max</d2p1:string>
-    <d2p1:string>SPARK_VSR01_SCADA_LongDischargeIsAbnormality</d2p1:string>
-    <d2p1:string>SPARK_VSR01_SCADA_AlarmTempIsAbnormality</d2p1:string>
-    <d2p1:string>SPARK_VSR01_SCADA_LongMaxTempIsAbnormality</d2p1:string>
-    <d2p1:string>SPARK_VSR01_SCADA_EmailLongDischarge</d2p1:string>
-    <d2p1:string>SPARK_VSR01_SCADA_EmailAlarmTempAbnormality</d2p1:string>
-    <d2p1:string>SPARK_VSR01_SCADA_EmailLongMaxTempAbnormality</d2p1:string>
-    <d2p1:string>floatDummy</d2p1:string>
-    <d2p1:string>SPARK_VSR01_SCADA_abnormalTreatment</d2p1:string>
-    <d2p1:string>SPARK_VSR01_SCADA_sendEmailOfAbnormality</d2p1:string>
-  </listVariableUsed>
+  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <maxCleanCount>2</maxCleanCount>
   <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>1881</nStartSel>
+  <nStartSel>215</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
 
-Public Class MachineParameters
-    Public machineStatus As Integer
-    Public corkTemp_Max_Time As Integer
-    Public discharge_Max_Time As Integer
-    Public corkTemp_Alarm As Decimal
-    Public corkTemp_Max As Decimal
-    Public pvCorkTemperature As Decimal
-    Public longUnloadIsAbnormality As Boolean
-    Public alarmTempIsAbnormality As Boolean
-    Public longMaxTempIsAbnormality As Boolean
-    Public emailLongUnload As Boolean
-    Public emailAlarmTemp As Boolean
-    Public emailLongMaxTemp As Boolean
-End Class
-
-Public Class Timers
-    Public MaxTemperature As Integer
-    Public unloading As Integer
-End Class
-
-Public Class Commands
-    Public bit_abnormalTreatment As Boolean
-    Public bit_sendEmail As Boolean
-End Class
-
 Sub Main Handles .Main
-
-    Dim Param = New MachineParameters()
-    Dim T_min = New Timers()
-    Dim results = New Commands()
-
-'VSR01
-    T_min.MaxTemperature = SPARK_VSR01_SCADA_MaxTemperatureTimer
-    T_min.unloading = SPARK_VSR01_SCADA_unloadingTimer
-    Param.machineStatus = intDummy
-    Param.corkTemp_Max_Time = SPARK_VSR01_SCADA_CorkTemp_Max_Time
-    Param.discharge_Max_Time = SPARK_VSR01_SCADA_Discharge_Max_Time
-    Param.corkTemp_Alarm = SPARK_VSR01_SCADA_CorkTemp_Alarm
-    Param.corkTemp_Max = SPARK_VSR01_SCADA_CorkTemp_Max
-    Param.longUnloadIsAbnormality = SPARK_VSR01_SCADA_LongDischargeIsAbnormality
-    Param.alarmTempIsAbnormality = SPARK_VSR01_SCADA_AlarmTempIsAbnormality
-    Param.longMaxTempIsAbnormality = SPARK_VSR01_SCADA_LongMaxTempIsAbnormality
-    Param.emailLongUnload = SPARK_VSR01_SCADA_EmailLongDischarge
-    Param.emailAlarmTemp = SPARK_VSR01_SCADA_EmailAlarmTempAbnormality
-    Param.emailLongMaxTemp = SPARK_VSR01_SCADA_EmailLongMaxTempAbnormality
-    Param.pvCorkTemperature = floatDummy
-
-    results = detectAbnormality(Param, T_min)
-
-    SPARK_VSR01_SCADA_MaxTemperatureTimer = T_min.MaxTemperature
-    SPARK_VSR01_SCADA_unloadingTimer = T_min.unloading
-    SPARK_VSR01_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
-    SPARK_VSR01_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
-
+    Dim i As Integer
+    For i = 1 To 2
+         MsgBox(ScriptDocument.GetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\SCADA:Treatment\Abn_Treat\MaxTemperatureTimer"))
+         ScriptDocument.SetVariableValue("VL\VSRA" &amp; i.ToString() &amp; "\SCADA:Treatment\Abn_Treat\abnormalityLog", "msb")
+     Next
 End Sub
 
- Function  detectAbnormality(M As MachineParameters, ByRef T As Timers)
-    Dim cmd = New Commands()
-    Dim bit_longWhileUnloading, bit_AlarmTemperature, bit_longWhileMaxTemperature As Boolean
-
-     If M.machineStatus = 3 Then
-        T.unloading = T.unloading+1
-    Else
-        T.unloading = 0
-    End If
-   bit_longWhileUnloading = M.discharge_Max_Time&gt;0 And T.unloading &gt; M.discharge_Max_Time
-
-   bit_AlarmTemperature = M.pvCorkTemperature&gt; M.corkTemp_Alarm
-
-    If M.pvCorkTemperature &gt; M.corkTemp_Max Then
-        T.MaxTemperature = T.MaxTemperature+1
-    Else
-        T.MaxTemperature = 0
-    End If
-
-   bit_longWhileMaxTemperature = M.corkTemp_Max_Time&gt;0 And T.MaxTemperature&gt;M.corkTemp_Max_Time
-
-   cmd.bit_abnormalTreatment = (bit_longWhileUnloading And M.longUnloadIsAbnormality) _
-                                            Or (bit_AlarmTemperature And M.alarmTempIsAbnormality) _
-                                            Or (bit_longWhileMaxTemperature And M.longMaxTempIsAbnormality)
-
-    cmd.bit_sendEmail = (bit_longWhileUnloading And M.emailLongUnload) _
-                              Or (bit_AlarmTemperature And M.emailAlarmTemp) _
-                              Or (bit_longWhileMaxTemperature And M.emailLongMaxTemp)
-   Return cmd
- End Function
 </sCode>
   <sessionName i:nil="true" />
   <slowSamplingInterval>5000</slowSamplingInterval>

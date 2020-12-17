@@ -3428,7 +3428,6 @@
         </TextBox.RenderTransform>TR</TextBox>
     </Canvas>
   </Viewbox>
-  <ContentControl Name="EditDisplay10" Width="140" Height="50" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="283.5" Canvas.Top="132" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <ContentControl Name="EditDisplay193" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="689.0120092142" Canvas.Top="555.43" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
     <ContentControl.RenderTransform>
       <TransformGroup>
@@ -3511,6 +3510,456 @@
     </ContentControl.RenderTransform>
   </ContentControl>
   <ContentControl Name="EditDisplay202" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1105.99613619833" Canvas.Top="408.799206349206" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay203" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1212.55169175389" Canvas.Top="420.001428571428" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay204" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1210.55169175389" Canvas.Top="381.021428571428" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay205" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="522.147651349845" Canvas.Top="335.142842712842" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay206" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="520.147651349845" Canvas.Top="296.162842712842" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay207" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="626.188055390249" Canvas.Top="307.365064935065" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay208" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="624.188055390249" Canvas.Top="268.385064935065" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay209" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="731.753711955906" Canvas.Top="280.082236652236" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay210" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="729.753711955906" Canvas.Top="241.102236652236" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay211" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="836.309267511461" Canvas.Top="252.294357864357" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay212" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="834.309267511461" Canvas.Top="213.314357864358" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay213" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="938.329469531664" Canvas.Top="224.51658008658" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay214" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="936.329469531663" Canvas.Top="185.53658008658" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay215" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1043.89512609732" Canvas.Top="195.728701298701" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay216" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1041.89512609732" Canvas.Top="156.748701298701" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay217" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1148.94563114782" Canvas.Top="169.466075036075" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay218" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1146.94563114782" Canvas.Top="130.486075036075" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay219" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1253.99613619833" Canvas.Top="141.688297258297" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay220" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1251.99613619833" Canvas.Top="102.708297258297" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay221" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="904.006237208431" Canvas.Top="789.668095238095" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay222" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="902.006237208431" Canvas.Top="750.688095238095" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay223" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1010.06684326904" Canvas.Top="765.930721500721" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay224" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1008.06684326904" Canvas.Top="726.950721500721" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay225" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1113.60219680439" Canvas.Top="740.668095238095" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay226" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1111.60219680439" Canvas.Top="701.688095238095" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay227" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1219.662802865" Canvas.Top="712.900418470418" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay228" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1217.662802865" Canvas.Top="673.920418470418" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay229" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1322.19815640035" Canvas.Top="686.627691197691" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay230" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1320.19815640035" Canvas.Top="647.647691197691" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay231" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1428.26886347106" Canvas.Top="658.839812409812" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay232" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1426.26886347106" Canvas.Top="619.859812409812" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl4" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="608.365517632335" Canvas.Top="511.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl6" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="713.365517632335" Canvas.Top="480.864591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl7" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="818.365517632335" Canvas.Top="455.864591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl8" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="922.365517632335" Canvas.Top="429.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl9" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1026.86551763234" Canvas.Top="401.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl10" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1132.86551763234" Canvas.Top="372.864591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl02" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="441.86551763234" Canvas.Top="289.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl03" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="545.86551763234" Canvas.Top="261.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl04" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="650.36551763234" Canvas.Top="232.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl05" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="756.36551763234" Canvas.Top="205.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl06" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="858.86551763234" Canvas.Top="178.864591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl07" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="963.36551763234" Canvas.Top="151.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl08" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1068.36551763234" Canvas.Top="123.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl09" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1172.86551763234" Canvas.Top="97.864591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl11" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="823.865517632335" Canvas.Top="744.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl12" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="929.365517632335" Canvas.Top="720.864591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl13" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1032.86551763234" Canvas.Top="695.864591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl14" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1138.36551763234" Canvas.Top="668.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl15" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1243.36551763234" Canvas.Top="642.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl16" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1348.36551763234" Canvas.Top="615.864591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
     <ContentControl.RenderTransform>
       <TransformGroup>
         <TransformGroup.Children>

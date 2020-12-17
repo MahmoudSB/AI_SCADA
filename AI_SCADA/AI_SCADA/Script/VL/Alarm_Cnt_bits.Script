@@ -28,7 +28,7 @@
   <maxCleanCount>2</maxCleanCount>
   <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>2775</nStartSel>
+  <nStartSel>2668</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
@@ -91,7 +91,7 @@ Sub Main Handles .Main
         End If
     Next
 
-    For  i=1 To 7
+    For  i=1 To 14
         If i&lt;3 Then
             VSRxx = "VSR0" &amp; (i+7).ToString()
         Else

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScriptDocument xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://progea.com">
+  <bEnableLog>false</bEnableLog>
+  <bEnableSysLog>false</bEnableSysLog>
+  <breakpoints xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <currentStatusTag i:nil="true" />
+  <cycleTimeTag i:nil="true" />
+  <disableWhenNotUsed>true</disableWhenNotUsed>
+  <fastSamplingInterval>500</fastSamplingInterval>
+  <forceWritingOnServer>false</forceWritingOnServer>
+  <id>00000000-0000-0000-0000-000000000000</id>
+  <listVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <maxCleanCount>2</maxCleanCount>
+  <nSelLength>0</nSelLength>
+  <nSleepTime>50</nSleepTime>
+  <nStartSel>946</nStartSel>
+  <publishingInterval>1000</publishingInterval>
+  <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
+  <sCode>'#Language "WWB.NET"
+
+Public Class MachineParameters
+    Public machineStatus As Integer
+    Public corkTemp_Max_Time As Integer
+    Public discharge_Max_Time As Integer
+    Public corkTemp_Alarm As Decimal
+    Public corkTemp_Max As Decimal
+    Public pvCorkTemperature As Decimal
+    Public longUnloadIsAbnormality As Boolean
+    Public alarmTempIsAbnormality As Boolean
+    Public longMaxTempIsAbnormality As Boolean
+    Public emailLongUnload As Boolean
+    Public emailAlarmTemp As Boolean
+    Public emailLongMaxTemp As Boolean
+End Class
+
+Public Class Timers
+    Public MaxTemperature As Integer
+    Public unloading As Integer
+End Class
+
+Public Class Commands
+    Public bit_abnormalTreatment As Boolean
+    Public bit_sendEmail As Boolean
+    Public logger As String
+End Class
+
+Public Class latches
+    Public a As Boolean
+    Public b As Boolean
+    Public c As Boolean
+End Class
+
+Sub Main Handles .Main
+    Dim Param = New MachineParameters()
+    Dim T_min = New Timers()
+    Dim latchSet = New latches()
+    Dim results = New Commands()
+    Dim i As Integer
+    Dim VSRxx, VSRx As String
+
+    For i=1 To 14
+        If i&lt;=7 Then
+            VSRxx = "VSRA" &amp; (i).ToString()
+        ElseIf i&gt;7 Then
+            VSRxx = "VSRB" &amp; (i-7).ToString()
+        End If
+        If i&lt;10 Then
+            VSRx = "VSR0" &amp; (i).ToString()
+        Else
+            VSRx = "VSR" &amp; (i).ToString()
+        End If
+        T_min.MaxTemperature =ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp;  "\SCADA:Treatment\Abn_Treat\MaxTemperatureTimer")
+        T_min.unloading = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp;  "\SCADA:Treatment\Abn_Treat\unloadingTimer")
+        Param.machineStatus = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Status")
+        Param.corkTemp_Max_Time = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\corkTemp_Max_Time")
+        Param.discharge_Max_Time = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\discharge_Max_Time")
+        Param.corkTemp_Alarm = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\corkTemp_Alarm")
+        Param.corkTemp_Max = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\corkTemp_Max")
+        Param.longUnloadIsAbnormality = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\LongDischargeIsAbnormality")
+        Param.alarmTempIsAbnormality = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\alarmTempIsAbnormality")
+        Param.longMaxTempIsAbnormality = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\longMaxTempIsAbnormality")
+        Param.emailLongUnload = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\EmailLongDischarge")
+        Param.emailAlarmTemp = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\EmailAlarmTempAbnormality")
+        Param.emailLongMaxTemp = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\EmailLongMaxTempAbnormality")
+        latchSet.a = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:LatchSet\latch1")
+        latchSet.b = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:LatchSet\latch2")
+        latchSet.c = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:LatchSet\latch3")
+        If ScriptDocument.GetVariableValue("General\VL_" &amp; VSRx &amp; "_PLCStateVariable" ) = 0 Then
+            Try
+                Param.pvCorkTemperature = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\PLC:KTP_Temperat_PV_Rolhas")
+            Catch
+                Param.pvCorkTemperature = 0
+            End Try
+            Else
+            Param.pvCorkTemperature = 0
+        End If
+
+        results = detectAbnormality(Param, T_min, latchSet)
+
+        ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\MaxTemperatureTimer", T_min.MaxTemperature)
+        ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\unloadingTimer", T_min.unloading)
+        ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:LatchSet\latch1", latchSet.a)
+        ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:LatchSet\latch2", latchSet.b)
+        ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:LatchSet\latch3", latchSet.c)
+        ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\abnormalTreatment", results.bit_abnormalTreatment)
+        ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\sendEmailOfAbnormality", results.bit_sendEmail)
+        ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\abnormalityLog", results.logger)
+    Next
+
+End Sub
+
+ Function  detectAbnormality(M As MachineParameters, ByRef T As Timers, ByRef l As latches)
+    Dim cmd = New Commands()
+    Dim bit_longWhileUnloading, bit_AlarmTemperature, bit_longWhileMaxTemperature As Boolean
+    Dim lactch1, latch2, latch3 As Boolean
+
+' Unloading took so long
+     If M.machineStatus = 3 Then
+        T.unloading = T.unloading+1
+    Else
+        T.unloading = 0
+    End If
+   bit_longWhileUnloading = M.discharge_Max_Time&gt;0 And T.unloading &gt;= M.discharge_Max_Time And M.machineStatus = 1
+
+' Alarm temperature
+   bit_AlarmTemperature = M.pvCorkTemperature&gt;= M.corkTemp_Alarm
+
+' Maximume temperature remained so long
+    If M.pvCorkTemperature &gt; M.corkTemp_Max And M.machineStatus = 1 Then
+        T.MaxTemperature = T.MaxTemperature+1
+    Else
+        T.MaxTemperature = 0
+    End If
+
+   bit_longWhileMaxTemperature = M.corkTemp_Max_Time&gt;0 And T.MaxTemperature&gt;=M.corkTemp_Max_Time
+
+   If M.machineStatus = 0 Then
+        cmd.logger = "Normal"
+        l.a = False
+        l.b = False
+        l.c = False
+   End If
+   If bit_longWhileUnloading And M.longUnloadIsAbnormality And  l.a = False Then
+        cmd.logger = cmd.logger &amp; "longUnloading "
+         l.a = True
+   End If
+      If bit_AlarmTemperature And M.alarmTempIsAbnormality And l.b = False Then
+        cmd.logger = cmd.logger &amp; "alarmTemp "
+        l.b = True
+   End If
+      If bit_longWhileUnloading And M.longUnloadIsAbnormality And  l.c = False Then
+        cmd.logger = cmd.logger &amp; "longMaxTemp "
+        l.c = True
+   End If
+
+   cmd.bit_abnormalTreatment = (bit_longWhileUnloading And M.longUnloadIsAbnormality) _
+                                            Or (bit_AlarmTemperature And M.alarmTempIsAbnormality) _
+                                            Or (bit_longWhileMaxTemperature And M.longMaxTempIsAbnormality)
+
+    cmd.bit_sendEmail = (bit_longWhileUnloading And M.emailLongUnload) _
+                              Or (bit_AlarmTemperature And M.emailAlarmTemp) _
+                              Or (bit_longWhileMaxTemperature And M.emailLongMaxTemp)
+   Return cmd
+ End Function
+</sCode>
+  <sessionName i:nil="true" />
+  <slowSamplingInterval>5000</slowSamplingInterval>
+  <stopCommandTimeout>2000</stopCommandTimeout>
+  <threadPriority>Normal</threadPriority>
+  <useAlwaysSecureConnections>false</useAlwaysSecureConnections>
+  <writeTimeout>0</writeTimeout>
+</ScriptDocument>

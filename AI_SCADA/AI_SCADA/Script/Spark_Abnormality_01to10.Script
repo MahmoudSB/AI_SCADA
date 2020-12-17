@@ -31,11 +31,200 @@
     <d2p1:string>SPARK_VSR01_SCADA_abnormalTreatment</d2p1:string>
     <d2p1:string>SPARK_VSR01_SCADA_sendEmailOfAbnormality</d2p1:string>
     <d2p1:string>SPARK_VSR01_SCADA_abnormalityLog</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_MaxTemperatureTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_unloadingTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR02_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_CorkTemp_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_Discharge_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_CorkTemp_Alarm</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_CorkTemp_Max</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_LongDischargeIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_AlarmTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_LongMaxTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_EmailLongDischarge</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_EmailAlarmTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_EmailLongMaxTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_latch1</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_latch2</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_latch3</d2p1:string>
+    <d2p1:string>General_Spark_VSR02_PLCStateVariable</d2p1:string>
+    <d2p1:string>SPARK_VSR02_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_sendEmailOfAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_abnormalityLog</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_MaxTemperatureTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_unloadingTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR03_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_CorkTemp_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_Discharge_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_CorkTemp_Alarm</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_CorkTemp_Max</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_LongDischargeIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_AlarmTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_LongMaxTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_EmailLongDischarge</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_EmailAlarmTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_EmailLongMaxTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_latch1</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_latch2</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_latch3</d2p1:string>
+    <d2p1:string>General_Spark_VSR03_PLCStateVariable</d2p1:string>
+    <d2p1:string>SPARK_VSR03_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_sendEmailOfAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_abnormalityLog</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_MaxTemperatureTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_unloadingTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR04_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_CorkTemp_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_Discharge_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_CorkTemp_Alarm</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_CorkTemp_Max</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_LongDischargeIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_AlarmTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_LongMaxTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_EmailLongDischarge</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_EmailAlarmTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_EmailLongMaxTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_latch1</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_latch2</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_latch3</d2p1:string>
+    <d2p1:string>General_Spark_VSR04_PLCStateVariable</d2p1:string>
+    <d2p1:string>SPARK_VSR04_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_sendEmailOfAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_abnormalityLog</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_MaxTemperatureTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_unloadingTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR05_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_CorkTemp_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_Discharge_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_CorkTemp_Alarm</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_CorkTemp_Max</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_LongDischargeIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_AlarmTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_LongMaxTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_EmailLongDischarge</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_EmailAlarmTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_EmailLongMaxTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_latch1</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_latch2</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_latch3</d2p1:string>
+    <d2p1:string>General_Spark_VSR05_PLCStateVariable</d2p1:string>
+    <d2p1:string>SPARK_VSR05_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_sendEmailOfAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_abnormalityLog</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_MaxTemperatureTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_unloadingTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR06_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_CorkTemp_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_Discharge_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_CorkTemp_Alarm</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_CorkTemp_Max</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_LongDischargeIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_AlarmTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_LongMaxTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_EmailLongDischarge</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_EmailAlarmTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_EmailLongMaxTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_latch1</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_latch2</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_latch3</d2p1:string>
+    <d2p1:string>General_Spark_VSR06_PLCStateVariable</d2p1:string>
+    <d2p1:string>SPARK_VSR06_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_sendEmailOfAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR06_SCADA_abnormalityLog</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_MaxTemperatureTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_unloadingTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR07_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_CorkTemp_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_Discharge_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_CorkTemp_Alarm</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_CorkTemp_Max</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_LongDischargeIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_AlarmTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_LongMaxTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_EmailLongDischarge</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_EmailAlarmTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_EmailLongMaxTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_latch1</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_latch2</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_latch3</d2p1:string>
+    <d2p1:string>General_Spark_VSR07_PLCStateVariable</d2p1:string>
+    <d2p1:string>SPARK_VSR07_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_sendEmailOfAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR07_SCADA_abnormalityLog</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_MaxTemperatureTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_unloadingTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR08_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_CorkTemp_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_Discharge_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_CorkTemp_Alarm</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_CorkTemp_Max</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_LongDischargeIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_AlarmTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_LongMaxTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_EmailLongDischarge</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_EmailAlarmTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_EmailLongMaxTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_latch1</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_latch2</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_latch3</d2p1:string>
+    <d2p1:string>General_Spark_VSR08_PLCStateVariable</d2p1:string>
+    <d2p1:string>SPARK_VSR08_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_sendEmailOfAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR08_SCADA_abnormalityLog</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_MaxTemperatureTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_unloadingTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR09_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_CorkTemp_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_Discharge_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_CorkTemp_Alarm</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_CorkTemp_Max</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_LongDischargeIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_AlarmTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_LongMaxTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_EmailLongDischarge</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_EmailAlarmTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_EmailLongMaxTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_latch1</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_latch2</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_latch3</d2p1:string>
+    <d2p1:string>General_Spark_VSR09_PLCStateVariable</d2p1:string>
+    <d2p1:string>SPARK_VSR09_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_sendEmailOfAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR09_SCADA_abnormalityLog</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_MaxTemperatureTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_unloadingTimer</d2p1:string>
+    <d2p1:string>SPARK_VSR10_Status</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_CorkTemp_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_Discharge_Max_Time</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_CorkTemp_Alarm</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_CorkTemp_Max</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_LongDischargeIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_AlarmTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_LongMaxTempIsAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_EmailLongDischarge</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_EmailAlarmTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_EmailLongMaxTempAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_latch1</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_latch2</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_latch3</d2p1:string>
+    <d2p1:string>General_Spark_VSR10_PLCStateVariable</d2p1:string>
+    <d2p1:string>SPARK_VSR10_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_sendEmailOfAbnormality</d2p1:string>
+    <d2p1:string>SPARK_VSR10_SCADA_abnormalityLog</d2p1:string>
   </listVariableUsed>
   <maxCleanCount>2</maxCleanCount>
   <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>3904</nStartSel>
+  <nStartSel>21276</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
@@ -115,7 +304,349 @@ Sub Main Handles .Main
     SPARK_VSR01_SCADA_latch3 = latchSet.c
     SPARK_VSR01_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
     SPARK_VSR01_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
-    SPARK_VSR01_SCADA_abnormalityLog  = results.bit_sendEmail
+    SPARK_VSR01_SCADA_abnormalityLog = results.logger
+
+'VSR02
+    T_min.MaxTemperature = SPARK_VSR02_SCADA_MaxTemperatureTimer
+    T_min.unloading = SPARK_VSR02_SCADA_unloadingTimer
+    Param.machineStatus = SPARK_VSR02_Status
+    Param.corkTemp_Max_Time = SPARK_VSR02_SCADA_CorkTemp_Max_Time
+    Param.discharge_Max_Time = SPARK_VSR02_SCADA_Discharge_Max_Time
+    Param.corkTemp_Alarm = SPARK_VSR02_SCADA_CorkTemp_Alarm
+    Param.corkTemp_Max = SPARK_VSR02_SCADA_CorkTemp_Max
+    Param.longUnloadIsAbnormality = SPARK_VSR02_SCADA_LongDischargeIsAbnormality
+    Param.alarmTempIsAbnormality = SPARK_VSR02_SCADA_AlarmTempIsAbnormality
+    Param.longMaxTempIsAbnormality = SPARK_VSR02_SCADA_LongMaxTempIsAbnormality
+    Param.emailLongUnload = SPARK_VSR02_SCADA_EmailLongDischarge
+    Param.emailAlarmTemp = SPARK_VSR02_SCADA_EmailAlarmTempAbnormality
+    Param.emailLongMaxTemp = SPARK_VSR02_SCADA_EmailLongMaxTempAbnormality
+    latchSet.a = SPARK_VSR02_SCADA_latch1
+    latchSet.b = SPARK_VSR02_SCADA_latch2
+    latchSet.c = SPARK_VSR02_SCADA_latch3
+    If General_Spark_VSR02_PLCStateVariable = 0 Then
+        Try
+            Param.pvCorkTemperature = SPARK_VSR02_PLC_KTP_Temperat_PV_Rolhas
+        Catch
+            Param.pvCorkTemperature = 0
+        End Try
+    Else
+        Param.pvCorkTemperature = 0
+    End If
+
+    results = detectAbnormality(Param, T_min, latchSet)
+
+    SPARK_VSR02_SCADA_MaxTemperatureTimer = T_min.MaxTemperature
+    SPARK_VSR02_SCADA_unloadingTimer = T_min.unloading
+    SPARK_VSR02_SCADA_latch1 = latchSet.a
+    SPARK_VSR02_SCADA_latch2 = latchSet.b
+    SPARK_VSR02_SCADA_latch3 = latchSet.c
+    SPARK_VSR02_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_VSR02_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
+    SPARK_VSR02_SCADA_abnormalityLog = results.logger
+
+'VSR03
+    T_min.MaxTemperature = SPARK_VSR03_SCADA_MaxTemperatureTimer
+    T_min.unloading = SPARK_VSR03_SCADA_unloadingTimer
+    Param.machineStatus = SPARK_VSR03_Status
+    Param.corkTemp_Max_Time = SPARK_VSR03_SCADA_CorkTemp_Max_Time
+    Param.discharge_Max_Time = SPARK_VSR03_SCADA_Discharge_Max_Time
+    Param.corkTemp_Alarm = SPARK_VSR03_SCADA_CorkTemp_Alarm
+    Param.corkTemp_Max = SPARK_VSR03_SCADA_CorkTemp_Max
+    Param.longUnloadIsAbnormality = SPARK_VSR03_SCADA_LongDischargeIsAbnormality
+    Param.alarmTempIsAbnormality = SPARK_VSR03_SCADA_AlarmTempIsAbnormality
+    Param.longMaxTempIsAbnormality = SPARK_VSR03_SCADA_LongMaxTempIsAbnormality
+    Param.emailLongUnload = SPARK_VSR03_SCADA_EmailLongDischarge
+    Param.emailAlarmTemp = SPARK_VSR03_SCADA_EmailAlarmTempAbnormality
+    Param.emailLongMaxTemp = SPARK_VSR03_SCADA_EmailLongMaxTempAbnormality
+    latchSet.a = SPARK_VSR03_SCADA_latch1
+    latchSet.b = SPARK_VSR03_SCADA_latch2
+    latchSet.c = SPARK_VSR03_SCADA_latch3
+    If General_Spark_VSR03_PLCStateVariable = 0 Then
+        Try
+            Param.pvCorkTemperature = SPARK_VSR03_PLC_KTP_Temperat_PV_Rolhas
+        Catch
+            Param.pvCorkTemperature = 0
+        End Try
+    Else
+        Param.pvCorkTemperature = 0
+    End If
+
+    results = detectAbnormality(Param, T_min, latchSet)
+
+    SPARK_VSR03_SCADA_MaxTemperatureTimer = T_min.MaxTemperature
+    SPARK_VSR03_SCADA_unloadingTimer = T_min.unloading
+    SPARK_VSR03_SCADA_latch1 = latchSet.a
+    SPARK_VSR03_SCADA_latch2 = latchSet.b
+    SPARK_VSR03_SCADA_latch3 = latchSet.c
+    SPARK_VSR03_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_VSR03_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
+    SPARK_VSR03_SCADA_abnormalityLog = results.logger
+
+'VSR04
+    T_min.MaxTemperature = SPARK_VSR04_SCADA_MaxTemperatureTimer
+    T_min.unloading = SPARK_VSR04_SCADA_unloadingTimer
+    Param.machineStatus = SPARK_VSR04_Status
+    Param.corkTemp_Max_Time = SPARK_VSR04_SCADA_CorkTemp_Max_Time
+    Param.discharge_Max_Time = SPARK_VSR04_SCADA_Discharge_Max_Time
+    Param.corkTemp_Alarm = SPARK_VSR04_SCADA_CorkTemp_Alarm
+    Param.corkTemp_Max = SPARK_VSR04_SCADA_CorkTemp_Max
+    Param.longUnloadIsAbnormality = SPARK_VSR04_SCADA_LongDischargeIsAbnormality
+    Param.alarmTempIsAbnormality = SPARK_VSR04_SCADA_AlarmTempIsAbnormality
+    Param.longMaxTempIsAbnormality = SPARK_VSR04_SCADA_LongMaxTempIsAbnormality
+    Param.emailLongUnload = SPARK_VSR04_SCADA_EmailLongDischarge
+    Param.emailAlarmTemp = SPARK_VSR04_SCADA_EmailAlarmTempAbnormality
+    Param.emailLongMaxTemp = SPARK_VSR04_SCADA_EmailLongMaxTempAbnormality
+    latchSet.a = SPARK_VSR04_SCADA_latch1
+    latchSet.b = SPARK_VSR04_SCADA_latch2
+    latchSet.c = SPARK_VSR04_SCADA_latch3
+    If General_Spark_VSR04_PLCStateVariable = 0 Then
+        Try
+            Param.pvCorkTemperature = SPARK_VSR04_PLC_KTP_Temperat_PV_Rolhas
+        Catch
+            Param.pvCorkTemperature = 0
+        End Try
+    Else
+        Param.pvCorkTemperature = 0
+    End If
+
+    results = detectAbnormality(Param, T_min, latchSet)
+
+    SPARK_VSR04_SCADA_MaxTemperatureTimer = T_min.MaxTemperature
+    SPARK_VSR04_SCADA_unloadingTimer = T_min.unloading
+    SPARK_VSR04_SCADA_latch1 = latchSet.a
+    SPARK_VSR04_SCADA_latch2 = latchSet.b
+    SPARK_VSR04_SCADA_latch3 = latchSet.c
+    SPARK_VSR04_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_VSR04_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
+    SPARK_VSR04_SCADA_abnormalityLog = results.logger
+
+'VSR05
+    T_min.MaxTemperature = SPARK_VSR05_SCADA_MaxTemperatureTimer
+    T_min.unloading = SPARK_VSR05_SCADA_unloadingTimer
+    Param.machineStatus = SPARK_VSR05_Status
+    Param.corkTemp_Max_Time = SPARK_VSR05_SCADA_CorkTemp_Max_Time
+    Param.discharge_Max_Time = SPARK_VSR05_SCADA_Discharge_Max_Time
+    Param.corkTemp_Alarm = SPARK_VSR05_SCADA_CorkTemp_Alarm
+    Param.corkTemp_Max = SPARK_VSR05_SCADA_CorkTemp_Max
+    Param.longUnloadIsAbnormality = SPARK_VSR05_SCADA_LongDischargeIsAbnormality
+    Param.alarmTempIsAbnormality = SPARK_VSR05_SCADA_AlarmTempIsAbnormality
+    Param.longMaxTempIsAbnormality = SPARK_VSR05_SCADA_LongMaxTempIsAbnormality
+    Param.emailLongUnload = SPARK_VSR05_SCADA_EmailLongDischarge
+    Param.emailAlarmTemp = SPARK_VSR05_SCADA_EmailAlarmTempAbnormality
+    Param.emailLongMaxTemp = SPARK_VSR05_SCADA_EmailLongMaxTempAbnormality
+    latchSet.a = SPARK_VSR05_SCADA_latch1
+    latchSet.b = SPARK_VSR05_SCADA_latch2
+    latchSet.c = SPARK_VSR05_SCADA_latch3
+    If General_Spark_VSR05_PLCStateVariable = 0 Then
+        Try
+            Param.pvCorkTemperature = SPARK_VSR05_PLC_KTP_Temperat_PV_Rolhas
+        Catch
+            Param.pvCorkTemperature = 0
+        End Try
+    Else
+        Param.pvCorkTemperature = 0
+    End If
+
+    results = detectAbnormality(Param, T_min, latchSet)
+
+    SPARK_VSR05_SCADA_MaxTemperatureTimer = T_min.MaxTemperature
+    SPARK_VSR05_SCADA_unloadingTimer = T_min.unloading
+    SPARK_VSR05_SCADA_latch1 = latchSet.a
+    SPARK_VSR05_SCADA_latch2 = latchSet.b
+    SPARK_VSR05_SCADA_latch3 = latchSet.c
+    SPARK_VSR05_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_VSR05_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
+    SPARK_VSR05_SCADA_abnormalityLog = results.logger
+
+'VSR06
+    T_min.MaxTemperature = SPARK_VSR06_SCADA_MaxTemperatureTimer
+    T_min.unloading = SPARK_VSR06_SCADA_unloadingTimer
+    Param.machineStatus = SPARK_VSR06_Status
+    Param.corkTemp_Max_Time = SPARK_VSR06_SCADA_CorkTemp_Max_Time
+    Param.discharge_Max_Time = SPARK_VSR06_SCADA_Discharge_Max_Time
+    Param.corkTemp_Alarm = SPARK_VSR06_SCADA_CorkTemp_Alarm
+    Param.corkTemp_Max = SPARK_VSR06_SCADA_CorkTemp_Max
+    Param.longUnloadIsAbnormality = SPARK_VSR06_SCADA_LongDischargeIsAbnormality
+    Param.alarmTempIsAbnormality = SPARK_VSR06_SCADA_AlarmTempIsAbnormality
+    Param.longMaxTempIsAbnormality = SPARK_VSR06_SCADA_LongMaxTempIsAbnormality
+    Param.emailLongUnload = SPARK_VSR06_SCADA_EmailLongDischarge
+    Param.emailAlarmTemp = SPARK_VSR06_SCADA_EmailAlarmTempAbnormality
+    Param.emailLongMaxTemp = SPARK_VSR06_SCADA_EmailLongMaxTempAbnormality
+    latchSet.a = SPARK_VSR06_SCADA_latch1
+    latchSet.b = SPARK_VSR06_SCADA_latch2
+    latchSet.c = SPARK_VSR06_SCADA_latch3
+    If General_Spark_VSR06_PLCStateVariable = 0 Then
+        Try
+            Param.pvCorkTemperature = SPARK_VSR06_PLC_KTP_Temperat_PV_Rolhas
+        Catch
+            Param.pvCorkTemperature = 0
+        End Try
+    Else
+        Param.pvCorkTemperature = 0
+    End If
+
+    results = detectAbnormality(Param, T_min, latchSet)
+
+    SPARK_VSR06_SCADA_MaxTemperatureTimer = T_min.MaxTemperature
+    SPARK_VSR06_SCADA_unloadingTimer = T_min.unloading
+    SPARK_VSR06_SCADA_latch1 = latchSet.a
+    SPARK_VSR06_SCADA_latch2 = latchSet.b
+    SPARK_VSR06_SCADA_latch3 = latchSet.c
+    SPARK_VSR06_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_VSR06_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
+    SPARK_VSR06_SCADA_abnormalityLog = results.logger
+
+'VSR07
+    T_min.MaxTemperature = SPARK_VSR07_SCADA_MaxTemperatureTimer
+    T_min.unloading = SPARK_VSR07_SCADA_unloadingTimer
+    Param.machineStatus = SPARK_VSR07_Status
+    Param.corkTemp_Max_Time = SPARK_VSR07_SCADA_CorkTemp_Max_Time
+    Param.discharge_Max_Time = SPARK_VSR07_SCADA_Discharge_Max_Time
+    Param.corkTemp_Alarm = SPARK_VSR07_SCADA_CorkTemp_Alarm
+    Param.corkTemp_Max = SPARK_VSR07_SCADA_CorkTemp_Max
+    Param.longUnloadIsAbnormality = SPARK_VSR07_SCADA_LongDischargeIsAbnormality
+    Param.alarmTempIsAbnormality = SPARK_VSR07_SCADA_AlarmTempIsAbnormality
+    Param.longMaxTempIsAbnormality = SPARK_VSR07_SCADA_LongMaxTempIsAbnormality
+    Param.emailLongUnload = SPARK_VSR07_SCADA_EmailLongDischarge
+    Param.emailAlarmTemp = SPARK_VSR07_SCADA_EmailAlarmTempAbnormality
+    Param.emailLongMaxTemp = SPARK_VSR07_SCADA_EmailLongMaxTempAbnormality
+    latchSet.a = SPARK_VSR07_SCADA_latch1
+    latchSet.b = SPARK_VSR07_SCADA_latch2
+    latchSet.c = SPARK_VSR07_SCADA_latch3
+    If General_Spark_VSR07_PLCStateVariable = 0 Then
+        Try
+            Param.pvCorkTemperature = SPARK_VSR07_PLC_KTP_Temperat_PV_Rolhas
+        Catch
+            Param.pvCorkTemperature = 0
+        End Try
+    Else
+        Param.pvCorkTemperature = 0
+    End If
+
+    results = detectAbnormality(Param, T_min, latchSet)
+
+    SPARK_VSR07_SCADA_MaxTemperatureTimer = T_min.MaxTemperature
+    SPARK_VSR07_SCADA_unloadingTimer = T_min.unloading
+    SPARK_VSR07_SCADA_latch1 = latchSet.a
+    SPARK_VSR07_SCADA_latch2 = latchSet.b
+    SPARK_VSR07_SCADA_latch3 = latchSet.c
+    SPARK_VSR07_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_VSR07_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
+    SPARK_VSR07_SCADA_abnormalityLog = results.logger
+
+'VSR08
+    T_min.MaxTemperature = SPARK_VSR08_SCADA_MaxTemperatureTimer
+    T_min.unloading = SPARK_VSR08_SCADA_unloadingTimer
+    Param.machineStatus = SPARK_VSR08_Status
+    Param.corkTemp_Max_Time = SPARK_VSR08_SCADA_CorkTemp_Max_Time
+    Param.discharge_Max_Time = SPARK_VSR08_SCADA_Discharge_Max_Time
+    Param.corkTemp_Alarm = SPARK_VSR08_SCADA_CorkTemp_Alarm
+    Param.corkTemp_Max = SPARK_VSR08_SCADA_CorkTemp_Max
+    Param.longUnloadIsAbnormality = SPARK_VSR08_SCADA_LongDischargeIsAbnormality
+    Param.alarmTempIsAbnormality = SPARK_VSR08_SCADA_AlarmTempIsAbnormality
+    Param.longMaxTempIsAbnormality = SPARK_VSR08_SCADA_LongMaxTempIsAbnormality
+    Param.emailLongUnload = SPARK_VSR08_SCADA_EmailLongDischarge
+    Param.emailAlarmTemp = SPARK_VSR08_SCADA_EmailAlarmTempAbnormality
+    Param.emailLongMaxTemp = SPARK_VSR08_SCADA_EmailLongMaxTempAbnormality
+    latchSet.a = SPARK_VSR08_SCADA_latch1
+    latchSet.b = SPARK_VSR08_SCADA_latch2
+    latchSet.c = SPARK_VSR08_SCADA_latch3
+    If General_Spark_VSR08_PLCStateVariable = 0 Then
+        Try
+            Param.pvCorkTemperature = SPARK_VSR08_PLC_KTP_Temperat_PV_Rolhas
+        Catch
+            Param.pvCorkTemperature = 0
+        End Try
+    Else
+        Param.pvCorkTemperature = 0
+    End If
+
+    results = detectAbnormality(Param, T_min, latchSet)
+
+    SPARK_VSR08_SCADA_MaxTemperatureTimer = T_min.MaxTemperature
+    SPARK_VSR08_SCADA_unloadingTimer = T_min.unloading
+    SPARK_VSR08_SCADA_latch1 = latchSet.a
+    SPARK_VSR08_SCADA_latch2 = latchSet.b
+    SPARK_VSR08_SCADA_latch3 = latchSet.c
+    SPARK_VSR08_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_VSR08_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
+    SPARK_VSR08_SCADA_abnormalityLog = results.logger
+
+'VSR09
+    T_min.MaxTemperature = SPARK_VSR09_SCADA_MaxTemperatureTimer
+    T_min.unloading = SPARK_VSR09_SCADA_unloadingTimer
+    Param.machineStatus = SPARK_VSR09_Status
+    Param.corkTemp_Max_Time = SPARK_VSR09_SCADA_CorkTemp_Max_Time
+    Param.discharge_Max_Time = SPARK_VSR09_SCADA_Discharge_Max_Time
+    Param.corkTemp_Alarm = SPARK_VSR09_SCADA_CorkTemp_Alarm
+    Param.corkTemp_Max = SPARK_VSR09_SCADA_CorkTemp_Max
+    Param.longUnloadIsAbnormality = SPARK_VSR09_SCADA_LongDischargeIsAbnormality
+    Param.alarmTempIsAbnormality = SPARK_VSR09_SCADA_AlarmTempIsAbnormality
+    Param.longMaxTempIsAbnormality = SPARK_VSR09_SCADA_LongMaxTempIsAbnormality
+    Param.emailLongUnload = SPARK_VSR09_SCADA_EmailLongDischarge
+    Param.emailAlarmTemp = SPARK_VSR09_SCADA_EmailAlarmTempAbnormality
+    Param.emailLongMaxTemp = SPARK_VSR09_SCADA_EmailLongMaxTempAbnormality
+    latchSet.a = SPARK_VSR09_SCADA_latch1
+    latchSet.b = SPARK_VSR09_SCADA_latch2
+    latchSet.c = SPARK_VSR09_SCADA_latch3
+    If General_Spark_VSR09_PLCStateVariable = 0 Then
+        Try
+            Param.pvCorkTemperature = SPARK_VSR09_PLC_KTP_Temperat_PV_Rolhas
+        Catch
+            Param.pvCorkTemperature = 0
+        End Try
+    Else
+        Param.pvCorkTemperature = 0
+    End If
+
+    results = detectAbnormality(Param, T_min, latchSet)
+
+    SPARK_VSR09_SCADA_MaxTemperatureTimer = T_min.MaxTemperature
+    SPARK_VSR09_SCADA_unloadingTimer = T_min.unloading
+    SPARK_VSR09_SCADA_latch1 = latchSet.a
+    SPARK_VSR09_SCADA_latch2 = latchSet.b
+    SPARK_VSR09_SCADA_latch3 = latchSet.c
+    SPARK_VSR09_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_VSR09_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
+    SPARK_VSR09_SCADA_abnormalityLog = results.logger
+
+'VSR10
+    T_min.MaxTemperature = SPARK_VSR10_SCADA_MaxTemperatureTimer
+    T_min.unloading = SPARK_VSR10_SCADA_unloadingTimer
+    Param.machineStatus = SPARK_VSR10_Status
+    Param.corkTemp_Max_Time = SPARK_VSR10_SCADA_CorkTemp_Max_Time
+    Param.discharge_Max_Time = SPARK_VSR10_SCADA_Discharge_Max_Time
+    Param.corkTemp_Alarm = SPARK_VSR10_SCADA_CorkTemp_Alarm
+    Param.corkTemp_Max = SPARK_VSR10_SCADA_CorkTemp_Max
+    Param.longUnloadIsAbnormality = SPARK_VSR10_SCADA_LongDischargeIsAbnormality
+    Param.alarmTempIsAbnormality = SPARK_VSR10_SCADA_AlarmTempIsAbnormality
+    Param.longMaxTempIsAbnormality = SPARK_VSR10_SCADA_LongMaxTempIsAbnormality
+    Param.emailLongUnload = SPARK_VSR10_SCADA_EmailLongDischarge
+    Param.emailAlarmTemp = SPARK_VSR10_SCADA_EmailAlarmTempAbnormality
+    Param.emailLongMaxTemp = SPARK_VSR10_SCADA_EmailLongMaxTempAbnormality
+    latchSet.a = SPARK_VSR10_SCADA_latch1
+    latchSet.b = SPARK_VSR10_SCADA_latch2
+    latchSet.c = SPARK_VSR10_SCADA_latch3
+    If General_Spark_VSR10_PLCStateVariable = 0 Then
+        Try
+            Param.pvCorkTemperature = SPARK_VSR10_PLC_KTP_Temperat_PV_Rolhas
+        Catch
+            Param.pvCorkTemperature = 0
+        End Try
+    Else
+        Param.pvCorkTemperature = 0
+    End If
+
+    results = detectAbnormality(Param, T_min, latchSet)
+
+    SPARK_VSR10_SCADA_MaxTemperatureTimer = T_min.MaxTemperature
+    SPARK_VSR10_SCADA_unloadingTimer = T_min.unloading
+    SPARK_VSR10_SCADA_latch1 = latchSet.a
+    SPARK_VSR10_SCADA_latch2 = latchSet.b
+    SPARK_VSR10_SCADA_latch3 = latchSet.c
+    SPARK_VSR10_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_VSR10_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
+    SPARK_VSR10_SCADA_abnormalityLog = results.logger
 
 End Sub
 

@@ -145,7 +145,7 @@
   </XPObjectType>
   <DynamicJobs>
     <OID>1</OID>
-    <LastInteraction>2020-12-16T17:48:58.8974998Z</LastInteraction>
+    <LastInteraction>2020-12-17T15:19:32.3956475Z</LastInteraction>
     <OptimisticLockField>0</OptimisticLockField>
   </DynamicJobs>
   <CommJobSettings>
@@ -8029,7 +8029,7 @@
   </TagSettings>
   <TagSettings>
     <OID>162</OID>
-    <NodeId>ns=2;g=8f86dcae-cc0c-4dce-808e-64887a48d04b</NodeId>
+    <NodeId>ns=2;g=98900b1e-3572-4121-8a8e-1875c808dc4a</NodeId>
     <DataType>1</DataType>
     <DynamicSettings>OmronEthernetIP.Station=PLC_NX1P2|LinkType=1|ABA=Contagem_Em_Curso|TEFRM=0</DynamicSettings>
     <SamplingInterval>0</SamplingInterval>
@@ -8041,7 +8041,7 @@
   </TagSettings>
   <TagSettings>
     <OID>163</OID>
-    <NodeId>ns=2;g=98900b1e-3572-4121-8a8e-1875c808dc4a</NodeId>
+    <NodeId>ns=2;g=8f86dcae-cc0c-4dce-808e-64887a48d04b</NodeId>
     <DataType>1</DataType>
     <DynamicSettings>OmronEthernetIP.Station=PLC_NX1P2|LinkType=1|ABA=Contagem_Em_Curso|TEFRM=0</DynamicSettings>
     <SamplingInterval>0</SamplingInterval>
@@ -8053,7 +8053,7 @@
   </TagSettings>
   <TagSettings>
     <OID>164</OID>
-    <NodeId>ns=2;g=4dd2720c-80c2-4d4a-9cad-dc2957660311</NodeId>
+    <NodeId>ns=2;g=f85d608b-caa4-4383-a48d-4f5ef1f64230</NodeId>
     <DataType>1</DataType>
     <DynamicSettings>OmronEthernetIP.Station=PLC_NX1P2|LinkType=1|ABA=Contagem_Em_Curso_Descarga_Linha_E|TEFRM=0</DynamicSettings>
     <SamplingInterval>0</SamplingInterval>
@@ -8065,7 +8065,7 @@
   </TagSettings>
   <TagSettings>
     <OID>165</OID>
-    <NodeId>ns=2;g=f85d608b-caa4-4383-a48d-4f5ef1f64230</NodeId>
+    <NodeId>ns=2;g=4dd2720c-80c2-4d4a-9cad-dc2957660311</NodeId>
     <DataType>1</DataType>
     <DynamicSettings>OmronEthernetIP.Station=PLC_NX1P2|LinkType=1|ABA=Contagem_Em_Curso_Descarga_Linha_E|TEFRM=0</DynamicSettings>
     <SamplingInterval>0</SamplingInterval>
@@ -9025,7 +9025,7 @@
   </TagSettings>
   <TagSettings>
     <OID>245</OID>
-    <NodeId>ns=2;g=e1edb062-de27-4838-894b-b8d5ef003b6e</NodeId>
+    <NodeId>ns=2;g=f29aff02-301d-420c-b35d-1c092fe9139d</NodeId>
     <DataType>1</DataType>
     <DynamicSettings>OmronEthernetIP.Station=PLC_NX1P2|LinkType=1|ABA=Motor_Tapete_Saida_Maq_Contar|TEFRM=0</DynamicSettings>
     <SamplingInterval>0</SamplingInterval>
@@ -9037,7 +9037,7 @@
   </TagSettings>
   <TagSettings>
     <OID>246</OID>
-    <NodeId>ns=2;g=f29aff02-301d-420c-b35d-1c092fe9139d</NodeId>
+    <NodeId>ns=2;g=e1edb062-de27-4838-894b-b8d5ef003b6e</NodeId>
     <DataType>1</DataType>
     <DynamicSettings>OmronEthernetIP.Station=PLC_NX1P2|LinkType=1|ABA=Motor_Tapete_Saida_Maq_Contar|TEFRM=0</DynamicSettings>
     <SamplingInterval>0</SamplingInterval>
@@ -9361,7 +9361,7 @@
   </TagSettings>
   <TagSettings>
     <OID>273</OID>
-    <NodeId>ns=2;g=733b2c3a-0302-49ca-aaec-1042d6473505</NodeId>
+    <NodeId>ns=2;g=4bd709e5-dc63-48bf-b040-13896c72ebc2</NodeId>
     <DataType>4</DataType>
     <DynamicSettings>OmronEthernetIP.Station=PLC_NX1P2|LinkType=1|ABA=HMI_Estado_Maquina_Descarga_VSR[14]|TEFRM=3</DynamicSettings>
     <SamplingInterval>0</SamplingInterval>
@@ -9373,7 +9373,7 @@
   </TagSettings>
   <TagSettings>
     <OID>274</OID>
-    <NodeId>ns=2;g=d2f536b0-ae55-4b78-b2b2-c65709db6e4d</NodeId>
+    <NodeId>ns=2;g=51179a8c-fdbf-4e3d-a63d-d07ec573c71d</NodeId>
     <DataType>4</DataType>
     <DynamicSettings>OmronEthernetIP.Station=PLC_NX1P2|LinkType=1|ABA=HMI_Estado_Maquina_Descarga_VSR[14]|TEFRM=3</DynamicSettings>
     <SamplingInterval>0</SamplingInterval>
@@ -9385,7 +9385,7 @@
   </TagSettings>
   <TagSettings>
     <OID>275</OID>
-    <NodeId>ns=2;g=4bd709e5-dc63-48bf-b040-13896c72ebc2</NodeId>
+    <NodeId>ns=2;g=aab6b6bf-65e5-4781-8eb2-ae69887f0ebd</NodeId>
     <DataType>4</DataType>
     <DynamicSettings>OmronEthernetIP.Station=PLC_NX1P2|LinkType=1|ABA=HMI_Estado_Maquina_Descarga_VSR[14]|TEFRM=3</DynamicSettings>
     <SamplingInterval>0</SamplingInterval>
@@ -9397,7 +9397,7 @@
   </TagSettings>
   <TagSettings>
     <OID>276</OID>
-    <NodeId>ns=2;g=4fa0c73f-4b14-411c-9e70-7df76c5afebf</NodeId>
+    <NodeId>ns=2;g=49690dec-5ce0-4fbe-95d9-f106e9b0fbae</NodeId>
     <DataType>4</DataType>
     <DynamicSettings>OmronEthernetIP.Station=PLC_NX1P2|LinkType=1|ABA=HMI_Estado_Maquina_Descarga_VSR[14]|TEFRM=3</DynamicSettings>
     <SamplingInterval>0</SamplingInterval>
@@ -9409,7 +9409,7 @@
   </TagSettings>
   <TagSettings>
     <OID>277</OID>
-    <NodeId>ns=2;g=51179a8c-fdbf-4e3d-a63d-d07ec573c71d</NodeId>
+    <NodeId>ns=2;g=4fa0c73f-4b14-411c-9e70-7df76c5afebf</NodeId>
     <DataType>4</DataType>
     <DynamicSettings>OmronEthernetIP.Station=PLC_NX1P2|LinkType=1|ABA=HMI_Estado_Maquina_Descarga_VSR[14]|TEFRM=3</DynamicSettings>
     <SamplingInterval>0</SamplingInterval>
@@ -9421,7 +9421,7 @@
   </TagSettings>
   <TagSettings>
     <OID>278</OID>
-    <NodeId>ns=2;g=aab6b6bf-65e5-4781-8eb2-ae69887f0ebd</NodeId>
+    <NodeId>ns=2;g=d2f536b0-ae55-4b78-b2b2-c65709db6e4d</NodeId>
     <DataType>4</DataType>
     <DynamicSettings>OmronEthernetIP.Station=PLC_NX1P2|LinkType=1|ABA=HMI_Estado_Maquina_Descarga_VSR[14]|TEFRM=3</DynamicSettings>
     <SamplingInterval>0</SamplingInterval>
@@ -9433,7 +9433,7 @@
   </TagSettings>
   <TagSettings>
     <OID>279</OID>
-    <NodeId>ns=2;g=49690dec-5ce0-4fbe-95d9-f106e9b0fbae</NodeId>
+    <NodeId>ns=2;g=733b2c3a-0302-49ca-aaec-1042d6473505</NodeId>
     <DataType>4</DataType>
     <DynamicSettings>OmronEthernetIP.Station=PLC_NX1P2|LinkType=1|ABA=HMI_Estado_Maquina_Descarga_VSR[14]|TEFRM=3</DynamicSettings>
     <SamplingInterval>0</SamplingInterval>
