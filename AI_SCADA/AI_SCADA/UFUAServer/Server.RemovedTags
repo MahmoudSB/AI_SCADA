@@ -22737,6 +22737,18 @@
       <TagName>SPARK/Alias/CorkTemp_Max_Time1</TagName>
       <NodeId>1d54f8b6-da4c-4646-a3e1-843b5578353f</NodeId>
     </entry>
+    <entry>
+      <TagName>intDummy</TagName>
+      <NodeId>508d3077-36a8-4dba-bfc2-4be9ec0b0cc8</NodeId>
+    </entry>
+    <entry>
+      <TagName>bitDummy</TagName>
+      <NodeId>fc0b9f85-4b76-401a-9e8e-fc739e491725</NodeId>
+    </entry>
+    <entry>
+      <TagName>floatDummy</TagName>
+      <NodeId>5aa8e516-5576-469d-b71e-6643a71789c6</NodeId>
+    </entry>
   </addressSpaceTags>
   <prototypeMembers>
     <entry>

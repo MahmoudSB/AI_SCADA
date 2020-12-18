@@ -6,7 +6,7 @@
           <Image.Source>
             <Binding ConverterParameter="main_SparkFull.png">
               <Binding.Converter>
-                <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
               </Binding.Converter>
             </Binding>
           </Image.Source>
@@ -22,7 +22,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_conv_E_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -39,7 +39,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_conv_E_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -63,7 +63,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_conv_main_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -80,7 +80,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_conv_main_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -104,7 +104,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_ConvF_AnimBase.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -121,7 +121,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_ConvF_AnimBlink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -145,7 +145,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_Cov_unload_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -162,7 +162,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_Cov_unload_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -186,7 +186,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_Cov_unload_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -203,7 +203,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_Cov_unload_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -227,7 +227,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -244,7 +244,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -261,7 +261,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -278,7 +278,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -295,7 +295,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -312,7 +312,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -329,7 +329,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -346,7 +346,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -363,7 +363,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -380,7 +380,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -397,7 +397,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -414,7 +414,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -431,7 +431,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Front_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -448,7 +448,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Front_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -481,7 +481,7 @@
             <Image.Source>
               <Binding ConverterParameter="Emcy.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -769,7 +769,7 @@
             <Image.Source>
               <Binding ConverterParameter="MainPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -786,7 +786,7 @@
             <Image.Source>
               <Binding ConverterParameter="MainPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -803,7 +803,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -820,7 +820,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -837,7 +837,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -854,7 +854,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -871,7 +871,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -888,7 +888,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -905,7 +905,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -922,7 +922,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -939,7 +939,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -956,7 +956,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -973,7 +973,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -990,7 +990,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1007,7 +1007,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1024,7 +1024,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1041,7 +1041,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1065,7 +1065,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1089,7 +1089,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1113,7 +1113,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1137,7 +1137,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1161,7 +1161,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1185,7 +1185,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1209,7 +1209,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1233,7 +1233,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1257,7 +1257,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1281,7 +1281,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1305,7 +1305,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1329,7 +1329,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1353,7 +1353,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1380,7 +1380,7 @@
             <Image.Source>
               <Binding ConverterParameter="fan_anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1398,7 +1398,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_Cnt_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1415,7 +1415,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_Cnt_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1432,7 +1432,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_Cnt_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1449,7 +1449,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_Chiller2_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1467,7 +1467,7 @@
             <Image.Source>
               <Binding ConverterParameter="Chiller1_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1503,7 +1503,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_elv_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1520,7 +1520,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_elv_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1544,7 +1544,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_elv_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1561,7 +1561,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_elv_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1585,7 +1585,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_diagMain_AnimBase.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1602,7 +1602,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_diagMain_AnimBlink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1626,7 +1626,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_elv_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1643,7 +1643,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_elv_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1668,7 +1668,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_Cnt_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1685,7 +1685,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_elv_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1702,7 +1702,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_elv_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1726,7 +1726,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_conv_E_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1743,7 +1743,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_conv_E_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1767,7 +1767,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_Cov_unload_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1784,7 +1784,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_Cov_unload_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1808,7 +1808,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1825,7 +1825,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1842,7 +1842,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1859,7 +1859,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1876,7 +1876,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1893,7 +1893,7 @@
             <Image.Source>
               <Binding ConverterParameter="VL_VSR_Front_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1928,7 +1928,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1945,7 +1945,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1962,7 +1962,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1979,7 +1979,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -1996,7 +1996,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -2013,7 +2013,7 @@
             <Image.Source>
               <Binding ConverterParameter="SubPathArrow.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -2030,7 +2030,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -2054,7 +2054,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -2078,7 +2078,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -2102,7 +2102,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -2126,7 +2126,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -2150,7 +2150,7 @@
             <Image.Source>
               <Binding ConverterParameter="Silo_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -2175,7 +2175,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_Cnt_Anim.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -2192,7 +2192,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_elv_Anim_Base.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -2209,7 +2209,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_elv_Anim_Blink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -2275,7 +2275,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_diagMain_AnimBase.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -2292,7 +2292,7 @@
             <Image.Source>
               <Binding ConverterParameter="Spark_diagMain_AnimBlink.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -2640,7 +2640,7 @@
             <Image.Source>
               <Binding ConverterParameter="Ecobite_logo.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -2710,7 +2710,7 @@
                 <Image.Source>
                   <Binding ConverterParameter="GB_Flag.png">
                     <Binding.Converter>
-                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                     </Binding.Converter>
                   </Binding>
                 </Image.Source>
@@ -2727,7 +2727,7 @@
                 <Image.Source>
                   <Binding ConverterParameter="PT_Flag2.png">
                     <Binding.Converter>
-                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                     </Binding.Converter>
                   </Binding>
                 </Image.Source>
@@ -3556,4 +3556,544 @@
         </TextBox.RenderTransform>TR</TextBox>
     </Canvas>
   </Viewbox>
+  <ContentControl Name="EditDisplay221" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="904.006237208431" Canvas.Top="789.668095238095" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay222" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="902.006237208431" Canvas.Top="750.688095238095" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay223" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1010.06684326904" Canvas.Top="765.930721500721" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay224" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1008.06684326904" Canvas.Top="726.950721500721" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay225" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1113.60219680439" Canvas.Top="740.668095238095" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay226" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1111.60219680439" Canvas.Top="701.688095238095" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay227" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1219.662802865" Canvas.Top="712.900418470418" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay228" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1217.662802865" Canvas.Top="673.920418470418" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay229" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1322.19815640035" Canvas.Top="686.627691197691" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay230" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1320.19815640035" Canvas.Top="647.647691197691" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay231" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1428.26886347106" Canvas.Top="658.839812409812" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay232" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1426.26886347106" Canvas.Top="619.859812409812" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl11" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="823.865517632335" Canvas.Top="744.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl02" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="929.365517632335" Canvas.Top="720.864591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl13" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1032.86551763234" Canvas.Top="695.864591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl14" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1138.36551763234" Canvas.Top="668.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl15" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1243.36551763234" Canvas.Top="642.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl16" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1348.36551763234" Canvas.Top="615.864591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay195" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="689.0120092142" Canvas.Top="555.43" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay196" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="687.0120092142" Canvas.Top="516.45" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay197" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="793.0120092142" Canvas.Top="526.144285714285" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay198" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="791.0120092142" Canvas.Top="487.164285714286" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay199" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="898.440580642772" Canvas.Top="500.001428571428" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay200" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="896.440580642772" Canvas.Top="461.021428571429" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay201" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1003.44058064277" Canvas.Top="473.890317460317" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay202" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1001.44058064277" Canvas.Top="434.910317460317" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay203" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1107.99613619833" Canvas.Top="447.779206349206" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay204" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1105.99613619833" Canvas.Top="408.799206349206" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay205" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1212.55169175389" Canvas.Top="420.001428571428" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay206" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1210.55169175389" Canvas.Top="381.021428571428" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl6" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="608.365517632335" Canvas.Top="511.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl8" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="713.365517632335" Canvas.Top="480.864591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl9" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="818.365517632335" Canvas.Top="455.864591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl17" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="922.365517632335" Canvas.Top="429.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl18" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1026.86551763234" Canvas.Top="401.364591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl03" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1132.86551763234" Canvas.Top="372.864591469639" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay207" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="521.86193706413" Canvas.Top="334.428556998556" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay208" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="519.86193706413" Canvas.Top="295.448556998556" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay209" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="625.902341104534" Canvas.Top="306.650779220779" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay210" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="623.902341104534" Canvas.Top="267.670779220779" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay211" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="731.467997670191" Canvas.Top="279.36795093795" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay212" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="729.467997670191" Canvas.Top="240.38795093795" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay213" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="836.023553225746" Canvas.Top="251.580072150071" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay214" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="834.023553225746" Canvas.Top="212.600072150072" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay215" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="938.043755245949" Canvas.Top="223.802294372294" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay216" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="936.043755245948" Canvas.Top="184.822294372294" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay217" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1043.6094118116" Canvas.Top="195.014415584415" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay218" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1041.6094118116" Canvas.Top="156.034415584415" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay219" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1148.65991686211" Canvas.Top="168.751789321789" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay220" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1146.65991686211" Canvas.Top="129.771789321789" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay233" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1253.71042191261" Canvas.Top="140.974011544011" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Name="EditDisplay234" Width="30.6495238777168" Height="18" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="1251.71042191261" Canvas.Top="101.994011544011" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl04" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="441.579803346626" Canvas.Top="288.650305755353" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl05" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="545.579803346625" Canvas.Top="260.650305755353" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl06" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="650.079803346625" Canvas.Top="231.650305755353" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl07" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="756.079803346625" Canvas.Top="204.650305755353" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl08" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="858.579803346625" Canvas.Top="178.150305755353" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl09" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="963.079803346625" Canvas.Top="150.650305755353" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl20" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1068.07980334662" Canvas.Top="122.650305755353" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
+  <ContentControl Background="#FFFF0000" Name="ContentControl21" Width="21.2568306010928" Height="20" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="1172.57980334662" Canvas.Top="97.1503057553533" syncfusion:SkinStorage.OverrideVisualStyle="True">
+    <ContentControl.RenderTransform>
+      <TransformGroup>
+        <TransformGroup.Children>
+          <MatrixTransform>Identity</MatrixTransform>
+        </TransformGroup.Children>
+      </TransformGroup>
+    </ContentControl.RenderTransform>
+  </ContentControl>
 </Canvas>

@@ -11210,9 +11210,9 @@ End Sub
         <preserveText>true</preserveText>
         <preserveVariables>true</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
-        <preservedBrush i:nil="true" />
+        <preservedBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedBrush>
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#BFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText i:nil="true" />
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
@@ -11220,7 +11220,7 @@ End Sub
         <sCode>'#Language "WWB.NET"
 Public Sub Control_Click(ByVal sender As Object, ByVal e As System.Windows.RoutedEventArgs) Handles Control.Click
     
-    Dim VSRxx As String
+    Dim VSRxx, Status As String
 
     If (SPARK_VSR_ID&gt;=1 And SPARK_VSR_ID&lt;10) Then
         VSRxx = "VSR0" &amp; SPARK_VSR_ID.ToString
@@ -11230,10 +11230,18 @@ Public Sub Control_Click(ByVal sender As Object, ByVal e As System.Windows.Route
         VSRxx = "VSR00"
     End If
 
+    If (SPARK_VSR_ID&gt;=1 And SPARK_VSR_ID&lt;7) Then
+        Status = "Status"
+    ElseIf (SPARK_VSR_ID&gt;=7 And SPARK_VSR_ID&lt;=20) Then
+        Status = "Status1"
+    Else
+        Status = ""
+    End If
+
     If Document.IsOnBlindServer Then
-        Document.OpenScreenNormal "Spark\VSR\Status", "ScreenParameter\SPARK_" &amp; VSRxx &amp; ".xml"
+        Document.OpenScreenNormal "Spark\VSR\" &amp; Status, "ScreenParameter\SPARK_" &amp; VSRxx &amp; ".xml"
     Else       
-         Parent.Screens.OpenScreenNormal "Spark\VSR\Status", "SPARK_" &amp; VSRxx
+         Parent.Screens.OpenScreenNormal "Spark\VSR\" &amp; Status, "SPARK_" &amp; VSRxx
     End If
 End Sub
 </sCode>
@@ -13753,24 +13761,6 @@ End Sub
   </mapScreenEntities>
   <mapScriptVariableUsed xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl2</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>HotRegionControl03</d2p1:Key>
-      <d2p1:Value>
-        <d2p1:string>SPARK_VSR_ID</d2p1:string>
-      </d2p1:Value>
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl03</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl04</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
       <d2p1:Key>GridAlarmWindow</d2p1:Key>
       <d2p1:Value>
         <d2p1:string>SPARK_AlarmFilter_IsToday</d2p1:string>
@@ -13778,25 +13768,11 @@ End Sub
       </d2p1:Value>
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>HotRegionControl06</d2p1:Key>
-      <d2p1:Value>
-        <d2p1:string>SPARK_VSR_ID</d2p1:string>
-      </d2p1:Value>
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl17</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl18</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl16</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
       <d2p1:Key>ButtonControl4</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl1</d2p1:Key>
       <d2p1:Value />
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
@@ -13804,17 +13780,7 @@ End Sub
       <d2p1:Value />
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl02</d2p1:Key>
-      <d2p1:Value>
-        <d2p1:string>SPARK_VSR_ID</d2p1:string>
-      </d2p1:Value>
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl6</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl15</d2p1:Key>
+      <d2p1:Key>ButtonControl13</d2p1:Key>
       <d2p1:Value />
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
@@ -13836,35 +13802,9 @@ End Sub
       </d2p1:Value>
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl1</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl5</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl7</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl9</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl13</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl8</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl10</d2p1:Key>
+      <d2p1:Key>HotRegionControl06</d2p1:Key>
       <d2p1:Value>
         <d2p1:string>SPARK_VSR_ID</d2p1:string>
-        <d2p1:string>SPARK_AlarmFilter_IsToday</d2p1:string>
-        <d2p1:string>SystemVariables-CurrentDate</d2p1:string>
       </d2p1:Value>
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
@@ -13880,7 +13820,75 @@ End Sub
       </d2p1:Value>
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl17</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl02</d2p1:Key>
+      <d2p1:Value>
+        <d2p1:string>SPARK_VSR_ID</d2p1:string>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl5</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl6</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl7</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>HotRegionControl03</d2p1:Key>
+      <d2p1:Value>
+        <d2p1:string>SPARK_VSR_ID</d2p1:string>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl18</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl03</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl04</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
       <d2p1:Key>ButtonControl05</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl15</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl9</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl8</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl10</d2p1:Key>
+      <d2p1:Value>
+        <d2p1:string>SPARK_VSR_ID</d2p1:string>
+        <d2p1:string>SPARK_AlarmFilter_IsToday</d2p1:string>
+        <d2p1:string>SystemVariables-CurrentDate</d2p1:string>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl16</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl2</d2p1:Key>
       <d2p1:Value />
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>

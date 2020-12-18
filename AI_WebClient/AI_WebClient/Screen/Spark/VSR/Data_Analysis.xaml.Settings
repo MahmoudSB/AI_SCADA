@@ -7253,7 +7253,7 @@
       </Settings>
     </entry>
     <entry>
-      <XamlName>HotRegionControl07</XamlName>
+      <XamlName>HotRegionControl02</XamlName>
       <Settings>
         <accessLevel>0</accessLevel>
         <accessLevelFromTag>false</accessLevelFromTag>
@@ -7267,7 +7267,7 @@
         <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
         <bVisibleOnClient>true</bVisibleOnClient>
         <breakpoints xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-        <id>f1f195c7-7008-4584-bf4e-11426f7d210a</id>
+        <id>5e10b9ec-89db-491e-9ab4-faeb7d5a8c72</id>
         <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
         <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
         <listCommands />
@@ -7317,7 +7317,7 @@
         <sCode>'#Language "WWB.NET"
 Public Sub Control_Click(ByVal sender As Object, ByVal e As System.Windows.RoutedEventArgs) Handles Control.Click
     
-    Dim VSRxx As String
+    Dim VSRxx, Status As String
 
     If (SPARK_VSR_ID&gt;=1 And SPARK_VSR_ID&lt;10) Then
         VSRxx = "VSR0" &amp; SPARK_VSR_ID.ToString
@@ -7327,10 +7327,18 @@ Public Sub Control_Click(ByVal sender As Object, ByVal e As System.Windows.Route
         VSRxx = "VSR00"
     End If
 
+    If (SPARK_VSR_ID&gt;=1 And SPARK_VSR_ID&lt;7) Then
+        Status = "Status"
+    ElseIf (SPARK_VSR_ID&gt;=7 And SPARK_VSR_ID&lt;=20) Then
+        Status = "Status1"
+    Else
+        Status = ""
+    End If
+
     If Document.IsOnBlindServer Then
-        Document.OpenScreenNormal "Spark\VSR\Status", "ScreenParameter\SPARK_" &amp; VSRxx &amp; ".xml"
+        Document.OpenScreenNormal "Spark\VSR\" &amp; Status, "ScreenParameter\SPARK_" &amp; VSRxx &amp; ".xml"
     Else       
-         Parent.Screens.OpenScreenNormal "Spark\VSR\Status", "SPARK_" &amp; VSRxx
+         Parent.Screens.OpenScreenNormal "Spark\VSR\" &amp; Status, "SPARK_" &amp; VSRxx
     End If
 End Sub
 </sCode>

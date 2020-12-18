@@ -24,7 +24,7 @@
             <Image.Source>
               <Binding ConverterParameter="Ecobite_logo.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\VSR\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\VSR\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -55,7 +55,6 @@
   <ContentControl Background="#FFFFFFFF" Name="ContentControl23" Width="45" Height="40" RenderTransformOrigin="0.5,0.5" Canvas.Left="610.15468174224" Canvas.Top="21.2938535797537" syncfusion:SkinStorage.OverrideVisualStyle="True" />
   <hr:HotRegionControl BorderBrush="{DynamicResource GS_gray2}" BorderThickness="1,1,1,1" Background="{DynamicResource GS_black2}" FontSize="11.5" Style="{DynamicResource HotregionStyle}" Name="HotRegionControl04" Width="50.4869674067251" Height="54.9869481765835" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Opacity="0.3" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="662.149548010536" Canvas.Top="13.6953762299795" syncfusion:SkinStorage.OverrideVisualStyle="True" />
   <hr:HotRegionControl BorderBrush="{DynamicResource GS_gray2}" BorderThickness="1,1,1,1" Background="{DynamicResource GS_black2}" FontSize="11.5" Style="{DynamicResource HotregionStyle}" Name="HotRegionControl05" Width="50.4869674067251" Height="54.9869481765835" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Opacity="0.3" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="606.295421331074" Canvas.Top="13.8873148096341" syncfusion:SkinStorage.OverrideVisualStyle="True" />
-  <hr:HotRegionControl BorderBrush="{DynamicResource GS_gray2}" BorderThickness="1,1,1,1" Background="{DynamicResource GS_black2}" FontSize="11.5" Style="{DynamicResource HotregionStyle}" Name="HotRegionControl07" Width="50.4869674067251" Height="54.9869481765835" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Opacity="0.3" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="552.744557607466" Canvas.Top="14.0792533892887" syncfusion:SkinStorage.OverrideVisualStyle="True" />
   <Border BorderThickness="1,1,1,1" CornerRadius="10,10,10,10" BorderBrush="#00000000" Background="#FF000000" Name="Border02" Width="103" MinWidth="5" Height="70" MinHeight="5" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Opacity="0.4" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="1274.81331482549" Canvas.Top="6.5625" syncfusion:SkinStorage.OverrideVisualStyle="True" />
   <Border BorderThickness="1,1,1,1" CornerRadius="10,10,10,10" BorderBrush="#00000000" Background="#FF000000" Name="Border3" Width="171.659462798311" MinWidth="5" Height="69.2994746059545" MinHeight="5" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Opacity="0.4" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="1005.26960405799" Canvas.Top="6.5625" syncfusion:SkinStorage.OverrideVisualStyle="True" />
   <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" FontSize="20" FontWeight="Normal" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="TextBox02" Width="158.324644173121" MinWidth="5" Height="30" MinHeight="5" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="1011.24638363694" Canvas.Top="23.9347018786818" syncfusion:SkinStorage.OverrideVisualStyle="True">Data Analysis</TextBox>
@@ -100,7 +99,7 @@
                 <Image.Source>
                   <Binding ConverterParameter="GB_Flag.png">
                     <Binding.Converter>
-                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\VSR\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\VSR\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                     </Binding.Converter>
                   </Binding>
                 </Image.Source>
@@ -117,7 +116,7 @@
                 <Image.Source>
                   <Binding ConverterParameter="PT_Flag2.png">
                     <Binding.Converter>
-                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\Spark\VSR\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\Spark\VSR\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                     </Binding.Converter>
                   </Binding>
                 </Image.Source>
@@ -149,4 +148,5 @@
       </TransformGroup>
     </ContentControl.RenderTransform>
   </ContentControl>
+  <hr:HotRegionControl BorderBrush="{DynamicResource GS_gray2}" BorderThickness="1,1,1,1" Background="{DynamicResource GS_black2}" FontSize="11.5" Style="{DynamicResource HotregionStyle}" Name="HotRegionControl07" Width="50.4869674067251" Height="54.9869481765835" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Opacity="0.3" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="550.744557607466" Canvas.Top="14.0792533892887" syncfusion:SkinStorage.OverrideVisualStyle="True" />
 </Canvas>

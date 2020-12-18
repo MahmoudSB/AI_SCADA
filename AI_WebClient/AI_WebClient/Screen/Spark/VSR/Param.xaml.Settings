@@ -9636,7 +9636,7 @@ End Sub
         <bSourceSymbolLinkedPassive>false</bSourceSymbolLinkedPassive>
         <bVisibleOnClient>true</bVisibleOnClient>
         <breakpoints xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-        <id>0539486b-eaec-463f-89e2-9e16957b5936</id>
+        <id>ba8425aa-5d9a-467d-9ac2-11965769aa83</id>
         <listAnimations xmlns:d5p1="http://schemas.datacontract.org/2004/07/AnimationManager" />
         <listCameraTransforms xmlns:d5p1="http://schemas.datacontract.org/2004/07/ScreenSettings.Entities" i:nil="true" />
         <listCommands />
@@ -9686,7 +9686,7 @@ End Sub
         <sCode>'#Language "WWB.NET"
 Public Sub Control_Click(ByVal sender As Object, ByVal e As System.Windows.RoutedEventArgs) Handles Control.Click
     
-    Dim VSRxx As String
+    Dim VSRxx, Status As String
 
     If (SPARK_VSR_ID&gt;=1 And SPARK_VSR_ID&lt;10) Then
         VSRxx = "VSR0" &amp; SPARK_VSR_ID.ToString
@@ -9696,10 +9696,18 @@ Public Sub Control_Click(ByVal sender As Object, ByVal e As System.Windows.Route
         VSRxx = "VSR00"
     End If
 
+    If (SPARK_VSR_ID&gt;=1 And SPARK_VSR_ID&lt;7) Then
+        Status = "Status"
+    ElseIf (SPARK_VSR_ID&gt;=7 And SPARK_VSR_ID&lt;=20) Then
+        Status = "Status1"
+    Else
+        Status = ""
+    End If
+
     If Document.IsOnBlindServer Then
-        Document.OpenScreenNormal "Spark\VSR\Status", "ScreenParameter\SPARK_" &amp; VSRxx &amp; ".xml"
+        Document.OpenScreenNormal "Spark\VSR\" &amp; Status, "ScreenParameter\SPARK_" &amp; VSRxx &amp; ".xml"
     Else       
-         Parent.Screens.OpenScreenNormal "Spark\VSR\Status", "SPARK_" &amp; VSRxx
+         Parent.Screens.OpenScreenNormal "Spark\VSR\" &amp; Status, "SPARK_" &amp; VSRxx
     End If
 End Sub
 </sCode>

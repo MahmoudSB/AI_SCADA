@@ -185,6 +185,15 @@
     <TcpChannelSettingsReadTimeout>2000</TcpChannelSettingsReadTimeout>
     <TcpChannelSettingsWriteTimeout>2000</TcpChannelSettingsWriteTimeout>
   </TcpChannelSettings>
+  <TcpChannelSettings>
+    <OID>3</OID>
+    <TcpChannelSettingsHostName>172.29.151.111</TcpChannelSettingsHostName>
+    <TcpChannelSettingsHostPort>44818</TcpChannelSettingsHostPort>
+    <TcpChannelSettingsBackupHostName></TcpChannelSettingsBackupHostName>
+    <TcpChannelSettingsSwitchHostTimeout>10000</TcpChannelSettingsSwitchHostTimeout>
+    <TcpChannelSettingsReadTimeout>2000</TcpChannelSettingsReadTimeout>
+    <TcpChannelSettingsWriteTimeout>2000</TcpChannelSettingsWriteTimeout>
+  </TcpChannelSettings>
   <ChannelSettings>
     <OID>1</OID>
     <Name>Conveyor</Name>
@@ -211,6 +220,20 @@
     <StateCommandTag>e97004c3-260a-41fe-95a6-0b6dc838fefa|2:Tags/2:General/2:VL_Conveyor_PLCStateVariable|ns=2;g=e97004c3-260a-41fe-95a6-0b6dc838fefa|General\VL_Conveyor_PLCStateVariable (AI_Spark_20200515_00_IOServer)</StateCommandTag>
     <DriverSettings>1</DriverSettings>
     <OptimisticLockField>5</OptimisticLockField>
+    <ObjectType>2</ObjectType>
+  </ChannelSettings>
+  <ChannelSettings>
+    <OID>3</OID>
+    <Name>SparkConveyor15to20</Name>
+    <WaitTime>0</WaitTime>
+    <Timeout>5000</Timeout>
+    <ScheduleTimeJobsList>100</ScheduleTimeJobsList>
+    <PollingTimeNotInUse>0</PollingTimeNotInUse>
+    <PollingTimeInError>0</PollingTimeInError>
+    <KeepOpened>true</KeepOpened>
+    <StateCommandTag>f6ff7b57-8b75-4bcd-8f07-984f1eae9d0d|2:Tags/2:General/2:Spark_Conveyor15to20_PLCStateVariable|ns=2;g=f6ff7b57-8b75-4bcd-8f07-984f1eae9d0d|General\Spark_Conveyor15to20_PLCStateVariable (AI_Spark_20200515_00_IOServer)</StateCommandTag>
+    <DriverSettings>1</DriverSettings>
+    <OptimisticLockField>3</OptimisticLockField>
     <ObjectType>2</ObjectType>
   </ChannelSettings>
   <DriverSettings>
@@ -256,6 +279,19 @@
     <OID>2</OID>
     <Name>VL_PLC_NX1P2</Name>
     <Channel>VL_Conveyor</Channel>
+    <MaxRetriesBeforeError>3</MaxRetriesBeforeError>
+    <RewritingOfTheSameValue>false</RewritingOfTheSameValue>
+    <StateCommandTag>00000000-0000-0000-0000-000000000000||i=0|</StateCommandTag>
+    <DriverSettings>1</DriverSettings>
+    <OptimisticLockField>1</OptimisticLockField>
+    <ObjectType>3</ObjectType>
+    <CPUSlot>0</CPUSlot>
+    <PlcType>0</PlcType>
+  </StationSettings>
+  <StationSettings>
+    <OID>3</OID>
+    <Name>SP_Conv2_PLC_NX1P2</Name>
+    <Channel>SparkConveyor15to20</Channel>
     <MaxRetriesBeforeError>3</MaxRetriesBeforeError>
     <RewritingOfTheSameValue>false</RewritingOfTheSameValue>
     <StateCommandTag>00000000-0000-0000-0000-000000000000||i=0|</StateCommandTag>

@@ -833,11 +833,11 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Top</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;330.27893075284811&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;183.664409978767&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Left</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;338.51825226187907&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;315.808356577836&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>
@@ -1114,11 +1114,11 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Top</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;399.11746017213886&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;310.463106610133&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Left</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;341.86861752718534&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;317.594211194732&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>
@@ -1395,11 +1395,11 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Top</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;530.634755211947&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;366.830493643531&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Left</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;412.915571846927&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;306.394211194732&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>
@@ -1759,11 +1759,11 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Top</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;386.64631778624664&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;241.950336472609&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Left</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;338.51825226187907&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;306.208356577836&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>
@@ -2621,11 +2621,11 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Top</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;474.192809478215&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;243.430860385623&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Left</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;847.611924888185&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;796.85343284566&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>
@@ -2985,11 +2985,11 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Top</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;604.27459695714538&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;551.571894254442&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Left</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;316.56317377846159&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;315.211822427111&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>
@@ -3764,11 +3764,11 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Top</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;662.56052345098738&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;609.857820748284&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Left</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;302.96317377846145&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;301.61182242711&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>
@@ -3962,11 +3962,11 @@
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Top</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;386.64631778624664&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;301.90959635768&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Left</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;338.51825226187907&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;788.05343284566&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>
@@ -7551,11 +7551,11 @@ End Sub
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Top</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;475.05487844373272&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;185.002980208665&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Left</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;874.33606281921982&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;796.715501811178&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>
@@ -7832,11 +7832,11 @@ End Sub
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Top</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;333.14062291860489&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;243.430860385623&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Left</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;919.2507943232323&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;900.25343284566&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>
@@ -8998,11 +8998,11 @@ End Sub
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Top</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;333.14062291860489&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;486.116094986807&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Canvas.Left</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;919.2507943232323&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;899.786603681616&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>FontSize</d5p1:Key>

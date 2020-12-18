@@ -4,9 +4,9 @@
       <VisualBrush.Visual>
         <Image>
           <Image.Source>
-            <Binding ConverterParameter="VSR_org_back.jpg">
+            <Binding ConverterParameter="VSR_Status2.jpg">
               <Binding.Converter>
-                <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
               </Binding.Converter>
             </Binding>
           </Image.Source>
@@ -17,7 +17,7 @@
   <ContentControl Name="EditDisplay04" Width="129.389913402432" Height="40" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="182.569467119784" Canvas.Top="223.089895470383" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <ContentControl BorderThickness="0,0,0,0" Background="#FFC02907" Foreground="{x:Null}" FontSize="11.5" Name="ContentControl3" Width="50" Height="50" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="266.008771929825" Canvas.Top="88.1228070175439" syncfusion:SkinStorage.OverrideVisualStyle="True" />
   <Rectangle Fill="#FF000000" Stroke="#00000000" Name="Rectangle1" Width="375" MinWidth="5" Height="900" MinHeight="5" RenderTransformOrigin="0.5,0.5" Opacity="0.3" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="1207.34833956134" Canvas.Top="0" syncfusion:SkinStorage.OverrideVisualStyle="True" />
-  <ContentControl Name="EditDisplay" Width="79" Height="40" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="115.928571428571" Canvas.Top="149.142857142857" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EditDisplay" Width="79" Height="40" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="232.928571428571" Canvas.Top="158.142857142857" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" FontSize="30" FontWeight="Medium" VerticalContentAlignment="Center" Name="TextBox1" Width="225.5" MinWidth="5" Height="40" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="981.219696969697" Canvas.Top="312.393939393939" syncfusion:SkinStorage.OverrideVisualStyle="True">Ventilator</TextBox>
   <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" FontSize="30" FontWeight="Medium" VerticalContentAlignment="Center" Name="TextBox2" Width="225.5" MinWidth="5" Height="40" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="981.219696969697" Canvas.Top="379.393939393939" syncfusion:SkinStorage.OverrideVisualStyle="True">Valv. Extraction</TextBox>
   <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" FontSize="30" FontWeight="Medium" VerticalContentAlignment="Center" Name="TextBox3" Width="225.5" MinWidth="5" Height="40" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="981.219696969697" Canvas.Top="443.393939393939" syncfusion:SkinStorage.OverrideVisualStyle="True">Valv. Nitrogen</TextBox>
@@ -44,7 +44,7 @@
   <TextBox TextAlignment="Right" IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" FontSize="25" FontWeight="Medium" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Name="TextBox13" Width="244.4305539821" MinWidth="5" Height="50" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="1221.53509720962" Canvas.Top="742.760763950145" syncfusion:SkinStorage.OverrideVisualStyle="True">Roots Pump</TextBox>
   <TextBox TextAlignment="Right" IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" FontSize="25" FontWeight="Medium" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Name="TextBox08" Width="244.4305539821" MinWidth="5" Height="50" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="1222.45252840228" Canvas.Top="791.659846518952" syncfusion:SkinStorage.OverrideVisualStyle="True">Valv. Desc. Trapa</TextBox>
   <TextBox TextAlignment="Right" IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" FontSize="25" FontWeight="Medium" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Name="TextBox14" Width="244.4305539821" MinWidth="5" Height="50" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="1222.45252840228" Canvas.Top="841.659846518952" syncfusion:SkinStorage.OverrideVisualStyle="True">Prime vacuum pump</TextBox>
-  <ContentControl Name="EditDisplay4" Width="82.5" Height="40" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="670.744949494949" Canvas.Top="263.19696969697" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="EditDisplay4" Width="82.5" Height="40" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="676.744949494949" Canvas.Top="249.19696969697" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <Ellipse Stroke="#00FFFFFF" StrokeThickness="1" Name="Ellipse" Width="300" MinWidth="5" Height="300" MinHeight="5" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="908.01677431794" Canvas.Top="5.0214338507024" syncfusion:SkinStorage.OverrideVisualStyle="True">
     <Ellipse.Fill>
       <VisualBrush>
@@ -53,7 +53,7 @@
             <Image.Source>
               <Binding ConverterParameter="Emcy.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -69,8 +69,8 @@
       </TransformGroup>
     </Ellipse.RenderTransform>
   </Ellipse>
-  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="#FF5F9EA0" FontSize="20" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="TextBox" Width="98" MinWidth="5" Height="40" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="20.9285714285714" Canvas.Top="149.142857142857" syncfusion:SkinStorage.OverrideVisualStyle="True">Position</TextBox>
-  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="#FF5F9EA0" FontSize="20" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="TextBox15" Width="88.75" MinWidth="5" Height="40" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="587.037878787879" Canvas.Top="263.19696969697" syncfusion:SkinStorage.OverrideVisualStyle="True">Trapa</TextBox>
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="#FF5F9EA0" FontSize="20" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="TextBox" Width="98" MinWidth="5" Height="40" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="137.928571428571" Canvas.Top="158.142857142857" syncfusion:SkinStorage.OverrideVisualStyle="True">Position</TextBox>
+  <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="#FF5F9EA0" FontSize="20" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="TextBox15" Width="88.75" MinWidth="5" Height="40" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="593.037878787879" Canvas.Top="249.19696969697" syncfusion:SkinStorage.OverrideVisualStyle="True">Trapa</TextBox>
   <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Foreground="#FFBE1E2D" FontSize="30" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="TextBox19" Width="311.300479459519" MinWidth="5" Height="100.216948621554" MinHeight="5" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="493.693108760043" Canvas.Top="800.351864097001" syncfusion:SkinStorage.OverrideVisualStyle="True">
     <TextBox.Background>
       <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1" ColorInterpolationMode="SRgbLinearInterpolation" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad" Opacity="1">
@@ -105,8 +105,8 @@
   <ContentControl Name="LinearMeterControl1" Width="150" Height="366" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsManipulationEnabled="False" Canvas.Left="203.5" Canvas.Top="325" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" FontSize="20" FontWeight="Medium" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="TextBox22" Width="86" MinWidth="5" Height="40" MinHeight="5" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" IsManipulationEnabled="False" Canvas.Left="200.5" Canvas.Top="305" syncfusion:SkinStorage.OverrideVisualStyle="True">Corks</TextBox>
   <ContentControl Background="#FF0DBA1F" Foreground="{x:Null}" FontSize="11.5" Name="ContentControl4" Width="50" Height="50" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="266.008771929825" Canvas.Top="88.1228070175439" syncfusion:SkinStorage.OverrideVisualStyle="True" />
-  <ContentControl BorderThickness="0,0,0,0" Background="#FFC02907" Foreground="{x:Null}" FontSize="11.5" Name="ContentControl2" Width="50" Height="50" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="466.008771929825" Canvas.Top="91.3228070175439" syncfusion:SkinStorage.OverrideVisualStyle="True" />
-  <ContentControl Background="#FF0DBA1F" Foreground="{x:Null}" FontSize="11.5" Name="ContentControl7" Width="50" Height="50" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="466.008771929825" Canvas.Top="91.5228070175439" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl BorderThickness="0,0,0,0" Background="#FFC02907" Foreground="{x:Null}" FontSize="11.5" Name="ContentControl2" Width="50" Height="50" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="610.008771929825" Canvas.Top="83.3228070175439" syncfusion:SkinStorage.OverrideVisualStyle="True" />
+  <ContentControl Background="#FF0DBA1F" Foreground="{x:Null}" FontSize="11.5" Name="ContentControl7" Width="50" Height="50" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="610.008771929825" Canvas.Top="83.5228070175439" syncfusion:SkinStorage.OverrideVisualStyle="True" />
   <ContentControl BorderThickness="0,0,0,0" Background="#FFC02907" Foreground="{x:Null}" FontSize="11.5" Name="ContentControl11" Width="50" Height="50" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="926.008771929825" Canvas.Top="311.322807017544" syncfusion:SkinStorage.OverrideVisualStyle="True" />
   <ContentControl Background="#FF0DBA1F" Foreground="{x:Null}" FontSize="11.5" Name="ContentControl12" Width="50" Height="50" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="926.008771929825" Canvas.Top="311.322807017544" syncfusion:SkinStorage.OverrideVisualStyle="True" />
   <ContentControl BorderThickness="0,0,0,0" Background="#FFC02907" Foreground="{x:Null}" FontSize="11.5" Name="ContentControl13" Width="50" Height="50" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsManipulationEnabled="False" Canvas.Left="926.008771929825" Canvas.Top="378.322807017544" syncfusion:SkinStorage.OverrideVisualStyle="True" />
@@ -140,7 +140,7 @@
       <ContentControl Width="30" Height="30" RenderTransformOrigin="0.5,0.5" x:Uid="ContentControl18" Canvas.Left="0" Canvas.Top="0" syncfusion:SkinStorage.OverrideVisualStyle="True" />
     </Canvas>
   </Viewbox>
-  <Viewbox Stretch="Fill" Name="Viewbox8" Width="12.0000020702255" Height="30.0000061341865" RenderTransformOrigin="0.5,0.5" Canvas.Left="738.631910877145" Canvas.Top="245.741883077716" syncfusion:SkinStorage.OverrideVisualStyle="True">
+  <Viewbox Stretch="Fill" Name="Viewbox8" Width="12.0000020702255" Height="30.0000061341865" RenderTransformOrigin="0.5,0.5" Canvas.Left="744.631910877145" Canvas.Top="231.741883077716" syncfusion:SkinStorage.OverrideVisualStyle="True">
     <Canvas Width="12.0000020702255" Height="30.0000061341865" Canvas.Left="0" Canvas.Top="0">
       <Ellipse Fill="#FFEFC8A0" Stroke="{DynamicResource GS_black2}" StrokeThickness="0" Width="8" MinWidth="5" Height="8" MinHeight="5" RenderTransformOrigin="0.5,0.5" x:Uid="Ellipse1" IsHitTestVisible="True" Canvas.Left="2.86862989831639" Canvas.Top="21.258116922284" />
       <Rectangle Fill="#FFEFC8A0" Stroke="{DynamicResource GS_black2}" StrokeThickness="0" Width="4" MinWidth="5" Height="20" MinHeight="5" RenderTransformOrigin="0.5,0.5" x:Uid="Rectangle" IsHitTestVisible="True" Canvas.Left="4.36862989831639" Canvas.Top="3.75811692228399" />
@@ -182,7 +182,7 @@
             <Image.Source>
               <Binding ConverterParameter="Ecobite_logo.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -242,7 +242,7 @@
                 <Image.Source>
                   <Binding ConverterParameter="GB_Flag.png">
                     <Binding.Converter>
-                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                     </Binding.Converter>
                   </Binding>
                 </Image.Source>
@@ -259,7 +259,7 @@
                 <Image.Source>
                   <Binding ConverterParameter="PT_Flag2.png">
                     <Binding.Converter>
-                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                     </Binding.Converter>
                   </Binding>
                 </Image.Source>
