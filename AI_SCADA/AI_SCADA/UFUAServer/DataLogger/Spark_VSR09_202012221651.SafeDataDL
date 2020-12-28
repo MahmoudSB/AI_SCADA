@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Spark_VSR09>
+    <UtcTimeCol>2020-12-22T16:51:00+00:00</UtcTimeCol>
+    <LocalTimeCol>2020-12-22T16:51:00+00:00</LocalTimeCol>
+    <MillisecondsCol>0</MillisecondsCol>
+    <UserCol />
+    <ReasonCol>Recorded by Time</ReasonCol>
+  </Spark_VSR09>
+</DocumentElement>

@@ -13,7 +13,7 @@
   <maxCleanCount>2</maxCleanCount>
   <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>946</nStartSel>
+  <nStartSel>4431</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
@@ -103,6 +103,7 @@ Sub Main Handles .Main
         ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:LatchSet\latch2", latchSet.b)
         ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:LatchSet\latch3", latchSet.c)
         ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\abnormalTreatment", results.bit_abnormalTreatment)
+        ScriptDocument.SetVariableValue("VL\Conveyor\AbnormalTreatmentToPlc\" &amp; VSRx &amp; "ToPlc_abnormalTreatment", results.bit_abnormalTreatment)
         ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\sendEmailOfAbnormality", results.bit_sendEmail)
         ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\abnormalityLog", results.logger)
     Next

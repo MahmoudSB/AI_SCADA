@@ -3774,9 +3774,9 @@
         <preserveText>true</preserveText>
         <preserveVariables>true</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
-        <preservedBrush i:nil="true" />
+        <preservedBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedBrush>
         <preservedHeight>18.7693299557343</preservedHeight>
-        <preservedPen i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#BFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText i:nil="true" />
         <preservedWidth>42.458539728146008</preservedWidth>
         <readableAccessMask>0</readableAccessMask>

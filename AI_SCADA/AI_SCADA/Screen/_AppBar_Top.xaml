@@ -96,7 +96,7 @@
                 <Image.Source>
                   <Binding ConverterParameter="GB_Flag.png">
                     <Binding.Converter>
-                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\adecobitesupport\Desktop\AI_SCADA\AI_SCADA\Screen\" AbsolutePath2="C:\Users\adecobitesupport\Desktop\AI_SCADA\Images\" />
+                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                     </Binding.Converter>
                   </Binding>
                 </Image.Source>
@@ -113,7 +113,7 @@
                 <Image.Source>
                   <Binding ConverterParameter="PT_Flag2.png">
                     <Binding.Converter>
-                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\adecobitesupport\Desktop\AI_SCADA\AI_SCADA\Screen\" AbsolutePath2="C:\Users\adecobitesupport\Desktop\AI_SCADA\Images\" />
+                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                     </Binding.Converter>
                   </Binding>
                 </Image.Source>

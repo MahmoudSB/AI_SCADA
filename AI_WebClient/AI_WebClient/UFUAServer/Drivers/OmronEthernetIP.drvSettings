@@ -78,6 +78,15 @@
               </xs:sequence>
             </xs:complexType>
           </xs:element>
+          <xs:element name="ProtectionFile">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="Id" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
         </xs:choice>
       </xs:complexType>
       <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
@@ -102,6 +111,10 @@
       </xs:unique>
       <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
         <xs:selector xpath=".//StationSettings" />
+        <xs:field xpath="OID" />
+      </xs:unique>
+      <xs:unique name="Idx_OID" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ProtectionFile" />
         <xs:field xpath="OID" />
       </xs:unique>
       <xs:unique name="FK__ChannelSettings_x0023_OID_x0023_TcpChannelSettings_x0023_OIDIdx">
@@ -172,6 +185,15 @@
     <TcpChannelSettingsReadTimeout>2000</TcpChannelSettingsReadTimeout>
     <TcpChannelSettingsWriteTimeout>2000</TcpChannelSettingsWriteTimeout>
   </TcpChannelSettings>
+  <TcpChannelSettings>
+    <OID>3</OID>
+    <TcpChannelSettingsHostName>172.29.151.111</TcpChannelSettingsHostName>
+    <TcpChannelSettingsHostPort>44818</TcpChannelSettingsHostPort>
+    <TcpChannelSettingsBackupHostName></TcpChannelSettingsBackupHostName>
+    <TcpChannelSettingsSwitchHostTimeout>10000</TcpChannelSettingsSwitchHostTimeout>
+    <TcpChannelSettingsReadTimeout>2000</TcpChannelSettingsReadTimeout>
+    <TcpChannelSettingsWriteTimeout>2000</TcpChannelSettingsWriteTimeout>
+  </TcpChannelSettings>
   <ChannelSettings>
     <OID>1</OID>
     <Name>Conveyor</Name>
@@ -198,6 +220,20 @@
     <StateCommandTag>00000000-0000-0000-0000-000000000000||i=0|</StateCommandTag>
     <DriverSettings>1</DriverSettings>
     <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>2</ObjectType>
+  </ChannelSettings>
+  <ChannelSettings>
+    <OID>3</OID>
+    <Name>SparkConveyor15to20</Name>
+    <WaitTime>0</WaitTime>
+    <Timeout>5000</Timeout>
+    <ScheduleTimeJobsList>100</ScheduleTimeJobsList>
+    <PollingTimeNotInUse>0</PollingTimeNotInUse>
+    <PollingTimeInError>0</PollingTimeInError>
+    <KeepOpened>true</KeepOpened>
+    <StateCommandTag>89e94d69-f316-4266-b274-3edf1ba8cb6e|2:Tags/2:General/2:Spark_Conveyor15to20_PLCStateVariable|ns=2;g=89e94d69-f316-4266-b274-3edf1ba8cb6e|General\Spark_Conveyor15to20_PLCStateVariable (AI_Spark_20200515_00_IOServer)</StateCommandTag>
+    <DriverSettings>1</DriverSettings>
+    <OptimisticLockField>1</OptimisticLockField>
     <ObjectType>2</ObjectType>
   </ChannelSettings>
   <DriverSettings>
@@ -248,6 +284,19 @@
     <StateCommandTag>00000000-0000-0000-0000-000000000000||i=0|</StateCommandTag>
     <DriverSettings>1</DriverSettings>
     <OptimisticLockField>0</OptimisticLockField>
+    <ObjectType>3</ObjectType>
+    <CPUSlot>0</CPUSlot>
+    <PlcType>0</PlcType>
+  </StationSettings>
+  <StationSettings>
+    <OID>3</OID>
+    <Name>SP_Conv2_PLC_NX1P2</Name>
+    <Channel>SparkConveyor15to20</Channel>
+    <MaxRetriesBeforeError>3</MaxRetriesBeforeError>
+    <RewritingOfTheSameValue>false</RewritingOfTheSameValue>
+    <StateCommandTag>00000000-0000-0000-0000-000000000000||i=0|</StateCommandTag>
+    <DriverSettings>1</DriverSettings>
+    <OptimisticLockField>1</OptimisticLockField>
     <ObjectType>3</ObjectType>
     <CPUSlot>0</CPUSlot>
     <PlcType>0</PlcType>

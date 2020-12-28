@@ -29,6 +29,7 @@
     <d2p1:string>General_Spark_VSR01_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR01_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
     <d2p1:string>SPARK_VSR01_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_Conveyer_AbnormalTreatmentToPlc_VSR01ToPlc_abnormalTreatment</d2p1:string>
     <d2p1:string>SPARK_VSR01_SCADA_sendEmailOfAbnormality</d2p1:string>
     <d2p1:string>SPARK_VSR01_SCADA_abnormalityLog</d2p1:string>
     <d2p1:string>SPARK_VSR02_SCADA_MaxTemperatureTimer</d2p1:string>
@@ -50,6 +51,7 @@
     <d2p1:string>General_Spark_VSR02_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR02_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
     <d2p1:string>SPARK_VSR02_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_Conveyer_AbnormalTreatmentToPlc_VSR02ToPlc_abnormalTreatment</d2p1:string>
     <d2p1:string>SPARK_VSR02_SCADA_sendEmailOfAbnormality</d2p1:string>
     <d2p1:string>SPARK_VSR02_SCADA_abnormalityLog</d2p1:string>
     <d2p1:string>SPARK_VSR03_SCADA_MaxTemperatureTimer</d2p1:string>
@@ -71,6 +73,7 @@
     <d2p1:string>General_Spark_VSR03_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR03_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
     <d2p1:string>SPARK_VSR03_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_Conveyer_AbnormalTreatmentToPlc_VSR03ToPlc_abnormalTreatment</d2p1:string>
     <d2p1:string>SPARK_VSR03_SCADA_sendEmailOfAbnormality</d2p1:string>
     <d2p1:string>SPARK_VSR03_SCADA_abnormalityLog</d2p1:string>
     <d2p1:string>SPARK_VSR04_SCADA_MaxTemperatureTimer</d2p1:string>
@@ -92,6 +95,7 @@
     <d2p1:string>General_Spark_VSR04_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR04_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
     <d2p1:string>SPARK_VSR04_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_Conveyer_AbnormalTreatmentToPlc_VSR04ToPlc_abnormalTreatment</d2p1:string>
     <d2p1:string>SPARK_VSR04_SCADA_sendEmailOfAbnormality</d2p1:string>
     <d2p1:string>SPARK_VSR04_SCADA_abnormalityLog</d2p1:string>
     <d2p1:string>SPARK_VSR05_SCADA_MaxTemperatureTimer</d2p1:string>
@@ -113,6 +117,7 @@
     <d2p1:string>General_Spark_VSR05_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR05_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
     <d2p1:string>SPARK_VSR05_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_Conveyer_AbnormalTreatmentToPlc_VSR05ToPlc_abnormalTreatment</d2p1:string>
     <d2p1:string>SPARK_VSR05_SCADA_sendEmailOfAbnormality</d2p1:string>
     <d2p1:string>SPARK_VSR05_SCADA_abnormalityLog</d2p1:string>
     <d2p1:string>SPARK_VSR06_SCADA_MaxTemperatureTimer</d2p1:string>
@@ -134,6 +139,7 @@
     <d2p1:string>General_Spark_VSR06_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR06_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
     <d2p1:string>SPARK_VSR06_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_Conveyer_AbnormalTreatmentToPlc_VSR06ToPlc_abnormalTreatment</d2p1:string>
     <d2p1:string>SPARK_VSR06_SCADA_sendEmailOfAbnormality</d2p1:string>
     <d2p1:string>SPARK_VSR06_SCADA_abnormalityLog</d2p1:string>
     <d2p1:string>SPARK_VSR07_SCADA_MaxTemperatureTimer</d2p1:string>
@@ -155,6 +161,7 @@
     <d2p1:string>General_Spark_VSR07_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR07_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
     <d2p1:string>SPARK_VSR07_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_Conveyer_AbnormalTreatmentToPlc_VSR07ToPlc_abnormalTreatment</d2p1:string>
     <d2p1:string>SPARK_VSR07_SCADA_sendEmailOfAbnormality</d2p1:string>
     <d2p1:string>SPARK_VSR07_SCADA_abnormalityLog</d2p1:string>
     <d2p1:string>SPARK_VSR08_SCADA_MaxTemperatureTimer</d2p1:string>
@@ -176,6 +183,7 @@
     <d2p1:string>General_Spark_VSR08_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR08_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
     <d2p1:string>SPARK_VSR08_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_Conveyer_AbnormalTreatmentToPlc_VSR08ToPlc_abnormalTreatment</d2p1:string>
     <d2p1:string>SPARK_VSR08_SCADA_sendEmailOfAbnormality</d2p1:string>
     <d2p1:string>SPARK_VSR08_SCADA_abnormalityLog</d2p1:string>
     <d2p1:string>SPARK_VSR09_SCADA_MaxTemperatureTimer</d2p1:string>
@@ -197,6 +205,7 @@
     <d2p1:string>General_Spark_VSR09_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR09_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
     <d2p1:string>SPARK_VSR09_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_Conveyer_AbnormalTreatmentToPlc_VSR09ToPlc_abnormalTreatment</d2p1:string>
     <d2p1:string>SPARK_VSR09_SCADA_sendEmailOfAbnormality</d2p1:string>
     <d2p1:string>SPARK_VSR09_SCADA_abnormalityLog</d2p1:string>
     <d2p1:string>SPARK_VSR10_SCADA_MaxTemperatureTimer</d2p1:string>
@@ -218,13 +227,14 @@
     <d2p1:string>General_Spark_VSR10_PLCStateVariable</d2p1:string>
     <d2p1:string>SPARK_VSR10_PLC_KTP_Temperat_PV_Rolhas</d2p1:string>
     <d2p1:string>SPARK_VSR10_SCADA_abnormalTreatment</d2p1:string>
+    <d2p1:string>SPARK_Conveyer_AbnormalTreatmentToPlc_VSR10ToPlc_abnormalTreatment</d2p1:string>
     <d2p1:string>SPARK_VSR10_SCADA_sendEmailOfAbnormality</d2p1:string>
     <d2p1:string>SPARK_VSR10_SCADA_abnormalityLog</d2p1:string>
   </listVariableUsed>
   <maxCleanCount>2</maxCleanCount>
   <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>21276</nStartSel>
+  <nStartSel>19995</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
@@ -303,6 +313,7 @@ Sub Main Handles .Main
     SPARK_VSR01_SCADA_latch2 = latchSet.b
     SPARK_VSR01_SCADA_latch3 = latchSet.c
     SPARK_VSR01_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_Conveyer_AbnormalTreatmentToPlc_VSR01ToPlc_abnormalTreatment  = results.bit_abnormalTreatment
     SPARK_VSR01_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
     SPARK_VSR01_SCADA_abnormalityLog = results.logger
 
@@ -341,6 +352,7 @@ Sub Main Handles .Main
     SPARK_VSR02_SCADA_latch2 = latchSet.b
     SPARK_VSR02_SCADA_latch3 = latchSet.c
     SPARK_VSR02_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_Conveyer_AbnormalTreatmentToPlc_VSR02ToPlc_abnormalTreatment  = results.bit_abnormalTreatment
     SPARK_VSR02_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
     SPARK_VSR02_SCADA_abnormalityLog = results.logger
 
@@ -379,6 +391,7 @@ Sub Main Handles .Main
     SPARK_VSR03_SCADA_latch2 = latchSet.b
     SPARK_VSR03_SCADA_latch3 = latchSet.c
     SPARK_VSR03_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_Conveyer_AbnormalTreatmentToPlc_VSR03ToPlc_abnormalTreatment  = results.bit_abnormalTreatment
     SPARK_VSR03_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
     SPARK_VSR03_SCADA_abnormalityLog = results.logger
 
@@ -417,6 +430,7 @@ Sub Main Handles .Main
     SPARK_VSR04_SCADA_latch2 = latchSet.b
     SPARK_VSR04_SCADA_latch3 = latchSet.c
     SPARK_VSR04_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_Conveyer_AbnormalTreatmentToPlc_VSR04ToPlc_abnormalTreatment  = results.bit_abnormalTreatment
     SPARK_VSR04_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
     SPARK_VSR04_SCADA_abnormalityLog = results.logger
 
@@ -455,6 +469,7 @@ Sub Main Handles .Main
     SPARK_VSR05_SCADA_latch2 = latchSet.b
     SPARK_VSR05_SCADA_latch3 = latchSet.c
     SPARK_VSR05_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_Conveyer_AbnormalTreatmentToPlc_VSR05ToPlc_abnormalTreatment  = results.bit_abnormalTreatment
     SPARK_VSR05_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
     SPARK_VSR05_SCADA_abnormalityLog = results.logger
 
@@ -493,6 +508,7 @@ Sub Main Handles .Main
     SPARK_VSR06_SCADA_latch2 = latchSet.b
     SPARK_VSR06_SCADA_latch3 = latchSet.c
     SPARK_VSR06_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_Conveyer_AbnormalTreatmentToPlc_VSR06ToPlc_abnormalTreatment  = results.bit_abnormalTreatment
     SPARK_VSR06_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
     SPARK_VSR06_SCADA_abnormalityLog = results.logger
 
@@ -531,6 +547,7 @@ Sub Main Handles .Main
     SPARK_VSR07_SCADA_latch2 = latchSet.b
     SPARK_VSR07_SCADA_latch3 = latchSet.c
     SPARK_VSR07_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_Conveyer_AbnormalTreatmentToPlc_VSR07ToPlc_abnormalTreatment  = results.bit_abnormalTreatment
     SPARK_VSR07_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
     SPARK_VSR07_SCADA_abnormalityLog = results.logger
 
@@ -569,6 +586,7 @@ Sub Main Handles .Main
     SPARK_VSR08_SCADA_latch2 = latchSet.b
     SPARK_VSR08_SCADA_latch3 = latchSet.c
     SPARK_VSR08_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_Conveyer_AbnormalTreatmentToPlc_VSR08ToPlc_abnormalTreatment  = results.bit_abnormalTreatment
     SPARK_VSR08_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
     SPARK_VSR08_SCADA_abnormalityLog = results.logger
 
@@ -607,6 +625,7 @@ Sub Main Handles .Main
     SPARK_VSR09_SCADA_latch2 = latchSet.b
     SPARK_VSR09_SCADA_latch3 = latchSet.c
     SPARK_VSR09_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_Conveyer_AbnormalTreatmentToPlc_VSR09ToPlc_abnormalTreatment  = results.bit_abnormalTreatment
     SPARK_VSR09_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
     SPARK_VSR09_SCADA_abnormalityLog = results.logger
 
@@ -645,6 +664,7 @@ Sub Main Handles .Main
     SPARK_VSR10_SCADA_latch2 = latchSet.b
     SPARK_VSR10_SCADA_latch3 = latchSet.c
     SPARK_VSR10_SCADA_abnormalTreatment  = results.bit_abnormalTreatment
+    SPARK_Conveyer_AbnormalTreatmentToPlc_VSR10ToPlc_abnormalTreatment  = results.bit_abnormalTreatment
     SPARK_VSR10_SCADA_sendEmailOfAbnormality  = results.bit_sendEmail
     SPARK_VSR10_SCADA_abnormalityLog = results.logger
 
