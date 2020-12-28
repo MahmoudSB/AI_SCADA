@@ -234,7 +234,7 @@
   <maxCleanCount>2</maxCleanCount>
   <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>19995</nStartSel>
+  <nStartSel>20825</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
@@ -684,7 +684,7 @@ End Sub
    bit_longWhileUnloading = M.discharge_Max_Time&gt;0 And T.unloading &gt;= M.discharge_Max_Time And M.machineStatus = 1
 
 ' Alarm temperature
-   bit_AlarmTemperature = M.pvCorkTemperature&gt;= M.corkTemp_Alarm
+   bit_AlarmTemperature = M.pvCorkTemperature&gt;= M.corkTemp_Alarm and M.corkTemp_Alarm&gt;0
 
 ' Maximume temperature remained so long
     If M.pvCorkTemperature &gt; M.corkTemp_Max And M.machineStatus = 1 Then
