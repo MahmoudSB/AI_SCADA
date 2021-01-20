@@ -12215,9 +12215,9 @@
         <preserveText>true</preserveText>
         <preserveVariables>true</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
-        <preservedBrush i:nil="true" />
+        <preservedBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedBrush>
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#BFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText i:nil="true" />
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
@@ -12531,9 +12531,9 @@ End Sub
         <preserveText>true</preserveText>
         <preserveVariables>true</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
-        <preservedBrush i:nil="true" />
+        <preservedBrush>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedBrush>
         <preservedHeight>0</preservedHeight>
-        <preservedPen i:nil="true" />
+        <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#BFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText i:nil="true" />
         <preservedWidth>0</preservedWidth>
         <readableAccessMask>0</readableAccessMask>

@@ -72,6 +72,8 @@
                 <xs:element name="Password" type="xs:string" minOccurs="0" />
                 <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
                 <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+                <xs:element name="UserLockMode" type="xs:int" minOccurs="0" />
+                <xs:element name="MaxInvalidPasswordAttempts" type="xs:int" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -179,7 +181,7 @@
     <AccessMask>2147483647</AccessMask>
     <Email></Email>
     <UFRoleAss>1</UFRoleAss>
-    <OptimisticLockField>1</OptimisticLockField>
+    <OptimisticLockField>4</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>2</OID>
@@ -191,7 +193,7 @@
     <AccessLevel>-1</AccessLevel>
     <AccessMask>1</AccessMask>
     <UFRoleAss>2</UFRoleAss>
-    <OptimisticLockField>1</OptimisticLockField>
+    <OptimisticLockField>4</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>3</OID>
@@ -204,7 +206,7 @@
     <AccessMask>2147483647</AccessMask>
     <Email>paulo.remelgado@amorim.com</Email>
     <UFRoleAss>3</UFRoleAss>
-    <OptimisticLockField>1</OptimisticLockField>
+    <OptimisticLockField>4</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>4</OID>
@@ -218,7 +220,7 @@
     <AccessMask>2147483647</AccessMask>
     <Email>wilson.pereira@amorim.com</Email>
     <UFRoleAss>3</UFRoleAss>
-    <OptimisticLockField>1</OptimisticLockField>
+    <OptimisticLockField>4</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>5</OID>
@@ -232,7 +234,7 @@
     <AccessMask>2147483647</AccessMask>
     <Email>miguel.abreu@amorim.com</Email>
     <UFRoleAss>3</UFRoleAss>
-    <OptimisticLockField>1</OptimisticLockField>
+    <OptimisticLockField>4</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>6</OID>
@@ -246,7 +248,7 @@
     <AccessMask>2147483647</AccessMask>
     <Email>ricardo.mendonca@amorim.com</Email>
     <UFRoleAss>3</UFRoleAss>
-    <OptimisticLockField>1</OptimisticLockField>
+    <OptimisticLockField>4</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>7</OID>
@@ -260,7 +262,7 @@
     <AccessMask>2147483647</AccessMask>
     <Email>alexandre.mil-homens@amorim.com</Email>
     <UFRoleAss>3</UFRoleAss>
-    <OptimisticLockField>1</OptimisticLockField>
+    <OptimisticLockField>4</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>8</OID>
@@ -274,7 +276,7 @@
     <AccessMask>2147483647</AccessMask>
     <Email>miguel.abreu@amorim.com</Email>
     <UFRoleAss>3</UFRoleAss>
-    <OptimisticLockField>1</OptimisticLockField>
+    <OptimisticLockField>4</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>9</OID>
@@ -288,7 +290,7 @@
     <AccessMask>2147483647</AccessMask>
     <Email>filipe.almeida@amorim.com</Email>
     <UFRoleAss>3</UFRoleAss>
-    <OptimisticLockField>1</OptimisticLockField>
+    <OptimisticLockField>4</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>10</OID>
@@ -300,7 +302,21 @@
     <AccessLevel>-1</AccessLevel>
     <AccessMask>512</AccessMask>
     <UFRoleAss>4</UFRoleAss>
-    <OptimisticLockField>1</OptimisticLockField>
+    <OptimisticLockField>4</OptimisticLockField>
+  </UFUser>
+  <UFUser>
+    <OID>11</OID>
+    <NodeId>11aa2a29-1a5c-4e7e-8791-b5f5c99e4429</NodeId>
+    <Name>Email_Recipient_8</Name>
+    <Password>hvOWzc7Onnur+S40UjBDS4n5p0sdq53J3alty4OuQKM=</Password>
+    <PasswordExpiresInDays>0</PasswordExpiresInDays>
+    <ForcePasswordChangeFirstLogin>false</ForcePasswordChangeFirstLogin>
+    <LastDateTimeChanged>2021-01-15T13:40:33.6073281Z</LastDateTimeChanged>
+    <AccessLevel>-1</AccessLevel>
+    <AccessMask>2147483647</AccessMask>
+    <Email>antonioalexandre.silva@amorim.com</Email>
+    <UFRoleAss>3</UFRoleAss>
+    <OptimisticLockField>2</OptimisticLockField>
   </UFUser>
   <UFUserSettings>
     <OID>1</OID>
@@ -314,6 +330,8 @@
     <EnableSSLTLS>false</EnableSSLTLS>
     <PortNumber>25</PortNumber>
     <EnAutentication>false</EnAutentication>
-    <OptimisticLockField>0</OptimisticLockField>
+    <OptimisticLockField>1</OptimisticLockField>
+    <UserLockMode>0</UserLockMode>
+    <MaxInvalidPasswordAttempts>5</MaxInvalidPasswordAttempts>
   </UFUserSettings>
 </DefaultName>

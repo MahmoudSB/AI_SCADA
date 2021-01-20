@@ -687,10 +687,10 @@
         <preserveVariables>true</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush>&lt;LinearGradientBrush StartPoint="0.5,-0.622" EndPoint="0.5,0.905" ColorInterpolationMode="SRgbLinearInterpolation" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad" Opacity="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;LinearGradientBrush.GradientStops&gt;&lt;GradientStop Color="#FF6E7072" Offset="0" /&gt;&lt;GradientStop Color="sc#1, 0.08857274, 0.0902648, 0.09382588" Offset="0.65896815061569214" /&gt;&lt;GradientStop Color="#FF282526" Offset="1" /&gt;&lt;/LinearGradientBrush.GradientStops&gt;&lt;/LinearGradientBrush&gt;</preservedBrush>
-        <preservedHeight>0</preservedHeight>
+        <preservedHeight>75.702290076335657</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFFFF&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText>Report</preservedText>
-        <preservedWidth>0</preservedWidth>
+        <preservedWidth>204.60000000000019</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
         <sCode>'#Reference #System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=AMD64
@@ -731,8 +731,8 @@ End Sub
 Sub TSQL_to_Server()
 
     Dim queryString1 As String = _
-                                "INSERT INTO [dbo].[VL_Filtered_Treatment_VSRxx] ([VSR], [Start Date],[Start Time] ,[End Date] ,[End Time], [LocalTimeCol])" _
-                              &amp; " Select [VSR], [TreatmentStart] ,[TreatmentEnd] ,[UnloadStart] ,[UnloadEnd], [UnloadEnd_timeStamp] " _
+                                "INSERT INTO [dbo].[VL_Filtered_Treatment_VSRxx] ([VSR], [Start Date],[Start Time] ,[End Date] ,[End Time], [LocalTimeCol], [Status])" _
+                              &amp; " Select [VSR], [TreatmentStart] ,[TreatmentEnd] ,[UnloadStart] ,[UnloadEnd], [UnloadEnd_timeStamp], [Status]" _
                               &amp; " FROM [dbo].[VL_Treatment_Record]" _
                               &amp; " WHERE [VSR]='" &amp; VL_Report_VSR &amp; "'" _
                               &amp; " and CAST([UnloadEnd_timeStamp] AS DATETIME2(0))= '" &amp; VL_Report_LocalTime &amp; "'"
@@ -5494,11 +5494,11 @@ End Sub
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>Width</d5p1:Key>
-            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;1060.9725490196076&lt;/Double&gt;</d5p1:Value>
+            <d5p1:Value>&lt;Double xmlns="clr-namespace:System;assembly=mscorlib"&gt;1101.9725490196076&lt;/Double&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>ControlDataSource</d5p1:Key>
-            <d5p1:Value>&lt;ControlDataSourceItem ControlDataSourceXml="&amp;lt;DataReaderModel xmlns=&amp;quot;http://schemas.datacontract.org/2004/07/DataReader&amp;quot; xmlns:i=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;&amp;gt;&amp;lt;Connection&amp;gt;Data Source=AMR-DBVM16;Initial Catalog=ScadaAC;Persist Security Info=True;User ID=scada;Password=WkIlE!A2njfa&amp;lt;/Connection&amp;gt;&amp;lt;DataColumn i:nil=&amp;quot;true&amp;quot;/&amp;gt;&amp;lt;DataProvider&amp;gt;System.Data.SqlClient&amp;lt;/DataProvider&amp;gt;&amp;lt;DataProviderDescription&amp;gt;Use this data provider to connect to Microsoft SQL Server 2005 or above.&amp;lt;/DataProviderDescription&amp;gt;&amp;lt;DataProviderDisplayName&amp;gt;.NET Framework Data Provider for SQL Server&amp;lt;/DataProviderDisplayName&amp;gt;&amp;lt;DataProviderShortDisplayName&amp;gt;SqlClient&amp;lt;/DataProviderShortDisplayName&amp;gt;&amp;lt;DataSourceDisplayName&amp;gt;Microsoft SQL Server&amp;lt;/DataSourceDisplayName&amp;gt;&amp;lt;DataSourceName&amp;gt;MicrosoftSqlServer&amp;lt;/DataSourceName&amp;gt;&amp;lt;GroupBy i:nil=&amp;quot;true&amp;quot;/&amp;gt;&amp;lt;MaxTake&amp;gt;10&amp;lt;/MaxTake&amp;gt;&amp;lt;Select&amp;gt;Select top 140  [VSR], [TreatmentStart], [TreatmentEnd], [UnloadStart], [UnloadEnd], Format(cast([UnloadEnd_timeStamp] as datetime2(0)),'yyyy-MM-dd HH:mm:ss') as  [Record_Timestamp] from [dbo].[VL_Treatment_Record]&amp;lt;/Select&amp;gt;&amp;lt;Sort&amp;gt;[Record_Timestamp]  DESC&amp;lt;/Sort&amp;gt;&amp;lt;TableName i:nil=&amp;quot;true&amp;quot;/&amp;gt;&amp;lt;TimeColumn i:nil=&amp;quot;true&amp;quot;/&amp;gt;&amp;lt;Where i:nil=&amp;quot;true&amp;quot;/&amp;gt;&amp;lt;xmlItems i:nil=&amp;quot;true&amp;quot;/&amp;gt;&amp;lt;xmlUri i:nil=&amp;quot;true&amp;quot;/&amp;gt;&amp;lt;/DataReaderModel&amp;gt;" ColumnListSettingsXml="&amp;lt;ArrayOfColumnItem xmlns=&amp;quot;http://schemas.datacontract.org/2004/07/DBControls&amp;quot; xmlns:i=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;/&amp;gt;" TableName="" xmlns="clr-namespace:DBControls;assembly=DBControls" /&gt;</d5p1:Value>
+            <d5p1:Value>&lt;ControlDataSourceItem ControlDataSourceXml="&amp;lt;DataReaderModel xmlns=&amp;quot;http://schemas.datacontract.org/2004/07/DataReader&amp;quot; xmlns:i=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;&amp;gt;&amp;lt;Connection&amp;gt;Data Source=AMR-DBVM16;Initial Catalog=ScadaAC;Persist Security Info=True;User ID=scada;Password=WkIlE!A2njfa&amp;lt;/Connection&amp;gt;&amp;lt;DataColumn i:nil=&amp;quot;true&amp;quot;/&amp;gt;&amp;lt;DataProvider&amp;gt;System.Data.SqlClient&amp;lt;/DataProvider&amp;gt;&amp;lt;DataProviderDescription&amp;gt;Use this data provider to connect to Microsoft SQL Server 2005 or above.&amp;lt;/DataProviderDescription&amp;gt;&amp;lt;DataProviderDisplayName&amp;gt;.NET Framework Data Provider for SQL Server&amp;lt;/DataProviderDisplayName&amp;gt;&amp;lt;DataProviderShortDisplayName&amp;gt;SqlClient&amp;lt;/DataProviderShortDisplayName&amp;gt;&amp;lt;DataSourceDisplayName&amp;gt;Microsoft SQL Server&amp;lt;/DataSourceDisplayName&amp;gt;&amp;lt;DataSourceName&amp;gt;MicrosoftSqlServer&amp;lt;/DataSourceName&amp;gt;&amp;lt;GroupBy i:nil=&amp;quot;true&amp;quot;/&amp;gt;&amp;lt;MaxTake&amp;gt;10&amp;lt;/MaxTake&amp;gt;&amp;lt;Select&amp;gt;Select top 140  [VSR], [TreatmentStart], [TreatmentEnd], [UnloadStart], [UnloadEnd], [Status], Format(cast([UnloadEnd_timeStamp] as datetime2(0)),'yyyy-MM-dd HH:mm:ss') as  [Record_Timestamp] from [dbo].[VL_Treatment_Record]&amp;lt;/Select&amp;gt;&amp;lt;Sort&amp;gt;[Record_Timestamp]  DESC&amp;lt;/Sort&amp;gt;&amp;lt;TableName i:nil=&amp;quot;true&amp;quot;/&amp;gt;&amp;lt;TimeColumn i:nil=&amp;quot;true&amp;quot;/&amp;gt;&amp;lt;Where i:nil=&amp;quot;true&amp;quot;/&amp;gt;&amp;lt;xmlItems i:nil=&amp;quot;true&amp;quot;/&amp;gt;&amp;lt;xmlUri i:nil=&amp;quot;true&amp;quot;/&amp;gt;&amp;lt;/DataReaderModel&amp;gt;" ColumnListSettingsXml="&amp;lt;ArrayOfColumnItem xmlns=&amp;quot;http://schemas.datacontract.org/2004/07/DBControls&amp;quot; xmlns:i=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;&amp;gt;&amp;lt;ColumnItem&amp;gt;&amp;lt;Caption&amp;gt;VSR&amp;lt;/Caption&amp;gt;&amp;lt;ColName&amp;gt;VSR&amp;lt;/ColName&amp;gt;&amp;lt;IsEditable&amp;gt;true&amp;lt;/IsEditable&amp;gt;&amp;lt;IsVisible&amp;gt;true&amp;lt;/IsVisible&amp;gt;&amp;lt;/ColumnItem&amp;gt;&amp;lt;ColumnItem&amp;gt;&amp;lt;Caption&amp;gt;TreatmentStart&amp;lt;/Caption&amp;gt;&amp;lt;ColName&amp;gt;TreatmentStart&amp;lt;/ColName&amp;gt;&amp;lt;IsEditable&amp;gt;true&amp;lt;/IsEditable&amp;gt;&amp;lt;IsVisible&amp;gt;true&amp;lt;/IsVisible&amp;gt;&amp;lt;/ColumnItem&amp;gt;&amp;lt;ColumnItem&amp;gt;&amp;lt;Caption&amp;gt;TreatmentEnd&amp;lt;/Caption&amp;gt;&amp;lt;ColName&amp;gt;TreatmentEnd&amp;lt;/ColName&amp;gt;&amp;lt;IsEditable&amp;gt;true&amp;lt;/IsEditable&amp;gt;&amp;lt;IsVisible&amp;gt;true&amp;lt;/IsVisible&amp;gt;&amp;lt;/ColumnItem&amp;gt;&amp;lt;ColumnItem&amp;gt;&amp;lt;Caption&amp;gt;UnloadStart&amp;lt;/Caption&amp;gt;&amp;lt;ColName&amp;gt;UnloadStart&amp;lt;/ColName&amp;gt;&amp;lt;IsEditable&amp;gt;true&amp;lt;/IsEditable&amp;gt;&amp;lt;IsVisible&amp;gt;true&amp;lt;/IsVisible&amp;gt;&amp;lt;/ColumnItem&amp;gt;&amp;lt;ColumnItem&amp;gt;&amp;lt;Caption&amp;gt;UnloadEnd&amp;lt;/Caption&amp;gt;&amp;lt;ColName&amp;gt;UnloadEnd&amp;lt;/ColName&amp;gt;&amp;lt;IsEditable&amp;gt;true&amp;lt;/IsEditable&amp;gt;&amp;lt;IsVisible&amp;gt;true&amp;lt;/IsVisible&amp;gt;&amp;lt;/ColumnItem&amp;gt;&amp;lt;ColumnItem&amp;gt;&amp;lt;Caption&amp;gt;Status&amp;lt;/Caption&amp;gt;&amp;lt;ColName&amp;gt;Status&amp;lt;/ColName&amp;gt;&amp;lt;IsEditable&amp;gt;true&amp;lt;/IsEditable&amp;gt;&amp;lt;IsVisible&amp;gt;true&amp;lt;/IsVisible&amp;gt;&amp;lt;/ColumnItem&amp;gt;&amp;lt;ColumnItem&amp;gt;&amp;lt;Caption&amp;gt;Record_Timestamp&amp;lt;/Caption&amp;gt;&amp;lt;ColName&amp;gt;Record_Timestamp&amp;lt;/ColName&amp;gt;&amp;lt;IsEditable&amp;gt;true&amp;lt;/IsEditable&amp;gt;&amp;lt;IsVisible&amp;gt;true&amp;lt;/IsVisible&amp;gt;&amp;lt;/ColumnItem&amp;gt;&amp;lt;/ArrayOfColumnItem&amp;gt;" TableName="VL_Treatment_Record" xmlns="clr-namespace:DBControls;assembly=DBControls" /&gt;</d5p1:Value>
           </d5p1:entry>
           <d5p1:entry>
             <d5p1:Key>AllowEdit</d5p1:Key>
@@ -5544,10 +5544,10 @@ End Sub
         <preserveVariables>true</preserveVariables>
         <preserveVisibility>false</preserveVisibility>
         <preservedBrush i:nil="true" />
-        <preservedHeight>0</preservedHeight>
+        <preservedHeight>743.34733893557427</preservedHeight>
         <preservedPen>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF000000&lt;/SolidColorBrush&gt;</preservedPen>
         <preservedText>Settings memory:</preservedText>
-        <preservedWidth>0</preservedWidth>
+        <preservedWidth>1101.9725490196076</preservedWidth>
         <readableAccessMask>0</readableAccessMask>
         <readerItemSources xmlns:d5p1="http://schemas.datacontract.org/2004/07/DataReader" i:nil="true" />
         <sCode>'#Reference #System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=AMD64
@@ -5577,7 +5577,7 @@ Public Sub Control_MouseDown(ByVal sender As Object, ByVal e As System.Windows.I
         VL_Report_TimeFrom = dataRowWiew(2).ToString()
         VL_Report_DateTo = dataRowWiew(3).ToString()
         VL_Report_TimeTo = dataRowWiew(4).ToString()
-        VL_Report_LocalTime = dataRowWiew(5).ToString()
+        VL_Report_LocalTime = dataRowWiew(6).ToString()
 
         If VL_Report_VSR &lt;&gt; "" And VL_Report_DateFrom &lt;&gt; "NoRec" And VL_Report_TimeFrom &lt;&gt; "NoRec" And VL_Report_LocalTime &lt;&gt; "" Then
             VL_Report_DataOk = True
@@ -10238,7 +10238,37 @@ End Sub
       <d2p1:Value />
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl2</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl06</d2p1:Key>
+      <d2p1:Value>
+        <d2p1:string>VL_Report_DataOk</d2p1:string>
+        <d2p1:string>VL_Report_VSR</d2p1:string>
+        <d2p1:string>VL_Report_LocalTime</d2p1:string>
+        <d2p1:string>VL_Report_DateFrom</d2p1:string>
+        <d2p1:string>VL_Report_TimeFrom</d2p1:string>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
       <d2p1:Key>ButtonControl4</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl5</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl6</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl7</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl8</d2p1:Key>
       <d2p1:Value />
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
@@ -10247,43 +10277,6 @@ End Sub
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
       <d2p1:Key>ButtonControl10</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl15</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl04</d2p1:Key>
-      <d2p1:Value>
-        <d2p1:string>VL_Report_VSR</d2p1:string>
-      </d2p1:Value>
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl08</d2p1:Key>
-      <d2p1:Value>
-        <d2p1:string>VL_Report_VSR</d2p1:string>
-        <d2p1:string>VL_Report_DateFrom0</d2p1:string>
-        <d2p1:string>VL_Report_DateTo0</d2p1:string>
-      </d2p1:Value>
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl8</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl13</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl03</d2p1:Key>
-      <d2p1:Value>
-        <d2p1:string>VL_Report_DateFrom0</d2p1:string>
-        <d2p1:string>VL_Report_DateTo0</d2p1:string>
-      </d2p1:Value>
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl7</d2p1:Key>
       <d2p1:Value />
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
@@ -10302,27 +10295,26 @@ End Sub
       </d2p1:Value>
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl06</d2p1:Key>
-      <d2p1:Value />
+      <d2p1:Key>ButtonControl03</d2p1:Key>
+      <d2p1:Value>
+        <d2p1:string>VL_Report_DateFrom0</d2p1:string>
+        <d2p1:string>VL_Report_DateTo0</d2p1:string>
+      </d2p1:Value>
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl07</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl6</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl2</d2p1:Key>
-      <d2p1:Value />
-    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
-      <d2p1:Key>ButtonControl5</d2p1:Key>
-      <d2p1:Value />
+      <d2p1:Key>ButtonControl08</d2p1:Key>
+      <d2p1:Value>
+        <d2p1:string>VL_Report_VSR</d2p1:string>
+        <d2p1:string>VL_Report_DateFrom0</d2p1:string>
+        <d2p1:string>VL_Report_DateTo0</d2p1:string>
+      </d2p1:Value>
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
       <d2p1:Key>ButtonControl12</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl13</d2p1:Key>
       <d2p1:Value />
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
     <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
@@ -10335,6 +10327,20 @@ End Sub
         <d2p1:string>VL_Report_TimeTo</d2p1:string>
         <d2p1:string>VL_Report_LocalTime</d2p1:string>
         <d2p1:string>VL_Report_DataOk</d2p1:string>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl07</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl15</d2p1:Key>
+      <d2p1:Value />
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>ButtonControl04</d2p1:Key>
+      <d2p1:Value>
+        <d2p1:string>VL_Report_VSR</d2p1:string>
       </d2p1:Value>
     </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
   </mapScriptVariableUsed>

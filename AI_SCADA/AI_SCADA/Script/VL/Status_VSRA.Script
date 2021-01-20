@@ -56,13 +56,14 @@
   <maxCleanCount>2</maxCleanCount>
   <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>21602</nStartSel>
+  <nStartSel>20699</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
 Sub Main Handles .Main
 
     Dim DateTime As String
+    Dim waitingForUnload_maxTime As Integer = 100
     DateTime = Format(Now, "MM/dd/yyyy HH:mm:ss")
 
 'Status:  1:Running  2:WaitingForUnload  3:Unloading  4:Free  5: Failure  6:Try_Err  7:Com_Err
@@ -83,7 +84,7 @@ Sub Main Handles .Main
                 If VL_VSRA1_PLC.UnloadInProgress=4 Then
                     VL_VSRA1_SCADA.Status = 3
                 End If
-                If  VL_VSRA1_PLC.Maquina_em_tratamento Then
+                If  VL_VSRA1_PLC.Maquina_em_tratamento Or ScriptDocument.GetVariableValue("VL\VSRA1\SCADA:Treatment\Timer_UnloadAwiating")&gt;= waitingForUnload_maxTime Then
                     VL_VSRA1_SCADA.Status = 5
                 End If
             Case 3
@@ -151,7 +152,7 @@ Sub Main Handles .Main
                 If VL_VSRA2_PLC.UnloadInProgress=4 Then
                     VL_VSRA2_SCADA.Status = 3
                 End If
-                If  VL_VSRA2_PLC.Maquina_em_tratamento Then
+                If  VL_VSRA2_PLC.Maquina_em_tratamento Or ScriptDocument.GetVariableValue("VL\VSRA2\SCADA:Treatment\Timer_UnloadAwiating")&gt;= waitingForUnload_maxTime  Then
                     VL_VSRA2_SCADA.Status = 5
                 End If
             Case 3
@@ -219,7 +220,7 @@ Sub Main Handles .Main
                 If VL_VSRA3_PLC.UnloadInProgress=4 Then
                     VL_VSRA3_SCADA.Status = 3
                 End If
-                If  VL_VSRA3_PLC.Maquina_em_tratamento Then
+                If  VL_VSRA3_PLC.Maquina_em_tratamento Or ScriptDocument.GetVariableValue("VL\VSRA3\SCADA:Treatment\Timer_UnloadAwiating")&gt;= waitingForUnload_maxTime  Then
                     VL_VSRA3_SCADA.Status = 5
                 End If
             Case 3
@@ -287,7 +288,7 @@ Sub Main Handles .Main
                 If VL_VSRA4_PLC.UnloadInProgress=4 Then
                     VL_VSRA4_SCADA.Status = 3
                 End If
-                If  VL_VSRA4_PLC.Maquina_em_tratamento Then
+                If  VL_VSRA4_PLC.Maquina_em_tratamento Or ScriptDocument.GetVariableValue("VL\VSRA4\SCADA:Treatment\Timer_UnloadAwiating")&gt;= waitingForUnload_maxTime  Then
                     VL_VSRA4_SCADA.Status = 5
                 End If
             Case 3
@@ -355,7 +356,7 @@ Sub Main Handles .Main
                 If VL_VSRA5_PLC.UnloadInProgress=4 Then
                     VL_VSRA5_SCADA.Status = 3
                 End If
-                If  VL_VSRA5_PLC.Maquina_em_tratamento Then
+                If  VL_VSRA5_PLC.Maquina_em_tratamento Or ScriptDocument.GetVariableValue("VL\VSRA5\SCADA:Treatment\Timer_UnloadAwiating")&gt;= waitingForUnload_maxTime  Then
                     VL_VSRA5_SCADA.Status = 5
                 End If
             Case 3
@@ -423,7 +424,7 @@ Sub Main Handles .Main
                 If VL_VSRA6_PLC.UnloadInProgress=4 Then
                     VL_VSRA6_SCADA.Status = 3
                 End If
-                If  VL_VSRA6_PLC.Maquina_em_tratamento Then
+                If  VL_VSRA6_PLC.Maquina_em_tratamento Or ScriptDocument.GetVariableValue("VL\VSRA6\SCADA:Treatment\Timer_UnloadAwiating")&gt;= waitingForUnload_maxTime  Then
                     VL_VSRA6_SCADA.Status = 5
                 End If
             Case 3
@@ -491,7 +492,7 @@ Sub Main Handles .Main
                 If VL_VSRA7_PLC.UnloadInProgress=4 Then
                     VL_VSRA7_SCADA.Status = 3
                 End If
-                If  VL_VSRA7_PLC.Maquina_em_tratamento Then
+                If  VL_VSRA7_PLC.Maquina_em_tratamento Or ScriptDocument.GetVariableValue("VL\VSRA7\SCADA:Treatment\Timer_UnloadAwiating")&gt;= waitingForUnload_maxTime  Then
                     VL_VSRA7_SCADA.Status = 5
                 End If
             Case 3

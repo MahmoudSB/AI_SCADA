@@ -41,7 +41,7 @@
   <ContentControl Name="ButtonControl04" Width="204.6" Height="72" IsManipulationEnabled="False" Canvas.Left="477.882674982675" Canvas.Top="664.684248885752" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" Foreground="#FF403F41" FontSize="25" FontWeight="Medium" Name="TextBox4" Width="225" MinWidth="5" Height="47.8571428571428" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="263.927296627524" Canvas.Top="74.786456786457" syncfusion:SkinStorage.OverrideVisualStyle="True">Filter treatments</TextBox>
   <TextBox IsReadOnly="True" BorderThickness="0,0,0,0" Background="{x:Null}" Foreground="#FF403F41" FontSize="25" FontWeight="Medium" Name="TextBox5" Width="225" MinWidth="5" Height="47.8571428571428" MinHeight="5" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="True" Canvas.Left="766.440810141037" Canvas.Top="74.786456786457" syncfusion:SkinStorage.OverrideVisualStyle="True">Report treatment</TextBox>
-  <ContentControl Name="GridControl" Width="759.6" Height="596.703296703297" IsManipulationEnabled="False" Canvas.Left="766.554103554103" Canvas.Top="126.442134442135" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+  <ContentControl Name="GridControl" Width="849.6" Height="596.703296703297" IsManipulationEnabled="False" Canvas.Left="720.554103554103" Canvas.Top="126.442134442135" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1" />
   <Border BorderThickness="2,2,2,2" Padding="0,0,0,0" CornerRadius="5,5,5,5" BorderBrush="#00000000" Name="Border3" Width="350" MinWidth="5" Height="61" MinHeight="5" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Opacity="1" IsHitTestVisible="True" Canvas.Left="7.5" Canvas.Top="831.5" syncfusion:SkinStorage.OverrideVisualStyle="True">
     <Border.Background>
       <VisualBrush>
@@ -50,7 +50,7 @@
             <Image.Source>
               <Binding ConverterParameter="AI_Logo_New.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\premelgado\Desktop\AI_SCADA\AI_SCADA\Screen\Spark\" AbsolutePath2="C:\Users\premelgado\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\adecobitesupport\Desktop\AI_SCADA\AI_SCADA\Screen\Spark\" AbsolutePath2="C:\Users\adecobitesupport\Desktop\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>

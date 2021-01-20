@@ -7,27 +7,9 @@
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="OID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
-                <xs:element name="StationName" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="100" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-                <xs:element name="ObjectName" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="255" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-                <xs:element name="ObjectType" minOccurs="0">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:maxLength value="255" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
+                <xs:element name="StationName" type="xs:string" minOccurs="0" />
+                <xs:element name="ObjectName" type="xs:string" minOccurs="0" />
+                <xs:element name="ObjectType" type="xs:string" minOccurs="0" />
                 <xs:element name="LastUpdate" type="xs:dateTime" minOccurs="0" />
                 <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
               </xs:sequence>
@@ -42,6 +24,22 @@
     </xs:element>
   </xs:schema>
   <DriverS7TIASymbolicDBsNameaAndTables>
+    <OID>1</OID>
+    <StationName>PLC_SP_VSR15</StationName>
+    <ObjectName>Default tag table</ObjectName>
+    <ObjectType>Tag_Table</ObjectType>
+    <LastUpdate>2020-10-21T16:25:49.5356072</LastUpdate>
+    <OptimisticLockField>0</OptimisticLockField>
+  </DriverS7TIASymbolicDBsNameaAndTables>
+  <DriverS7TIASymbolicDBsNameaAndTables>
+    <OID>2</OID>
+    <StationName>PLC_SP_VSR15</StationName>
+    <ObjectName>Default tag table</ObjectName>
+    <ObjectType>Tag_Table</ObjectType>
+    <LastUpdate>2021-01-12T11:10:15.0376234Z</LastUpdate>
+    <OptimisticLockField>0</OptimisticLockField>
+  </DriverS7TIASymbolicDBsNameaAndTables>
+</DefaultName>mbolicDBsNameaAndTables>
     <OID>1</OID>
     <StationName>PLC_SP_VSR15</StationName>
     <ObjectName>Default tag table</ObjectName>

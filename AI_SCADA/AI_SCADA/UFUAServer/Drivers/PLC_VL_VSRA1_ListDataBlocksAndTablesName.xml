@@ -52,7 +52,15 @@
     <StationName>PLC_VL_VSRA1</StationName>
     <ObjectName>Default tag table</ObjectName>
     <ObjectType>Tag_Table</ObjectType>
-    <LastUpdate>2020-10-27T19:27:56.4828644Z</LastUpdate>
+    <LastUpdate>2020-10-27T19:27:56.4828644</LastUpdate>
+    <OptimisticLockField>0</OptimisticLockField>
+  </DriverS7TIASymbolicDBsNameaAndTables>
+  <DriverS7TIASymbolicDBsNameaAndTables>
+    <OID>5</OID>
+    <StationName>PLC_VL_VSRA1</StationName>
+    <ObjectName>Default tag table</ObjectName>
+    <ObjectType>Tag_Table</ObjectType>
+    <LastUpdate>2021-01-12T11:10:14.984621Z</LastUpdate>
     <OptimisticLockField>0</OptimisticLockField>
   </DriverS7TIASymbolicDBsNameaAndTables>
 </DefaultName>

@@ -104,7 +104,7 @@
             <Image.Source>
               <Binding ConverterParameter="Ecobite_logo.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>
@@ -164,7 +164,7 @@
                 <Image.Source>
                   <Binding ConverterParameter="GB_Flag.png">
                     <Binding.Converter>
-                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                     </Binding.Converter>
                   </Binding>
                 </Image.Source>
@@ -181,7 +181,7 @@
                 <Image.Source>
                   <Binding ConverterParameter="PT_Flag2.png">
                     <Binding.Converter>
-                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_WebClient\AI_WebClient\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_WebClient\Images\" />
+                      <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\AI_WebClient\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_WebClient\Images\" />
                     </Binding.Converter>
                   </Binding>
                 </Image.Source>

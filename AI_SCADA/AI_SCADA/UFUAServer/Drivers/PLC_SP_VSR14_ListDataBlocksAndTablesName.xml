@@ -68,7 +68,15 @@
     <StationName>PLC_SP_VSR14</StationName>
     <ObjectName>Default tag table</ObjectName>
     <ObjectType>Tag_Table</ObjectType>
-    <LastUpdate>2020-10-27T19:27:56.5758809Z</LastUpdate>
+    <LastUpdate>2020-10-27T19:27:56.5758809</LastUpdate>
+    <OptimisticLockField>0</OptimisticLockField>
+  </DriverS7TIASymbolicDBsNameaAndTables>
+  <DriverS7TIASymbolicDBsNameaAndTables>
+    <OID>7</OID>
+    <StationName>PLC_SP_VSR14</StationName>
+    <ObjectName>Default tag table</ObjectName>
+    <ObjectType>Tag_Table</ObjectType>
+    <LastUpdate>2021-01-12T11:10:15.1156287Z</LastUpdate>
     <OptimisticLockField>0</OptimisticLockField>
   </DriverS7TIASymbolicDBsNameaAndTables>
 </DefaultName>

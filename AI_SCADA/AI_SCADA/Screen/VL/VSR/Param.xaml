@@ -104,7 +104,7 @@
             <Image.Source>
               <Binding ConverterParameter="Ecobite_logo.png">
                 <Binding.Converter>
-                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Desktop\AI_SCADA\AI_SCADA\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Desktop\AI_SCADA\Images\" />
+                  <wpfuc:UriToUriAbsoluteImageConverter AbsolutePath="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\AI_SCADA\Screen\VL\VSR\" AbsolutePath2="C:\Users\mahmo\Documents\GitHub\AI_SCADA\AI_SCADA\Images\" />
                 </Binding.Converter>
               </Binding>
             </Image.Source>

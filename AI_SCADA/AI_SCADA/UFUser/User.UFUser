@@ -181,7 +181,7 @@
     <AccessMask>2147483647</AccessMask>
     <Email></Email>
     <UFRoleAss>1</UFRoleAss>
-    <OptimisticLockField>39</OptimisticLockField>
+    <OptimisticLockField>42</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>2</OID>
@@ -193,7 +193,7 @@
     <AccessLevel>-1</AccessLevel>
     <AccessMask>1</AccessMask>
     <UFRoleAss>2</UFRoleAss>
-    <OptimisticLockField>39</OptimisticLockField>
+    <OptimisticLockField>42</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>3</OID>
@@ -206,7 +206,7 @@
     <AccessMask>2147483647</AccessMask>
     <Email>paulo.remelgado@amorim.com</Email>
     <UFRoleAss>3</UFRoleAss>
-    <OptimisticLockField>39</OptimisticLockField>
+    <OptimisticLockField>42</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>4</OID>
@@ -218,7 +218,7 @@
     <AccessLevel>-1</AccessLevel>
     <AccessMask>512</AccessMask>
     <UFRoleAss>4</UFRoleAss>
-    <OptimisticLockField>39</OptimisticLockField>
+    <OptimisticLockField>42</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>6</OID>
@@ -232,7 +232,7 @@
     <AccessMask>2147483647</AccessMask>
     <Email>wilson.pereira@amorim.com</Email>
     <UFRoleAss>3</UFRoleAss>
-    <OptimisticLockField>27</OptimisticLockField>
+    <OptimisticLockField>30</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>7</OID>
@@ -246,7 +246,7 @@
     <AccessMask>2147483647</AccessMask>
     <Email></Email>
     <UFRoleAss>3</UFRoleAss>
-    <OptimisticLockField>27</OptimisticLockField>
+    <OptimisticLockField>30</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>8</OID>
@@ -260,7 +260,7 @@
     <AccessMask>2147483647</AccessMask>
     <Email>ricardo.mendonca@amorim.com</Email>
     <UFRoleAss>3</UFRoleAss>
-    <OptimisticLockField>27</OptimisticLockField>
+    <OptimisticLockField>30</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>9</OID>
@@ -274,7 +274,7 @@
     <AccessMask>2147483647</AccessMask>
     <Email>alexandre.mil-homens@amorim.com</Email>
     <UFRoleAss>3</UFRoleAss>
-    <OptimisticLockField>27</OptimisticLockField>
+    <OptimisticLockField>30</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>10</OID>
@@ -288,7 +288,7 @@
     <AccessMask>2147483647</AccessMask>
     <Email>miguel.abreu@amorim.com</Email>
     <UFRoleAss>3</UFRoleAss>
-    <OptimisticLockField>14</OptimisticLockField>
+    <OptimisticLockField>17</OptimisticLockField>
   </UFUser>
   <UFUser>
     <OID>11</OID>
@@ -302,7 +302,21 @@
     <AccessMask>2147483647</AccessMask>
     <Email>filipe.almeida@amorim.com</Email>
     <UFRoleAss>3</UFRoleAss>
-    <OptimisticLockField>14</OptimisticLockField>
+    <OptimisticLockField>17</OptimisticLockField>
+  </UFUser>
+  <UFUser>
+    <OID>12</OID>
+    <NodeId>8ca0cdc0-672c-4fd7-aaa1-687428bff5b8</NodeId>
+    <Name>Email_Recipient_8</Name>
+    <Password>hvOWzc7Onnur+S40UjBDS4n5p0sdq53J3alty4OuQKM=</Password>
+    <PasswordExpiresInDays>0</PasswordExpiresInDays>
+    <ForcePasswordChangeFirstLogin>false</ForcePasswordChangeFirstLogin>
+    <LastDateTimeChanged>2021-01-15T13:37:19.0863753Z</LastDateTimeChanged>
+    <AccessLevel>-1</AccessLevel>
+    <AccessMask>2147483647</AccessMask>
+    <Email>antonioalexandre.silva@amorim.com</Email>
+    <UFRoleAss>3</UFRoleAss>
+    <OptimisticLockField>1</OptimisticLockField>
   </UFUser>
   <UFUserSettings>
     <OID>1</OID>

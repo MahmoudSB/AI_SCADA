@@ -13,7 +13,7 @@
   <maxCleanCount>2</maxCleanCount>
   <nSelLength>0</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>5622</nStartSel>
+  <nStartSel>4858</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
@@ -48,6 +48,7 @@ Public Class latches
     Public a As Boolean
     Public b As Boolean
     Public c As Boolean
+    Public Ablogger As String
 End Class
 
 Sub Main Handles .Main
@@ -85,6 +86,7 @@ Sub Main Handles .Main
         latchSet.a = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:LatchSet\latch1")
         latchSet.b = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:LatchSet\latch2")
         latchSet.c = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:LatchSet\latch3")
+        latchSet.Ablogger = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\abnormalityLog" )
         If ScriptDocument.GetVariableValue("General\VL_" &amp; VSRx &amp; "_PLCStateVariable" ) = 0 Then
             Try
                 Param.pvCorkTemperature = ScriptDocument.GetVariableValue("VL\" &amp; VSRxx &amp; "\PLC:KTP_Temperat_PV_Rolhas")
@@ -103,7 +105,7 @@ Sub Main Handles .Main
         ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:LatchSet\latch2", latchSet.b)
         ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:LatchSet\latch3", latchSet.c)
         ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\abnormalTreatment", results.bit_abnormalTreatment)
-        ScriptDocument.SetVariableValue("VL\Conveyor\AbnormalTreatmentToPlc\" &amp; VSRx &amp; "ToPlc_abnormalTreatment", results.bit_abnormalTreatment)
+        ScriptDocument.SetVariableValue("VL\Conveyor\AbnormalTreatmentToPlc\" &amp; VSRx &amp; "ToPlc_abnormalTreatment", results.bit_sendEmail)
         ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\sendEmailOfAbnormality", results.bit_sendEmail)
         ScriptDocument.SetVariableValue("VL\" &amp; VSRxx &amp; "\SCADA:Treatment\Abn_Treat\abnormalityLog", results.logger)
     Next
@@ -121,13 +123,13 @@ End Sub
     Else
         T.unloading = 0
     End If
-   bit_longWhileUnloading = M.discharge_Max_Time&gt;0 And T.unloading &gt;= M.discharge_Max_Time And M.machineStatus = 1
+   bit_longWhileUnloading = M.discharge_Max_Time&gt;0 And T.unloading &gt;= M.discharge_Max_Time
 
 ' Alarm temperature
-   bit_AlarmTemperature = M.pvCorkTemperature&gt;= M.corkTemp_Alarm and M.corkTemp_Alarm&gt;0
+   bit_AlarmTemperature = M.pvCorkTemperature&gt;= M.corkTemp_Alarm And M.corkTemp_Alarm&gt;0 And M.machineStatus = 1
 
 ' Maximume temperature remained so long
-    If M.pvCorkTemperature &gt; M.corkTemp_Max And M.machineStatus = 1 Then
+    If M.pvCorkTemperature &gt; M.corkTemp_Max And M.corkTemp_Max_Time&gt;0 And M.machineStatus = 1 Then
         T.MaxTemperature = T.MaxTemperature+1
     Else
         T.MaxTemperature = 0
@@ -136,21 +138,21 @@ End Sub
    bit_longWhileMaxTemperature = M.corkTemp_Max_Time&gt;0 And T.MaxTemperature&gt;=M.corkTemp_Max_Time
 
    If M.machineStatus = 0 Then
-        cmd.logger = "Normal"
+        l.Ablogger = ""
         l.a = False
         l.b = False
         l.c = False
    End If
    If bit_longWhileUnloading And M.longUnloadIsAbnormality And  l.a = False Then
-        cmd.logger = cmd.logger &amp; "longUnloading "
+         l.Ablogger = l.Ablogger &amp; "longUnloading "
          l.a = True
    End If
       If bit_AlarmTemperature And M.alarmTempIsAbnormality And l.b = False Then
-        cmd.logger = cmd.logger &amp; "alarmTemp "
+        l.Ablogger = l.Ablogger &amp; "alarmTemp "
         l.b = True
    End If
-      If bit_longWhileUnloading And M.longUnloadIsAbnormality And  l.c = False Then
-        cmd.logger = cmd.logger &amp; "longMaxTemp "
+      If bit_longWhileMaxTemperature And M.longMaxTempIsAbnormality And  l.c = False Then
+        l.Ablogger = l.Ablogger &amp; "longMaxTemp "
         l.c = True
    End If
 
@@ -158,9 +160,10 @@ End Sub
                                             Or (bit_AlarmTemperature And M.alarmTempIsAbnormality) _
                                             Or (bit_longWhileMaxTemperature And M.longMaxTempIsAbnormality)
 
-    cmd.bit_sendEmail = (bit_longWhileUnloading And M.emailLongUnload) _
-                              Or (bit_AlarmTemperature And M.emailAlarmTemp) _
-                              Or (bit_longWhileMaxTemperature And M.emailLongMaxTemp)
+    cmd.bit_sendEmail = (M.machineStatus = 2) And ((l.a And M.emailLongUnload) Or (l.b And M.emailAlarmTemp) Or (l.c And M.emailLongMaxTemp))
+
+    cmd.logger= l.Ablogger
+
    Return cmd
  End Function
 </sCode>

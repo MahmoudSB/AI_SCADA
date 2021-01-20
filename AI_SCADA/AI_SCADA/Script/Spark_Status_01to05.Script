@@ -14,6 +14,7 @@
     <d2p1:string>SPARK_VSR01_Status</d2p1:string>
     <d2p1:string>SPARK_VSR01_PLC_Maquina_em_tratamento</d2p1:string>
     <d2p1:string>SPARK_VSR01_PLC_UnloadInProgress</d2p1:string>
+    <d2p1:string>SPARK_VSR01_SCADA_WaitingForUnload_Timer</d2p1:string>
     <d2p1:string>SPARK_VSR01_SCADA_tmp_Status</d2p1:string>
     <d2p1:string>SPARK_VSR01_SCADA_Treatment_Start</d2p1:string>
     <d2p1:string>SPARK_VSR01_SCADA_Treatment_End</d2p1:string>
@@ -31,6 +32,7 @@
     <d2p1:string>SPARK_VSR02_Status</d2p1:string>
     <d2p1:string>SPARK_VSR02_PLC_Maquina_em_tratamento</d2p1:string>
     <d2p1:string>SPARK_VSR02_PLC_UnloadInProgress</d2p1:string>
+    <d2p1:string>SPARK_VSR02_SCADA_WaitingForUnload_Timer</d2p1:string>
     <d2p1:string>SPARK_VSR02_SCADA_tmp_Status</d2p1:string>
     <d2p1:string>SPARK_VSR02_SCADA_Treatment_Start</d2p1:string>
     <d2p1:string>SPARK_VSR02_SCADA_Treatment_End</d2p1:string>
@@ -41,6 +43,7 @@
     <d2p1:string>SPARK_VSR03_Status</d2p1:string>
     <d2p1:string>SPARK_VSR03_PLC_Maquina_em_tratamento</d2p1:string>
     <d2p1:string>SPARK_VSR03_PLC_UnloadInProgress</d2p1:string>
+    <d2p1:string>SPARK_VSR03_SCADA_WaitingForUnload_Timer</d2p1:string>
     <d2p1:string>SPARK_VSR03_SCADA_tmp_Status</d2p1:string>
     <d2p1:string>SPARK_VSR03_SCADA_Treatment_Start</d2p1:string>
     <d2p1:string>SPARK_VSR03_SCADA_Treatment_End</d2p1:string>
@@ -51,6 +54,7 @@
     <d2p1:string>SPARK_VSR04_Status</d2p1:string>
     <d2p1:string>SPARK_VSR04_PLC_Maquina_em_tratamento</d2p1:string>
     <d2p1:string>SPARK_VSR04_PLC_UnloadInProgress</d2p1:string>
+    <d2p1:string>SPARK_VSR04_SCADA_WaitingForUnload_Timer</d2p1:string>
     <d2p1:string>SPARK_VSR04_SCADA_tmp_Status</d2p1:string>
     <d2p1:string>SPARK_VSR04_SCADA_Treatment_Start</d2p1:string>
     <d2p1:string>SPARK_VSR04_SCADA_Treatment_End</d2p1:string>
@@ -61,6 +65,7 @@
     <d2p1:string>SPARK_VSR05_Status</d2p1:string>
     <d2p1:string>SPARK_VSR05_PLC_Maquina_em_tratamento</d2p1:string>
     <d2p1:string>SPARK_VSR05_PLC_UnloadInProgress</d2p1:string>
+    <d2p1:string>SPARK_VSR05_SCADA_WaitingForUnload_Timer</d2p1:string>
     <d2p1:string>SPARK_VSR05_SCADA_tmp_Status</d2p1:string>
     <d2p1:string>SPARK_VSR05_SCADA_Treatment_Start</d2p1:string>
     <d2p1:string>SPARK_VSR05_SCADA_Treatment_End</d2p1:string>
@@ -69,15 +74,16 @@
     <d2p1:string>SPARK_VSR05_SCADA_abnormalityLog</d2p1:string>
   </listVariableUsed>
   <maxCleanCount>2</maxCleanCount>
-  <nSelLength>0</nSelLength>
+  <nSelLength>2</nSelLength>
   <nSleepTime>50</nSleepTime>
-  <nStartSel>12783</nStartSel>
+  <nStartSel>12018</nStartSel>
   <publishingInterval>1000</publishingInterval>
   <removeDisabledItemAfterSecs>30</removeDisabledItemAfterSecs>
   <sCode>'#Language "WWB.NET"
 Sub Main Handles .Main
 
     Dim DateTime As String
+    Dim waitingForUnload_maxTime As Integer = 100
     DateTime = Format(Now, "MM/dd/yyyy HH:mm:ss")
 
 'Status:  1:Running  2:WaitingForUnload  3:Unloading  4:Free  5: Failure  6:Try_Err  7:Com_Err
@@ -98,7 +104,7 @@ Sub Main Handles .Main
                 If SPARK_VSR01_PLC_UnloadInProgress=4 Then
                     SPARK_VSR01_Status = 3
                 End If
-                If  SPARK_VSR01_PLC_Maquina_em_tratamento Then
+                If  SPARK_VSR01_PLC_Maquina_em_tratamento Or SPARK_VSR01_SCADA_WaitingForUnload_Timer&gt;= waitingForUnload_maxTime Then
                     SPARK_VSR01_Status = 5
                 End If
             Case 3
@@ -166,7 +172,7 @@ Sub Main Handles .Main
                 If SPARK_VSR02_PLC_UnloadInProgress=4 Then
                     SPARK_VSR02_Status = 3
                 End If
-                If  SPARK_VSR02_PLC_Maquina_em_tratamento Then
+                If  SPARK_VSR02_PLC_Maquina_em_tratamento  Or SPARK_VSR02_SCADA_WaitingForUnload_Timer&gt;= waitingForUnload_maxTime Then
                     SPARK_VSR02_Status = 5
                 End If
             Case 3
@@ -234,7 +240,7 @@ Sub Main Handles .Main
                 If SPARK_VSR03_PLC_UnloadInProgress=4 Then
                     SPARK_VSR03_Status = 3
                 End If
-                If  SPARK_VSR03_PLC_Maquina_em_tratamento Then
+                If  SPARK_VSR03_PLC_Maquina_em_tratamento Or SPARK_VSR03_SCADA_WaitingForUnload_Timer&gt;= waitingForUnload_maxTime Then
                     SPARK_VSR03_Status = 5
                 End If
             Case 3
@@ -302,7 +308,7 @@ Sub Main Handles .Main
                 If SPARK_VSR04_PLC_UnloadInProgress=4 Then
                     SPARK_VSR04_Status = 3
                 End If
-                If  SPARK_VSR04_PLC_Maquina_em_tratamento Then
+                If  SPARK_VSR04_PLC_Maquina_em_tratamento Or SPARK_VSR04_SCADA_WaitingForUnload_Timer&gt;= waitingForUnload_maxTime Then
                     SPARK_VSR04_Status = 5
                 End If
             Case 3
@@ -370,7 +376,7 @@ Sub Main Handles .Main
                 If SPARK_VSR05_PLC_UnloadInProgress=4 Then
                     SPARK_VSR05_Status = 3
                 End If
-                If  SPARK_VSR05_PLC_Maquina_em_tratamento Then
+                If  SPARK_VSR05_PLC_Maquina_em_tratamento Or SPARK_VSR05_SCADA_WaitingForUnload_Timer&gt;= waitingForUnload_maxTime Then
                     SPARK_VSR05_Status = 5
                 End If
             Case 3
